@@ -1,0 +1,8 @@
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/CortexM0/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+

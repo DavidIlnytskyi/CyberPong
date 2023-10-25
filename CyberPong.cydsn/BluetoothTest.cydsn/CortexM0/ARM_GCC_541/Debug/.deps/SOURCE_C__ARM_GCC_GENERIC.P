@@ -1,0 +1,86 @@
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/CortexM0/ARM_GCC_541/Debug/PWM.o : C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.c C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.c : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/CortexM0/ARM_GCC_541/Debug/PWM_PM.o : C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM_PM.c C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM_PM.c : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_HAL_PVT.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_STACK_PVT.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_Stack.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGap.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGatt.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattClient.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattDb.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattServer.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackHostMain.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackL2cap.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_bless_isr.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_eventHandler.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_gatt.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_ias.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/LED.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/LED_aliases.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/project.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/PWM.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/main.c 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_HAL_PVT.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_STACK_PVT.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_Stack.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGap.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGatt.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattClient.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattDb.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackGattServer.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackHostMain.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_StackL2cap.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_bless_isr.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_eventHandler.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_gatt.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Bluetooth_ias.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/LED.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/LED_aliases.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/Oleg/Documents/Programming/POK/CyberPong/CyberPong.cydsn/BluetoothTest.cydsn/main.c : 
+
