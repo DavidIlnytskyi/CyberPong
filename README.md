@@ -51,3 +51,7 @@ We can set speeds for the motors with UART interface or using Bluetooth, or set 
 - [Sviatoslav Lushnei](https://github.com/sviat-l)
 - [Nazar Kononenko](https://github.com/romberol)
 - [Bernikov Roman](https://github.com/nazar12314)
+- David Ilnytskyi
+- Artur Pelcharskyi
+- Olena Azarova
+- Anastasia Pelekh
