@@ -1,0 +1,19 @@
+Last Modified Date & Time: 12/05/2023 11:56:49
+
+StripLightLib: StripLights_v2_2.cysch
+	Clock [v2.0] to [v2.20]
+	cisr [v1.70] to [v1.71]
+	fisr [v1.70] to [v1.71]
+	StringSel [v1.70] to [v1.80]
+
+StripLightLib: StripLights_v2_2.cysch
+	Clock [v2.0] to [v2.20]
+	cisr [v1.70] to [v1.71]
+	fisr [v1.70] to [v1.71]
+	StringSel [v1.70] to [v1.80]
+
+StripLightLib: StripLights_v2_2.cysch
+	cisr [v1.70] to [v1.71]
+	fisr [v1.70] to [v1.71]
+
+

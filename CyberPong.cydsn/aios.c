@@ -17,7 +17,6 @@ void AIOS_Callback(uint32 eventCode, void *eventParam){
     {
     case CYBLE_EVT_AIOSS_CHAR_WRITE: {
         uint16 motorSpeed;
-        
         motorSpeed = CyBle_AiosGet16ByPtr(locCharValue->value->val);
         SetMotorSpeed_Single(0, motorSpeed);
         motorSpeed = CyBle_AiosGet16ByPtr(locCharValue->value->val+2);
@@ -32,8 +31,11 @@ void AIOS_Callback(uint32 eventCode, void *eventParam){
         CyBle_AiossSetCharacteristicValue(CYBLE_AIOS_ANALOG, 4, 2, &zero);
         
         bool enabled = CyBle_AiosGet16ByPtr(locCharValue->value->val+10);
-        sprintf(str, "testing: %d", enabled);
         SetMotorsEnabled(enabled);
+        
+        int diff = CyBle_AiosGet16ByPtr(locCharValue->value->val+12);
+        sprintf(str, "difficulty: %d", diff);
+        
         break;
         }
     }

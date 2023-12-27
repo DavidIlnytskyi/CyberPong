@@ -1,4 +1,4 @@
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
   28:Generated_Source\PSoC4/Control_Rotation_PM.c **** ********************************************************************************
   29:Generated_Source\PSoC4/Control_Rotation_PM.c **** *
   30:Generated_Source\PSoC4/Control_Rotation_PM.c **** * Summary:
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 2
 
 
   31:Generated_Source\PSoC4/Control_Rotation_PM.c **** *  Saves the control register value.
@@ -90,7 +90,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
   41              	.L3:
   42 000a C046     		.align	2
   43              	.L2:
-  44 000c 70000F40 		.word	1074724976
+  44 000c 73000F40 		.word	1074724979
   45 0010 00000000 		.word	.LANCHOR0
   46              		.cfi_endproc
   47              	.LFE0:
@@ -118,7 +118,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
   56:Generated_Source\PSoC4/Control_Rotation_PM.c **** * Return:
   57:Generated_Source\PSoC4/Control_Rotation_PM.c **** *  None
   58:Generated_Source\PSoC4/Control_Rotation_PM.c **** *
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 3
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 3
 
 
   59:Generated_Source\PSoC4/Control_Rotation_PM.c **** *
@@ -144,7 +144,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
   71 000a C046     		.align	2
   72              	.L5:
   73 000c 00000000 		.word	.LANCHOR0
-  74 0010 70000F40 		.word	1074724976
+  74 0010 73000F40 		.word	1074724979
   75              		.cfi_endproc
   76              	.LFE1:
   77              		.size	Control_Rotation_RestoreConfig, .-Control_Rotation_RestoreConfig
@@ -178,7 +178,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
   87              		.cfi_startproc
   88              		@ args = 0, pretend = 0, frame = 0
   89              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 4
 
 
   90 0000 10B5     		push	{r4, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  122              		.loc 1 104 0
  123              		@ sp needed
  124 0006 10BD     		pop	{r4, pc}
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 5
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 5
 
 
  125              		.cfi_endproc
@@ -262,48 +262,48 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  143 0006 00000000 		.4byte	.Ldebug_abbrev0
  144 000a 04       		.byte	0x4
  145 000b 01       		.uleb128 0x1
- 146 000c 59010000 		.4byte	.LASF19
+ 146 000c 20010000 		.4byte	.LASF19
  147 0010 0C       		.byte	0xc
- 148 0011 13020000 		.4byte	.LASF20
- 149 0015 93000000 		.4byte	.LASF21
+ 148 0011 09020000 		.4byte	.LASF20
+ 149 0015 D1010000 		.4byte	.LASF21
  150 0019 00000000 		.4byte	.Ldebug_ranges0+0
  151 001d 00000000 		.4byte	0
  152 0021 00000000 		.4byte	.Ldebug_line0
  153 0025 02       		.uleb128 0x2
  154 0026 01       		.byte	0x1
  155 0027 06       		.byte	0x6
- 156 0028 40020000 		.4byte	.LASF0
+ 156 0028 36020000 		.4byte	.LASF0
  157 002c 02       		.uleb128 0x2
  158 002d 01       		.byte	0x1
  159 002e 08       		.byte	0x8
- 160 002f 3C000000 		.4byte	.LASF1
+ 160 002f 45000000 		.4byte	.LASF1
  161 0033 02       		.uleb128 0x2
  162 0034 02       		.byte	0x2
  163 0035 05       		.byte	0x5
- 164 0036 FA010000 		.4byte	.LASF2
+ 164 0036 C1010000 		.4byte	.LASF2
  165 003a 02       		.uleb128 0x2
  166 003b 02       		.byte	0x2
  167 003c 07       		.byte	0x7
- 168 003d 80000000 		.4byte	.LASF3
+ 168 003d 89000000 		.4byte	.LASF3
  169 0041 02       		.uleb128 0x2
  170 0042 04       		.byte	0x4
  171 0043 05       		.byte	0x5
- 172 0044 0A020000 		.4byte	.LASF4
+ 172 0044 00000000 		.4byte	.LASF4
  173 0048 02       		.uleb128 0x2
  174 0049 04       		.byte	0x4
  175 004a 07       		.byte	0x7
- 176 004b 4F000000 		.4byte	.LASF5
+ 176 004b 58000000 		.4byte	.LASF5
  177 004f 02       		.uleb128 0x2
  178 0050 08       		.byte	0x8
  179 0051 05       		.byte	0x5
- 180 0052 E7010000 		.4byte	.LASF6
+ 180 0052 AE010000 		.4byte	.LASF6
  181 0056 02       		.uleb128 0x2
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 6
 
 
  182 0057 08       		.byte	0x8
  183 0058 07       		.byte	0x7
- 184 0059 42010000 		.4byte	.LASF7
+ 184 0059 09010000 		.4byte	.LASF7
  185 005d 03       		.uleb128 0x3
  186 005e 04       		.byte	0x4
  187 005f 05       		.byte	0x5
@@ -311,28 +311,28 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  189 0064 02       		.uleb128 0x2
  190 0065 04       		.byte	0x4
  191 0066 07       		.byte	0x7
- 192 0067 01010000 		.4byte	.LASF8
+ 192 0067 C8000000 		.4byte	.LASF8
  193 006b 04       		.uleb128 0x4
- 194 006c 04020000 		.4byte	.LASF12
+ 194 006c CB010000 		.4byte	.LASF12
  195 0070 02       		.byte	0x2
- 196 0071 FC01     		.2byte	0x1fc
+ 196 0071 FB01     		.2byte	0x1fb
  197 0073 2C000000 		.4byte	0x2c
  198 0077 02       		.uleb128 0x2
  199 0078 04       		.byte	0x4
  200 0079 04       		.byte	0x4
- 201 007a 36000000 		.4byte	.LASF9
+ 201 007a 3F000000 		.4byte	.LASF9
  202 007e 02       		.uleb128 0x2
  203 007f 08       		.byte	0x8
  204 0080 04       		.byte	0x4
- 205 0081 FA000000 		.4byte	.LASF10
+ 205 0081 C1000000 		.4byte	.LASF10
  206 0085 02       		.uleb128 0x2
  207 0086 01       		.byte	0x1
  208 0087 08       		.byte	0x8
- 209 0088 F5010000 		.4byte	.LASF11
+ 209 0088 BC010000 		.4byte	.LASF11
  210 008c 04       		.uleb128 0x4
- 211 008d 4A000000 		.4byte	.LASF13
+ 211 008d 53000000 		.4byte	.LASF13
  212 0091 02       		.byte	0x2
- 213 0092 A602     		.2byte	0x2a6
+ 213 0092 A502     		.2byte	0x2a5
  214 0094 98000000 		.4byte	0x98
  215 0098 05       		.uleb128 0x5
  216 0099 6B000000 		.4byte	0x6b
@@ -342,30 +342,30 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  220 00a0 24       		.byte	0x24
  221 00a1 B2000000 		.4byte	0xb2
  222 00a5 07       		.uleb128 0x7
- 223 00a6 ED000000 		.4byte	.LASF22
+ 223 00a6 B4000000 		.4byte	.LASF22
  224 00aa 03       		.byte	0x3
  225 00ab 26       		.byte	0x26
  226 00ac 6B000000 		.4byte	0x6b
  227 00b0 00       		.byte	0
  228 00b1 00       		.byte	0
  229 00b2 08       		.uleb128 0x8
- 230 00b3 00000000 		.4byte	.LASF14
+ 230 00b3 09000000 		.4byte	.LASF14
  231 00b7 03       		.byte	0x3
  232 00b8 28       		.byte	0x28
  233 00b9 9D000000 		.4byte	0x9d
  234 00bd 09       		.uleb128 0x9
- 235 00be 26010000 		.4byte	.LASF15
+ 235 00be ED000000 		.4byte	.LASF15
  236 00c2 01       		.byte	0x1
  237 00c3 28       		.byte	0x28
  238 00c4 00000000 		.4byte	.LFB0
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 7
 
 
  239 00c8 14000000 		.4byte	.LFE0-.LFB0
  240 00cc 01       		.uleb128 0x1
  241 00cd 9C       		.byte	0x9c
  242 00ce 09       		.uleb128 0x9
- 243 00cf 61000000 		.4byte	.LASF16
+ 243 00cf 6A000000 		.4byte	.LASF16
  244 00d3 01       		.byte	0x1
  245 00d4 3D       		.byte	0x3d
  246 00d5 00000000 		.4byte	.LFB1
@@ -373,7 +373,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  248 00dd 01       		.uleb128 0x1
  249 00de 9C       		.byte	0x9c
  250 00df 0A       		.uleb128 0xa
- 251 00e0 1F000000 		.4byte	.LASF17
+ 251 00e0 28000000 		.4byte	.LASF17
  252 00e4 01       		.byte	0x1
  253 00e5 51       		.byte	0x51
  254 00e6 00000000 		.4byte	.LFB2
@@ -386,7 +386,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  261 00f9 BD000000 		.4byte	0xbd
  262 00fd 00       		.byte	0
  263 00fe 0A       		.uleb128 0xa
- 264 00ff D5000000 		.4byte	.LASF18
+ 264 00ff 9C000000 		.4byte	.LASF18
  265 0103 01       		.byte	0x1
  266 0104 65       		.byte	0x65
  267 0105 00000000 		.4byte	.LFB3
@@ -399,7 +399,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  274 0118 CE000000 		.4byte	0xce
  275 011c 00       		.byte	0
  276 011d 0C       		.uleb128 0xc
- 277 011e 0E010000 		.4byte	.LASF23
+ 277 011e D5000000 		.4byte	.LASF23
  278 0122 01       		.byte	0x1
  279 0123 17       		.byte	0x17
  280 0124 B2000000 		.4byte	0xb2
@@ -418,7 +418,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  293 0006 0B       		.uleb128 0xb
  294 0007 03       		.uleb128 0x3
  295 0008 0E       		.uleb128 0xe
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 8
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 8
 
 
  296 0009 1B       		.uleb128 0x1b
@@ -478,7 +478,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  350 003f 01       		.byte	0x1
  351 0040 0B       		.uleb128 0xb
  352 0041 0B       		.uleb128 0xb
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 9
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 9
 
 
  353 0042 3A       		.uleb128 0x3a
@@ -538,7 +538,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  407 0078 18       		.uleb128 0x18
  408 0079 9742     		.uleb128 0x2117
  409 007b 19       		.uleb128 0x19
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 10
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 10
 
 
  410 007c 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  464 0004 0200     		.2byte	0x2
  465 0006 00000000 		.4byte	.Ldebug_info0
  466 000a 04       		.byte	0x4
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 11
 
 
  467 000b 00       		.byte	0
@@ -633,144 +633,142 @@ ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 1
  494      00000201 
  494      FB0E0D00 
  494      01010101 
- 495              	.LASF14:
- 496 0000 436F6E74 		.ascii	"Control_Rotation_BACKUP_STRUCT\000"
- 496      726F6C5F 
- 496      526F7461 
- 496      74696F6E 
- 496      5F424143 
- 497              	.LASF17:
- 498 001f 436F6E74 		.ascii	"Control_Rotation_Sleep\000"
+ 495              	.LASF4:
+ 496 0000 6C6F6E67 		.ascii	"long int\000"
+ 496      20696E74 
+ 496      00
+ 497              	.LASF14:
+ 498 0009 436F6E74 		.ascii	"Control_Rotation_BACKUP_STRUCT\000"
  498      726F6C5F 
  498      526F7461 
  498      74696F6E 
- 498      5F536C65 
- 499              	.LASF9:
- 500 0036 666C6F61 		.ascii	"float\000"
- 500      7400
- 501              	.LASF1:
- 502 003c 756E7369 		.ascii	"unsigned char\000"
- 502      676E6564 
- 502      20636861 
- 502      7200
- 503              	.LASF13:
- 504 004a 72656738 		.ascii	"reg8\000"
- 504      00
- 505              	.LASF5:
- 506 004f 6C6F6E67 		.ascii	"long unsigned int\000"
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 12
+ 498      5F424143 
+ 499              	.LASF17:
+ 500 0028 436F6E74 		.ascii	"Control_Rotation_Sleep\000"
+ 500      726F6C5F 
+ 500      526F7461 
+ 500      74696F6E 
+ 500      5F536C65 
+ 501              	.LASF9:
+ 502 003f 666C6F61 		.ascii	"float\000"
+ 502      7400
+ 503              	.LASF1:
+ 504 0045 756E7369 		.ascii	"unsigned char\000"
+ 504      676E6564 
+ 504      20636861 
+ 504      7200
+ 505              	.LASF13:
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 12
 
 
- 506      20756E73 
- 506      69676E65 
- 506      6420696E 
- 506      7400
- 507              	.LASF16:
- 508 0061 436F6E74 		.ascii	"Control_Rotation_RestoreConfig\000"
- 508      726F6C5F 
- 508      526F7461 
- 508      74696F6E 
- 508      5F526573 
- 509              	.LASF3:
- 510 0080 73686F72 		.ascii	"short unsigned int\000"
- 510      7420756E 
- 510      7369676E 
- 510      65642069 
- 510      6E7400
- 511              	.LASF21:
- 512 0093 433A5C55 		.ascii	"C:\\Users\\Oleg\\Documents\\Programming\\POK\\Cyber"
- 512      73657273 
- 512      5C4F6C65 
- 512      675C446F 
- 512      63756D65 
- 513 00c0 506F6E67 		.ascii	"Pong\\CyberPong.cydsn\000"
- 513      5C437962 
- 513      6572506F 
- 513      6E672E63 
- 513      7964736E 
- 514              	.LASF18:
- 515 00d5 436F6E74 		.ascii	"Control_Rotation_Wakeup\000"
- 515      726F6C5F 
- 515      526F7461 
- 515      74696F6E 
- 515      5F57616B 
- 516              	.LASF22:
- 517 00ed 636F6E74 		.ascii	"controlState\000"
- 517      726F6C53 
- 517      74617465 
- 517      00
- 518              	.LASF10:
- 519 00fa 646F7562 		.ascii	"double\000"
- 519      6C6500
- 520              	.LASF8:
- 521 0101 756E7369 		.ascii	"unsigned int\000"
- 521      676E6564 
- 521      20696E74 
- 521      00
- 522              	.LASF23:
- 523 010e 436F6E74 		.ascii	"Control_Rotation_backup\000"
- 523      726F6C5F 
- 523      526F7461 
- 523      74696F6E 
- 523      5F626163 
- 524              	.LASF15:
- 525 0126 436F6E74 		.ascii	"Control_Rotation_SaveConfig\000"
- 525      726F6C5F 
- 525      526F7461 
- 525      74696F6E 
-ARM GAS  C:\Windows\TEMP\ccTOtSpb.s 			page 13
+ 506 0053 72656738 		.ascii	"reg8\000"
+ 506      00
+ 507              	.LASF5:
+ 508 0058 6C6F6E67 		.ascii	"long unsigned int\000"
+ 508      20756E73 
+ 508      69676E65 
+ 508      6420696E 
+ 508      7400
+ 509              	.LASF16:
+ 510 006a 436F6E74 		.ascii	"Control_Rotation_RestoreConfig\000"
+ 510      726F6C5F 
+ 510      526F7461 
+ 510      74696F6E 
+ 510      5F526573 
+ 511              	.LASF3:
+ 512 0089 73686F72 		.ascii	"short unsigned int\000"
+ 512      7420756E 
+ 512      7369676E 
+ 512      65642069 
+ 512      6E7400
+ 513              	.LASF18:
+ 514 009c 436F6E74 		.ascii	"Control_Rotation_Wakeup\000"
+ 514      726F6C5F 
+ 514      526F7461 
+ 514      74696F6E 
+ 514      5F57616B 
+ 515              	.LASF22:
+ 516 00b4 636F6E74 		.ascii	"controlState\000"
+ 516      726F6C53 
+ 516      74617465 
+ 516      00
+ 517              	.LASF10:
+ 518 00c1 646F7562 		.ascii	"double\000"
+ 518      6C6500
+ 519              	.LASF8:
+ 520 00c8 756E7369 		.ascii	"unsigned int\000"
+ 520      676E6564 
+ 520      20696E74 
+ 520      00
+ 521              	.LASF23:
+ 522 00d5 436F6E74 		.ascii	"Control_Rotation_backup\000"
+ 522      726F6C5F 
+ 522      526F7461 
+ 522      74696F6E 
+ 522      5F626163 
+ 523              	.LASF15:
+ 524 00ed 436F6E74 		.ascii	"Control_Rotation_SaveConfig\000"
+ 524      726F6C5F 
+ 524      526F7461 
+ 524      74696F6E 
+ 524      5F536176 
+ 525              	.LASF7:
+ 526 0109 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 526      206C6F6E 
+ 526      6720756E 
+ 526      7369676E 
+ 526      65642069 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cczyq32c.s 			page 13
 
 
- 525      5F536176 
- 526              	.LASF7:
- 527 0142 6C6F6E67 		.ascii	"long long unsigned int\000"
- 527      206C6F6E 
- 527      6720756E 
- 527      7369676E 
- 527      65642069 
- 528              	.LASF19:
- 529 0159 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 529      43313120 
- 529      352E342E 
- 529      31203230 
- 529      31363036 
- 530 018c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 530      20726576 
- 530      6973696F 
- 530      6E203233 
- 530      37373135 
- 531 01bf 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 531      66756E63 
- 531      74696F6E 
- 531      2D736563 
- 531      74696F6E 
- 532              	.LASF6:
- 533 01e7 6C6F6E67 		.ascii	"long long int\000"
- 533      206C6F6E 
- 533      6720696E 
- 533      7400
- 534              	.LASF11:
- 535 01f5 63686172 		.ascii	"char\000"
- 535      00
- 536              	.LASF2:
- 537 01fa 73686F72 		.ascii	"short int\000"
- 537      7420696E 
- 537      7400
- 538              	.LASF12:
- 539 0204 75696E74 		.ascii	"uint8\000"
- 539      3800
- 540              	.LASF4:
- 541 020a 6C6F6E67 		.ascii	"long int\000"
- 541      20696E74 
- 541      00
+ 527              	.LASF19:
+ 528 0120 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 528      43313120 
+ 528      352E342E 
+ 528      31203230 
+ 528      31363036 
+ 529 0153 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 529      20726576 
+ 529      6973696F 
+ 529      6E203233 
+ 529      37373135 
+ 530 0186 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 530      66756E63 
+ 530      74696F6E 
+ 530      2D736563 
+ 530      74696F6E 
+ 531              	.LASF6:
+ 532 01ae 6C6F6E67 		.ascii	"long long int\000"
+ 532      206C6F6E 
+ 532      6720696E 
+ 532      7400
+ 533              	.LASF11:
+ 534 01bc 63686172 		.ascii	"char\000"
+ 534      00
+ 535              	.LASF2:
+ 536 01c1 73686F72 		.ascii	"short int\000"
+ 536      7420696E 
+ 536      7400
+ 537              	.LASF12:
+ 538 01cb 75696E74 		.ascii	"uint8\000"
+ 538      3800
+ 539              	.LASF21:
+ 540 01d1 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Cyberpong\\CyberP"
+ 540      43552053 
+ 540      65636F6E 
+ 540      64207965 
+ 540      61725C54 
+ 541 01ff 6F6E672E 		.ascii	"ong.cydsn\000"
+ 541      63796473 
+ 541      6E00
  542              	.LASF20:
- 543 0213 47656E65 		.ascii	"Generated_Source\\PSoC4\\Control_Rotation_PM.c\000"
+ 543 0209 47656E65 		.ascii	"Generated_Source\\PSoC4\\Control_Rotation_PM.c\000"
  543      72617465 
  543      645F536F 
  543      75726365 
  543      5C50536F 
  544              	.LASF0:
- 545 0240 7369676E 		.ascii	"signed char\000"
+ 545 0236 7369676E 		.ascii	"signed char\000"
  545      65642063 
  545      68617200 
  546              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

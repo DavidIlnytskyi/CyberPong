@@ -1,0 +1,3402 @@
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"StripLights_fonts.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.StripLights_SetFont,"ax",%progbits
+  20              		.align	2
+  21              		.global	StripLights_SetFont
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	StripLights_SetFont, %function
+  25              	StripLights_SetFont:
+  26              	.LFB35:
+  27              		.file 1 "Generated_Source\\PSoC4\\StripLights_fonts.c"
+   1:Generated_Source\PSoC4/StripLights_fonts.c **** /* ========================================
+   2:Generated_Source\PSoC4/StripLights_fonts.c ****  *
+   3:Generated_Source\PSoC4/StripLights_fonts.c ****  * Copyright YOUR COMPANY, THE YEAR
+   4:Generated_Source\PSoC4/StripLights_fonts.c ****  * All Rights Reserved
+   5:Generated_Source\PSoC4/StripLights_fonts.c ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:Generated_Source\PSoC4/StripLights_fonts.c ****  *
+   7:Generated_Source\PSoC4/StripLights_fonts.c ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:Generated_Source\PSoC4/StripLights_fonts.c ****  * WHICH IS THE PROPERTY OF your company.
+   9:Generated_Source\PSoC4/StripLights_fonts.c ****  *
+  10:Generated_Source\PSoC4/StripLights_fonts.c ****  * ========================================
+  11:Generated_Source\PSoC4/StripLights_fonts.c **** */
+  12:Generated_Source\PSoC4/StripLights_fonts.c **** #include <project.h>
+  13:Generated_Source\PSoC4/StripLights_fonts.c **** #include "cytypes.h"
+  14:Generated_Source\PSoC4/StripLights_fonts.c **** #include "stdlib.h"
+  15:Generated_Source\PSoC4/StripLights_fonts.c **** #include "cyfitter.h"
+  16:Generated_Source\PSoC4/StripLights_fonts.c **** #include "StripLights.h"
+  17:Generated_Source\PSoC4/StripLights_fonts.c **** #include "StripLights_fonts.h"
+  18:Generated_Source\PSoC4/StripLights_fonts.c **** 
+  19:Generated_Source\PSoC4/StripLights_fonts.c **** uint8 const * StripLights_fontPtr;
+  20:Generated_Source\PSoC4/StripLights_fonts.c **** int32 StripLights_fontX;
+  21:Generated_Source\PSoC4/StripLights_fonts.c **** int32 StripLights_fontY;
+  22:Generated_Source\PSoC4/StripLights_fonts.c **** int32 StripLights_fontOffset;
+  23:Generated_Source\PSoC4/StripLights_fonts.c **** 
+  24:Generated_Source\PSoC4/StripLights_fonts.c **** 
+  25:Generated_Source\PSoC4/StripLights_fonts.c **** // standard ascii 5x7 font
+  26:Generated_Source\PSoC4/StripLights_fonts.c **** // defines ascii characters 0x20-0x7F (32-127)
+  27:Generated_Source\PSoC4/StripLights_fonts.c **** const uint8 StripLights_Font5x7[] = {
+  28:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x00, 0x00, 0x00,// (space)
+  29:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x5F, 0x00, 0x00,// !
+  30:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x07, 0x00, 0x07, 0x00,// "
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 2
+
+
+  31:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x14, 0x7F, 0x14, 0x7F, 0x14,// #
+  32:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x24, 0x2A, 0x7F, 0x2A, 0x12,// $
+  33:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x23, 0x13, 0x08, 0x64, 0x62,// %
+  34:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x36, 0x49, 0x55, 0x22, 0x50,// &
+  35:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x05, 0x03, 0x00, 0x00,// '
+  36:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x1C, 0x22, 0x41, 0x00,// (
+  37:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x41, 0x22, 0x1C, 0x00,// )
+  38:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x2A, 0x1C, 0x2A, 0x08,// *
+  39:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x08, 0x3E, 0x08, 0x08,// +
+  40:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x50, 0x30, 0x00, 0x00,// ,
+  41:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x08, 0x08, 0x08, 0x08,// -
+  42:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x60, 0x60, 0x00, 0x00,// .
+  43:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x20, 0x10, 0x08, 0x04, 0x02,// /
+  44:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3E, 0x51, 0x49, 0x45, 0x3E,// 0
+  45:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x42, 0x7F, 0x40, 0x00,// 1
+  46:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x42, 0x61, 0x51, 0x49, 0x46,// 2
+  47:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x21, 0x41, 0x45, 0x4B, 0x31,// 3
+  48:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x18, 0x14, 0x12, 0x7F, 0x10,// 4
+  49:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x27, 0x45, 0x45, 0x45, 0x39,// 5
+  50:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3C, 0x4A, 0x49, 0x49, 0x30,// 6
+  51:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x01, 0x71, 0x09, 0x05, 0x03,// 7
+  52:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x36, 0x49, 0x49, 0x49, 0x36,// 8
+  53:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x06, 0x49, 0x49, 0x29, 0x1E,// 9
+  54:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x36, 0x36, 0x00, 0x00,// :
+  55:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x56, 0x36, 0x00, 0x00,// ;
+  56:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x08, 0x14, 0x22, 0x41,// <
+  57:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x14, 0x14, 0x14, 0x14, 0x14,// =
+  58:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x41, 0x22, 0x14, 0x08, 0x00,// >
+  59:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x02, 0x01, 0x51, 0x09, 0x06,// ?
+  60:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x32, 0x49, 0x79, 0x41, 0x3E,// @
+  61:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7E, 0x11, 0x11, 0x11, 0x7E,// A
+  62:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x49, 0x49, 0x49, 0x36,// B
+  63:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3E, 0x41, 0x41, 0x41, 0x22,// C
+  64:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x41, 0x41, 0x22, 0x1C,// D
+  65:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x49, 0x49, 0x49, 0x41,// E
+  66:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x09, 0x09, 0x01, 0x01,// F
+  67:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3E, 0x41, 0x41, 0x51, 0x32,// G
+  68:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x08, 0x08, 0x08, 0x7F,// H
+  69:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x41, 0x7F, 0x41, 0x00,// I
+  70:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x20, 0x40, 0x41, 0x3F, 0x01,// J
+  71:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x08, 0x14, 0x22, 0x41,// K
+  72:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x40, 0x40, 0x40, 0x40,// L
+  73:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x02, 0x04, 0x02, 0x7F,// M
+  74:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x04, 0x08, 0x10, 0x7F,// N
+  75:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3E, 0x41, 0x41, 0x41, 0x3E,// O
+  76:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x09, 0x09, 0x09, 0x06,// P
+  77:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3E, 0x41, 0x51, 0x21, 0x5E,// Q
+  78:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x09, 0x19, 0x29, 0x46,// R
+  79:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x46, 0x49, 0x49, 0x49, 0x31,// S
+  80:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x01, 0x01, 0x7F, 0x01, 0x01,// T
+  81:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3F, 0x40, 0x40, 0x40, 0x3F,// U
+  82:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x1F, 0x20, 0x40, 0x20, 0x1F,// V
+  83:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x20, 0x18, 0x20, 0x7F,// W
+  84:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x63, 0x14, 0x08, 0x14, 0x63,// X
+  85:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x03, 0x04, 0x78, 0x04, 0x03,// Y
+  86:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x61, 0x51, 0x49, 0x45, 0x43,// Z
+  87:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x7F, 0x41, 0x41,// [
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 3
+
+
+  88:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x02, 0x04, 0x08, 0x10, 0x20,// "\"
+  89:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x41, 0x41, 0x7F, 0x00, 0x00,// ]
+  90:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x04, 0x02, 0x01, 0x02, 0x04,// ^
+  91:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x40, 0x40, 0x40, 0x40, 0x40,// _
+  92:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x01, 0x02, 0x04, 0x00,// `
+  93:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x20, 0x54, 0x54, 0x54, 0x78,// a
+  94:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x48, 0x44, 0x44, 0x38,// b
+  95:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x38, 0x44, 0x44, 0x44, 0x20,// c
+  96:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x38, 0x44, 0x44, 0x48, 0x7F,// d
+  97:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x38, 0x54, 0x54, 0x54, 0x18,// e
+  98:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x7E, 0x09, 0x01, 0x02,// f
+  99:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x14, 0x54, 0x54, 0x3C,// g
+ 100:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7F, 0x08, 0x04, 0x04, 0x78,// h
+ 101:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x44, 0x7D, 0x40, 0x00,// i
+ 102:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x20, 0x40, 0x44, 0x3D, 0x00,// j
+ 103:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x7F, 0x10, 0x28, 0x44,// k
+ 104:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x41, 0x7F, 0x40, 0x00,// l
+ 105:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7C, 0x04, 0x18, 0x04, 0x78,// m
+ 106:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7C, 0x08, 0x04, 0x04, 0x78,// n
+ 107:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x38, 0x44, 0x44, 0x44, 0x38,// o
+ 108:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7C, 0x14, 0x14, 0x14, 0x08,// p
+ 109:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x14, 0x14, 0x18, 0x7C,// q
+ 110:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x7C, 0x08, 0x04, 0x04, 0x08,// r
+ 111:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x48, 0x54, 0x54, 0x54, 0x20,// s
+ 112:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x04, 0x3F, 0x44, 0x40, 0x20,// t
+ 113:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3C, 0x40, 0x40, 0x20, 0x7C,// u
+ 114:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x1C, 0x20, 0x40, 0x20, 0x1C,// v
+ 115:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x3C, 0x40, 0x30, 0x40, 0x3C,// w
+ 116:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x44, 0x28, 0x10, 0x28, 0x44,// x
+ 117:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x0C, 0x50, 0x50, 0x50, 0x3C,// y
+ 118:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x44, 0x64, 0x54, 0x4C, 0x44,// z
+ 119:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x08, 0x36, 0x41, 0x00,// {
+ 120:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x7F, 0x00, 0x00,// |
+ 121:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x41, 0x36, 0x08, 0x00,// }
+ 122:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x08, 0x2A, 0x1C, 0x08,// ->
+ 123:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x08, 0x1C, 0x2A, 0x08, 0x08 // <-
+ 124:Generated_Source\PSoC4/StripLights_fonts.c **** };
+ 125:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 126:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 127:Generated_Source\PSoC4/StripLights_fonts.c **** /*******************************************************************************
+ 128:Generated_Source\PSoC4/StripLights_fonts.c **** * Function Name: StripLights_SetFont
+ 129:Generated_Source\PSoC4/StripLights_fonts.c **** ********************************************************************************
+ 130:Generated_Source\PSoC4/StripLights_fonts.c **** * Summary:
+ 131:Generated_Source\PSoC4/StripLights_fonts.c **** *   Set the specific font.  (Only one font supported at this time.)
+ 132:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 133:Generated_Source\PSoC4/StripLights_fonts.c **** * Parameters:  
+ 134:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 font: Font to be selected 
+ 135:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 136:Generated_Source\PSoC4/StripLights_fonts.c **** * Return: 
+ 137:Generated_Source\PSoC4/StripLights_fonts.c **** *  void
+ 138:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 139:Generated_Source\PSoC4/StripLights_fonts.c **** *******************************************************************************/
+ 140:Generated_Source\PSoC4/StripLights_fonts.c **** void StripLights_SetFont( uint32 font)
+ 141:Generated_Source\PSoC4/StripLights_fonts.c **** {
+  28              		.loc 1 141 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 4
+
+
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              	.LVL0:
+ 142:Generated_Source\PSoC4/StripLights_fonts.c ****     switch(font)
+  34              		.loc 1 142 0
+  35 0000 0028     		cmp	r0, #0
+  36 0002 0CD1     		bne	.L5
+ 143:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 144:Generated_Source\PSoC4/StripLights_fonts.c ****        case StripLights_FONT_5X7:
+ 145:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontPtr = StripLights_Font5x7;
+  37              		.loc 1 145 0
+  38 0004 0C4A     		ldr	r2, .L6
+  39 0006 0D4B     		ldr	r3, .L6+4
+  40 0008 1A60     		str	r2, [r3]
+ 146:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontX = StripLights_Font5x7_XSIZE;
+  41              		.loc 1 146 0
+  42 000a 0522     		movs	r2, #5
+  43 000c 0C4B     		ldr	r3, .L6+8
+  44 000e 1A60     		str	r2, [r3]
+ 147:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontY = StripLights_Font5x7_YSIZE;
+  45              		.loc 1 147 0
+  46 0010 0232     		adds	r2, r2, #2
+  47 0012 0C4B     		ldr	r3, .L6+12
+  48 0014 1A60     		str	r2, [r3]
+ 148:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontOffset = StripLights_Font5x7_OFFSET;
+  49              		.loc 1 148 0
+  50 0016 1932     		adds	r2, r2, #25
+  51 0018 0B4B     		ldr	r3, .L6+16
+  52 001a 1A60     		str	r2, [r3]
+ 149:Generated_Source\PSoC4/StripLights_fonts.c ****            break;
+  53              		.loc 1 149 0
+  54 001c 0BE0     		b	.L1
+  55              	.L5:
+ 150:Generated_Source\PSoC4/StripLights_fonts.c ****            
+ 151:Generated_Source\PSoC4/StripLights_fonts.c ****        default:
+ 152:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontPtr = StripLights_Font5x7;
+  56              		.loc 1 152 0
+  57 001e 064A     		ldr	r2, .L6
+  58 0020 064B     		ldr	r3, .L6+4
+  59 0022 1A60     		str	r2, [r3]
+ 153:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontX = StripLights_Font5x7_XSIZE;
+  60              		.loc 1 153 0
+  61 0024 0522     		movs	r2, #5
+  62 0026 064B     		ldr	r3, .L6+8
+  63 0028 1A60     		str	r2, [r3]
+ 154:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontY = StripLights_Font5x7_YSIZE;
+  64              		.loc 1 154 0
+  65 002a 0232     		adds	r2, r2, #2
+  66 002c 054B     		ldr	r3, .L6+12
+  67 002e 1A60     		str	r2, [r3]
+ 155:Generated_Source\PSoC4/StripLights_fonts.c ****            StripLights_fontOffset = StripLights_Font5x7_OFFSET;
+  68              		.loc 1 155 0
+  69 0030 1932     		adds	r2, r2, #25
+  70 0032 054B     		ldr	r3, .L6+16
+  71 0034 1A60     		str	r2, [r3]
+  72              	.L1:
+ 156:Generated_Source\PSoC4/StripLights_fonts.c ****            break;
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 5
+
+
+ 157:Generated_Source\PSoC4/StripLights_fonts.c ****     }
+ 158:Generated_Source\PSoC4/StripLights_fonts.c **** }
+  73              		.loc 1 158 0
+  74              		@ sp needed
+  75 0036 7047     		bx	lr
+  76              	.L7:
+  77              		.align	2
+  78              	.L6:
+  79 0038 00000000 		.word	.LANCHOR0
+  80 003c 00000000 		.word	StripLights_fontPtr
+  81 0040 00000000 		.word	StripLights_fontX
+  82 0044 00000000 		.word	StripLights_fontY
+  83 0048 00000000 		.word	StripLights_fontOffset
+  84              		.cfi_endproc
+  85              	.LFE35:
+  86              		.size	StripLights_SetFont, .-StripLights_SetFont
+  87              		.section	.text.StripLights_PutChar,"ax",%progbits
+  88              		.align	2
+  89              		.global	StripLights_PutChar
+  90              		.code	16
+  91              		.thumb_func
+  92              		.type	StripLights_PutChar, %function
+  93              	StripLights_PutChar:
+  94              	.LFB37:
+ 159:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 160:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 161:Generated_Source\PSoC4/StripLights_fonts.c **** /*******************************************************************************
+ 162:Generated_Source\PSoC4/StripLights_fonts.c **** * Function Name: StripLights_PrintString
+ 163:Generated_Source\PSoC4/StripLights_fonts.c **** ********************************************************************************
+ 164:Generated_Source\PSoC4/StripLights_fonts.c **** * Summary:
+ 165:Generated_Source\PSoC4/StripLights_fonts.c **** *   Print string at the given location.
+ 166:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 167:Generated_Source\PSoC4/StripLights_fonts.c **** * Parameters:  
+ 168:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 xpos: X location at which to start string.
+ 169:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 ypos: Upper Y location to place string.
+ 170:Generated_Source\PSoC4/StripLights_fonts.c **** *  char * theString:  The string to print.
+ 171:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 fg: The forground fount color.
+ 172:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 bg: Background color
+ 173:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 174:Generated_Source\PSoC4/StripLights_fonts.c **** * Return: 
+ 175:Generated_Source\PSoC4/StripLights_fonts.c **** *  void
+ 176:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 177:Generated_Source\PSoC4/StripLights_fonts.c **** *******************************************************************************/
+ 178:Generated_Source\PSoC4/StripLights_fonts.c **** void StripLights_PrintString(int32 xpos, int32 ypos, char * theString, uint32 fg, uint32 bg)
+ 179:Generated_Source\PSoC4/StripLights_fonts.c **** {
+ 180:Generated_Source\PSoC4/StripLights_fonts.c ****     uint32 strPos = 0;
+ 181:Generated_Source\PSoC4/StripLights_fonts.c ****     uint32 yStop;
+ 182:Generated_Source\PSoC4/StripLights_fonts.c ****     
+ 183:Generated_Source\PSoC4/StripLights_fonts.c ****     yStop = ypos + StripLights_fontY;
+ 184:Generated_Source\PSoC4/StripLights_fonts.c ****     if(yStop > StripLights_MAX_Y) yStop = StripLights_MAX_Y;
+ 185:Generated_Source\PSoC4/StripLights_fonts.c ****     
+ 186:Generated_Source\PSoC4/StripLights_fonts.c ****     while(theString[strPos] != 0)
+ 187:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 188:Generated_Source\PSoC4/StripLights_fonts.c **** 		// Print character
+ 189:Generated_Source\PSoC4/StripLights_fonts.c ****         if(fg == StripLights_COLORWHEEL_FONT)
+ 190:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 191:Generated_Source\PSoC4/StripLights_fonts.c ****             StripLights_PutChar(xpos, ypos, theString[strPos], StripLights_ColorInc(1), bg);
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 6
+
+
+ 192:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 193:Generated_Source\PSoC4/StripLights_fonts.c ****         else
+ 194:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 195:Generated_Source\PSoC4/StripLights_fonts.c ****             StripLights_PutChar(xpos, ypos, theString[strPos], fg, bg);
+ 196:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 197:Generated_Source\PSoC4/StripLights_fonts.c ****         strPos++;   // Advance to next character
+ 198:Generated_Source\PSoC4/StripLights_fonts.c ****         xpos += StripLights_fontX;  // Advance to next x location for next character
+ 199:Generated_Source\PSoC4/StripLights_fonts.c **** 		
+ 200:Generated_Source\PSoC4/StripLights_fonts.c **** 		// If not last character clear out area between characters.
+ 201:Generated_Source\PSoC4/StripLights_fonts.c ****         if(theString[strPos] != 0)
+ 202:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 203:Generated_Source\PSoC4/StripLights_fonts.c **** 			if(bg != StripLights_TRANS_BG)
+ 204:Generated_Source\PSoC4/StripLights_fonts.c **** 			{
+ 205:Generated_Source\PSoC4/StripLights_fonts.c **** 			     StripLights_DrawLine(xpos, ypos, xpos, ypos+StripLights_fontY, bg);
+ 206:Generated_Source\PSoC4/StripLights_fonts.c **** 			}
+ 207:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 208:Generated_Source\PSoC4/StripLights_fonts.c ****         xpos++;
+ 209:Generated_Source\PSoC4/StripLights_fonts.c ****     }
+ 210:Generated_Source\PSoC4/StripLights_fonts.c **** 	if(bg != StripLights_TRANS_BG)
+ 211:Generated_Source\PSoC4/StripLights_fonts.c **** 	{
+ 212:Generated_Source\PSoC4/StripLights_fonts.c ****         StripLights_DrawLine(xpos-1, ypos, xpos-1, ypos+StripLights_fontY, bg);
+ 213:Generated_Source\PSoC4/StripLights_fonts.c **** 	}
+ 214:Generated_Source\PSoC4/StripLights_fonts.c **** }
+ 215:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 216:Generated_Source\PSoC4/StripLights_fonts.c **** /*******************************************************************************
+ 217:Generated_Source\PSoC4/StripLights_fonts.c **** * Function Name: StripLights_PutChar
+ 218:Generated_Source\PSoC4/StripLights_fonts.c **** ********************************************************************************
+ 219:Generated_Source\PSoC4/StripLights_fonts.c **** * Summary:
+ 220:Generated_Source\PSoC4/StripLights_fonts.c **** *   Print character at the given location.
+ 221:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 222:Generated_Source\PSoC4/StripLights_fonts.c **** * Parameters:  
+ 223:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 xpos: X location at which to start string.
+ 224:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 ypos: Upper Y location to place string.
+ 225:Generated_Source\PSoC4/StripLights_fonts.c **** *  char theChar:  The character to print.
+ 226:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 fg: The forground fount color.
+ 227:Generated_Source\PSoC4/StripLights_fonts.c **** *  uint32 bg: Background color
+ 228:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 229:Generated_Source\PSoC4/StripLights_fonts.c **** * Return: 
+ 230:Generated_Source\PSoC4/StripLights_fonts.c **** *  void
+ 231:Generated_Source\PSoC4/StripLights_fonts.c **** *
+ 232:Generated_Source\PSoC4/StripLights_fonts.c **** *******************************************************************************/
+ 233:Generated_Source\PSoC4/StripLights_fonts.c **** void StripLights_PutChar(int32 xpos, int32 ypos, uint8 theChar, uint32 fg, uint32 bg)
+ 234:Generated_Source\PSoC4/StripLights_fonts.c **** {
+  95              		.loc 1 234 0
+  96              		.cfi_startproc
+  97              		@ args = 4, pretend = 0, frame = 8
+  98              		@ frame_needed = 0, uses_anonymous_args = 0
+  99              	.LVL1:
+ 100 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 101              		.cfi_def_cfa_offset 20
+ 102              		.cfi_offset 4, -20
+ 103              		.cfi_offset 5, -16
+ 104              		.cfi_offset 6, -12
+ 105              		.cfi_offset 7, -8
+ 106              		.cfi_offset 14, -4
+ 107 0002 5F46     		mov	r7, fp
+ 108 0004 5646     		mov	r6, r10
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 7
+
+
+ 109 0006 4D46     		mov	r5, r9
+ 110 0008 E0B4     		push	{r5, r6, r7}
+ 111              		.cfi_def_cfa_offset 32
+ 112              		.cfi_offset 9, -32
+ 113              		.cfi_offset 10, -28
+ 114              		.cfi_offset 11, -24
+ 115 000a 82B0     		sub	sp, sp, #8
+ 116              		.cfi_def_cfa_offset 40
+ 117 000c 0600     		movs	r6, r0
+ 118 000e 0191     		str	r1, [sp, #4]
+ 119 0010 0093     		str	r3, [sp]
+ 120 0012 0A9B     		ldr	r3, [sp, #40]
+ 121              	.LVL2:
+ 122 0014 9A46     		mov	r10, r3
+ 235:Generated_Source\PSoC4/StripLights_fonts.c ****     int32 x,y, fp;
+ 236:Generated_Source\PSoC4/StripLights_fonts.c ****     uint8 mask;
+ 237:Generated_Source\PSoC4/StripLights_fonts.c ****     int32 yStop, xStop;
+ 238:Generated_Source\PSoC4/StripLights_fonts.c ****    
+ 239:Generated_Source\PSoC4/StripLights_fonts.c ****     fp = (theChar - StripLights_fontOffset) * StripLights_fontX;
+ 123              		.loc 1 239 0
+ 124 0016 214B     		ldr	r3, .L19
+ 125 0018 1B68     		ldr	r3, [r3]
+ 126 001a D21A     		subs	r2, r2, r3
+ 127              	.LVL3:
+ 128 001c 204B     		ldr	r3, .L19+4
+ 129 001e 1B68     		ldr	r3, [r3]
+ 130 0020 5A43     		muls	r2, r3
+ 131 0022 9146     		mov	r9, r2
+ 132              	.LVL4:
+ 240:Generated_Source\PSoC4/StripLights_fonts.c ****    
+ 241:Generated_Source\PSoC4/StripLights_fonts.c ****     xStop = xpos + StripLights_fontX;
+ 133              		.loc 1 241 0
+ 134 0024 9B46     		mov	fp, r3
+ 135 0026 8344     		add	fp, fp, r0
+ 136              	.LVL5:
+ 242:Generated_Source\PSoC4/StripLights_fonts.c ****     if(xStop > StripLights_MAX_X) xStop = StripLights_MAX_X;
+ 137              		.loc 1 242 0
+ 138 0028 5B46     		mov	r3, fp
+ 139 002a 172B     		cmp	r3, #23
+ 140 002c 01DD     		ble	.L9
+ 141 002e 1723     		movs	r3, #23
+ 142 0030 9B46     		mov	fp, r3
+ 143              	.LVL6:
+ 144              	.L9:
+ 243:Generated_Source\PSoC4/StripLights_fonts.c ****    
+ 244:Generated_Source\PSoC4/StripLights_fonts.c ****     yStop = ypos + StripLights_fontY;
+ 145              		.loc 1 244 0
+ 146 0032 1C4B     		ldr	r3, .L19+8
+ 147 0034 1B68     		ldr	r3, [r3]
+ 148 0036 019A     		ldr	r2, [sp, #4]
+ 149              	.LVL7:
+ 150 0038 9F18     		adds	r7, r3, r2
+ 151              	.LVL8:
+ 245:Generated_Source\PSoC4/StripLights_fonts.c ****     if(yStop > StripLights_MAX_Y) yStop = StripLights_MAX_Y;
+ 152              		.loc 1 245 0
+ 153 003a 002F     		cmp	r7, #0
+ 154 003c 26DD     		ble	.L11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 8
+
+
+ 155 003e 0027     		movs	r7, #0
+ 156              	.LVL9:
+ 246:Generated_Source\PSoC4/StripLights_fonts.c ****    
+ 247:Generated_Source\PSoC4/StripLights_fonts.c ****     for( x = xpos; x < xStop; x++)
+ 157              		.loc 1 247 0
+ 158 0040 24E0     		b	.L11
+ 159              	.LVL10:
+ 160              	.L14:
+ 248:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 249:Generated_Source\PSoC4/StripLights_fonts.c ****         mask = 0x01;
+ 250:Generated_Source\PSoC4/StripLights_fonts.c ****         for(y = ypos; y <= yStop; y++)
+ 251:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 252:Generated_Source\PSoC4/StripLights_fonts.c ****             if((y >= 0) && (x >= 0))
+ 161              		.loc 1 252 0
+ 162 0042 002D     		cmp	r5, #0
+ 163 0044 16DB     		blt	.L12
+ 164              		.loc 1 252 0 is_stmt 0 discriminator 1
+ 165 0046 002E     		cmp	r6, #0
+ 166 0048 14DB     		blt	.L12
+ 253:Generated_Source\PSoC4/StripLights_fonts.c ****             {
+ 254:Generated_Source\PSoC4/StripLights_fonts.c ****                 if(mask & StripLights_fontPtr[fp])
+ 167              		.loc 1 254 0 is_stmt 1
+ 168 004a 174B     		ldr	r3, .L19+12
+ 169 004c 1B68     		ldr	r3, [r3]
+ 170 004e 4A46     		mov	r2, r9
+ 171 0050 9B5C     		ldrb	r3, [r3, r2]
+ 172 0052 2342     		tst	r3, r4
+ 173 0054 05D0     		beq	.L13
+ 174              	.LVL11:
+ 255:Generated_Source\PSoC4/StripLights_fonts.c ****                 { 
+ 256:Generated_Source\PSoC4/StripLights_fonts.c **** 				     StripLights_Pixel( x, y, fg);
+ 175              		.loc 1 256 0
+ 176 0056 009A     		ldr	r2, [sp]
+ 177              	.LVL12:
+ 178 0058 2900     		movs	r1, r5
+ 179 005a 3000     		movs	r0, r6
+ 180 005c FFF7FEFF 		bl	StripLights_Pixel
+ 181              	.LVL13:
+ 182 0060 08E0     		b	.L12
+ 183              	.LVL14:
+ 184              	.L13:
+ 257:Generated_Source\PSoC4/StripLights_fonts.c ****                 }
+ 258:Generated_Source\PSoC4/StripLights_fonts.c ****                 else
+ 259:Generated_Source\PSoC4/StripLights_fonts.c ****                 {
+ 260:Generated_Source\PSoC4/StripLights_fonts.c **** 					if(bg != StripLights_TRANS_BG)
+ 185              		.loc 1 260 0
+ 186 0062 FF23     		movs	r3, #255
+ 187 0064 1B06     		lsls	r3, r3, #24
+ 188 0066 9A45     		cmp	r10, r3
+ 189 0068 04D0     		beq	.L12
+ 261:Generated_Source\PSoC4/StripLights_fonts.c **** 					{
+ 262:Generated_Source\PSoC4/StripLights_fonts.c **** 				        StripLights_Pixel( x, y, bg);
+ 190              		.loc 1 262 0
+ 191 006a 5246     		mov	r2, r10
+ 192              	.LVL15:
+ 193 006c 2900     		movs	r1, r5
+ 194 006e 3000     		movs	r0, r6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 9
+
+
+ 195 0070 FFF7FEFF 		bl	StripLights_Pixel
+ 196              	.LVL16:
+ 197              	.L12:
+ 263:Generated_Source\PSoC4/StripLights_fonts.c **** 					}
+ 264:Generated_Source\PSoC4/StripLights_fonts.c ****                 }
+ 265:Generated_Source\PSoC4/StripLights_fonts.c ****             }
+ 266:Generated_Source\PSoC4/StripLights_fonts.c ****             mask = mask << 1;
+ 198              		.loc 1 266 0 discriminator 2
+ 199 0074 6400     		lsls	r4, r4, #1
+ 200              	.LVL17:
+ 201 0076 E4B2     		uxtb	r4, r4
+ 202              	.LVL18:
+ 250:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 203              		.loc 1 250 0 discriminator 2
+ 204 0078 0135     		adds	r5, r5, #1
+ 205              	.LVL19:
+ 206 007a 01E0     		b	.L15
+ 207              	.LVL20:
+ 208              	.L18:
+ 209 007c 019D     		ldr	r5, [sp, #4]
+ 210 007e 0124     		movs	r4, #1
+ 211              	.L15:
+ 212              	.LVL21:
+ 250:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 213              		.loc 1 250 0 is_stmt 0 discriminator 1
+ 214 0080 BD42     		cmp	r5, r7
+ 215 0082 DEDD     		ble	.L14
+ 267:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 268:Generated_Source\PSoC4/StripLights_fonts.c ****         fp++;
+ 216              		.loc 1 268 0 is_stmt 1 discriminator 2
+ 217 0084 0123     		movs	r3, #1
+ 218 0086 9C46     		mov	ip, r3
+ 219 0088 E144     		add	r9, r9, ip
+ 220              	.LVL22:
+ 247:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 221              		.loc 1 247 0 discriminator 2
+ 222 008a 0136     		adds	r6, r6, #1
+ 223              	.LVL23:
+ 224              	.L11:
+ 247:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 225              		.loc 1 247 0 is_stmt 0 discriminator 1
+ 226 008c 5E45     		cmp	r6, fp
+ 227 008e F5DB     		blt	.L18
+ 269:Generated_Source\PSoC4/StripLights_fonts.c ****     }
+ 270:Generated_Source\PSoC4/StripLights_fonts.c **** }
+ 228              		.loc 1 270 0 is_stmt 1
+ 229 0090 02B0     		add	sp, sp, #8
+ 230              	.LVL24:
+ 231              		@ sp needed
+ 232              	.LVL25:
+ 233              	.LVL26:
+ 234              	.LVL27:
+ 235              	.LVL28:
+ 236 0092 1CBC     		pop	{r2, r3, r4}
+ 237 0094 9146     		mov	r9, r2
+ 238 0096 9A46     		mov	r10, r3
+ 239 0098 A346     		mov	fp, r4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 10
+
+
+ 240 009a F0BD     		pop	{r4, r5, r6, r7, pc}
+ 241              	.L20:
+ 242              		.align	2
+ 243              	.L19:
+ 244 009c 00000000 		.word	StripLights_fontOffset
+ 245 00a0 00000000 		.word	StripLights_fontX
+ 246 00a4 00000000 		.word	StripLights_fontY
+ 247 00a8 00000000 		.word	StripLights_fontPtr
+ 248              		.cfi_endproc
+ 249              	.LFE37:
+ 250              		.size	StripLights_PutChar, .-StripLights_PutChar
+ 251              		.section	.text.StripLights_PrintString,"ax",%progbits
+ 252              		.align	2
+ 253              		.global	StripLights_PrintString
+ 254              		.code	16
+ 255              		.thumb_func
+ 256              		.type	StripLights_PrintString, %function
+ 257              	StripLights_PrintString:
+ 258              	.LFB36:
+ 179:Generated_Source\PSoC4/StripLights_fonts.c ****     uint32 strPos = 0;
+ 259              		.loc 1 179 0
+ 260              		.cfi_startproc
+ 261              		@ args = 4, pretend = 0, frame = 8
+ 262              		@ frame_needed = 0, uses_anonymous_args = 0
+ 263              	.LVL29:
+ 264 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 265              		.cfi_def_cfa_offset 20
+ 266              		.cfi_offset 4, -20
+ 267              		.cfi_offset 5, -16
+ 268              		.cfi_offset 6, -12
+ 269              		.cfi_offset 7, -8
+ 270              		.cfi_offset 14, -4
+ 271 0002 5746     		mov	r7, r10
+ 272 0004 4646     		mov	r6, r8
+ 273 0006 C0B4     		push	{r6, r7}
+ 274              		.cfi_def_cfa_offset 28
+ 275              		.cfi_offset 8, -28
+ 276              		.cfi_offset 10, -24
+ 277 0008 85B0     		sub	sp, sp, #20
+ 278              		.cfi_def_cfa_offset 48
+ 279 000a 0400     		movs	r4, r0
+ 280 000c 0391     		str	r1, [sp, #12]
+ 281 000e 9046     		mov	r8, r2
+ 282 0010 9A46     		mov	r10, r3
+ 283 0012 0C9F     		ldr	r7, [sp, #48]
+ 284              	.LVL30:
+ 180:Generated_Source\PSoC4/StripLights_fonts.c ****     uint32 yStop;
+ 285              		.loc 1 180 0
+ 286 0014 0025     		movs	r5, #0
+ 287 0016 2CE0     		b	.L22
+ 288              	.LVL31:
+ 289              	.L26:
+ 189:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 290              		.loc 1 189 0
+ 291 0018 8023     		movs	r3, #128
+ 292              	.LVL32:
+ 293 001a 1B06     		lsls	r3, r3, #24
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 11
+
+
+ 294 001c 9A45     		cmp	r10, r3
+ 295 001e 0AD1     		bne	.L23
+ 191:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 296              		.loc 1 191 0
+ 297 0020 0120     		movs	r0, #1
+ 298 0022 FFF7FEFF 		bl	StripLights_ColorInc
+ 299              	.LVL33:
+ 300 0026 0300     		movs	r3, r0
+ 301 0028 0097     		str	r7, [sp]
+ 302 002a 3200     		movs	r2, r6
+ 303 002c 0399     		ldr	r1, [sp, #12]
+ 304 002e 2000     		movs	r0, r4
+ 305 0030 FFF7FEFF 		bl	StripLights_PutChar
+ 306              	.LVL34:
+ 307 0034 06E0     		b	.L24
+ 308              	.L23:
+ 195:Generated_Source\PSoC4/StripLights_fonts.c ****         }
+ 309              		.loc 1 195 0
+ 310 0036 0097     		str	r7, [sp]
+ 311 0038 5346     		mov	r3, r10
+ 312 003a 3200     		movs	r2, r6
+ 313 003c 0399     		ldr	r1, [sp, #12]
+ 314 003e 2000     		movs	r0, r4
+ 315 0040 FFF7FEFF 		bl	StripLights_PutChar
+ 316              	.LVL35:
+ 317              	.L24:
+ 197:Generated_Source\PSoC4/StripLights_fonts.c ****         xpos += StripLights_fontX;  // Advance to next x location for next character
+ 318              		.loc 1 197 0
+ 319 0044 0135     		adds	r5, r5, #1
+ 320              	.LVL36:
+ 198:Generated_Source\PSoC4/StripLights_fonts.c **** 		
+ 321              		.loc 1 198 0
+ 322 0046 164B     		ldr	r3, .L28
+ 323 0048 1868     		ldr	r0, [r3]
+ 324 004a 2418     		adds	r4, r4, r0
+ 325              	.LVL37:
+ 201:Generated_Source\PSoC4/StripLights_fonts.c ****         {
+ 326              		.loc 1 201 0
+ 327 004c 4346     		mov	r3, r8
+ 328 004e 5B5D     		ldrb	r3, [r3, r5]
+ 329 0050 002B     		cmp	r3, #0
+ 330 0052 0DD0     		beq	.L25
+ 203:Generated_Source\PSoC4/StripLights_fonts.c **** 			{
+ 331              		.loc 1 203 0
+ 332 0054 FF23     		movs	r3, #255
+ 333 0056 1B06     		lsls	r3, r3, #24
+ 334 0058 9F42     		cmp	r7, r3
+ 335 005a 09D0     		beq	.L25
+ 205:Generated_Source\PSoC4/StripLights_fonts.c **** 			}
+ 336              		.loc 1 205 0
+ 337 005c 114B     		ldr	r3, .L28+4
+ 338 005e 1B68     		ldr	r3, [r3]
+ 339 0060 0399     		ldr	r1, [sp, #12]
+ 340 0062 8C46     		mov	ip, r1
+ 341 0064 6344     		add	r3, r3, ip
+ 342 0066 0097     		str	r7, [sp]
+ 343 0068 2200     		movs	r2, r4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 12
+
+
+ 344 006a 2000     		movs	r0, r4
+ 345 006c FFF7FEFF 		bl	StripLights_DrawLine
+ 346              	.LVL38:
+ 347              	.L25:
+ 208:Generated_Source\PSoC4/StripLights_fonts.c ****     }
+ 348              		.loc 1 208 0
+ 349 0070 0134     		adds	r4, r4, #1
+ 350              	.LVL39:
+ 351              	.L22:
+ 186:Generated_Source\PSoC4/StripLights_fonts.c ****     {
+ 352              		.loc 1 186 0
+ 353 0072 4346     		mov	r3, r8
+ 354 0074 5E5D     		ldrb	r6, [r3, r5]
+ 355 0076 002E     		cmp	r6, #0
+ 356 0078 CED1     		bne	.L26
+ 357              	.LVL40:
+ 210:Generated_Source\PSoC4/StripLights_fonts.c **** 	{
+ 358              		.loc 1 210 0
+ 359 007a FF23     		movs	r3, #255
+ 360              	.LVL41:
+ 361 007c 1B06     		lsls	r3, r3, #24
+ 362 007e 9F42     		cmp	r7, r3
+ 363 0080 09D0     		beq	.L21
+ 212:Generated_Source\PSoC4/StripLights_fonts.c **** 	}
+ 364              		.loc 1 212 0
+ 365 0082 601E     		subs	r0, r4, #1
+ 366 0084 074B     		ldr	r3, .L28+4
+ 367 0086 1B68     		ldr	r3, [r3]
+ 368 0088 0399     		ldr	r1, [sp, #12]
+ 369 008a 8C46     		mov	ip, r1
+ 370 008c 6344     		add	r3, r3, ip
+ 371 008e 0097     		str	r7, [sp]
+ 372 0090 0200     		movs	r2, r0
+ 373 0092 FFF7FEFF 		bl	StripLights_DrawLine
+ 374              	.LVL42:
+ 375              	.L21:
+ 214:Generated_Source\PSoC4/StripLights_fonts.c **** 
+ 376              		.loc 1 214 0
+ 377 0096 05B0     		add	sp, sp, #20
+ 378              		@ sp needed
+ 379              	.LVL43:
+ 380              	.LVL44:
+ 381              	.LVL45:
+ 382              	.LVL46:
+ 383 0098 0CBC     		pop	{r2, r3}
+ 384 009a 9046     		mov	r8, r2
+ 385 009c 9A46     		mov	r10, r3
+ 386 009e F0BD     		pop	{r4, r5, r6, r7, pc}
+ 387              	.L29:
+ 388              		.align	2
+ 389              	.L28:
+ 390 00a0 00000000 		.word	StripLights_fontX
+ 391 00a4 00000000 		.word	StripLights_fontY
+ 392              		.cfi_endproc
+ 393              	.LFE36:
+ 394              		.size	StripLights_PrintString, .-StripLights_PrintString
+ 395              		.global	StripLights_Font5x7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 13
+
+
+ 396              		.comm	StripLights_fontOffset,4,4
+ 397              		.comm	StripLights_fontY,4,4
+ 398              		.comm	StripLights_fontX,4,4
+ 399              		.comm	StripLights_fontPtr,4,4
+ 400              		.section	.rodata
+ 401              		.align	2
+ 402              		.set	.LANCHOR0,. + 0
+ 403              		.type	StripLights_Font5x7, %object
+ 404              		.size	StripLights_Font5x7, 480
+ 405              	StripLights_Font5x7:
+ 406 0000 00       		.byte	0
+ 407 0001 00       		.byte	0
+ 408 0002 00       		.byte	0
+ 409 0003 00       		.byte	0
+ 410 0004 00       		.byte	0
+ 411 0005 00       		.byte	0
+ 412 0006 00       		.byte	0
+ 413 0007 5F       		.byte	95
+ 414 0008 00       		.byte	0
+ 415 0009 00       		.byte	0
+ 416 000a 00       		.byte	0
+ 417 000b 07       		.byte	7
+ 418 000c 00       		.byte	0
+ 419 000d 07       		.byte	7
+ 420 000e 00       		.byte	0
+ 421 000f 14       		.byte	20
+ 422 0010 7F       		.byte	127
+ 423 0011 14       		.byte	20
+ 424 0012 7F       		.byte	127
+ 425 0013 14       		.byte	20
+ 426 0014 24       		.byte	36
+ 427 0015 2A       		.byte	42
+ 428 0016 7F       		.byte	127
+ 429 0017 2A       		.byte	42
+ 430 0018 12       		.byte	18
+ 431 0019 23       		.byte	35
+ 432 001a 13       		.byte	19
+ 433 001b 08       		.byte	8
+ 434 001c 64       		.byte	100
+ 435 001d 62       		.byte	98
+ 436 001e 36       		.byte	54
+ 437 001f 49       		.byte	73
+ 438 0020 55       		.byte	85
+ 439 0021 22       		.byte	34
+ 440 0022 50       		.byte	80
+ 441 0023 00       		.byte	0
+ 442 0024 05       		.byte	5
+ 443 0025 03       		.byte	3
+ 444 0026 00       		.byte	0
+ 445 0027 00       		.byte	0
+ 446 0028 00       		.byte	0
+ 447 0029 1C       		.byte	28
+ 448 002a 22       		.byte	34
+ 449 002b 41       		.byte	65
+ 450 002c 00       		.byte	0
+ 451 002d 00       		.byte	0
+ 452 002e 41       		.byte	65
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 14
+
+
+ 453 002f 22       		.byte	34
+ 454 0030 1C       		.byte	28
+ 455 0031 00       		.byte	0
+ 456 0032 08       		.byte	8
+ 457 0033 2A       		.byte	42
+ 458 0034 1C       		.byte	28
+ 459 0035 2A       		.byte	42
+ 460 0036 08       		.byte	8
+ 461 0037 08       		.byte	8
+ 462 0038 08       		.byte	8
+ 463 0039 3E       		.byte	62
+ 464 003a 08       		.byte	8
+ 465 003b 08       		.byte	8
+ 466 003c 00       		.byte	0
+ 467 003d 50       		.byte	80
+ 468 003e 30       		.byte	48
+ 469 003f 00       		.byte	0
+ 470 0040 00       		.byte	0
+ 471 0041 08       		.byte	8
+ 472 0042 08       		.byte	8
+ 473 0043 08       		.byte	8
+ 474 0044 08       		.byte	8
+ 475 0045 08       		.byte	8
+ 476 0046 00       		.byte	0
+ 477 0047 60       		.byte	96
+ 478 0048 60       		.byte	96
+ 479 0049 00       		.byte	0
+ 480 004a 00       		.byte	0
+ 481 004b 20       		.byte	32
+ 482 004c 10       		.byte	16
+ 483 004d 08       		.byte	8
+ 484 004e 04       		.byte	4
+ 485 004f 02       		.byte	2
+ 486 0050 3E       		.byte	62
+ 487 0051 51       		.byte	81
+ 488 0052 49       		.byte	73
+ 489 0053 45       		.byte	69
+ 490 0054 3E       		.byte	62
+ 491 0055 00       		.byte	0
+ 492 0056 42       		.byte	66
+ 493 0057 7F       		.byte	127
+ 494 0058 40       		.byte	64
+ 495 0059 00       		.byte	0
+ 496 005a 42       		.byte	66
+ 497 005b 61       		.byte	97
+ 498 005c 51       		.byte	81
+ 499 005d 49       		.byte	73
+ 500 005e 46       		.byte	70
+ 501 005f 21       		.byte	33
+ 502 0060 41       		.byte	65
+ 503 0061 45       		.byte	69
+ 504 0062 4B       		.byte	75
+ 505 0063 31       		.byte	49
+ 506 0064 18       		.byte	24
+ 507 0065 14       		.byte	20
+ 508 0066 12       		.byte	18
+ 509 0067 7F       		.byte	127
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 15
+
+
+ 510 0068 10       		.byte	16
+ 511 0069 27       		.byte	39
+ 512 006a 45       		.byte	69
+ 513 006b 45       		.byte	69
+ 514 006c 45       		.byte	69
+ 515 006d 39       		.byte	57
+ 516 006e 3C       		.byte	60
+ 517 006f 4A       		.byte	74
+ 518 0070 49       		.byte	73
+ 519 0071 49       		.byte	73
+ 520 0072 30       		.byte	48
+ 521 0073 01       		.byte	1
+ 522 0074 71       		.byte	113
+ 523 0075 09       		.byte	9
+ 524 0076 05       		.byte	5
+ 525 0077 03       		.byte	3
+ 526 0078 36       		.byte	54
+ 527 0079 49       		.byte	73
+ 528 007a 49       		.byte	73
+ 529 007b 49       		.byte	73
+ 530 007c 36       		.byte	54
+ 531 007d 06       		.byte	6
+ 532 007e 49       		.byte	73
+ 533 007f 49       		.byte	73
+ 534 0080 29       		.byte	41
+ 535 0081 1E       		.byte	30
+ 536 0082 00       		.byte	0
+ 537 0083 36       		.byte	54
+ 538 0084 36       		.byte	54
+ 539 0085 00       		.byte	0
+ 540 0086 00       		.byte	0
+ 541 0087 00       		.byte	0
+ 542 0088 56       		.byte	86
+ 543 0089 36       		.byte	54
+ 544 008a 00       		.byte	0
+ 545 008b 00       		.byte	0
+ 546 008c 00       		.byte	0
+ 547 008d 08       		.byte	8
+ 548 008e 14       		.byte	20
+ 549 008f 22       		.byte	34
+ 550 0090 41       		.byte	65
+ 551 0091 14       		.byte	20
+ 552 0092 14       		.byte	20
+ 553 0093 14       		.byte	20
+ 554 0094 14       		.byte	20
+ 555 0095 14       		.byte	20
+ 556 0096 41       		.byte	65
+ 557 0097 22       		.byte	34
+ 558 0098 14       		.byte	20
+ 559 0099 08       		.byte	8
+ 560 009a 00       		.byte	0
+ 561 009b 02       		.byte	2
+ 562 009c 01       		.byte	1
+ 563 009d 51       		.byte	81
+ 564 009e 09       		.byte	9
+ 565 009f 06       		.byte	6
+ 566 00a0 32       		.byte	50
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 16
+
+
+ 567 00a1 49       		.byte	73
+ 568 00a2 79       		.byte	121
+ 569 00a3 41       		.byte	65
+ 570 00a4 3E       		.byte	62
+ 571 00a5 7E       		.byte	126
+ 572 00a6 11       		.byte	17
+ 573 00a7 11       		.byte	17
+ 574 00a8 11       		.byte	17
+ 575 00a9 7E       		.byte	126
+ 576 00aa 7F       		.byte	127
+ 577 00ab 49       		.byte	73
+ 578 00ac 49       		.byte	73
+ 579 00ad 49       		.byte	73
+ 580 00ae 36       		.byte	54
+ 581 00af 3E       		.byte	62
+ 582 00b0 41       		.byte	65
+ 583 00b1 41       		.byte	65
+ 584 00b2 41       		.byte	65
+ 585 00b3 22       		.byte	34
+ 586 00b4 7F       		.byte	127
+ 587 00b5 41       		.byte	65
+ 588 00b6 41       		.byte	65
+ 589 00b7 22       		.byte	34
+ 590 00b8 1C       		.byte	28
+ 591 00b9 7F       		.byte	127
+ 592 00ba 49       		.byte	73
+ 593 00bb 49       		.byte	73
+ 594 00bc 49       		.byte	73
+ 595 00bd 41       		.byte	65
+ 596 00be 7F       		.byte	127
+ 597 00bf 09       		.byte	9
+ 598 00c0 09       		.byte	9
+ 599 00c1 01       		.byte	1
+ 600 00c2 01       		.byte	1
+ 601 00c3 3E       		.byte	62
+ 602 00c4 41       		.byte	65
+ 603 00c5 41       		.byte	65
+ 604 00c6 51       		.byte	81
+ 605 00c7 32       		.byte	50
+ 606 00c8 7F       		.byte	127
+ 607 00c9 08       		.byte	8
+ 608 00ca 08       		.byte	8
+ 609 00cb 08       		.byte	8
+ 610 00cc 7F       		.byte	127
+ 611 00cd 00       		.byte	0
+ 612 00ce 41       		.byte	65
+ 613 00cf 7F       		.byte	127
+ 614 00d0 41       		.byte	65
+ 615 00d1 00       		.byte	0
+ 616 00d2 20       		.byte	32
+ 617 00d3 40       		.byte	64
+ 618 00d4 41       		.byte	65
+ 619 00d5 3F       		.byte	63
+ 620 00d6 01       		.byte	1
+ 621 00d7 7F       		.byte	127
+ 622 00d8 08       		.byte	8
+ 623 00d9 14       		.byte	20
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 17
+
+
+ 624 00da 22       		.byte	34
+ 625 00db 41       		.byte	65
+ 626 00dc 7F       		.byte	127
+ 627 00dd 40       		.byte	64
+ 628 00de 40       		.byte	64
+ 629 00df 40       		.byte	64
+ 630 00e0 40       		.byte	64
+ 631 00e1 7F       		.byte	127
+ 632 00e2 02       		.byte	2
+ 633 00e3 04       		.byte	4
+ 634 00e4 02       		.byte	2
+ 635 00e5 7F       		.byte	127
+ 636 00e6 7F       		.byte	127
+ 637 00e7 04       		.byte	4
+ 638 00e8 08       		.byte	8
+ 639 00e9 10       		.byte	16
+ 640 00ea 7F       		.byte	127
+ 641 00eb 3E       		.byte	62
+ 642 00ec 41       		.byte	65
+ 643 00ed 41       		.byte	65
+ 644 00ee 41       		.byte	65
+ 645 00ef 3E       		.byte	62
+ 646 00f0 7F       		.byte	127
+ 647 00f1 09       		.byte	9
+ 648 00f2 09       		.byte	9
+ 649 00f3 09       		.byte	9
+ 650 00f4 06       		.byte	6
+ 651 00f5 3E       		.byte	62
+ 652 00f6 41       		.byte	65
+ 653 00f7 51       		.byte	81
+ 654 00f8 21       		.byte	33
+ 655 00f9 5E       		.byte	94
+ 656 00fa 7F       		.byte	127
+ 657 00fb 09       		.byte	9
+ 658 00fc 19       		.byte	25
+ 659 00fd 29       		.byte	41
+ 660 00fe 46       		.byte	70
+ 661 00ff 46       		.byte	70
+ 662 0100 49       		.byte	73
+ 663 0101 49       		.byte	73
+ 664 0102 49       		.byte	73
+ 665 0103 31       		.byte	49
+ 666 0104 01       		.byte	1
+ 667 0105 01       		.byte	1
+ 668 0106 7F       		.byte	127
+ 669 0107 01       		.byte	1
+ 670 0108 01       		.byte	1
+ 671 0109 3F       		.byte	63
+ 672 010a 40       		.byte	64
+ 673 010b 40       		.byte	64
+ 674 010c 40       		.byte	64
+ 675 010d 3F       		.byte	63
+ 676 010e 1F       		.byte	31
+ 677 010f 20       		.byte	32
+ 678 0110 40       		.byte	64
+ 679 0111 20       		.byte	32
+ 680 0112 1F       		.byte	31
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 18
+
+
+ 681 0113 7F       		.byte	127
+ 682 0114 20       		.byte	32
+ 683 0115 18       		.byte	24
+ 684 0116 20       		.byte	32
+ 685 0117 7F       		.byte	127
+ 686 0118 63       		.byte	99
+ 687 0119 14       		.byte	20
+ 688 011a 08       		.byte	8
+ 689 011b 14       		.byte	20
+ 690 011c 63       		.byte	99
+ 691 011d 03       		.byte	3
+ 692 011e 04       		.byte	4
+ 693 011f 78       		.byte	120
+ 694 0120 04       		.byte	4
+ 695 0121 03       		.byte	3
+ 696 0122 61       		.byte	97
+ 697 0123 51       		.byte	81
+ 698 0124 49       		.byte	73
+ 699 0125 45       		.byte	69
+ 700 0126 43       		.byte	67
+ 701 0127 00       		.byte	0
+ 702 0128 00       		.byte	0
+ 703 0129 7F       		.byte	127
+ 704 012a 41       		.byte	65
+ 705 012b 41       		.byte	65
+ 706 012c 02       		.byte	2
+ 707 012d 04       		.byte	4
+ 708 012e 08       		.byte	8
+ 709 012f 10       		.byte	16
+ 710 0130 20       		.byte	32
+ 711 0131 41       		.byte	65
+ 712 0132 41       		.byte	65
+ 713 0133 7F       		.byte	127
+ 714 0134 00       		.byte	0
+ 715 0135 00       		.byte	0
+ 716 0136 04       		.byte	4
+ 717 0137 02       		.byte	2
+ 718 0138 01       		.byte	1
+ 719 0139 02       		.byte	2
+ 720 013a 04       		.byte	4
+ 721 013b 40       		.byte	64
+ 722 013c 40       		.byte	64
+ 723 013d 40       		.byte	64
+ 724 013e 40       		.byte	64
+ 725 013f 40       		.byte	64
+ 726 0140 00       		.byte	0
+ 727 0141 01       		.byte	1
+ 728 0142 02       		.byte	2
+ 729 0143 04       		.byte	4
+ 730 0144 00       		.byte	0
+ 731 0145 20       		.byte	32
+ 732 0146 54       		.byte	84
+ 733 0147 54       		.byte	84
+ 734 0148 54       		.byte	84
+ 735 0149 78       		.byte	120
+ 736 014a 7F       		.byte	127
+ 737 014b 48       		.byte	72
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 19
+
+
+ 738 014c 44       		.byte	68
+ 739 014d 44       		.byte	68
+ 740 014e 38       		.byte	56
+ 741 014f 38       		.byte	56
+ 742 0150 44       		.byte	68
+ 743 0151 44       		.byte	68
+ 744 0152 44       		.byte	68
+ 745 0153 20       		.byte	32
+ 746 0154 38       		.byte	56
+ 747 0155 44       		.byte	68
+ 748 0156 44       		.byte	68
+ 749 0157 48       		.byte	72
+ 750 0158 7F       		.byte	127
+ 751 0159 38       		.byte	56
+ 752 015a 54       		.byte	84
+ 753 015b 54       		.byte	84
+ 754 015c 54       		.byte	84
+ 755 015d 18       		.byte	24
+ 756 015e 08       		.byte	8
+ 757 015f 7E       		.byte	126
+ 758 0160 09       		.byte	9
+ 759 0161 01       		.byte	1
+ 760 0162 02       		.byte	2
+ 761 0163 08       		.byte	8
+ 762 0164 14       		.byte	20
+ 763 0165 54       		.byte	84
+ 764 0166 54       		.byte	84
+ 765 0167 3C       		.byte	60
+ 766 0168 7F       		.byte	127
+ 767 0169 08       		.byte	8
+ 768 016a 04       		.byte	4
+ 769 016b 04       		.byte	4
+ 770 016c 78       		.byte	120
+ 771 016d 00       		.byte	0
+ 772 016e 44       		.byte	68
+ 773 016f 7D       		.byte	125
+ 774 0170 40       		.byte	64
+ 775 0171 00       		.byte	0
+ 776 0172 20       		.byte	32
+ 777 0173 40       		.byte	64
+ 778 0174 44       		.byte	68
+ 779 0175 3D       		.byte	61
+ 780 0176 00       		.byte	0
+ 781 0177 00       		.byte	0
+ 782 0178 7F       		.byte	127
+ 783 0179 10       		.byte	16
+ 784 017a 28       		.byte	40
+ 785 017b 44       		.byte	68
+ 786 017c 00       		.byte	0
+ 787 017d 41       		.byte	65
+ 788 017e 7F       		.byte	127
+ 789 017f 40       		.byte	64
+ 790 0180 00       		.byte	0
+ 791 0181 7C       		.byte	124
+ 792 0182 04       		.byte	4
+ 793 0183 18       		.byte	24
+ 794 0184 04       		.byte	4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 20
+
+
+ 795 0185 78       		.byte	120
+ 796 0186 7C       		.byte	124
+ 797 0187 08       		.byte	8
+ 798 0188 04       		.byte	4
+ 799 0189 04       		.byte	4
+ 800 018a 78       		.byte	120
+ 801 018b 38       		.byte	56
+ 802 018c 44       		.byte	68
+ 803 018d 44       		.byte	68
+ 804 018e 44       		.byte	68
+ 805 018f 38       		.byte	56
+ 806 0190 7C       		.byte	124
+ 807 0191 14       		.byte	20
+ 808 0192 14       		.byte	20
+ 809 0193 14       		.byte	20
+ 810 0194 08       		.byte	8
+ 811 0195 08       		.byte	8
+ 812 0196 14       		.byte	20
+ 813 0197 14       		.byte	20
+ 814 0198 18       		.byte	24
+ 815 0199 7C       		.byte	124
+ 816 019a 7C       		.byte	124
+ 817 019b 08       		.byte	8
+ 818 019c 04       		.byte	4
+ 819 019d 04       		.byte	4
+ 820 019e 08       		.byte	8
+ 821 019f 48       		.byte	72
+ 822 01a0 54       		.byte	84
+ 823 01a1 54       		.byte	84
+ 824 01a2 54       		.byte	84
+ 825 01a3 20       		.byte	32
+ 826 01a4 04       		.byte	4
+ 827 01a5 3F       		.byte	63
+ 828 01a6 44       		.byte	68
+ 829 01a7 40       		.byte	64
+ 830 01a8 20       		.byte	32
+ 831 01a9 3C       		.byte	60
+ 832 01aa 40       		.byte	64
+ 833 01ab 40       		.byte	64
+ 834 01ac 20       		.byte	32
+ 835 01ad 7C       		.byte	124
+ 836 01ae 1C       		.byte	28
+ 837 01af 20       		.byte	32
+ 838 01b0 40       		.byte	64
+ 839 01b1 20       		.byte	32
+ 840 01b2 1C       		.byte	28
+ 841 01b3 3C       		.byte	60
+ 842 01b4 40       		.byte	64
+ 843 01b5 30       		.byte	48
+ 844 01b6 40       		.byte	64
+ 845 01b7 3C       		.byte	60
+ 846 01b8 44       		.byte	68
+ 847 01b9 28       		.byte	40
+ 848 01ba 10       		.byte	16
+ 849 01bb 28       		.byte	40
+ 850 01bc 44       		.byte	68
+ 851 01bd 0C       		.byte	12
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 21
+
+
+ 852 01be 50       		.byte	80
+ 853 01bf 50       		.byte	80
+ 854 01c0 50       		.byte	80
+ 855 01c1 3C       		.byte	60
+ 856 01c2 44       		.byte	68
+ 857 01c3 64       		.byte	100
+ 858 01c4 54       		.byte	84
+ 859 01c5 4C       		.byte	76
+ 860 01c6 44       		.byte	68
+ 861 01c7 00       		.byte	0
+ 862 01c8 08       		.byte	8
+ 863 01c9 36       		.byte	54
+ 864 01ca 41       		.byte	65
+ 865 01cb 00       		.byte	0
+ 866 01cc 00       		.byte	0
+ 867 01cd 00       		.byte	0
+ 868 01ce 7F       		.byte	127
+ 869 01cf 00       		.byte	0
+ 870 01d0 00       		.byte	0
+ 871 01d1 00       		.byte	0
+ 872 01d2 41       		.byte	65
+ 873 01d3 36       		.byte	54
+ 874 01d4 08       		.byte	8
+ 875 01d5 00       		.byte	0
+ 876 01d6 08       		.byte	8
+ 877 01d7 08       		.byte	8
+ 878 01d8 2A       		.byte	42
+ 879 01d9 1C       		.byte	28
+ 880 01da 08       		.byte	8
+ 881 01db 08       		.byte	8
+ 882 01dc 1C       		.byte	28
+ 883 01dd 2A       		.byte	42
+ 884 01de 08       		.byte	8
+ 885 01df 08       		.byte	8
+ 886              		.text
+ 887              	.Letext0:
+ 888              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 889              		.file 3 "Generated_Source\\PSoC4/Bluetooth_Stack.h"
+ 890              		.file 4 "Generated_Source\\PSoC4/Bluetooth_aios.h"
+ 891              		.file 5 "Generated_Source\\PSoC4/StripLights.h"
+ 892              		.section	.debug_info,"",%progbits
+ 893              	.Ldebug_info0:
+ 894 0000 B6050000 		.4byte	0x5b6
+ 895 0004 0400     		.2byte	0x4
+ 896 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 897 000a 04       		.byte	0x4
+ 898 000b 01       		.uleb128 0x1
+ 899 000c 6B010000 		.4byte	.LASF122
+ 900 0010 0C       		.byte	0xc
+ 901 0011 8A070000 		.4byte	.LASF123
+ 902 0015 3F000000 		.4byte	.LASF124
+ 903 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 904 001d 00000000 		.4byte	0
+ 905 0021 00000000 		.4byte	.Ldebug_line0
+ 906 0025 02       		.uleb128 0x2
+ 907 0026 01       		.byte	0x1
+ 908 0027 06       		.byte	0x6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 22
+
+
+ 909 0028 F4020000 		.4byte	.LASF0
+ 910 002c 02       		.uleb128 0x2
+ 911 002d 01       		.byte	0x1
+ 912 002e 08       		.byte	0x8
+ 913 002f AD090000 		.4byte	.LASF1
+ 914 0033 02       		.uleb128 0x2
+ 915 0034 02       		.byte	0x2
+ 916 0035 05       		.byte	0x5
+ 917 0036 DF090000 		.4byte	.LASF2
+ 918 003a 02       		.uleb128 0x2
+ 919 003b 02       		.byte	0x2
+ 920 003c 07       		.byte	0x7
+ 921 003d D2050000 		.4byte	.LASF3
+ 922 0041 02       		.uleb128 0x2
+ 923 0042 04       		.byte	0x4
+ 924 0043 05       		.byte	0x5
+ 925 0044 62010000 		.4byte	.LASF4
+ 926 0048 02       		.uleb128 0x2
+ 927 0049 04       		.byte	0x4
+ 928 004a 07       		.byte	0x7
+ 929 004b FD040000 		.4byte	.LASF5
+ 930 004f 02       		.uleb128 0x2
+ 931 0050 08       		.byte	0x8
+ 932 0051 05       		.byte	0x5
+ 933 0052 E6020000 		.4byte	.LASF6
+ 934 0056 02       		.uleb128 0x2
+ 935 0057 08       		.byte	0x8
+ 936 0058 07       		.byte	0x7
+ 937 0059 1D020000 		.4byte	.LASF7
+ 938 005d 03       		.uleb128 0x3
+ 939 005e 04       		.byte	0x4
+ 940 005f 05       		.byte	0x5
+ 941 0060 696E7400 		.ascii	"int\000"
+ 942 0064 02       		.uleb128 0x2
+ 943 0065 04       		.byte	0x4
+ 944 0066 07       		.byte	0x7
+ 945 0067 A6040000 		.4byte	.LASF8
+ 946 006b 04       		.uleb128 0x4
+ 947 006c AD030000 		.4byte	.LASF9
+ 948 0070 02       		.byte	0x2
+ 949 0071 FB01     		.2byte	0x1fb
+ 950 0073 2C000000 		.4byte	0x2c
+ 951 0077 04       		.uleb128 0x4
+ 952 0078 03040000 		.4byte	.LASF10
+ 953 007c 02       		.byte	0x2
+ 954 007d FD01     		.2byte	0x1fd
+ 955 007f 48000000 		.4byte	0x48
+ 956 0083 04       		.uleb128 0x4
+ 957 0084 FD030000 		.4byte	.LASF11
+ 958 0088 02       		.byte	0x2
+ 959 0089 0002     		.2byte	0x200
+ 960 008b 41000000 		.4byte	0x41
+ 961 008f 02       		.uleb128 0x2
+ 962 0090 04       		.byte	0x4
+ 963 0091 04       		.byte	0x4
+ 964 0092 8D090000 		.4byte	.LASF12
+ 965 0096 02       		.uleb128 0x2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 23
+
+
+ 966 0097 08       		.byte	0x8
+ 967 0098 04       		.byte	0x4
+ 968 0099 F6030000 		.4byte	.LASF13
+ 969 009d 02       		.uleb128 0x2
+ 970 009e 01       		.byte	0x1
+ 971 009f 08       		.byte	0x8
+ 972 00a0 EF0A0000 		.4byte	.LASF14
+ 973 00a4 02       		.uleb128 0x2
+ 974 00a5 08       		.byte	0x8
+ 975 00a6 04       		.byte	0x4
+ 976 00a7 CB0A0000 		.4byte	.LASF15
+ 977 00ab 02       		.uleb128 0x2
+ 978 00ac 04       		.byte	0x4
+ 979 00ad 07       		.byte	0x7
+ 980 00ae 5F080000 		.4byte	.LASF16
+ 981 00b2 05       		.uleb128 0x5
+ 982 00b3 04       		.byte	0x4
+ 983 00b4 9D000000 		.4byte	0x9d
+ 984 00b8 06       		.uleb128 0x6
+ 985 00b9 01       		.byte	0x1
+ 986 00ba 2C000000 		.4byte	0x2c
+ 987 00be 03       		.byte	0x3
+ 988 00bf 3501     		.2byte	0x135
+ 989 00c1 76020000 		.4byte	0x276
+ 990 00c5 07       		.uleb128 0x7
+ 991 00c6 E5050000 		.4byte	.LASF17
+ 992 00ca 00       		.byte	0
+ 993 00cb 07       		.uleb128 0x7
+ 994 00cc 00030000 		.4byte	.LASF18
+ 995 00d0 01       		.byte	0x1
+ 996 00d1 07       		.uleb128 0x7
+ 997 00d2 50010000 		.4byte	.LASF19
+ 998 00d6 02       		.byte	0x2
+ 999 00d7 07       		.uleb128 0x7
+ 1000 00d8 7C0B0000 		.4byte	.LASF20
+ 1001 00dc 03       		.byte	0x3
+ 1002 00dd 07       		.uleb128 0x7
+ 1003 00de 34020000 		.4byte	.LASF21
+ 1004 00e2 04       		.byte	0x4
+ 1005 00e3 07       		.uleb128 0x7
+ 1006 00e4 23000000 		.4byte	.LASF22
+ 1007 00e8 05       		.byte	0x5
+ 1008 00e9 07       		.uleb128 0x7
+ 1009 00ea 1A060000 		.4byte	.LASF23
+ 1010 00ee 06       		.byte	0x6
+ 1011 00ef 07       		.uleb128 0x7
+ 1012 00f0 D1070000 		.4byte	.LASF24
+ 1013 00f4 20       		.byte	0x20
+ 1014 00f5 07       		.uleb128 0x7
+ 1015 00f6 37030000 		.4byte	.LASF25
+ 1016 00fa 21       		.byte	0x21
+ 1017 00fb 07       		.uleb128 0x7
+ 1018 00fc 8A060000 		.4byte	.LASF26
+ 1019 0100 22       		.byte	0x22
+ 1020 0101 07       		.uleb128 0x7
+ 1021 0102 29070000 		.4byte	.LASF27
+ 1022 0106 23       		.byte	0x23
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 24
+
+
+ 1023 0107 07       		.uleb128 0x7
+ 1024 0108 BA080000 		.4byte	.LASF28
+ 1025 010c 24       		.byte	0x24
+ 1026 010d 07       		.uleb128 0x7
+ 1027 010e 93090000 		.4byte	.LASF29
+ 1028 0112 25       		.byte	0x25
+ 1029 0113 07       		.uleb128 0x7
+ 1030 0114 85030000 		.4byte	.LASF30
+ 1031 0118 26       		.byte	0x26
+ 1032 0119 07       		.uleb128 0x7
+ 1033 011a AE060000 		.4byte	.LASF31
+ 1034 011e 27       		.byte	0x27
+ 1035 011f 07       		.uleb128 0x7
+ 1036 0120 F40A0000 		.4byte	.LASF32
+ 1037 0124 28       		.byte	0x28
+ 1038 0125 07       		.uleb128 0x7
+ 1039 0126 A0020000 		.4byte	.LASF33
+ 1040 012a 29       		.byte	0x29
+ 1041 012b 07       		.uleb128 0x7
+ 1042 012c 27050000 		.4byte	.LASF34
+ 1043 0130 2A       		.byte	0x2a
+ 1044 0131 07       		.uleb128 0x7
+ 1045 0132 18030000 		.4byte	.LASF35
+ 1046 0136 2B       		.byte	0x2b
+ 1047 0137 07       		.uleb128 0x7
+ 1048 0138 130C0000 		.4byte	.LASF36
+ 1049 013c 2C       		.byte	0x2c
+ 1050 013d 07       		.uleb128 0x7
+ 1051 013e BD020000 		.4byte	.LASF37
+ 1052 0142 2D       		.byte	0x2d
+ 1053 0143 07       		.uleb128 0x7
+ 1054 0144 BB090000 		.4byte	.LASF38
+ 1055 0148 2E       		.byte	0x2e
+ 1056 0149 07       		.uleb128 0x7
+ 1057 014a E9000000 		.4byte	.LASF39
+ 1058 014e 2F       		.byte	0x2f
+ 1059 014f 07       		.uleb128 0x7
+ 1060 0150 99080000 		.4byte	.LASF40
+ 1061 0154 30       		.byte	0x30
+ 1062 0155 07       		.uleb128 0x7
+ 1063 0156 A20C0000 		.4byte	.LASF41
+ 1064 015a 31       		.byte	0x31
+ 1065 015b 07       		.uleb128 0x7
+ 1066 015c 78080000 		.4byte	.LASF42
+ 1067 0160 32       		.byte	0x32
+ 1068 0161 07       		.uleb128 0x7
+ 1069 0162 A40A0000 		.4byte	.LASF43
+ 1070 0166 33       		.byte	0x33
+ 1071 0167 07       		.uleb128 0x7
+ 1072 0168 0F050000 		.4byte	.LASF44
+ 1073 016c 34       		.byte	0x34
+ 1074 016d 07       		.uleb128 0x7
+ 1075 016e 67040000 		.4byte	.LASF45
+ 1076 0172 35       		.byte	0x35
+ 1077 0173 07       		.uleb128 0x7
+ 1078 0174 E7060000 		.4byte	.LASF46
+ 1079 0178 36       		.byte	0x36
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 25
+
+
+ 1080 0179 07       		.uleb128 0x7
+ 1081 017a F5070000 		.4byte	.LASF47
+ 1082 017e 37       		.byte	0x37
+ 1083 017f 07       		.uleb128 0x7
+ 1084 0180 8A0A0000 		.4byte	.LASF48
+ 1085 0184 40       		.byte	0x40
+ 1086 0185 07       		.uleb128 0x7
+ 1087 0186 6F070000 		.4byte	.LASF49
+ 1088 018a 41       		.byte	0x41
+ 1089 018b 07       		.uleb128 0x7
+ 1090 018c D50C0000 		.4byte	.LASF50
+ 1091 0190 42       		.byte	0x42
+ 1092 0191 07       		.uleb128 0x7
+ 1093 0192 A50B0000 		.4byte	.LASF51
+ 1094 0196 43       		.byte	0x43
+ 1095 0197 07       		.uleb128 0x7
+ 1096 0198 50050000 		.4byte	.LASF52
+ 1097 019c 44       		.byte	0x44
+ 1098 019d 07       		.uleb128 0x7
+ 1099 019e 66090000 		.4byte	.LASF53
+ 1100 01a2 45       		.byte	0x45
+ 1101 01a3 07       		.uleb128 0x7
+ 1102 01a4 08070000 		.4byte	.LASF54
+ 1103 01a8 46       		.byte	0x46
+ 1104 01a9 07       		.uleb128 0x7
+ 1105 01aa FC050000 		.4byte	.LASF55
+ 1106 01ae 47       		.byte	0x47
+ 1107 01af 07       		.uleb128 0x7
+ 1108 01b0 EC0B0000 		.4byte	.LASF56
+ 1109 01b4 48       		.byte	0x48
+ 1110 01b5 07       		.uleb128 0x7
+ 1111 01b6 4E030000 		.4byte	.LASF57
+ 1112 01ba 49       		.byte	0x49
+ 1113 01bb 07       		.uleb128 0x7
+ 1114 01bc CE0B0000 		.4byte	.LASF58
+ 1115 01c0 4A       		.byte	0x4a
+ 1116 01c1 07       		.uleb128 0x7
+ 1117 01c2 12010000 		.4byte	.LASF59
+ 1118 01c6 4B       		.byte	0x4b
+ 1119 01c7 07       		.uleb128 0x7
+ 1120 01c8 CD060000 		.4byte	.LASF60
+ 1121 01cc 4C       		.byte	0x4c
+ 1122 01cd 07       		.uleb128 0x7
+ 1123 01ce 3F0B0000 		.4byte	.LASF61
+ 1124 01d2 4D       		.byte	0x4d
+ 1125 01d3 07       		.uleb128 0x7
+ 1126 01d4 67030000 		.4byte	.LASF62
+ 1127 01d8 4E       		.byte	0x4e
+ 1128 01d9 07       		.uleb128 0x7
+ 1129 01da 430A0000 		.4byte	.LASF63
+ 1130 01de 4F       		.byte	0x4f
+ 1131 01df 07       		.uleb128 0x7
+ 1132 01e0 31010000 		.4byte	.LASF64
+ 1133 01e4 50       		.byte	0x50
+ 1134 01e5 07       		.uleb128 0x7
+ 1135 01e6 D7030000 		.4byte	.LASF65
+ 1136 01ea 51       		.byte	0x51
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 26
+
+
+ 1137 01eb 07       		.uleb128 0x7
+ 1138 01ec 0B090000 		.4byte	.LASF66
+ 1139 01f0 52       		.byte	0x52
+ 1140 01f1 07       		.uleb128 0x7
+ 1141 01f2 E9090000 		.4byte	.LASF67
+ 1142 01f6 53       		.byte	0x53
+ 1143 01f7 07       		.uleb128 0x7
+ 1144 01f8 690A0000 		.4byte	.LASF68
+ 1145 01fc 54       		.byte	0x54
+ 1146 01fd 07       		.uleb128 0x7
+ 1147 01fe F9010000 		.4byte	.LASF69
+ 1148 0202 55       		.byte	0x55
+ 1149 0203 07       		.uleb128 0x7
+ 1150 0204 84040000 		.4byte	.LASF70
+ 1151 0208 56       		.byte	0x56
+ 1152 0209 07       		.uleb128 0x7
+ 1153 020a 160B0000 		.4byte	.LASF71
+ 1154 020e 57       		.byte	0x57
+ 1155 020f 07       		.uleb128 0x7
+ 1156 0210 97050000 		.4byte	.LASF72
+ 1157 0214 58       		.byte	0x58
+ 1158 0215 07       		.uleb128 0x7
+ 1159 0216 1D040000 		.4byte	.LASF73
+ 1160 021a 70       		.byte	0x70
+ 1161 021b 07       		.uleb128 0x7
+ 1162 021c 7C0C0000 		.4byte	.LASF74
+ 1163 0220 71       		.byte	0x71
+ 1164 0221 07       		.uleb128 0x7
+ 1165 0222 B5070000 		.4byte	.LASF75
+ 1166 0226 72       		.byte	0x72
+ 1167 0227 07       		.uleb128 0x7
+ 1168 0228 2A080000 		.4byte	.LASF76
+ 1169 022c 73       		.byte	0x73
+ 1170 022d 07       		.uleb128 0x7
+ 1171 022e 40090000 		.4byte	.LASF77
+ 1172 0232 74       		.byte	0x74
+ 1173 0233 07       		.uleb128 0x7
+ 1174 0234 5B0C0000 		.4byte	.LASF78
+ 1175 0238 75       		.byte	0x75
+ 1176 0239 07       		.uleb128 0x7
+ 1177 023a C3000000 		.4byte	.LASF79
+ 1178 023e 76       		.byte	0x76
+ 1179 023f 07       		.uleb128 0x7
+ 1180 0240 6B060000 		.4byte	.LASF80
+ 1181 0244 77       		.byte	0x77
+ 1182 0245 07       		.uleb128 0x7
+ 1183 0246 00000000 		.4byte	.LASF81
+ 1184 024a 78       		.byte	0x78
+ 1185 024b 07       		.uleb128 0x7
+ 1186 024c 590B0000 		.4byte	.LASF82
+ 1187 0250 79       		.byte	0x79
+ 1188 0251 07       		.uleb128 0x7
+ 1189 0252 43040000 		.4byte	.LASF83
+ 1190 0256 7A       		.byte	0x7a
+ 1191 0257 07       		.uleb128 0x7
+ 1192 0258 49020000 		.4byte	.LASF84
+ 1193 025c FA       		.byte	0xfa
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 27
+
+
+ 1194 025d 07       		.uleb128 0x7
+ 1195 025e CA040000 		.4byte	.LASF85
+ 1196 0262 FB       		.byte	0xfb
+ 1197 0263 07       		.uleb128 0x7
+ 1198 0264 0A0A0000 		.4byte	.LASF86
+ 1199 0268 FC       		.byte	0xfc
+ 1200 0269 07       		.uleb128 0x7
+ 1201 026a D70A0000 		.4byte	.LASF87
+ 1202 026e FD       		.byte	0xfd
+ 1203 026f 07       		.uleb128 0x7
+ 1204 0270 0A040000 		.4byte	.LASF88
+ 1205 0274 FF       		.byte	0xff
+ 1206 0275 00       		.byte	0
+ 1207 0276 08       		.uleb128 0x8
+ 1208 0277 01       		.byte	0x1
+ 1209 0278 2C000000 		.4byte	0x2c
+ 1210 027c 04       		.byte	0x4
+ 1211 027d 2B       		.byte	0x2b
+ 1212 027e 9B020000 		.4byte	0x29b
+ 1213 0282 07       		.uleb128 0x7
+ 1214 0283 B0000000 		.4byte	.LASF89
+ 1215 0287 00       		.byte	0
+ 1216 0288 07       		.uleb128 0x7
+ 1217 0289 1C0A0000 		.4byte	.LASF90
+ 1218 028d 01       		.byte	0x1
+ 1219 028e 07       		.uleb128 0x7
+ 1220 028f 82050000 		.4byte	.LASF91
+ 1221 0293 02       		.byte	0x2
+ 1222 0294 07       		.uleb128 0x7
+ 1223 0295 55060000 		.4byte	.LASF92
+ 1224 0299 03       		.byte	0x3
+ 1225 029a 00       		.byte	0
+ 1226 029b 08       		.uleb128 0x8
+ 1227 029c 01       		.byte	0x1
+ 1228 029d 2C000000 		.4byte	0x2c
+ 1229 02a1 04       		.byte	0x4
+ 1230 02a2 34       		.byte	0x34
+ 1231 02a3 DE020000 		.4byte	0x2de
+ 1232 02a7 07       		.uleb128 0x7
+ 1233 02a8 950B0000 		.4byte	.LASF93
+ 1234 02ac 00       		.byte	0
+ 1235 02ad 07       		.uleb128 0x7
+ 1236 02ae B3030000 		.4byte	.LASF94
+ 1237 02b2 01       		.byte	0x1
+ 1238 02b3 07       		.uleb128 0x7
+ 1239 02b4 89000000 		.4byte	.LASF95
+ 1240 02b8 02       		.byte	0x2
+ 1241 02b9 07       		.uleb128 0x7
+ 1242 02ba 67020000 		.4byte	.LASF96
+ 1243 02be 03       		.byte	0x3
+ 1244 02bf 07       		.uleb128 0x7
+ 1245 02c0 33060000 		.4byte	.LASF97
+ 1246 02c4 04       		.byte	0x4
+ 1247 02c5 07       		.uleb128 0x7
+ 1248 02c6 EA080000 		.4byte	.LASF98
+ 1249 02ca 05       		.byte	0x5
+ 1250 02cb 07       		.uleb128 0x7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 28
+
+
+ 1251 02cc C60C0000 		.4byte	.LASF99
+ 1252 02d0 06       		.byte	0x6
+ 1253 02d1 07       		.uleb128 0x7
+ 1254 02d2 4F070000 		.4byte	.LASF100
+ 1255 02d6 06       		.byte	0x6
+ 1256 02d7 07       		.uleb128 0x7
+ 1257 02d8 B3040000 		.4byte	.LASF101
+ 1258 02dc 07       		.byte	0x7
+ 1259 02dd 00       		.byte	0
+ 1260 02de 09       		.uleb128 0x9
+ 1261 02df 2C090000 		.4byte	.LASF102
+ 1262 02e3 01       		.byte	0x1
+ 1263 02e4 8C       		.byte	0x8c
+ 1264 02e5 00000000 		.4byte	.LFB35
+ 1265 02e9 4C000000 		.4byte	.LFE35-.LFB35
+ 1266 02ed 01       		.uleb128 0x1
+ 1267 02ee 9C       		.byte	0x9c
+ 1268 02ef 01030000 		.4byte	0x301
+ 1269 02f3 0A       		.uleb128 0xa
+ 1270 02f4 C30B0000 		.4byte	.LASF104
+ 1271 02f8 01       		.byte	0x1
+ 1272 02f9 8C       		.byte	0x8c
+ 1273 02fa 77000000 		.4byte	0x77
+ 1274 02fe 01       		.uleb128 0x1
+ 1275 02ff 50       		.byte	0x50
+ 1276 0300 00       		.byte	0
+ 1277 0301 09       		.uleb128 0x9
+ 1278 0302 6E050000 		.4byte	.LASF103
+ 1279 0306 01       		.byte	0x1
+ 1280 0307 E9       		.byte	0xe9
+ 1281 0308 00000000 		.4byte	.LFB37
+ 1282 030c AC000000 		.4byte	.LFE37-.LFB37
+ 1283 0310 01       		.uleb128 0x1
+ 1284 0311 9C       		.byte	0x9c
+ 1285 0312 F1030000 		.4byte	0x3f1
+ 1286 0316 0B       		.uleb128 0xb
+ 1287 0317 13030000 		.4byte	.LASF105
+ 1288 031b 01       		.byte	0x1
+ 1289 031c E9       		.byte	0xe9
+ 1290 031d 83000000 		.4byte	0x83
+ 1291 0321 00000000 		.4byte	.LLST0
+ 1292 0325 0B       		.uleb128 0xb
+ 1293 0326 E4000000 		.4byte	.LASF106
+ 1294 032a 01       		.byte	0x1
+ 1295 032b E9       		.byte	0xe9
+ 1296 032c 83000000 		.4byte	0x83
+ 1297 0330 21000000 		.4byte	.LLST1
+ 1298 0334 0B       		.uleb128 0xb
+ 1299 0335 5E090000 		.4byte	.LASF107
+ 1300 0339 01       		.byte	0x1
+ 1301 033a E9       		.byte	0xe9
+ 1302 033b 6B000000 		.4byte	0x6b
+ 1303 033f 40000000 		.4byte	.LLST2
+ 1304 0343 0C       		.uleb128 0xc
+ 1305 0344 666700   		.ascii	"fg\000"
+ 1306 0347 01       		.byte	0x1
+ 1307 0348 E9       		.byte	0xe9
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 29
+
+
+ 1308 0349 77000000 		.4byte	0x77
+ 1309 034d 61000000 		.4byte	.LLST3
+ 1310 0351 0D       		.uleb128 0xd
+ 1311 0352 626700   		.ascii	"bg\000"
+ 1312 0355 01       		.byte	0x1
+ 1313 0356 E9       		.byte	0xe9
+ 1314 0357 77000000 		.4byte	0x77
+ 1315 035b 02       		.uleb128 0x2
+ 1316 035c 91       		.byte	0x91
+ 1317 035d 00       		.sleb128 0
+ 1318 035e 0E       		.uleb128 0xe
+ 1319 035f 7800     		.ascii	"x\000"
+ 1320 0361 01       		.byte	0x1
+ 1321 0362 EB       		.byte	0xeb
+ 1322 0363 83000000 		.4byte	0x83
+ 1323 0367 8C000000 		.4byte	.LLST4
+ 1324 036b 0E       		.uleb128 0xe
+ 1325 036c 7900     		.ascii	"y\000"
+ 1326 036e 01       		.byte	0x1
+ 1327 036f EB       		.byte	0xeb
+ 1328 0370 83000000 		.4byte	0x83
+ 1329 0374 AA000000 		.4byte	.LLST5
+ 1330 0378 0E       		.uleb128 0xe
+ 1331 0379 667000   		.ascii	"fp\000"
+ 1332 037c 01       		.byte	0x1
+ 1333 037d EB       		.byte	0xeb
+ 1334 037e 83000000 		.4byte	0x83
+ 1335 0382 C8000000 		.4byte	.LLST6
+ 1336 0386 0F       		.uleb128 0xf
+ 1337 0387 18040000 		.4byte	.LASF108
+ 1338 038b 01       		.byte	0x1
+ 1339 038c EC       		.byte	0xec
+ 1340 038d 6B000000 		.4byte	0x6b
+ 1341 0391 12010000 		.4byte	.LLST7
+ 1342 0395 0F       		.uleb128 0xf
+ 1343 0396 72080000 		.4byte	.LASF109
+ 1344 039a 01       		.byte	0x1
+ 1345 039b ED       		.byte	0xed
+ 1346 039c 83000000 		.4byte	0x83
+ 1347 03a0 3B010000 		.4byte	.LLST8
+ 1348 03a4 0F       		.uleb128 0xf
+ 1349 03a5 C80B0000 		.4byte	.LASF110
+ 1350 03a9 01       		.byte	0x1
+ 1351 03aa ED       		.byte	0xed
+ 1352 03ab 83000000 		.4byte	0x83
+ 1353 03af 4E010000 		.4byte	.LLST9
+ 1354 03b3 10       		.uleb128 0x10
+ 1355 03b4 60000000 		.4byte	.LVL13
+ 1356 03b8 98050000 		.4byte	0x598
+ 1357 03bc D4030000 		.4byte	0x3d4
+ 1358 03c0 11       		.uleb128 0x11
+ 1359 03c1 01       		.uleb128 0x1
+ 1360 03c2 50       		.byte	0x50
+ 1361 03c3 02       		.uleb128 0x2
+ 1362 03c4 76       		.byte	0x76
+ 1363 03c5 00       		.sleb128 0
+ 1364 03c6 11       		.uleb128 0x11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 30
+
+
+ 1365 03c7 01       		.uleb128 0x1
+ 1366 03c8 51       		.byte	0x51
+ 1367 03c9 02       		.uleb128 0x2
+ 1368 03ca 75       		.byte	0x75
+ 1369 03cb 00       		.sleb128 0
+ 1370 03cc 11       		.uleb128 0x11
+ 1371 03cd 01       		.uleb128 0x1
+ 1372 03ce 52       		.byte	0x52
+ 1373 03cf 03       		.uleb128 0x3
+ 1374 03d0 7D       		.byte	0x7d
+ 1375 03d1 00       		.sleb128 0
+ 1376 03d2 06       		.byte	0x6
+ 1377 03d3 00       		.byte	0
+ 1378 03d4 12       		.uleb128 0x12
+ 1379 03d5 74000000 		.4byte	.LVL16
+ 1380 03d9 98050000 		.4byte	0x598
+ 1381 03dd 11       		.uleb128 0x11
+ 1382 03de 01       		.uleb128 0x1
+ 1383 03df 50       		.byte	0x50
+ 1384 03e0 02       		.uleb128 0x2
+ 1385 03e1 76       		.byte	0x76
+ 1386 03e2 00       		.sleb128 0
+ 1387 03e3 11       		.uleb128 0x11
+ 1388 03e4 01       		.uleb128 0x1
+ 1389 03e5 51       		.byte	0x51
+ 1390 03e6 02       		.uleb128 0x2
+ 1391 03e7 75       		.byte	0x75
+ 1392 03e8 00       		.sleb128 0
+ 1393 03e9 11       		.uleb128 0x11
+ 1394 03ea 01       		.uleb128 0x1
+ 1395 03eb 52       		.byte	0x52
+ 1396 03ec 02       		.uleb128 0x2
+ 1397 03ed 7A       		.byte	0x7a
+ 1398 03ee 00       		.sleb128 0
+ 1399 03ef 00       		.byte	0
+ 1400 03f0 00       		.byte	0
+ 1401 03f1 09       		.uleb128 0x9
+ 1402 03f2 BA050000 		.4byte	.LASF111
+ 1403 03f6 01       		.byte	0x1
+ 1404 03f7 B2       		.byte	0xb2
+ 1405 03f8 00000000 		.4byte	.LFB36
+ 1406 03fc A8000000 		.4byte	.LFE36-.LFB36
+ 1407 0400 01       		.uleb128 0x1
+ 1408 0401 9C       		.byte	0x9c
+ 1409 0402 22050000 		.4byte	0x522
+ 1410 0406 0B       		.uleb128 0xb
+ 1411 0407 13030000 		.4byte	.LASF105
+ 1412 040b 01       		.byte	0x1
+ 1413 040c B2       		.byte	0xb2
+ 1414 040d 83000000 		.4byte	0x83
+ 1415 0411 61010000 		.4byte	.LLST10
+ 1416 0415 0B       		.uleb128 0xb
+ 1417 0416 E4000000 		.4byte	.LASF106
+ 1418 041a 01       		.byte	0x1
+ 1419 041b B2       		.byte	0xb2
+ 1420 041c 83000000 		.4byte	0x83
+ 1421 0420 7F010000 		.4byte	.LLST11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 31
+
+
+ 1422 0424 0B       		.uleb128 0xb
+ 1423 0425 68080000 		.4byte	.LASF112
+ 1424 0429 01       		.byte	0x1
+ 1425 042a B2       		.byte	0xb2
+ 1426 042b B2000000 		.4byte	0xb2
+ 1427 042f 9E010000 		.4byte	.LLST12
+ 1428 0433 0C       		.uleb128 0xc
+ 1429 0434 666700   		.ascii	"fg\000"
+ 1430 0437 01       		.byte	0x1
+ 1431 0438 B2       		.byte	0xb2
+ 1432 0439 77000000 		.4byte	0x77
+ 1433 043d EB010000 		.4byte	.LLST13
+ 1434 0441 0D       		.uleb128 0xd
+ 1435 0442 626700   		.ascii	"bg\000"
+ 1436 0445 01       		.byte	0x1
+ 1437 0446 B2       		.byte	0xb2
+ 1438 0447 77000000 		.4byte	0x77
+ 1439 044b 02       		.uleb128 0x2
+ 1440 044c 91       		.byte	0x91
+ 1441 044d 00       		.sleb128 0
+ 1442 044e 0F       		.uleb128 0xf
+ 1443 044f 620A0000 		.4byte	.LASF113
+ 1444 0453 01       		.byte	0x1
+ 1445 0454 B4       		.byte	0xb4
+ 1446 0455 77000000 		.4byte	0x77
+ 1447 0459 17020000 		.4byte	.LLST14
+ 1448 045d 0F       		.uleb128 0xf
+ 1449 045e 72080000 		.4byte	.LASF109
+ 1450 0462 01       		.byte	0x1
+ 1451 0463 B5       		.byte	0xb5
+ 1452 0464 77000000 		.4byte	0x77
+ 1453 0468 36020000 		.4byte	.LLST15
+ 1454 046c 10       		.uleb128 0x10
+ 1455 046d 26000000 		.4byte	.LVL33
+ 1456 0471 A3050000 		.4byte	0x5a3
+ 1457 0475 7F040000 		.4byte	0x47f
+ 1458 0479 11       		.uleb128 0x11
+ 1459 047a 01       		.uleb128 0x1
+ 1460 047b 50       		.byte	0x50
+ 1461 047c 01       		.uleb128 0x1
+ 1462 047d 31       		.byte	0x31
+ 1463 047e 00       		.byte	0
+ 1464 047f 10       		.uleb128 0x10
+ 1465 0480 34000000 		.4byte	.LVL34
+ 1466 0484 01030000 		.4byte	0x301
+ 1467 0488 A7040000 		.4byte	0x4a7
+ 1468 048c 11       		.uleb128 0x11
+ 1469 048d 01       		.uleb128 0x1
+ 1470 048e 50       		.byte	0x50
+ 1471 048f 02       		.uleb128 0x2
+ 1472 0490 74       		.byte	0x74
+ 1473 0491 00       		.sleb128 0
+ 1474 0492 11       		.uleb128 0x11
+ 1475 0493 01       		.uleb128 0x1
+ 1476 0494 51       		.byte	0x51
+ 1477 0495 03       		.uleb128 0x3
+ 1478 0496 91       		.byte	0x91
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 32
+
+
+ 1479 0497 5C       		.sleb128 -36
+ 1480 0498 06       		.byte	0x6
+ 1481 0499 11       		.uleb128 0x11
+ 1482 049a 01       		.uleb128 0x1
+ 1483 049b 52       		.byte	0x52
+ 1484 049c 02       		.uleb128 0x2
+ 1485 049d 76       		.byte	0x76
+ 1486 049e 00       		.sleb128 0
+ 1487 049f 11       		.uleb128 0x11
+ 1488 04a0 02       		.uleb128 0x2
+ 1489 04a1 7D       		.byte	0x7d
+ 1490 04a2 00       		.sleb128 0
+ 1491 04a3 02       		.uleb128 0x2
+ 1492 04a4 77       		.byte	0x77
+ 1493 04a5 00       		.sleb128 0
+ 1494 04a6 00       		.byte	0
+ 1495 04a7 10       		.uleb128 0x10
+ 1496 04a8 44000000 		.4byte	.LVL35
+ 1497 04ac 01030000 		.4byte	0x301
+ 1498 04b0 D5040000 		.4byte	0x4d5
+ 1499 04b4 11       		.uleb128 0x11
+ 1500 04b5 01       		.uleb128 0x1
+ 1501 04b6 50       		.byte	0x50
+ 1502 04b7 02       		.uleb128 0x2
+ 1503 04b8 74       		.byte	0x74
+ 1504 04b9 00       		.sleb128 0
+ 1505 04ba 11       		.uleb128 0x11
+ 1506 04bb 01       		.uleb128 0x1
+ 1507 04bc 51       		.byte	0x51
+ 1508 04bd 03       		.uleb128 0x3
+ 1509 04be 91       		.byte	0x91
+ 1510 04bf 5C       		.sleb128 -36
+ 1511 04c0 06       		.byte	0x6
+ 1512 04c1 11       		.uleb128 0x11
+ 1513 04c2 01       		.uleb128 0x1
+ 1514 04c3 52       		.byte	0x52
+ 1515 04c4 02       		.uleb128 0x2
+ 1516 04c5 76       		.byte	0x76
+ 1517 04c6 00       		.sleb128 0
+ 1518 04c7 11       		.uleb128 0x11
+ 1519 04c8 01       		.uleb128 0x1
+ 1520 04c9 53       		.byte	0x53
+ 1521 04ca 02       		.uleb128 0x2
+ 1522 04cb 7A       		.byte	0x7a
+ 1523 04cc 00       		.sleb128 0
+ 1524 04cd 11       		.uleb128 0x11
+ 1525 04ce 02       		.uleb128 0x2
+ 1526 04cf 7D       		.byte	0x7d
+ 1527 04d0 00       		.sleb128 0
+ 1528 04d1 02       		.uleb128 0x2
+ 1529 04d2 77       		.byte	0x77
+ 1530 04d3 00       		.sleb128 0
+ 1531 04d4 00       		.byte	0
+ 1532 04d5 10       		.uleb128 0x10
+ 1533 04d6 70000000 		.4byte	.LVL38
+ 1534 04da AE050000 		.4byte	0x5ae
+ 1535 04de FD040000 		.4byte	0x4fd
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 33
+
+
+ 1536 04e2 11       		.uleb128 0x11
+ 1537 04e3 01       		.uleb128 0x1
+ 1538 04e4 50       		.byte	0x50
+ 1539 04e5 02       		.uleb128 0x2
+ 1540 04e6 74       		.byte	0x74
+ 1541 04e7 00       		.sleb128 0
+ 1542 04e8 11       		.uleb128 0x11
+ 1543 04e9 01       		.uleb128 0x1
+ 1544 04ea 51       		.byte	0x51
+ 1545 04eb 03       		.uleb128 0x3
+ 1546 04ec 91       		.byte	0x91
+ 1547 04ed 5C       		.sleb128 -36
+ 1548 04ee 06       		.byte	0x6
+ 1549 04ef 11       		.uleb128 0x11
+ 1550 04f0 01       		.uleb128 0x1
+ 1551 04f1 52       		.byte	0x52
+ 1552 04f2 02       		.uleb128 0x2
+ 1553 04f3 74       		.byte	0x74
+ 1554 04f4 00       		.sleb128 0
+ 1555 04f5 11       		.uleb128 0x11
+ 1556 04f6 02       		.uleb128 0x2
+ 1557 04f7 7D       		.byte	0x7d
+ 1558 04f8 00       		.sleb128 0
+ 1559 04f9 02       		.uleb128 0x2
+ 1560 04fa 77       		.byte	0x77
+ 1561 04fb 00       		.sleb128 0
+ 1562 04fc 00       		.byte	0
+ 1563 04fd 12       		.uleb128 0x12
+ 1564 04fe 96000000 		.4byte	.LVL42
+ 1565 0502 AE050000 		.4byte	0x5ae
+ 1566 0506 11       		.uleb128 0x11
+ 1567 0507 01       		.uleb128 0x1
+ 1568 0508 50       		.byte	0x50
+ 1569 0509 02       		.uleb128 0x2
+ 1570 050a 74       		.byte	0x74
+ 1571 050b 7F       		.sleb128 -1
+ 1572 050c 11       		.uleb128 0x11
+ 1573 050d 01       		.uleb128 0x1
+ 1574 050e 51       		.byte	0x51
+ 1575 050f 03       		.uleb128 0x3
+ 1576 0510 91       		.byte	0x91
+ 1577 0511 5C       		.sleb128 -36
+ 1578 0512 06       		.byte	0x6
+ 1579 0513 11       		.uleb128 0x11
+ 1580 0514 01       		.uleb128 0x1
+ 1581 0515 52       		.byte	0x52
+ 1582 0516 02       		.uleb128 0x2
+ 1583 0517 74       		.byte	0x74
+ 1584 0518 7F       		.sleb128 -1
+ 1585 0519 11       		.uleb128 0x11
+ 1586 051a 02       		.uleb128 0x2
+ 1587 051b 7D       		.byte	0x7d
+ 1588 051c 00       		.sleb128 0
+ 1589 051d 02       		.uleb128 0x2
+ 1590 051e 77       		.byte	0x77
+ 1591 051f 00       		.sleb128 0
+ 1592 0520 00       		.byte	0
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 34
+
+
+ 1593 0521 00       		.byte	0
+ 1594 0522 13       		.uleb128 0x13
+ 1595 0523 E9040000 		.4byte	.LASF114
+ 1596 0527 01       		.byte	0x1
+ 1597 0528 13       		.byte	0x13
+ 1598 0529 33050000 		.4byte	0x533
+ 1599 052d 05       		.uleb128 0x5
+ 1600 052e 03       		.byte	0x3
+ 1601 052f 00000000 		.4byte	StripLights_fontPtr
+ 1602 0533 05       		.uleb128 0x5
+ 1603 0534 04       		.byte	0x4
+ 1604 0535 39050000 		.4byte	0x539
+ 1605 0539 14       		.uleb128 0x14
+ 1606 053a 6B000000 		.4byte	0x6b
+ 1607 053e 13       		.uleb128 0x13
+ 1608 053f 370C0000 		.4byte	.LASF115
+ 1609 0543 01       		.byte	0x1
+ 1610 0544 14       		.byte	0x14
+ 1611 0545 83000000 		.4byte	0x83
+ 1612 0549 05       		.uleb128 0x5
+ 1613 054a 03       		.byte	0x3
+ 1614 054b 00000000 		.4byte	StripLights_fontX
+ 1615 054f 13       		.uleb128 0x13
+ 1616 0550 490C0000 		.4byte	.LASF116
+ 1617 0554 01       		.byte	0x1
+ 1618 0555 15       		.byte	0x15
+ 1619 0556 83000000 		.4byte	0x83
+ 1620 055a 05       		.uleb128 0x5
+ 1621 055b 03       		.byte	0x3
+ 1622 055c 00000000 		.4byte	StripLights_fontY
+ 1623 0560 13       		.uleb128 0x13
+ 1624 0561 48080000 		.4byte	.LASF117
+ 1625 0565 01       		.byte	0x1
+ 1626 0566 16       		.byte	0x16
+ 1627 0567 83000000 		.4byte	0x83
+ 1628 056b 05       		.uleb128 0x5
+ 1629 056c 03       		.byte	0x3
+ 1630 056d 00000000 		.4byte	StripLights_fontOffset
+ 1631 0571 15       		.uleb128 0x15
+ 1632 0572 39050000 		.4byte	0x539
+ 1633 0576 82050000 		.4byte	0x582
+ 1634 057a 16       		.uleb128 0x16
+ 1635 057b AB000000 		.4byte	0xab
+ 1636 057f DF01     		.2byte	0x1df
+ 1637 0581 00       		.byte	0
+ 1638 0582 13       		.uleb128 0x13
+ 1639 0583 D6080000 		.4byte	.LASF118
+ 1640 0587 01       		.byte	0x1
+ 1641 0588 1B       		.byte	0x1b
+ 1642 0589 93050000 		.4byte	0x593
+ 1643 058d 05       		.uleb128 0x5
+ 1644 058e 03       		.byte	0x3
+ 1645 058f 00000000 		.4byte	StripLights_Font5x7
+ 1646 0593 14       		.uleb128 0x14
+ 1647 0594 71050000 		.4byte	0x571
+ 1648 0598 17       		.uleb128 0x17
+ 1649 0599 77000000 		.4byte	.LASF119
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 35
+
+
+ 1650 059d 77000000 		.4byte	.LASF119
+ 1651 05a1 05       		.byte	0x5
+ 1652 05a2 1D       		.byte	0x1d
+ 1653 05a3 17       		.uleb128 0x17
+ 1654 05a4 2E0A0000 		.4byte	.LASF120
+ 1655 05a8 2E0A0000 		.4byte	.LASF120
+ 1656 05ac 05       		.byte	0x5
+ 1657 05ad 1F       		.byte	0x1f
+ 1658 05ae 17       		.uleb128 0x17
+ 1659 05af 8B020000 		.4byte	.LASF121
+ 1660 05b3 8B020000 		.4byte	.LASF121
+ 1661 05b7 05       		.byte	0x5
+ 1662 05b8 1B       		.byte	0x1b
+ 1663 05b9 00       		.byte	0
+ 1664              		.section	.debug_abbrev,"",%progbits
+ 1665              	.Ldebug_abbrev0:
+ 1666 0000 01       		.uleb128 0x1
+ 1667 0001 11       		.uleb128 0x11
+ 1668 0002 01       		.byte	0x1
+ 1669 0003 25       		.uleb128 0x25
+ 1670 0004 0E       		.uleb128 0xe
+ 1671 0005 13       		.uleb128 0x13
+ 1672 0006 0B       		.uleb128 0xb
+ 1673 0007 03       		.uleb128 0x3
+ 1674 0008 0E       		.uleb128 0xe
+ 1675 0009 1B       		.uleb128 0x1b
+ 1676 000a 0E       		.uleb128 0xe
+ 1677 000b 55       		.uleb128 0x55
+ 1678 000c 17       		.uleb128 0x17
+ 1679 000d 11       		.uleb128 0x11
+ 1680 000e 01       		.uleb128 0x1
+ 1681 000f 10       		.uleb128 0x10
+ 1682 0010 17       		.uleb128 0x17
+ 1683 0011 00       		.byte	0
+ 1684 0012 00       		.byte	0
+ 1685 0013 02       		.uleb128 0x2
+ 1686 0014 24       		.uleb128 0x24
+ 1687 0015 00       		.byte	0
+ 1688 0016 0B       		.uleb128 0xb
+ 1689 0017 0B       		.uleb128 0xb
+ 1690 0018 3E       		.uleb128 0x3e
+ 1691 0019 0B       		.uleb128 0xb
+ 1692 001a 03       		.uleb128 0x3
+ 1693 001b 0E       		.uleb128 0xe
+ 1694 001c 00       		.byte	0
+ 1695 001d 00       		.byte	0
+ 1696 001e 03       		.uleb128 0x3
+ 1697 001f 24       		.uleb128 0x24
+ 1698 0020 00       		.byte	0
+ 1699 0021 0B       		.uleb128 0xb
+ 1700 0022 0B       		.uleb128 0xb
+ 1701 0023 3E       		.uleb128 0x3e
+ 1702 0024 0B       		.uleb128 0xb
+ 1703 0025 03       		.uleb128 0x3
+ 1704 0026 08       		.uleb128 0x8
+ 1705 0027 00       		.byte	0
+ 1706 0028 00       		.byte	0
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 36
+
+
+ 1707 0029 04       		.uleb128 0x4
+ 1708 002a 16       		.uleb128 0x16
+ 1709 002b 00       		.byte	0
+ 1710 002c 03       		.uleb128 0x3
+ 1711 002d 0E       		.uleb128 0xe
+ 1712 002e 3A       		.uleb128 0x3a
+ 1713 002f 0B       		.uleb128 0xb
+ 1714 0030 3B       		.uleb128 0x3b
+ 1715 0031 05       		.uleb128 0x5
+ 1716 0032 49       		.uleb128 0x49
+ 1717 0033 13       		.uleb128 0x13
+ 1718 0034 00       		.byte	0
+ 1719 0035 00       		.byte	0
+ 1720 0036 05       		.uleb128 0x5
+ 1721 0037 0F       		.uleb128 0xf
+ 1722 0038 00       		.byte	0
+ 1723 0039 0B       		.uleb128 0xb
+ 1724 003a 0B       		.uleb128 0xb
+ 1725 003b 49       		.uleb128 0x49
+ 1726 003c 13       		.uleb128 0x13
+ 1727 003d 00       		.byte	0
+ 1728 003e 00       		.byte	0
+ 1729 003f 06       		.uleb128 0x6
+ 1730 0040 04       		.uleb128 0x4
+ 1731 0041 01       		.byte	0x1
+ 1732 0042 0B       		.uleb128 0xb
+ 1733 0043 0B       		.uleb128 0xb
+ 1734 0044 49       		.uleb128 0x49
+ 1735 0045 13       		.uleb128 0x13
+ 1736 0046 3A       		.uleb128 0x3a
+ 1737 0047 0B       		.uleb128 0xb
+ 1738 0048 3B       		.uleb128 0x3b
+ 1739 0049 05       		.uleb128 0x5
+ 1740 004a 01       		.uleb128 0x1
+ 1741 004b 13       		.uleb128 0x13
+ 1742 004c 00       		.byte	0
+ 1743 004d 00       		.byte	0
+ 1744 004e 07       		.uleb128 0x7
+ 1745 004f 28       		.uleb128 0x28
+ 1746 0050 00       		.byte	0
+ 1747 0051 03       		.uleb128 0x3
+ 1748 0052 0E       		.uleb128 0xe
+ 1749 0053 1C       		.uleb128 0x1c
+ 1750 0054 0B       		.uleb128 0xb
+ 1751 0055 00       		.byte	0
+ 1752 0056 00       		.byte	0
+ 1753 0057 08       		.uleb128 0x8
+ 1754 0058 04       		.uleb128 0x4
+ 1755 0059 01       		.byte	0x1
+ 1756 005a 0B       		.uleb128 0xb
+ 1757 005b 0B       		.uleb128 0xb
+ 1758 005c 49       		.uleb128 0x49
+ 1759 005d 13       		.uleb128 0x13
+ 1760 005e 3A       		.uleb128 0x3a
+ 1761 005f 0B       		.uleb128 0xb
+ 1762 0060 3B       		.uleb128 0x3b
+ 1763 0061 0B       		.uleb128 0xb
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 37
+
+
+ 1764 0062 01       		.uleb128 0x1
+ 1765 0063 13       		.uleb128 0x13
+ 1766 0064 00       		.byte	0
+ 1767 0065 00       		.byte	0
+ 1768 0066 09       		.uleb128 0x9
+ 1769 0067 2E       		.uleb128 0x2e
+ 1770 0068 01       		.byte	0x1
+ 1771 0069 3F       		.uleb128 0x3f
+ 1772 006a 19       		.uleb128 0x19
+ 1773 006b 03       		.uleb128 0x3
+ 1774 006c 0E       		.uleb128 0xe
+ 1775 006d 3A       		.uleb128 0x3a
+ 1776 006e 0B       		.uleb128 0xb
+ 1777 006f 3B       		.uleb128 0x3b
+ 1778 0070 0B       		.uleb128 0xb
+ 1779 0071 27       		.uleb128 0x27
+ 1780 0072 19       		.uleb128 0x19
+ 1781 0073 11       		.uleb128 0x11
+ 1782 0074 01       		.uleb128 0x1
+ 1783 0075 12       		.uleb128 0x12
+ 1784 0076 06       		.uleb128 0x6
+ 1785 0077 40       		.uleb128 0x40
+ 1786 0078 18       		.uleb128 0x18
+ 1787 0079 9742     		.uleb128 0x2117
+ 1788 007b 19       		.uleb128 0x19
+ 1789 007c 01       		.uleb128 0x1
+ 1790 007d 13       		.uleb128 0x13
+ 1791 007e 00       		.byte	0
+ 1792 007f 00       		.byte	0
+ 1793 0080 0A       		.uleb128 0xa
+ 1794 0081 05       		.uleb128 0x5
+ 1795 0082 00       		.byte	0
+ 1796 0083 03       		.uleb128 0x3
+ 1797 0084 0E       		.uleb128 0xe
+ 1798 0085 3A       		.uleb128 0x3a
+ 1799 0086 0B       		.uleb128 0xb
+ 1800 0087 3B       		.uleb128 0x3b
+ 1801 0088 0B       		.uleb128 0xb
+ 1802 0089 49       		.uleb128 0x49
+ 1803 008a 13       		.uleb128 0x13
+ 1804 008b 02       		.uleb128 0x2
+ 1805 008c 18       		.uleb128 0x18
+ 1806 008d 00       		.byte	0
+ 1807 008e 00       		.byte	0
+ 1808 008f 0B       		.uleb128 0xb
+ 1809 0090 05       		.uleb128 0x5
+ 1810 0091 00       		.byte	0
+ 1811 0092 03       		.uleb128 0x3
+ 1812 0093 0E       		.uleb128 0xe
+ 1813 0094 3A       		.uleb128 0x3a
+ 1814 0095 0B       		.uleb128 0xb
+ 1815 0096 3B       		.uleb128 0x3b
+ 1816 0097 0B       		.uleb128 0xb
+ 1817 0098 49       		.uleb128 0x49
+ 1818 0099 13       		.uleb128 0x13
+ 1819 009a 02       		.uleb128 0x2
+ 1820 009b 17       		.uleb128 0x17
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 38
+
+
+ 1821 009c 00       		.byte	0
+ 1822 009d 00       		.byte	0
+ 1823 009e 0C       		.uleb128 0xc
+ 1824 009f 05       		.uleb128 0x5
+ 1825 00a0 00       		.byte	0
+ 1826 00a1 03       		.uleb128 0x3
+ 1827 00a2 08       		.uleb128 0x8
+ 1828 00a3 3A       		.uleb128 0x3a
+ 1829 00a4 0B       		.uleb128 0xb
+ 1830 00a5 3B       		.uleb128 0x3b
+ 1831 00a6 0B       		.uleb128 0xb
+ 1832 00a7 49       		.uleb128 0x49
+ 1833 00a8 13       		.uleb128 0x13
+ 1834 00a9 02       		.uleb128 0x2
+ 1835 00aa 17       		.uleb128 0x17
+ 1836 00ab 00       		.byte	0
+ 1837 00ac 00       		.byte	0
+ 1838 00ad 0D       		.uleb128 0xd
+ 1839 00ae 05       		.uleb128 0x5
+ 1840 00af 00       		.byte	0
+ 1841 00b0 03       		.uleb128 0x3
+ 1842 00b1 08       		.uleb128 0x8
+ 1843 00b2 3A       		.uleb128 0x3a
+ 1844 00b3 0B       		.uleb128 0xb
+ 1845 00b4 3B       		.uleb128 0x3b
+ 1846 00b5 0B       		.uleb128 0xb
+ 1847 00b6 49       		.uleb128 0x49
+ 1848 00b7 13       		.uleb128 0x13
+ 1849 00b8 02       		.uleb128 0x2
+ 1850 00b9 18       		.uleb128 0x18
+ 1851 00ba 00       		.byte	0
+ 1852 00bb 00       		.byte	0
+ 1853 00bc 0E       		.uleb128 0xe
+ 1854 00bd 34       		.uleb128 0x34
+ 1855 00be 00       		.byte	0
+ 1856 00bf 03       		.uleb128 0x3
+ 1857 00c0 08       		.uleb128 0x8
+ 1858 00c1 3A       		.uleb128 0x3a
+ 1859 00c2 0B       		.uleb128 0xb
+ 1860 00c3 3B       		.uleb128 0x3b
+ 1861 00c4 0B       		.uleb128 0xb
+ 1862 00c5 49       		.uleb128 0x49
+ 1863 00c6 13       		.uleb128 0x13
+ 1864 00c7 02       		.uleb128 0x2
+ 1865 00c8 17       		.uleb128 0x17
+ 1866 00c9 00       		.byte	0
+ 1867 00ca 00       		.byte	0
+ 1868 00cb 0F       		.uleb128 0xf
+ 1869 00cc 34       		.uleb128 0x34
+ 1870 00cd 00       		.byte	0
+ 1871 00ce 03       		.uleb128 0x3
+ 1872 00cf 0E       		.uleb128 0xe
+ 1873 00d0 3A       		.uleb128 0x3a
+ 1874 00d1 0B       		.uleb128 0xb
+ 1875 00d2 3B       		.uleb128 0x3b
+ 1876 00d3 0B       		.uleb128 0xb
+ 1877 00d4 49       		.uleb128 0x49
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 39
+
+
+ 1878 00d5 13       		.uleb128 0x13
+ 1879 00d6 02       		.uleb128 0x2
+ 1880 00d7 17       		.uleb128 0x17
+ 1881 00d8 00       		.byte	0
+ 1882 00d9 00       		.byte	0
+ 1883 00da 10       		.uleb128 0x10
+ 1884 00db 898201   		.uleb128 0x4109
+ 1885 00de 01       		.byte	0x1
+ 1886 00df 11       		.uleb128 0x11
+ 1887 00e0 01       		.uleb128 0x1
+ 1888 00e1 31       		.uleb128 0x31
+ 1889 00e2 13       		.uleb128 0x13
+ 1890 00e3 01       		.uleb128 0x1
+ 1891 00e4 13       		.uleb128 0x13
+ 1892 00e5 00       		.byte	0
+ 1893 00e6 00       		.byte	0
+ 1894 00e7 11       		.uleb128 0x11
+ 1895 00e8 8A8201   		.uleb128 0x410a
+ 1896 00eb 00       		.byte	0
+ 1897 00ec 02       		.uleb128 0x2
+ 1898 00ed 18       		.uleb128 0x18
+ 1899 00ee 9142     		.uleb128 0x2111
+ 1900 00f0 18       		.uleb128 0x18
+ 1901 00f1 00       		.byte	0
+ 1902 00f2 00       		.byte	0
+ 1903 00f3 12       		.uleb128 0x12
+ 1904 00f4 898201   		.uleb128 0x4109
+ 1905 00f7 01       		.byte	0x1
+ 1906 00f8 11       		.uleb128 0x11
+ 1907 00f9 01       		.uleb128 0x1
+ 1908 00fa 31       		.uleb128 0x31
+ 1909 00fb 13       		.uleb128 0x13
+ 1910 00fc 00       		.byte	0
+ 1911 00fd 00       		.byte	0
+ 1912 00fe 13       		.uleb128 0x13
+ 1913 00ff 34       		.uleb128 0x34
+ 1914 0100 00       		.byte	0
+ 1915 0101 03       		.uleb128 0x3
+ 1916 0102 0E       		.uleb128 0xe
+ 1917 0103 3A       		.uleb128 0x3a
+ 1918 0104 0B       		.uleb128 0xb
+ 1919 0105 3B       		.uleb128 0x3b
+ 1920 0106 0B       		.uleb128 0xb
+ 1921 0107 49       		.uleb128 0x49
+ 1922 0108 13       		.uleb128 0x13
+ 1923 0109 3F       		.uleb128 0x3f
+ 1924 010a 19       		.uleb128 0x19
+ 1925 010b 02       		.uleb128 0x2
+ 1926 010c 18       		.uleb128 0x18
+ 1927 010d 00       		.byte	0
+ 1928 010e 00       		.byte	0
+ 1929 010f 14       		.uleb128 0x14
+ 1930 0110 26       		.uleb128 0x26
+ 1931 0111 00       		.byte	0
+ 1932 0112 49       		.uleb128 0x49
+ 1933 0113 13       		.uleb128 0x13
+ 1934 0114 00       		.byte	0
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 40
+
+
+ 1935 0115 00       		.byte	0
+ 1936 0116 15       		.uleb128 0x15
+ 1937 0117 01       		.uleb128 0x1
+ 1938 0118 01       		.byte	0x1
+ 1939 0119 49       		.uleb128 0x49
+ 1940 011a 13       		.uleb128 0x13
+ 1941 011b 01       		.uleb128 0x1
+ 1942 011c 13       		.uleb128 0x13
+ 1943 011d 00       		.byte	0
+ 1944 011e 00       		.byte	0
+ 1945 011f 16       		.uleb128 0x16
+ 1946 0120 21       		.uleb128 0x21
+ 1947 0121 00       		.byte	0
+ 1948 0122 49       		.uleb128 0x49
+ 1949 0123 13       		.uleb128 0x13
+ 1950 0124 2F       		.uleb128 0x2f
+ 1951 0125 05       		.uleb128 0x5
+ 1952 0126 00       		.byte	0
+ 1953 0127 00       		.byte	0
+ 1954 0128 17       		.uleb128 0x17
+ 1955 0129 2E       		.uleb128 0x2e
+ 1956 012a 00       		.byte	0
+ 1957 012b 3F       		.uleb128 0x3f
+ 1958 012c 19       		.uleb128 0x19
+ 1959 012d 3C       		.uleb128 0x3c
+ 1960 012e 19       		.uleb128 0x19
+ 1961 012f 6E       		.uleb128 0x6e
+ 1962 0130 0E       		.uleb128 0xe
+ 1963 0131 03       		.uleb128 0x3
+ 1964 0132 0E       		.uleb128 0xe
+ 1965 0133 3A       		.uleb128 0x3a
+ 1966 0134 0B       		.uleb128 0xb
+ 1967 0135 3B       		.uleb128 0x3b
+ 1968 0136 0B       		.uleb128 0xb
+ 1969 0137 00       		.byte	0
+ 1970 0138 00       		.byte	0
+ 1971 0139 00       		.byte	0
+ 1972              		.section	.debug_loc,"",%progbits
+ 1973              	.Ldebug_loc0:
+ 1974              	.LLST0:
+ 1975 0000 00000000 		.4byte	.LVL1
+ 1976 0004 42000000 		.4byte	.LVL10
+ 1977 0008 0100     		.2byte	0x1
+ 1978 000a 50       		.byte	0x50
+ 1979 000b 42000000 		.4byte	.LVL10
+ 1980 000f AC000000 		.4byte	.LFE37
+ 1981 0013 0400     		.2byte	0x4
+ 1982 0015 F3       		.byte	0xf3
+ 1983 0016 01       		.uleb128 0x1
+ 1984 0017 50       		.byte	0x50
+ 1985 0018 9F       		.byte	0x9f
+ 1986 0019 00000000 		.4byte	0
+ 1987 001d 00000000 		.4byte	0
+ 1988              	.LLST1:
+ 1989 0021 00000000 		.4byte	.LVL1
+ 1990 0025 42000000 		.4byte	.LVL10
+ 1991 0029 0100     		.2byte	0x1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 41
+
+
+ 1992 002b 51       		.byte	0x51
+ 1993 002c 42000000 		.4byte	.LVL10
+ 1994 0030 AC000000 		.4byte	.LFE37
+ 1995 0034 0200     		.2byte	0x2
+ 1996 0036 91       		.byte	0x91
+ 1997 0037 5C       		.sleb128 -36
+ 1998 0038 00000000 		.4byte	0
+ 1999 003c 00000000 		.4byte	0
+ 2000              	.LLST2:
+ 2001 0040 00000000 		.4byte	.LVL1
+ 2002 0044 1C000000 		.4byte	.LVL3
+ 2003 0048 0100     		.2byte	0x1
+ 2004 004a 52       		.byte	0x52
+ 2005 004b 1C000000 		.4byte	.LVL3
+ 2006 004f AC000000 		.4byte	.LFE37
+ 2007 0053 0400     		.2byte	0x4
+ 2008 0055 F3       		.byte	0xf3
+ 2009 0056 01       		.uleb128 0x1
+ 2010 0057 52       		.byte	0x52
+ 2011 0058 9F       		.byte	0x9f
+ 2012 0059 00000000 		.4byte	0
+ 2013 005d 00000000 		.4byte	0
+ 2014              	.LLST3:
+ 2015 0061 00000000 		.4byte	.LVL1
+ 2016 0065 14000000 		.4byte	.LVL2
+ 2017 0069 0100     		.2byte	0x1
+ 2018 006b 53       		.byte	0x53
+ 2019 006c 14000000 		.4byte	.LVL2
+ 2020 0070 92000000 		.4byte	.LVL24
+ 2021 0074 0200     		.2byte	0x2
+ 2022 0076 7D       		.byte	0x7d
+ 2023 0077 00       		.sleb128 0
+ 2024 0078 92000000 		.4byte	.LVL24
+ 2025 007c AC000000 		.4byte	.LFE37
+ 2026 0080 0200     		.2byte	0x2
+ 2027 0082 91       		.byte	0x91
+ 2028 0083 58       		.sleb128 -40
+ 2029 0084 00000000 		.4byte	0
+ 2030 0088 00000000 		.4byte	0
+ 2031              	.LLST4:
+ 2032 008c 40000000 		.4byte	.LVL9
+ 2033 0090 42000000 		.4byte	.LVL10
+ 2034 0094 0100     		.2byte	0x1
+ 2035 0096 50       		.byte	0x50
+ 2036 0097 42000000 		.4byte	.LVL10
+ 2037 009b 92000000 		.4byte	.LVL25
+ 2038 009f 0100     		.2byte	0x1
+ 2039 00a1 56       		.byte	0x56
+ 2040 00a2 00000000 		.4byte	0
+ 2041 00a6 00000000 		.4byte	0
+ 2042              	.LLST5:
+ 2043 00aa 42000000 		.4byte	.LVL10
+ 2044 00ae 7C000000 		.4byte	.LVL20
+ 2045 00b2 0100     		.2byte	0x1
+ 2046 00b4 55       		.byte	0x55
+ 2047 00b5 80000000 		.4byte	.LVL21
+ 2048 00b9 8C000000 		.4byte	.LVL23
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 42
+
+
+ 2049 00bd 0100     		.2byte	0x1
+ 2050 00bf 55       		.byte	0x55
+ 2051 00c0 00000000 		.4byte	0
+ 2052 00c4 00000000 		.4byte	0
+ 2053              	.LLST6:
+ 2054 00c8 24000000 		.4byte	.LVL4
+ 2055 00cc 38000000 		.4byte	.LVL7
+ 2056 00d0 0100     		.2byte	0x1
+ 2057 00d2 52       		.byte	0x52
+ 2058 00d3 38000000 		.4byte	.LVL7
+ 2059 00d7 56000000 		.4byte	.LVL11
+ 2060 00db 0100     		.2byte	0x1
+ 2061 00dd 59       		.byte	0x59
+ 2062 00de 56000000 		.4byte	.LVL11
+ 2063 00e2 58000000 		.4byte	.LVL12
+ 2064 00e6 0100     		.2byte	0x1
+ 2065 00e8 52       		.byte	0x52
+ 2066 00e9 58000000 		.4byte	.LVL12
+ 2067 00ed 62000000 		.4byte	.LVL14
+ 2068 00f1 0100     		.2byte	0x1
+ 2069 00f3 59       		.byte	0x59
+ 2070 00f4 62000000 		.4byte	.LVL14
+ 2071 00f8 6C000000 		.4byte	.LVL15
+ 2072 00fc 0100     		.2byte	0x1
+ 2073 00fe 52       		.byte	0x52
+ 2074 00ff 6C000000 		.4byte	.LVL15
+ 2075 0103 92000000 		.4byte	.LVL27
+ 2076 0107 0100     		.2byte	0x1
+ 2077 0109 59       		.byte	0x59
+ 2078 010a 00000000 		.4byte	0
+ 2079 010e 00000000 		.4byte	0
+ 2080              	.LLST7:
+ 2081 0112 42000000 		.4byte	.LVL10
+ 2082 0116 76000000 		.4byte	.LVL17
+ 2083 011a 0100     		.2byte	0x1
+ 2084 011c 54       		.byte	0x54
+ 2085 011d 78000000 		.4byte	.LVL18
+ 2086 0121 7C000000 		.4byte	.LVL20
+ 2087 0125 0100     		.2byte	0x1
+ 2088 0127 54       		.byte	0x54
+ 2089 0128 80000000 		.4byte	.LVL21
+ 2090 012c 8C000000 		.4byte	.LVL23
+ 2091 0130 0100     		.2byte	0x1
+ 2092 0132 54       		.byte	0x54
+ 2093 0133 00000000 		.4byte	0
+ 2094 0137 00000000 		.4byte	0
+ 2095              	.LLST8:
+ 2096 013b 3A000000 		.4byte	.LVL8
+ 2097 013f 92000000 		.4byte	.LVL26
+ 2098 0143 0100     		.2byte	0x1
+ 2099 0145 57       		.byte	0x57
+ 2100 0146 00000000 		.4byte	0
+ 2101 014a 00000000 		.4byte	0
+ 2102              	.LLST9:
+ 2103 014e 28000000 		.4byte	.LVL5
+ 2104 0152 92000000 		.4byte	.LVL28
+ 2105 0156 0100     		.2byte	0x1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 43
+
+
+ 2106 0158 5B       		.byte	0x5b
+ 2107 0159 00000000 		.4byte	0
+ 2108 015d 00000000 		.4byte	0
+ 2109              	.LLST10:
+ 2110 0161 00000000 		.4byte	.LVL29
+ 2111 0165 18000000 		.4byte	.LVL31
+ 2112 0169 0100     		.2byte	0x1
+ 2113 016b 50       		.byte	0x50
+ 2114 016c 18000000 		.4byte	.LVL31
+ 2115 0170 98000000 		.4byte	.LVL43
+ 2116 0174 0100     		.2byte	0x1
+ 2117 0176 54       		.byte	0x54
+ 2118 0177 00000000 		.4byte	0
+ 2119 017b 00000000 		.4byte	0
+ 2120              	.LLST11:
+ 2121 017f 00000000 		.4byte	.LVL29
+ 2122 0183 18000000 		.4byte	.LVL31
+ 2123 0187 0100     		.2byte	0x1
+ 2124 0189 51       		.byte	0x51
+ 2125 018a 18000000 		.4byte	.LVL31
+ 2126 018e A8000000 		.4byte	.LFE36
+ 2127 0192 0200     		.2byte	0x2
+ 2128 0194 91       		.byte	0x91
+ 2129 0195 5C       		.sleb128 -36
+ 2130 0196 00000000 		.4byte	0
+ 2131 019a 00000000 		.4byte	0
+ 2132              	.LLST12:
+ 2133 019e 00000000 		.4byte	.LVL29
+ 2134 01a2 18000000 		.4byte	.LVL31
+ 2135 01a6 0100     		.2byte	0x1
+ 2136 01a8 52       		.byte	0x52
+ 2137 01a9 18000000 		.4byte	.LVL31
+ 2138 01ad 1A000000 		.4byte	.LVL32
+ 2139 01b1 0100     		.2byte	0x1
+ 2140 01b3 53       		.byte	0x53
+ 2141 01b4 1A000000 		.4byte	.LVL32
+ 2142 01b8 7A000000 		.4byte	.LVL40
+ 2143 01bc 0100     		.2byte	0x1
+ 2144 01be 58       		.byte	0x58
+ 2145 01bf 7A000000 		.4byte	.LVL40
+ 2146 01c3 7C000000 		.4byte	.LVL41
+ 2147 01c7 0100     		.2byte	0x1
+ 2148 01c9 53       		.byte	0x53
+ 2149 01ca 7C000000 		.4byte	.LVL41
+ 2150 01ce 98000000 		.4byte	.LVL45
+ 2151 01d2 0100     		.2byte	0x1
+ 2152 01d4 58       		.byte	0x58
+ 2153 01d5 98000000 		.4byte	.LVL45
+ 2154 01d9 A8000000 		.4byte	.LFE36
+ 2155 01dd 0400     		.2byte	0x4
+ 2156 01df F3       		.byte	0xf3
+ 2157 01e0 01       		.uleb128 0x1
+ 2158 01e1 52       		.byte	0x52
+ 2159 01e2 9F       		.byte	0x9f
+ 2160 01e3 00000000 		.4byte	0
+ 2161 01e7 00000000 		.4byte	0
+ 2162              	.LLST13:
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 44
+
+
+ 2163 01eb 00000000 		.4byte	.LVL29
+ 2164 01ef 18000000 		.4byte	.LVL31
+ 2165 01f3 0100     		.2byte	0x1
+ 2166 01f5 53       		.byte	0x53
+ 2167 01f6 18000000 		.4byte	.LVL31
+ 2168 01fa 98000000 		.4byte	.LVL46
+ 2169 01fe 0100     		.2byte	0x1
+ 2170 0200 5A       		.byte	0x5a
+ 2171 0201 98000000 		.4byte	.LVL46
+ 2172 0205 A8000000 		.4byte	.LFE36
+ 2173 0209 0400     		.2byte	0x4
+ 2174 020b F3       		.byte	0xf3
+ 2175 020c 01       		.uleb128 0x1
+ 2176 020d 53       		.byte	0x53
+ 2177 020e 9F       		.byte	0x9f
+ 2178 020f 00000000 		.4byte	0
+ 2179 0213 00000000 		.4byte	0
+ 2180              	.LLST14:
+ 2181 0217 14000000 		.4byte	.LVL30
+ 2182 021b 18000000 		.4byte	.LVL31
+ 2183 021f 0200     		.2byte	0x2
+ 2184 0221 30       		.byte	0x30
+ 2185 0222 9F       		.byte	0x9f
+ 2186 0223 18000000 		.4byte	.LVL31
+ 2187 0227 98000000 		.4byte	.LVL44
+ 2188 022b 0100     		.2byte	0x1
+ 2189 022d 55       		.byte	0x55
+ 2190 022e 00000000 		.4byte	0
+ 2191 0232 00000000 		.4byte	0
+ 2192              	.LLST15:
+ 2193 0236 14000000 		.4byte	.LVL30
+ 2194 023a 18000000 		.4byte	.LVL31
+ 2195 023e 0A00     		.2byte	0xa
+ 2196 0240 03       		.byte	0x3
+ 2197 0241 00000000 		.4byte	StripLights_fontY
+ 2198 0245 06       		.byte	0x6
+ 2199 0246 71       		.byte	0x71
+ 2200 0247 00       		.sleb128 0
+ 2201 0248 22       		.byte	0x22
+ 2202 0249 9F       		.byte	0x9f
+ 2203 024a 00000000 		.4byte	0
+ 2204 024e 00000000 		.4byte	0
+ 2205              		.section	.debug_aranges,"",%progbits
+ 2206 0000 2C000000 		.4byte	0x2c
+ 2207 0004 0200     		.2byte	0x2
+ 2208 0006 00000000 		.4byte	.Ldebug_info0
+ 2209 000a 04       		.byte	0x4
+ 2210 000b 00       		.byte	0
+ 2211 000c 0000     		.2byte	0
+ 2212 000e 0000     		.2byte	0
+ 2213 0010 00000000 		.4byte	.LFB35
+ 2214 0014 4C000000 		.4byte	.LFE35-.LFB35
+ 2215 0018 00000000 		.4byte	.LFB37
+ 2216 001c AC000000 		.4byte	.LFE37-.LFB37
+ 2217 0020 00000000 		.4byte	.LFB36
+ 2218 0024 A8000000 		.4byte	.LFE36-.LFB36
+ 2219 0028 00000000 		.4byte	0
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 45
+
+
+ 2220 002c 00000000 		.4byte	0
+ 2221              		.section	.debug_ranges,"",%progbits
+ 2222              	.Ldebug_ranges0:
+ 2223 0000 00000000 		.4byte	.LFB35
+ 2224 0004 4C000000 		.4byte	.LFE35
+ 2225 0008 00000000 		.4byte	.LFB37
+ 2226 000c AC000000 		.4byte	.LFE37
+ 2227 0010 00000000 		.4byte	.LFB36
+ 2228 0014 A8000000 		.4byte	.LFE36
+ 2229 0018 00000000 		.4byte	0
+ 2230 001c 00000000 		.4byte	0
+ 2231              		.section	.debug_line,"",%progbits
+ 2232              	.Ldebug_line0:
+ 2233 0000 1A010000 		.section	.debug_str,"MS",%progbits,1
+ 2233      02008800 
+ 2233      00000201 
+ 2233      FB0E0D00 
+ 2233      01010101 
+ 2234              	.LASF81:
+ 2235 0000 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_RX_CREDIT_IND\000"
+ 2235      455F4556 
+ 2235      545F4C32 
+ 2235      4341505F 
+ 2235      43424643 
+ 2236              	.LASF22:
+ 2237 0023 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
+ 2237      455F4556 
+ 2237      545F5354 
+ 2237      41434B5F 
+ 2237      42555359 
+ 2238              	.LASF124:
+ 2239 003f 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Cyberpong\\CyberP"
+ 2239      43552053 
+ 2239      65636F6E 
+ 2239      64207965 
+ 2239      61725C54 
+ 2240 006d 6F6E672E 		.ascii	"ong.cydsn\000"
+ 2240      63796473 
+ 2240      6E00
+ 2241              	.LASF119:
+ 2242 0077 53747269 		.ascii	"StripLights_Pixel\000"
+ 2242      704C6967 
+ 2242      6874735F 
+ 2242      50697865 
+ 2242      6C00
+ 2243              	.LASF95:
+ 2244 0089 4359424C 		.ascii	"CYBLE_AIOS_CHAR_USER_DESCRIPTION_DESCR\000"
+ 2244      455F4149 
+ 2244      4F535F43 
+ 2244      4841525F 
+ 2244      55534552 
+ 2245              	.LASF89:
+ 2246 00b0 4359424C 		.ascii	"CYBLE_AIOS_DIGITAL\000"
+ 2246      455F4149 
+ 2246      4F535F44 
+ 2246      49474954 
+ 2246      414C00
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 46
+
+
+ 2247              	.LASF79:
+ 2248 00c3 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
+ 2248      455F4556 
+ 2248      545F4C32 
+ 2248      4341505F 
+ 2248      43424643 
+ 2249              	.LASF106:
+ 2250 00e4 79706F73 		.ascii	"ypos\000"
+ 2250      00
+ 2251              	.LASF39:
+ 2252 00e9 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
+ 2252      455F4556 
+ 2252      545F4741 
+ 2252      505F4F4F 
+ 2252      425F4745 
+ 2253              	.LASF59:
+ 2254 0112 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
+ 2254      455F4556 
+ 2254      545F4741 
+ 2254      5454435F 
+ 2254      52454144 
+ 2255              	.LASF64:
+ 2256 0131 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 2256      455F4556 
+ 2256      545F4741 
+ 2256      5454535F 
+ 2256      45584543 
+ 2257              	.LASF19:
+ 2258 0150 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 2258      455F4556 
+ 2258      545F5449 
+ 2258      4D454F55 
+ 2258      5400
+ 2259              	.LASF4:
+ 2260 0162 6C6F6E67 		.ascii	"long int\000"
+ 2260      20696E74 
+ 2260      00
+ 2261              	.LASF122:
+ 2262 016b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2262      43313120 
+ 2262      352E342E 
+ 2262      31203230 
+ 2262      31363036 
+ 2263 019e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 2263      20726576 
+ 2263      6973696F 
+ 2263      6E203233 
+ 2263      37373135 
+ 2264 01d1 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2264      66756E63 
+ 2264      74696F6E 
+ 2264      2D736563 
+ 2264      74696F6E 
+ 2265              	.LASF69:
+ 2266 01f9 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 2266      455F4556 
+ 2266      545F4741 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 47
+
+
+ 2266      5454535F 
+ 2266      44415441 
+ 2267              	.LASF7:
+ 2268 021d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2268      206C6F6E 
+ 2268      6720756E 
+ 2268      7369676E 
+ 2268      65642069 
+ 2269              	.LASF21:
+ 2270 0234 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
+ 2270      455F4556 
+ 2270      545F4843 
+ 2270      495F5354 
+ 2270      41545553 
+ 2271              	.LASF84:
+ 2272 0249 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 2272      455F4556 
+ 2272      545F5045 
+ 2272      4E44494E 
+ 2272      475F464C 
+ 2273              	.LASF96:
+ 2274 0267 4359424C 		.ascii	"CYBLE_AIOS_CHAR_EXTENDED_PROPERTIES\000"
+ 2274      455F4149 
+ 2274      4F535F43 
+ 2274      4841525F 
+ 2274      45585445 
+ 2275              	.LASF121:
+ 2276 028b 53747269 		.ascii	"StripLights_DrawLine\000"
+ 2276      704C6967 
+ 2276      6874735F 
+ 2276      44726177 
+ 2276      4C696E65 
+ 2277              	.LASF33:
+ 2278 02a0 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 2278      455F4556 
+ 2278      545F4741 
+ 2278      505F454E 
+ 2278      43525950 
+ 2279              	.LASF37:
+ 2280 02bd 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
+ 2280      455F4556 
+ 2280      545F4741 
+ 2280      505F4E55 
+ 2280      4D455249 
+ 2281              	.LASF6:
+ 2282 02e6 6C6F6E67 		.ascii	"long long int\000"
+ 2282      206C6F6E 
+ 2282      6720696E 
+ 2282      7400
+ 2283              	.LASF0:
+ 2284 02f4 7369676E 		.ascii	"signed char\000"
+ 2284      65642063 
+ 2284      68617200 
+ 2285              	.LASF18:
+ 2286 0300 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
+ 2286      455F4556 
+ 2286      545F5354 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 48
+
+
+ 2286      41434B5F 
+ 2286      4F4E00
+ 2287              	.LASF105:
+ 2288 0313 78706F73 		.ascii	"xpos\000"
+ 2288      00
+ 2289              	.LASF35:
+ 2290 0318 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 2290      455F4556 
+ 2290      545F4741 
+ 2290      50435F53 
+ 2290      43414E5F 
+ 2291              	.LASF25:
+ 2292 0337 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
+ 2292      455F4556 
+ 2292      545F4741 
+ 2292      505F4155 
+ 2292      54485F52 
+ 2293              	.LASF57:
+ 2294 034e 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 2294      455F4556 
+ 2294      545F4741 
+ 2294      5454435F 
+ 2294      52454144 
+ 2295              	.LASF62:
+ 2296 0367 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
+ 2296      455F4556 
+ 2296      545F4741 
+ 2296      5454535F 
+ 2296      57524954 
+ 2297              	.LASF30:
+ 2298 0385 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 2298      455F4556 
+ 2298      545F4741 
+ 2298      50505F41 
+ 2298      44564552 
+ 2299              	.LASF9:
+ 2300 03ad 75696E74 		.ascii	"uint8\000"
+ 2300      3800
+ 2301              	.LASF94:
+ 2302 03b3 4359424C 		.ascii	"CYBLE_AIOS_CHAR_PRESENTATION_FORMAT\000"
+ 2302      455F4149 
+ 2302      4F535F43 
+ 2302      4841525F 
+ 2302      50524553 
+ 2303              	.LASF65:
+ 2304 03d7 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 2304      455F4556 
+ 2304      545F4741 
+ 2304      5454435F 
+ 2304      45584543 
+ 2305              	.LASF13:
+ 2306 03f6 646F7562 		.ascii	"double\000"
+ 2306      6C6500
+ 2307              	.LASF11:
+ 2308 03fd 696E7433 		.ascii	"int32\000"
+ 2308      3200
+ 2309              	.LASF10:
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 49
+
+
+ 2310 0403 75696E74 		.ascii	"uint32\000"
+ 2310      333200
+ 2311              	.LASF88:
+ 2312 040a 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 2312      455F4556 
+ 2312      545F4D41 
+ 2312      5800
+ 2313              	.LASF108:
+ 2314 0418 6D61736B 		.ascii	"mask\000"
+ 2314      00
+ 2315              	.LASF73:
+ 2316 041d 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 2316      455F4556 
+ 2316      545F4C32 
+ 2316      4341505F 
+ 2316      434F4E4E 
+ 2317              	.LASF83:
+ 2318 0443 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 2318      455F4556 
+ 2318      545F4C32 
+ 2318      4341505F 
+ 2318      43424643 
+ 2319              	.LASF45:
+ 2320 0467 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
+ 2320      455F4556 
+ 2320      545F4741 
+ 2320      505F5343 
+ 2320      414E5F52 
+ 2321              	.LASF70:
+ 2322 0484 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
+ 2322      455F4556 
+ 2322      545F4741 
+ 2322      5454435F 
+ 2322      53544F50 
+ 2323              	.LASF8:
+ 2324 04a6 756E7369 		.ascii	"unsigned int\000"
+ 2324      676E6564 
+ 2324      20696E74 
+ 2324      00
+ 2325              	.LASF101:
+ 2326 04b3 4359424C 		.ascii	"CYBLE_AIOS_DESCR_COUNT\000"
+ 2326      455F4149 
+ 2326      4F535F44 
+ 2326      45534352 
+ 2326      5F434F55 
+ 2327              	.LASF85:
+ 2328 04ca 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
+ 2328      455F4556 
+ 2328      545F4C45 
+ 2328      5F50494E 
+ 2328      475F4155 
+ 2329              	.LASF114:
+ 2330 04e9 53747269 		.ascii	"StripLights_fontPtr\000"
+ 2330      704C6967 
+ 2330      6874735F 
+ 2330      666F6E74 
+ 2330      50747200 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 50
+
+
+ 2331              	.LASF5:
+ 2332 04fd 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2332      20756E73 
+ 2332      69676E65 
+ 2332      6420696E 
+ 2332      7400
+ 2333              	.LASF44:
+ 2334 050f 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
+ 2334      455F4556 
+ 2334      545F4741 
+ 2334      505F434F 
+ 2334      4E4E5F45 
+ 2335              	.LASF34:
+ 2336 0527 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 2336      455F4556 
+ 2336      545F4741 
+ 2336      505F434F 
+ 2336      4E4E4543 
+ 2337              	.LASF52:
+ 2338 0550 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 2338      455F4556 
+ 2338      545F4741 
+ 2338      5454435F 
+ 2338      5843484E 
+ 2339              	.LASF103:
+ 2340 056e 53747269 		.ascii	"StripLights_PutChar\000"
+ 2340      704C6967 
+ 2340      6874735F 
+ 2340      50757443 
+ 2340      68617200 
+ 2341              	.LASF91:
+ 2342 0582 4359424C 		.ascii	"CYBLE_AIOS_AGGREGATE\000"
+ 2342      455F4149 
+ 2342      4F535F41 
+ 2342      47475245 
+ 2342      47415445 
+ 2343              	.LASF72:
+ 2344 0597 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
+ 2344      455F4556 
+ 2344      545F4741 
+ 2344      5454435F 
+ 2344      4C4F4E47 
+ 2345              	.LASF111:
+ 2346 05ba 53747269 		.ascii	"StripLights_PrintString\000"
+ 2346      704C6967 
+ 2346      6874735F 
+ 2346      5072696E 
+ 2346      74537472 
+ 2347              	.LASF3:
+ 2348 05d2 73686F72 		.ascii	"short unsigned int\000"
+ 2348      7420756E 
+ 2348      7369676E 
+ 2348      65642069 
+ 2348      6E7400
+ 2349              	.LASF17:
+ 2350 05e5 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
+ 2350      455F4556 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 51
+
+
+ 2350      545F484F 
+ 2350      53545F49 
+ 2350      4E56414C 
+ 2351              	.LASF55:
+ 2352 05fc 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 2352      455F4556 
+ 2352      545F4741 
+ 2352      5454435F 
+ 2352      46494E44 
+ 2353              	.LASF23:
+ 2354 061a 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
+ 2354      455F4556 
+ 2354      545F4D45 
+ 2354      4D4F5259 
+ 2354      5F524551 
+ 2355              	.LASF97:
+ 2356 0633 4359424C 		.ascii	"CYBLE_AIOS_VALUE_TRIGGER_SETTINGS\000"
+ 2356      455F4149 
+ 2356      4F535F56 
+ 2356      414C5545 
+ 2356      5F545249 
+ 2357              	.LASF92:
+ 2358 0655 4359424C 		.ascii	"CYBLE_AIOS_CHAR_COUNT\000"
+ 2358      455F4149 
+ 2358      4F535F43 
+ 2358      4841525F 
+ 2358      434F554E 
+ 2359              	.LASF80:
+ 2360 066b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 2360      455F4556 
+ 2360      545F4C32 
+ 2360      4341505F 
+ 2360      43424643 
+ 2361              	.LASF26:
+ 2362 068a 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ 2362      455F4556 
+ 2362      545F4741 
+ 2362      505F5041 
+ 2362      53534B45 
+ 2363              	.LASF31:
+ 2364 06ae 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
+ 2364      455F4556 
+ 2364      545F4741 
+ 2364      505F4445 
+ 2364      56494345 
+ 2365              	.LASF60:
+ 2366 06cd 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ 2366      455F4556 
+ 2366      545F4741 
+ 2366      5454535F 
+ 2366      57524954 
+ 2367              	.LASF46:
+ 2368 06e7 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ_REPLY_ERR\000"
+ 2368      455F4556 
+ 2368      545F4741 
+ 2368      505F4155 
+ 2368      54485F52 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 52
+
+
+ 2369              	.LASF54:
+ 2370 0708 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 2370      455F4556 
+ 2370      545F4741 
+ 2370      5454435F 
+ 2370      52454144 
+ 2371              	.LASF27:
+ 2372 0729 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 2372      455F4556 
+ 2372      545F4741 
+ 2372      505F5041 
+ 2372      53534B45 
+ 2373              	.LASF100:
+ 2374 074f 4359424C 		.ascii	"CYBLE_AIOS_NUM_OF_DIGITAL_DESCR\000"
+ 2374      455F4149 
+ 2374      4F535F4E 
+ 2374      554D5F4F 
+ 2374      465F4449 
+ 2375              	.LASF49:
+ 2376 076f 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 2376      455F4556 
+ 2376      545F4741 
+ 2376      54545F43 
+ 2376      4F4E4E45 
+ 2377              	.LASF123:
+ 2378 078a 47656E65 		.ascii	"Generated_Source\\PSoC4\\StripLights_fonts.c\000"
+ 2378      72617465 
+ 2378      645F536F 
+ 2378      75726365 
+ 2378      5C50536F 
+ 2379              	.LASF75:
+ 2380 07b5 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 2380      455F4556 
+ 2380      545F4C32 
+ 2380      4341505F 
+ 2380      434F4D4D 
+ 2381              	.LASF24:
+ 2382 07d1 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 2382      455F4556 
+ 2382      545F4741 
+ 2382      50435F53 
+ 2382      43414E5F 
+ 2383              	.LASF47:
+ 2384 07f5 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
+ 2384      455F4556 
+ 2384      545F4741 
+ 2384      505F534D 
+ 2384      505F4C4F 
+ 2385 0828 4500     		.ascii	"E\000"
+ 2386              	.LASF76:
+ 2387 082a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ 2387      455F4556 
+ 2387      545F4C32 
+ 2387      4341505F 
+ 2387      43424643 
+ 2388              	.LASF117:
+ 2389 0848 53747269 		.ascii	"StripLights_fontOffset\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 53
+
+
+ 2389      704C6967 
+ 2389      6874735F 
+ 2389      666F6E74 
+ 2389      4F666673 
+ 2390              	.LASF16:
+ 2391 085f 73697A65 		.ascii	"sizetype\000"
+ 2391      74797065 
+ 2391      00
+ 2392              	.LASF112:
+ 2393 0868 74686553 		.ascii	"theString\000"
+ 2393      7472696E 
+ 2393      6700
+ 2394              	.LASF109:
+ 2395 0872 7953746F 		.ascii	"yStop\000"
+ 2395      7000
+ 2396              	.LASF42:
+ 2397 0878 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 2397      455F4556 
+ 2397      545F4741 
+ 2397      50435F44 
+ 2397      49524543 
+ 2398              	.LASF40:
+ 2399 0899 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
+ 2399      455F4556 
+ 2399      545F4741 
+ 2399      505F4441 
+ 2399      54415F4C 
+ 2400              	.LASF28:
+ 2401 08ba 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 2401      455F4556 
+ 2401      545F4741 
+ 2401      505F4155 
+ 2401      54485F43 
+ 2402              	.LASF118:
+ 2403 08d6 53747269 		.ascii	"StripLights_Font5x7\000"
+ 2403      704C6967 
+ 2403      6874735F 
+ 2403      466F6E74 
+ 2403      35783700 
+ 2404              	.LASF98:
+ 2405 08ea 4359424C 		.ascii	"CYBLE_AIOS_TIME_TRIGGER_SETTINGS\000"
+ 2405      455F4149 
+ 2405      4F535F54 
+ 2405      494D455F 
+ 2405      54524947 
+ 2406              	.LASF66:
+ 2407 090b 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 2407      455F4556 
+ 2407      545F4741 
+ 2407      5454435F 
+ 2407      48414E44 
+ 2408              	.LASF102:
+ 2409 092c 53747269 		.ascii	"StripLights_SetFont\000"
+ 2409      704C6967 
+ 2409      6874735F 
+ 2409      53657446 
+ 2409      6F6E7400 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 54
+
+
+ 2410              	.LASF77:
+ 2411 0940 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 2411      455F4556 
+ 2411      545F4C32 
+ 2411      4341505F 
+ 2411      43424643 
+ 2412              	.LASF107:
+ 2413 095e 74686543 		.ascii	"theChar\000"
+ 2413      68617200 
+ 2414              	.LASF53:
+ 2415 0966 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 2415      455F4556 
+ 2415      545F4741 
+ 2415      5454435F 
+ 2415      52454144 
+ 2416              	.LASF12:
+ 2417 098d 666C6F61 		.ascii	"float\000"
+ 2417      7400
+ 2418              	.LASF29:
+ 2419 0993 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 2419      455F4556 
+ 2419      545F4741 
+ 2419      505F4155 
+ 2419      54485F46 
+ 2420              	.LASF1:
+ 2421 09ad 756E7369 		.ascii	"unsigned char\000"
+ 2421      676E6564 
+ 2421      20636861 
+ 2421      7200
+ 2422              	.LASF38:
+ 2423 09bb 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
+ 2423      455F4556 
+ 2423      545F4741 
+ 2423      505F4B45 
+ 2423      59505245 
+ 2424              	.LASF2:
+ 2425 09df 73686F72 		.ascii	"short int\000"
+ 2425      7420696E 
+ 2425      7400
+ 2426              	.LASF67:
+ 2427 09e9 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 2427      455F4556 
+ 2427      545F4741 
+ 2427      5454435F 
+ 2427      48414E44 
+ 2428              	.LASF86:
+ 2429 0a0a 4359424C 		.ascii	"CYBLE_EVT_HCI_PKT\000"
+ 2429      455F4556 
+ 2429      545F4843 
+ 2429      495F504B 
+ 2429      5400
+ 2430              	.LASF90:
+ 2431 0a1c 4359424C 		.ascii	"CYBLE_AIOS_ANALOG\000"
+ 2431      455F4149 
+ 2431      4F535F41 
+ 2431      4E414C4F 
+ 2431      4700
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 55
+
+
+ 2432              	.LASF120:
+ 2433 0a2e 53747269 		.ascii	"StripLights_ColorInc\000"
+ 2433      704C6967 
+ 2433      6874735F 
+ 2433      436F6C6F 
+ 2433      72496E63 
+ 2434              	.LASF63:
+ 2435 0a43 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 2435      455F4556 
+ 2435      545F4741 
+ 2435      5454535F 
+ 2435      50524550 
+ 2436              	.LASF113:
+ 2437 0a62 73747250 		.ascii	"strPos\000"
+ 2437      6F7300
+ 2438              	.LASF68:
+ 2439 0a69 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 2439      455F4556 
+ 2439      545F4741 
+ 2439      5454535F 
+ 2439      48414E44 
+ 2440              	.LASF48:
+ 2441 0a8a 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
+ 2441      455F4556 
+ 2441      545F4741 
+ 2441      5454435F 
+ 2441      4552524F 
+ 2442              	.LASF43:
+ 2443 0aa4 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
+ 2443      455F4556 
+ 2443      545F4741 
+ 2443      505F534D 
+ 2443      505F4E45 
+ 2444              	.LASF15:
+ 2445 0acb 6C6F6E67 		.ascii	"long double\000"
+ 2445      20646F75 
+ 2445      626C6500 
+ 2446              	.LASF87:
+ 2447 0ad7 4359424C 		.ascii	"CYBLE_EVT_FLASH_CORRUPT\000"
+ 2447      455F4556 
+ 2447      545F464C 
+ 2447      4153485F 
+ 2447      434F5252 
+ 2448              	.LASF14:
+ 2449 0aef 63686172 		.ascii	"char\000"
+ 2449      00
+ 2450              	.LASF32:
+ 2451 0af4 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 2451      455F4556 
+ 2451      545F4741 
+ 2451      505F4445 
+ 2451      56494345 
+ 2452              	.LASF71:
+ 2453 0b16 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 2453      455F4556 
+ 2453      545F4741 
+ 2453      5454535F 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 56
+
+
+ 2453      52454144 
+ 2454              	.LASF61:
+ 2455 0b3f 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 2455      455F4556 
+ 2455      545F4741 
+ 2455      5454435F 
+ 2455      57524954 
+ 2456              	.LASF82:
+ 2457 0b59 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
+ 2457      455F4556 
+ 2457      545F4C32 
+ 2457      4341505F 
+ 2457      43424643 
+ 2458              	.LASF20:
+ 2459 0b7c 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 2459      455F4556 
+ 2459      545F4841 
+ 2459      52445741 
+ 2459      52455F45 
+ 2460              	.LASF93:
+ 2461 0b95 4359424C 		.ascii	"CYBLE_AIOS_CCCD\000"
+ 2461      455F4149 
+ 2461      4F535F43 
+ 2461      43434400 
+ 2462              	.LASF51:
+ 2463 0ba5 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
+ 2463      455F4556 
+ 2463      545F4741 
+ 2463      5454535F 
+ 2463      58434E48 
+ 2464              	.LASF104:
+ 2465 0bc3 666F6E74 		.ascii	"font\000"
+ 2465      00
+ 2466              	.LASF110:
+ 2467 0bc8 7853746F 		.ascii	"xStop\000"
+ 2467      7000
+ 2468              	.LASF58:
+ 2469 0bce 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 2469      455F4556 
+ 2469      545F4741 
+ 2469      5454435F 
+ 2469      52454144 
+ 2470              	.LASF56:
+ 2471 0bec 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 2471      455F4556 
+ 2471      545F4741 
+ 2471      5454435F 
+ 2471      46494E44 
+ 2472              	.LASF36:
+ 2473 0c13 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 2473      455F4556 
+ 2473      545F4741 
+ 2473      505F4B45 
+ 2473      59494E46 
+ 2474              	.LASF115:
+ 2475 0c37 53747269 		.ascii	"StripLights_fontX\000"
+ 2475      704C6967 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 57
+
+
+ 2475      6874735F 
+ 2475      666F6E74 
+ 2475      5800
+ 2476              	.LASF116:
+ 2477 0c49 53747269 		.ascii	"StripLights_fontY\000"
+ 2477      704C6967 
+ 2477      6874735F 
+ 2477      666F6E74 
+ 2477      5900
+ 2478              	.LASF78:
+ 2479 0c5b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 2479      455F4556 
+ 2479      545F4C32 
+ 2479      4341505F 
+ 2479      43424643 
+ 2480              	.LASF74:
+ 2481 0c7c 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 2481      455F4556 
+ 2481      545F4C32 
+ 2481      4341505F 
+ 2481      434F4E4E 
+ 2482              	.LASF41:
+ 2483 0ca2 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 2483      455F4556 
+ 2483      545F4741 
+ 2483      505F454E 
+ 2483      48414E43 
+ 2484              	.LASF99:
+ 2485 0cc6 4359424C 		.ascii	"CYBLE_AIOS_VRD\000"
+ 2485      455F4149 
+ 2485      4F535F56 
+ 2485      524400
+ 2486              	.LASF50:
+ 2487 0cd5 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 2487      455F4556 
+ 2487      545F4741 
+ 2487      54545F44 
+ 2487      4953434F 
+ 2488              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
