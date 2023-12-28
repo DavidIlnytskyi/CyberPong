@@ -28,7 +28,7 @@ void AIOS_Callback(uint32 eventCode, void *eventParam){
             UART_UartPutString(str);
             
             setSpin(motorSpeeds);
-            CyDelay(1500);
+            CyDelay(500);
             
             uint8 ZERO = 0;
             doServe = CyBle_AiosGet16ByPtr(locCharValue->value->val+8);

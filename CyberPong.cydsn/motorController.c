@@ -2,6 +2,7 @@
 #include "stdlib.h"
 
 void chooseSide(uint8 cycles, uint8 sideCoord);
+void oneColor();
 
 uint8 stopCoords[] = {1, 7, 13, 19};
 
@@ -24,8 +25,12 @@ void stopMoving(){
 }
 
 void setSpin (int motors[]){
+    if(motors[0] && motors[1] && motors[2] && motors[3])
+    {
+        oneColor();
+    }
     if (motors[0] == 0){
-            chooseSide(2, stopCoords[3]);
+            chooseSide(1, stopCoords[3]);
             Pin_Output_LEFT_Write(0);
             Pin_Output_LEFT_GROUND_Write(0);
     } else{
@@ -34,7 +39,7 @@ void setSpin (int motors[]){
         }
         
         if (motors[1] == 0){
-            chooseSide(2, stopCoords[1]);
+            chooseSide(1, stopCoords[1]);
             Pin_Output_RIGHT_Write(0);
             Pin_Output_RIGHT_GROUND_Write(0); 
         }
@@ -43,7 +48,7 @@ void setSpin (int motors[]){
             Pin_Output_RIGHT_GROUND_Write(1); 
         }
         if (motors[2] == 0){
-            chooseSide(2, stopCoords[0]);
+            chooseSide(1, stopCoords[0]);
             Pin_Output_UP_Write(0);
             Pin_Output_UP_GROUND_Write(0); 
         }
@@ -79,6 +84,9 @@ void chooseSide(uint8 cycles, uint8 sideCoord)
     uint32 ledPosition = 1;
     uint8 currCycles = 0;
     uint32 ledPos;
+    
+    StripLights_DisplayClear(StripLights_BLACK);
+	StripLights_MemClear(StripLights_BLACK);
     
     for(int i = 0; i < 7; ++i)
     {
@@ -121,6 +129,20 @@ void chooseSide(uint8 cycles, uint8 sideCoord)
             break;
         }
     }
+}
 
+
+void oneColor()
+{
+    StripLights_DisplayClear(StripLights_BLACK);
+	StripLights_MemClear(StripLights_BLACK);
+    
+    StripLights_Pixel(0, 0, StripLights_BLACK);
+    for(int i = 0; i < 24; ++i)
+    {
+        StripLights_Pixel(i, 0, StripLights_CYAN);
+    }
+    CyDelay(10);
+    StripLights_Trigger(1); 
 }
 /* [] END OF FILE */
