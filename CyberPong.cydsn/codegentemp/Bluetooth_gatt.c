@@ -86,15 +86,6 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u,
             0x00u, 0x00u,
             0x00u, 0x00u,
-        },
-        {
-            0x00u, 0x00u,
-            0x00u, 0x00u,
-            0x00u, 0x00u,
-            0x00u, 0x00u,
-            0x00u, 0x00u,
-            0x00u, 0x00u,
-            0x00u, 0x00u,
             0x00u, 0x00u,
         },
         {
@@ -106,6 +97,18 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u,
             0x00u, 0x00u,
             0x00u, 0x00u,
+            0x00u, 0x00u,
+        },
+        {
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
+            0x00u, 0x00u,
         },
         {
             0x00u, 0x00u,
@@ -116,8 +119,10 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u,
             0x00u, 0x00u,
             0x00u, 0x00u,
+            0x00u, 0x00u,
         },
         {
+            0x00u, 0x00u,
             0x00u, 0x00u,
             0x00u, 0x00u,
             0x00u, 0x00u,
@@ -127,7 +132,7 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u,
             0x00u, 0x00u,
         }}, 
-        0x10u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
+        0x12u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
         0x05u, /* CYBLE_GAP_MAX_BONDED_DEVICE */ 
     };
 #endif /* (CYBLE_MODE_PROFILE) */
@@ -143,7 +148,7 @@ CYBLE_STATE_T cyBle_state;
     0x000Fu,    /* Handle of the Client Characteristic Configuration descriptor */
 };
     
-    static uint8 cyBle_attValues[0x0118u] = {
+    static uint8 cyBle_attValues[0x013Cu] = {
     /* Device Name */
     (uint8)'C', (uint8)'y', (uint8)'b', (uint8)'e', (uint8)'r', (uint8)'P', (uint8)'o', (uint8)'n', (uint8)'g',
 
@@ -294,8 +299,30 @@ CYBLE_STATE_T cyBle_state;
     /* Valid Range */
     0x00u, 0x00u, 0x01u, 0x00u,
 
+    /* Difficulty */
+    0x00u, 0x00u,
+
+    /* Characteristic Presentation Format */
+    0x04u, 0x00u, 0x33u, 0x27u, 0x01u, 0x01u, 0x00u,
+
+    /* Characteristic User Description */
+    (uint8)'D', (uint8)'i', (uint8)'f', (uint8)'f', (uint8)'i', (uint8)'c', (uint8)'u', (uint8)'l', (uint8)'t',
+    (uint8)'y',
+
+    /* Characteristic Extended Properties */
+    0x00u, 0x00u,
+
+    /* Value Trigger Setting */
+    0x00u, 0x00u, 0x00u, 0x00u, 0x00u,
+
+    /* Time Trigger Setting */
+    0x00u, 0x00u, 0x00u, 0x00u,
+
+    /* Valid Range */
+    0x00u, 0x00u, 0x01u, 0x00u,
+
     /* Aggregate */
-    0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u,
+    0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u,
 
 };
 #if(CYBLE_GATT_DB_CCCD_COUNT != 0u)
@@ -358,11 +385,19 @@ CYBLE_GATTS_ATT_GEN_VAL_LEN_T cyBle_attValuesLen[CYBLE_GATT_DB_ATT_VAL_COUNT] = 
     { 0x0001u, (void *)&cyBle_attValues[255] }, /* Value Trigger Setting */
     { 0x0001u, (void *)&cyBle_attValues[260] }, /* Time Trigger Setting */
     { 0x0004u, (void *)&cyBle_attValues[264] }, /* Valid Range */
-    { 0x000Cu, (void *)&cyBle_attValues[268] }, /* Aggregate */
+    { 0x0002u, (void *)&cyBle_attValues[268] }, /* Difficulty */
     { 0x0002u, (void *)&cyBle_attValuesCCCD[14] }, /* Client Characteristic Configuration */
+    { 0x0007u, (void *)&cyBle_attValues[270] }, /* Characteristic Presentation Format */
+    { 0x000Au, (void *)&cyBle_attValues[277] }, /* Characteristic User Description */
+    { 0x0002u, (void *)&cyBle_attValues[287] }, /* Characteristic Extended Properties */
+    { 0x0001u, (void *)&cyBle_attValues[289] }, /* Value Trigger Setting */
+    { 0x0001u, (void *)&cyBle_attValues[294] }, /* Time Trigger Setting */
+    { 0x0004u, (void *)&cyBle_attValues[298] }, /* Valid Range */
+    { 0x000Eu, (void *)&cyBle_attValues[302] }, /* Aggregate */
+    { 0x0002u, (void *)&cyBle_attValuesCCCD[16] }, /* Client Characteristic Configuration */
 };
 
-const CYBLE_GATTS_DB_T cyBle_gattDB[0x49u] = {
+const CYBLE_GATTS_DB_T cyBle_gattDB[0x52u] = {
     { 0x0001u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x000Bu, {{0x1800u, NULL}}                           },
     { 0x0002u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0003u, {{0x2A00u, NULL}}                           },
     { 0x0003u, 0x2A00u /* Device Name                         */, 0x01020001u /* rd    */, 0x0003u, {{0x0009u, (void *)&cyBle_attValuesLen[0]}} },
@@ -378,7 +413,7 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x49u] = {
     { 0x000Du, 0x2803u /* Characteristic                      */, 0x00200001u /* ind   */, 0x000Fu, {{0x2A05u, NULL}}                           },
     { 0x000Eu, 0x2A05u /* Service Changed                     */, 0x01200000u /* ind   */, 0x000Fu, {{0x0004u, (void *)&cyBle_attValuesLen[5]}} },
     { 0x000Fu, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr */, 0x000Fu, {{0x0002u, (void *)&cyBle_attValuesLen[6]}} },
-    { 0x0010u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x0049u, {{0x1815u, NULL}}                           },
+    { 0x0010u, 0x2800u /* Primary service                     */, 0x00000001u /*       */, 0x0052u, {{0x1815u, NULL}}                           },
     { 0x0011u, 0x2803u /* Characteristic                      */, 0x000A0001u /* rd,wr */, 0x0019u, {{0x2A58u, NULL}}                           },
     { 0x0012u, 0x2A58u /* Left                                */, 0x010A0101u /* rd,wr */, 0x0019u, {{0x0002u, (void *)&cyBle_attValuesLen[7]}} },
     { 0x0013u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr */, 0x0013u, {{0x0002u, (void *)&cyBle_attValuesLen[8]}} },
@@ -433,9 +468,18 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x49u] = {
     { 0x0044u, 0x290Au /* Value Trigger Setting               */, 0x010A0101u /* rd,wr */, 0x0044u, {{0x0005u, (void *)&cyBle_attValuesLen[52]}} },
     { 0x0045u, 0x290Eu /* Time Trigger Setting                */, 0x010A0101u /* rd,wr */, 0x0045u, {{0x0004u, (void *)&cyBle_attValuesLen[53]}} },
     { 0x0046u, 0x2906u /* Valid Range                         */, 0x01020001u /* rd    */, 0x0046u, {{0x0004u, (void *)&cyBle_attValuesLen[54]}} },
-    { 0x0047u, 0x2803u /* Characteristic                      */, 0x00000001u /*       */, 0x0049u, {{0x2A5Au, NULL}}                           },
-    { 0x0048u, 0x2A5Au /* Aggregate                           */, 0x01000000u /*       */, 0x0049u, {{0x000Cu, (void *)&cyBle_attValuesLen[55]}} },
+    { 0x0047u, 0x2803u /* Characteristic                      */, 0x000A0001u /* rd,wr */, 0x004Fu, {{0x2A56u, NULL}}                           },
+    { 0x0048u, 0x2A56u /* Difficulty                          */, 0x010A0101u /* rd,wr */, 0x004Fu, {{0x0002u, (void *)&cyBle_attValuesLen[55]}} },
     { 0x0049u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr */, 0x0049u, {{0x0002u, (void *)&cyBle_attValuesLen[56]}} },
+    { 0x004Au, 0x2904u /* Characteristic Presentation Format  */, 0x01020001u /* rd    */, 0x004Au, {{0x0007u, (void *)&cyBle_attValuesLen[57]}} },
+    { 0x004Bu, 0x2901u /* Characteristic User Description     */, 0x01020001u /* rd    */, 0x004Bu, {{0x000Au, (void *)&cyBle_attValuesLen[58]}} },
+    { 0x004Cu, 0x2900u /* Characteristic Extended Properties  */, 0x01020001u /* rd    */, 0x004Cu, {{0x0002u, (void *)&cyBle_attValuesLen[59]}} },
+    { 0x004Du, 0x290Au /* Value Trigger Setting               */, 0x010A0101u /* rd,wr */, 0x004Du, {{0x0005u, (void *)&cyBle_attValuesLen[60]}} },
+    { 0x004Eu, 0x290Eu /* Time Trigger Setting                */, 0x010A0101u /* rd,wr */, 0x004Eu, {{0x0004u, (void *)&cyBle_attValuesLen[61]}} },
+    { 0x004Fu, 0x2906u /* Valid Range                         */, 0x01020001u /* rd    */, 0x004Fu, {{0x0004u, (void *)&cyBle_attValuesLen[62]}} },
+    { 0x0050u, 0x2803u /* Characteristic                      */, 0x00000001u /*       */, 0x0052u, {{0x2A5Au, NULL}}                           },
+    { 0x0051u, 0x2A5Au /* Aggregate                           */, 0x01000000u /*       */, 0x0052u, {{0x000Eu, (void *)&cyBle_attValuesLen[63]}} },
+    { 0x0052u, 0x2902u /* Client Characteristic Configuration */, 0x010A0101u /* rd,wr */, 0x0052u, {{0x0002u, (void *)&cyBle_attValuesLen[64]}} },
 };
 
 

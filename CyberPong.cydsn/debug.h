@@ -9,9 +9,6 @@
 #include <time.h>
     
 bool disablePrintIfZeroRPM;
-static char *MotorDirectionStr[] = {
-    "Left", "Right", "Top", "Bottom",
-};
 
 void Print(char text[]);
 void Println(char text[]);

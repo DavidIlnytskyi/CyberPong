@@ -20,7 +20,7 @@
 #ifdef CYBLE_AIOS_SERVER
 /* Generated code */
 /* Analog characteristic data */
-static CYBLE_AIOSS_CHAR_T aiossCharIdx1[0x06u] = {
+static CYBLE_AIOSS_CHAR_T aiossCharIdx1[0x07u] = {
     {
         0x0012u, /* Handle of the Left characteristic */ 
         
@@ -105,16 +105,30 @@ static CYBLE_AIOSS_CHAR_T aiossCharIdx1[0x06u] = {
                 0x0046u, /* Handle of the Valid Range descriptor */ 
             }, 
     },
+    {
+        0x0048u, /* Handle of the Difficulty characteristic */ 
+        
+            /* Array of Descriptors handles */
+            {
+                0x0049u, /* Handle of the Client Characteristic Configuration descriptor */ 
+                0x004Au, /* Handle of the Characteristic Presentation Format descriptor */ 
+                0x004Bu, /* Handle of the Characteristic User Description descriptor */ 
+                0x004Cu, /* Handle of the Characteristic Extended Properties descriptor */ 
+                0x004Du, /* Handle of the Value Trigger Setting descriptor */ 
+                0x004Eu, /* Handle of the Time Trigger Setting descriptor */ 
+                0x004Fu, /* Handle of the Valid Range descriptor */ 
+            }, 
+    },
 };
 
 /* Aggregate characteristic data */
 static CYBLE_AIOSS_CHAR_T aiossCharIdx2[0x01u] = {
     {
-        0x0048u, /* Handle of the Aggregate characteristic */ 
+        0x0051u, /* Handle of the Aggregate characteristic */ 
         
             /* Array of Descriptors handles */
             {
-                0x0049u, /* Handle of the Client Characteristic Configuration descriptor */ 
+                0x0052u, /* Handle of the Client Characteristic Configuration descriptor */ 
                 CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
                 CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
                 CYBLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
@@ -127,7 +141,7 @@ static CYBLE_AIOSS_CHAR_T aiossCharIdx2[0x01u] = {
 
 /* Number of AIOS characteristics instances */
 uint8 cyBle_aiossCharInstances[0x03u] = {
-    0x00u, 0x06u, 0x01u
+    0x00u, 0x07u, 0x01u
 };
 
 const CYBLE_AIOSS_T cyBle_aioss =

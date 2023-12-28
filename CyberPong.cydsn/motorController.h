@@ -5,10 +5,14 @@
 #include "project.h"
 #include "main_data.h"
 #include "ballServeController.h"
+
     
-void SetMotorSpeed(int speeds[]);
-void SetMotorSpeed_Single(enum MotorDirection dir, int speed);
-void SetMotorsEnabled(bool enabled);
+void turnDown(void);
+void turnUp(void);
+void stopMoving(void);
+void setSpin(int motors[]);
+
+void SetMotorsEnabled(bool enabled) ;
 
 #endif
 /* [] END OF FILE */

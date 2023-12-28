@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
   28:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x00, 0x00, 0x00,// (space)
   29:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x5F, 0x00, 0x00,// !
   30:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x07, 0x00, 0x07, 0x00,// "
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 2
 
 
   31:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x14, 0x7F, 0x14, 0x7F, 0x14,// #
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
   85:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x03, 0x04, 0x78, 0x04, 0x03,// Y
   86:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x61, 0x51, 0x49, 0x45, 0x43,// Z
   87:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x00, 0x00, 0x7F, 0x41, 0x41,// [
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 3
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 3
 
 
   88:Generated_Source\PSoC4/StripLights_fonts.c **** 	0x02, 0x04, 0x08, 0x10, 0x20,// "\"
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
   28              		.loc 1 141 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 4
 
 
   31              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
   71 0034 1A60     		str	r2, [r3]
   72              	.L1:
  156:Generated_Source\PSoC4/StripLights_fonts.c ****            break;
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 5
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 5
 
 
  157:Generated_Source\PSoC4/StripLights_fonts.c ****     }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  189:Generated_Source\PSoC4/StripLights_fonts.c ****         if(fg == StripLights_COLORWHEEL_FONT)
  190:Generated_Source\PSoC4/StripLights_fonts.c ****         {
  191:Generated_Source\PSoC4/StripLights_fonts.c ****             StripLights_PutChar(xpos, ypos, theString[strPos], StripLights_ColorInc(1), bg);
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 6
 
 
  192:Generated_Source\PSoC4/StripLights_fonts.c ****         }
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  106              		.cfi_offset 14, -4
  107 0002 5F46     		mov	r7, fp
  108 0004 5646     		mov	r6, r10
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 7
 
 
  109 0006 4D46     		mov	r5, r9
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  152              		.loc 1 245 0
  153 003a 002F     		cmp	r7, #0
  154 003c 26DD     		ble	.L11
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 8
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 8
 
 
  155 003e 0027     		movs	r7, #0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  192              	.LVL15:
  193 006c 2900     		movs	r1, r5
  194 006e 3000     		movs	r0, r6
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 9
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 9
 
 
  195 0070 FFF7FEFF 		bl	StripLights_Pixel
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  237 0094 9146     		mov	r9, r2
  238 0096 9A46     		mov	r10, r3
  239 0098 A346     		mov	fp, r4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 10
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 10
 
 
  240 009a F0BD     		pop	{r4, r5, r6, r7, pc}
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  291 0018 8023     		movs	r3, #128
  292              	.LVL32:
  293 001a 1B06     		lsls	r3, r3, #24
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 11
 
 
  294 001c 9A45     		cmp	r10, r3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  341 0064 6344     		add	r3, r3, ip
  342 0066 0097     		str	r7, [sp]
  343 0068 2200     		movs	r2, r4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 12
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 12
 
 
  344 006a 2000     		movs	r0, r4
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  393              	.LFE36:
  394              		.size	StripLights_PrintString, .-StripLights_PrintString
  395              		.global	StripLights_Font5x7
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 13
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 13
 
 
  396              		.comm	StripLights_fontOffset,4,4
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  450 002c 00       		.byte	0
  451 002d 00       		.byte	0
  452 002e 41       		.byte	65
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 14
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 14
 
 
  453 002f 22       		.byte	34
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  507 0065 14       		.byte	20
  508 0066 12       		.byte	18
  509 0067 7F       		.byte	127
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 15
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 15
 
 
  510 0068 10       		.byte	16
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  564 009e 09       		.byte	9
  565 009f 06       		.byte	6
  566 00a0 32       		.byte	50
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 16
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 16
 
 
  567 00a1 49       		.byte	73
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  621 00d7 7F       		.byte	127
  622 00d8 08       		.byte	8
  623 00d9 14       		.byte	20
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 17
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 17
 
 
  624 00da 22       		.byte	34
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  678 0110 40       		.byte	64
  679 0111 20       		.byte	32
  680 0112 1F       		.byte	31
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 18
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 18
 
 
  681 0113 7F       		.byte	127
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  735 0149 78       		.byte	120
  736 014a 7F       		.byte	127
  737 014b 48       		.byte	72
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 19
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 19
 
 
  738 014c 44       		.byte	68
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  792 0182 04       		.byte	4
  793 0183 18       		.byte	24
  794 0184 04       		.byte	4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 20
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 20
 
 
  795 0185 78       		.byte	120
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  849 01bb 28       		.byte	40
  850 01bc 44       		.byte	68
  851 01bd 0C       		.byte	12
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 21
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 21
 
 
  852 01be 50       		.byte	80
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  906 0025 02       		.uleb128 0x2
  907 0026 01       		.byte	0x1
  908 0027 06       		.byte	0x6
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 22
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 22
 
 
  909 0028 F4020000 		.4byte	.LASF0
@@ -1301,24 +1301,24 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  946 006b 04       		.uleb128 0x4
  947 006c AD030000 		.4byte	.LASF9
  948 0070 02       		.byte	0x2
- 949 0071 FB01     		.2byte	0x1fb
+ 949 0071 FC01     		.2byte	0x1fc
  950 0073 2C000000 		.4byte	0x2c
  951 0077 04       		.uleb128 0x4
  952 0078 03040000 		.4byte	.LASF10
  953 007c 02       		.byte	0x2
- 954 007d FD01     		.2byte	0x1fd
+ 954 007d FE01     		.2byte	0x1fe
  955 007f 48000000 		.4byte	0x48
  956 0083 04       		.uleb128 0x4
  957 0084 FD030000 		.4byte	.LASF11
  958 0088 02       		.byte	0x2
- 959 0089 0002     		.2byte	0x200
+ 959 0089 0102     		.2byte	0x201
  960 008b 41000000 		.4byte	0x41
  961 008f 02       		.uleb128 0x2
  962 0090 04       		.byte	0x4
  963 0091 04       		.byte	0x4
  964 0092 8D090000 		.4byte	.LASF12
  965 0096 02       		.uleb128 0x2
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 23
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 23
 
 
  966 0097 08       		.byte	0x8
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1020 0101 07       		.uleb128 0x7
  1021 0102 29070000 		.4byte	.LASF27
  1022 0106 23       		.byte	0x23
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 24
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 24
 
 
  1023 0107 07       		.uleb128 0x7
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1077 0173 07       		.uleb128 0x7
  1078 0174 E7060000 		.4byte	.LASF46
  1079 0178 36       		.byte	0x36
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 25
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 25
 
 
  1080 0179 07       		.uleb128 0x7
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1134 01e5 07       		.uleb128 0x7
  1135 01e6 D7030000 		.4byte	.LASF65
  1136 01ea 51       		.byte	0x51
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 26
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 26
 
 
  1137 01eb 07       		.uleb128 0x7
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1191 0257 07       		.uleb128 0x7
  1192 0258 49020000 		.4byte	.LASF84
  1193 025c FA       		.byte	0xfa
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 27
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 27
 
 
  1194 025d 07       		.uleb128 0x7
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1248 02c6 EA080000 		.4byte	.LASF98
  1249 02ca 05       		.byte	0x5
  1250 02cb 07       		.uleb128 0x7
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 28
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 28
 
 
  1251 02cc C60C0000 		.4byte	.LASF99
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1305 0344 666700   		.ascii	"fg\000"
  1306 0347 01       		.byte	0x1
  1307 0348 E9       		.byte	0xe9
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 29
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 29
 
 
  1308 0349 77000000 		.4byte	0x77
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1362 03c4 76       		.byte	0x76
  1363 03c5 00       		.sleb128 0
  1364 03c6 11       		.uleb128 0x11
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 30
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 30
 
 
  1365 03c7 01       		.uleb128 0x1
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1419 041b B2       		.byte	0xb2
  1420 041c 83000000 		.4byte	0x83
  1421 0420 7F010000 		.4byte	.LLST11
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 31
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 31
 
 
  1422 0424 0B       		.uleb128 0xb
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1476 0494 51       		.byte	0x51
  1477 0495 03       		.uleb128 0x3
  1478 0496 91       		.byte	0x91
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 32
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 32
 
 
  1479 0497 5C       		.sleb128 -36
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1533 04d6 70000000 		.4byte	.LVL38
  1534 04da AE050000 		.4byte	0x5ae
  1535 04de FD040000 		.4byte	0x4fd
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 33
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 33
 
 
  1536 04e2 11       		.uleb128 0x11
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1590 051e 77       		.byte	0x77
  1591 051f 00       		.sleb128 0
  1592 0520 00       		.byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 34
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 34
 
 
  1593 0521 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1647 0594 71050000 		.4byte	0x571
  1648 0598 17       		.uleb128 0x17
  1649 0599 77000000 		.4byte	.LASF119
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 35
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 35
 
 
  1650 059d 77000000 		.4byte	.LASF119
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1704 0026 08       		.uleb128 0x8
  1705 0027 00       		.byte	0
  1706 0028 00       		.byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 36
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 36
 
 
  1707 0029 04       		.uleb128 0x4
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1761 005f 0B       		.uleb128 0xb
  1762 0060 3B       		.uleb128 0x3b
  1763 0061 0B       		.uleb128 0xb
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 37
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 37
 
 
  1764 0062 01       		.uleb128 0x1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1818 0099 13       		.uleb128 0x13
  1819 009a 02       		.uleb128 0x2
  1820 009b 17       		.uleb128 0x17
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 38
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 38
 
 
  1821 009c 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1875 00d2 3B       		.uleb128 0x3b
  1876 00d3 0B       		.uleb128 0xb
  1877 00d4 49       		.uleb128 0x49
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 39
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 39
 
 
  1878 00d5 13       		.uleb128 0x13
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1932 0112 49       		.uleb128 0x49
  1933 0113 13       		.uleb128 0x13
  1934 0114 00       		.byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 40
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 40
 
 
  1935 0115 00       		.byte	0
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  1989 0021 00000000 		.4byte	.LVL1
  1990 0025 42000000 		.4byte	.LVL10
  1991 0029 0100     		.2byte	0x1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 41
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 41
 
 
  1992 002b 51       		.byte	0x51
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2046 00b4 55       		.byte	0x55
  2047 00b5 80000000 		.4byte	.LVL21
  2048 00b9 8C000000 		.4byte	.LVL23
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 42
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 42
 
 
  2049 00bd 0100     		.2byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2103 014e 28000000 		.4byte	.LVL5
  2104 0152 92000000 		.4byte	.LVL28
  2105 0156 0100     		.2byte	0x1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 43
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 43
 
 
  2106 0158 5B       		.byte	0x5b
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2160 01e3 00000000 		.4byte	0
  2161 01e7 00000000 		.4byte	0
  2162              	.LLST13:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 44
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 44
 
 
  2163 01eb 00000000 		.4byte	.LVL29
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2217 0020 00000000 		.4byte	.LFB36
  2218 0024 A8000000 		.4byte	.LFE36-.LFB36
  2219 0028 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 45
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 45
 
 
  2220 002c 00000000 		.4byte	0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2246      4F535F44 
  2246      49474954 
  2246      414C00
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 46
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 46
 
 
  2247              	.LASF79:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2266 01f9 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
  2266      455F4556 
  2266      545F4741 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 47
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 47
 
 
  2266      5454535F 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2286 0300 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
  2286      455F4556 
  2286      545F5354 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 48
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 48
 
 
  2286      41434B5F 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2308 03fd 696E7433 		.ascii	"int32\000"
  2308      3200
  2309              	.LASF10:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 49
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 49
 
 
  2310 0403 75696E74 		.ascii	"uint32\000"
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2330      6874735F 
  2330      666F6E74 
  2330      50747200 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 50
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 50
 
 
  2331              	.LASF5:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2349              	.LASF17:
  2350 05e5 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
  2350      455F4556 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 51
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 51
 
 
  2350      545F484F 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2368      545F4741 
  2368      505F4155 
  2368      54485F52 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 52
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 52
 
 
  2369              	.LASF54:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2387      43424643 
  2388              	.LASF117:
  2389 0848 53747269 		.ascii	"StripLights_fontOffset\000"
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 53
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 53
 
 
  2389      704C6967 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2409      6874735F 
  2409      53657446 
  2409      6F6E7400 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 54
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 54
 
 
  2410              	.LASF77:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2431      4F535F41 
  2431      4E414C4F 
  2431      4700
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 55
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 55
 
 
  2432              	.LASF120:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2453      455F4556 
  2453      545F4741 
  2453      5454535F 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 56
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 56
 
 
  2453      52454144 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 1
  2474              	.LASF115:
  2475 0c37 53747269 		.ascii	"StripLights_fontX\000"
  2475      704C6967 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccMZvVPX.s 			page 57
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccjBVaBl.s 			page 57
 
 
  2475      6874735F 

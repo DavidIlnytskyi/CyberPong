@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="CyberPong" Path="B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn" Version="6.0" Type="Normal">
+  <Project Name="CyberPong" Path="B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn" Version="6.10" Type="Normal">
     <CMSIS_SVD_File>CyberPong.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -192,14 +192,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Output_Serve.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Output_Serve_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Output_Serve_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ENA_P_16.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ENA_P_16.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ENA_P_16_aliases.h</File>
@@ -212,19 +206,25 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IN2_P_00.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IN2_P_00_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IN2_P_00_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\pin_motor.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\pin_motor.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\pin_motor_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\pin_motor_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Motor.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Motor.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Motor_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_Motor_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_03_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_IRQ.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_intClock.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_intClock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PWM_Down_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\StripLights.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\StripLights.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\StripLights_fonts.c</File>

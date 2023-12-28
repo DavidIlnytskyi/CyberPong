@@ -1,10 +1,8 @@
-B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\StripLightLib.cylib\StripLightLib.cyprj|d6379532-3a44-4ff3-9f05-dcb4f6dce5e7
-B:\UCU Second year\Term 1\POC\Cyberpong\FunWithLEDs\StripLightLib.cylib\StripLightLib.cyprj|e1d1a050-9439-4b95-83f1-210a5fa7f87a
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|bd0f514b-1303-4700-8dd0-14f4eb573cec
-C:\Users\ARTEM\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|df59eb8a-bf59-4c57-84b3-d3653f0e0035
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|faa09a5e-2ed9-480f-a43e-ef6422865cdc
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a815c2c5-768b-4ba3-b47f-70646dd9650c
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|160d04ba-706b-492d-b8b5-91601c8f0305
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|17fa62ed-0e2b-49d7-8045-f8f217b421f4
-B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\CyberPong.cyprj|dac094aa-4428-4349-89a3-90edd4736477
-B:\PSoC Creator\4.4\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|60dfc894-7b80-4f21-9ab1-090fb8c0aa3a
+B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\CyberPong.cyprj|f1bfb381-0bdc-4946-a105-af1c75439f9d
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fc6e1306-8536-4d4a-bb7f-e3313d2eea3c
+C:\Users\ARTEM\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|92fecba7-cb1a-42dd-8658-844dec3b39b6
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|cd73959d-d27f-495b-8974-5a6cd7844f74
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|8ece47e0-de2d-4962-baaf-2bbfa1bbd92e
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|b31e6a25-5c68-47bc-a93d-2444fbc6b335
+B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\StripLightLib.cylib\StripLightLib.cyprj|3f454c97-c344-40f4-a055-38b1b615b830
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|a52009f4-0344-4ec9-b91e-53441a743758

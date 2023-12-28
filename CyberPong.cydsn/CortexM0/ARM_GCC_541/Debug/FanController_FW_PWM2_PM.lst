@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
   28:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** * Summary:
   29:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** *  All configuration registers are retention. Nothing to save here.
   30:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** *
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 2
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 2
 
 
   31:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** * Parameters:
@@ -118,13 +118,13 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
   53              		.cfi_offset 4, -8
   54              		.cfi_offset 14, -4
   60:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c ****     if(0u != (FanController_FW_PWM2_BLOCK_CONTROL_REG & FanController_FW_PWM2_MASK))
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 3
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 3
 
 
   55              		.loc 1 60 0
   56 0002 074B     		ldr	r3, .L5
   57 0004 1B68     		ldr	r3, [r3]
-  58 0006 DB07     		lsls	r3, r3, #31
+  58 0006 1B07     		lsls	r3, r3, #28
   59 0008 03D5     		bpl	.L3
   61:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c ****     {
   62:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c ****         FanController_FW_PWM2_backup.enableState = 1u;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
   77:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** *
   78:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** * Summary:
   79:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** *  All configuration registers are retention. Nothing to restore here.
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 4
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 4
 
 
   80:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c **** *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  117              		.cfi_def_cfa_offset 8
  118              		.cfi_offset 4, -8
  119              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 5
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 5
 
 
  110:Generated_Source\PSoC4/FanController_FW_PWM2_PM.c ****     FanController_FW_PWM2_RestoreConfig();
@@ -285,40 +285,40 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  154 0006 00000000 		.4byte	.Ldebug_abbrev0
  155 000a 04       		.byte	0x4
  156 000b 01       		.uleb128 0x1
- 157 000c 1E010000 		.4byte	.LASF24
+ 157 000c 4D010000 		.4byte	.LASF24
  158 0010 0C       		.byte	0xc
- 159 0011 D7010000 		.4byte	.LASF25
- 160 0015 09020000 		.4byte	.LASF26
+ 159 0011 06020000 		.4byte	.LASF25
+ 160 0015 A0000000 		.4byte	.LASF26
  161 0019 00000000 		.4byte	.Ldebug_ranges0+0
  162 001d 00000000 		.4byte	0
  163 0021 00000000 		.4byte	.Ldebug_line0
  164 0025 02       		.uleb128 0x2
  165 0026 01       		.byte	0x1
  166 0027 06       		.byte	0x6
- 167 0028 BF010000 		.4byte	.LASF0
+ 167 0028 EE010000 		.4byte	.LASF0
  168 002c 02       		.uleb128 0x2
  169 002d 01       		.byte	0x1
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 6
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 6
 
 
  170 002e 08       		.byte	0x8
- 171 002f C7000000 		.4byte	.LASF1
+ 171 002f EC000000 		.4byte	.LASF1
  172 0033 02       		.uleb128 0x2
  173 0034 02       		.byte	0x2
  174 0035 05       		.byte	0x5
- 175 0036 44020000 		.4byte	.LASF2
+ 175 0036 24010000 		.4byte	.LASF2
  176 003a 02       		.uleb128 0x2
  177 003b 02       		.byte	0x2
  178 003c 07       		.byte	0x7
- 179 003d AC010000 		.4byte	.LASF3
+ 179 003d DB010000 		.4byte	.LASF3
  180 0041 02       		.uleb128 0x2
  181 0042 04       		.byte	0x4
  182 0043 05       		.byte	0x5
- 183 0044 F6000000 		.4byte	.LASF4
+ 183 0044 1B010000 		.4byte	.LASF4
  184 0048 02       		.uleb128 0x2
  185 0049 04       		.byte	0x4
  186 004a 07       		.byte	0x7
- 187 004b FF000000 		.4byte	.LASF5
+ 187 004b 2E010000 		.4byte	.LASF5
  188 004f 02       		.uleb128 0x2
  189 0050 08       		.byte	0x8
  190 0051 05       		.byte	0x5
@@ -338,43 +338,43 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  204 006b 04       		.uleb128 0x4
  205 006c 66000000 		.4byte	.LASF9
  206 0070 02       		.byte	0x2
- 207 0071 FB01     		.2byte	0x1fb
+ 207 0071 FC01     		.2byte	0x1fc
  208 0073 2C000000 		.4byte	0x2c
  209 0077 04       		.uleb128 0x4
  210 0078 0E000000 		.4byte	.LASF10
  211 007c 02       		.byte	0x2
- 212 007d FD01     		.2byte	0x1fd
+ 212 007d FE01     		.2byte	0x1fe
  213 007f 48000000 		.4byte	0x48
  214 0083 02       		.uleb128 0x2
  215 0084 04       		.byte	0x4
  216 0085 04       		.byte	0x4
- 217 0086 A0000000 		.4byte	.LASF11
+ 217 0086 38020000 		.4byte	.LASF11
  218 008a 02       		.uleb128 0x2
  219 008b 08       		.byte	0x8
  220 008c 04       		.byte	0x4
- 221 008d 11010000 		.4byte	.LASF12
+ 221 008d 40010000 		.4byte	.LASF12
  222 0091 02       		.uleb128 0x2
  223 0092 01       		.byte	0x1
  224 0093 08       		.byte	0x8
- 225 0094 C2000000 		.4byte	.LASF13
+ 225 0094 E7000000 		.4byte	.LASF13
  226 0098 04       		.uleb128 0x4
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 7
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 7
 
 
- 227 0099 18010000 		.4byte	.LASF14
+ 227 0099 47010000 		.4byte	.LASF14
  228 009d 02       		.byte	0x2
- 229 009e A702     		.2byte	0x2a7
+ 229 009e A802     		.2byte	0x2a8
  230 00a0 A4000000 		.4byte	0xa4
  231 00a4 05       		.uleb128 0x5
  232 00a5 77000000 		.4byte	0x77
  233 00a9 02       		.uleb128 0x2
  234 00aa 08       		.byte	0x8
  235 00ab 04       		.byte	0x4
- 236 00ac CB010000 		.4byte	.LASF15
+ 236 00ac FA010000 		.4byte	.LASF15
  237 00b0 02       		.uleb128 0x2
  238 00b1 04       		.byte	0x4
  239 00b2 07       		.byte	0x7
- 240 00b3 8F020000 		.4byte	.LASF16
+ 240 00b3 7F020000 		.4byte	.LASF16
  241 00b7 06       		.uleb128 0x6
  242 00b8 01       		.byte	0x1
  243 00b9 03       		.byte	0x3
@@ -388,12 +388,12 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  251 00ca 00       		.byte	0
  252 00cb 00       		.byte	0
  253 00cc 08       		.uleb128 0x8
- 254 00cd 98020000 		.4byte	.LASF17
+ 254 00cd 88020000 		.4byte	.LASF17
  255 00d1 03       		.byte	0x3
  256 00d2 24       		.byte	0x24
  257 00d3 B7000000 		.4byte	0xb7
  258 00d7 09       		.uleb128 0x9
- 259 00d8 D5000000 		.4byte	.LASF18
+ 259 00d8 FA000000 		.4byte	.LASF18
  260 00dc 01       		.byte	0x1
  261 00dd 26       		.byte	0x26
  262 00de 00000000 		.4byte	.LFB2
@@ -401,7 +401,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  264 00e6 01       		.uleb128 0x1
  265 00e7 9C       		.byte	0x9c
  266 00e8 0A       		.uleb128 0xa
- 267 00e9 A6000000 		.4byte	.LASF20
+ 267 00e9 CB000000 		.4byte	.LASF20
  268 00ed 01       		.byte	0x1
  269 00ee 3A       		.byte	0x3a
  270 00ef 00000000 		.4byte	.LFB3
@@ -414,11 +414,11 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  277 0102 48010000 		.4byte	0x148
  278 0106 00       		.byte	0
  279 0107 09       		.uleb128 0x9
- 280 0108 6B020000 		.4byte	.LASF19
+ 280 0108 5B020000 		.4byte	.LASF19
  281 010c 01       		.byte	0x1
  282 010d 58       		.byte	0x58
  283 010e 00000000 		.4byte	.LFB4
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 8
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 8
 
 
  284 0112 02000000 		.4byte	.LFE4-.LFB4
@@ -438,7 +438,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  298 0132 54010000 		.4byte	0x154
  299 0136 00       		.byte	0
  300 0137 0C       		.uleb128 0xc
- 301 0138 4E020000 		.4byte	.LASF28
+ 301 0138 3E020000 		.4byte	.LASF28
  302 013c 01       		.byte	0x1
  303 013d 15       		.byte	0x15
  304 013e CC000000 		.4byte	0xcc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  338 0011 00       		.byte	0
  339 0012 00       		.byte	0
  340 0013 02       		.uleb128 0x2
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 9
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 9
 
 
  341 0014 24       		.uleb128 0x24
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  395 004a 07       		.uleb128 0x7
  396 004b 0D       		.uleb128 0xd
  397 004c 00       		.byte	0
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 10
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 10
 
 
  398 004d 03       		.uleb128 0x3
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  452 0084 0E       		.uleb128 0xe
  453 0085 3A       		.uleb128 0x3a
  454 0086 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 11
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 11
 
 
  455 0087 3B       		.uleb128 0x3b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  509 00c0 05       		.uleb128 0x5
  510 00c1 00       		.byte	0
  511 00c2 00       		.byte	0
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 12
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 12
 
 
  512 00c3 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  553      00
  554              	.LASF22:
  555 002e 46616E43 		.ascii	"FanController_FW_PWM2_Stop\000"
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 13
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 13
 
 
  555      6F6E7472 
@@ -746,122 +746,118 @@ ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 1
  563      6720756E 
  563      7369676E 
  563      65642069 
- 564              	.LASF11:
- 565 00a0 666C6F61 		.ascii	"float\000"
- 565      7400
+ 564              	.LASF26:
+ 565 00a0 433A5C55 		.ascii	"C:\\Users\\David\\Desktop\\heh\\CyberPong.cydsn\000"
+ 565      73657273 
+ 565      5C446176 
+ 565      69645C44 
+ 565      65736B74 
  566              	.LASF20:
- 567 00a6 46616E43 		.ascii	"FanController_FW_PWM2_Sleep\000"
+ 567 00cb 46616E43 		.ascii	"FanController_FW_PWM2_Sleep\000"
  567      6F6E7472 
  567      6F6C6C65 
  567      725F4657 
  567      5F50574D 
  568              	.LASF13:
- 569 00c2 63686172 		.ascii	"char\000"
+ 569 00e7 63686172 		.ascii	"char\000"
  569      00
  570              	.LASF1:
- 571 00c7 756E7369 		.ascii	"unsigned char\000"
+ 571 00ec 756E7369 		.ascii	"unsigned char\000"
  571      676E6564 
  571      20636861 
  571      7200
  572              	.LASF18:
- 573 00d5 46616E43 		.ascii	"FanController_FW_PWM2_SaveConfig\000"
+ 573 00fa 46616E43 		.ascii	"FanController_FW_PWM2_SaveConfig\000"
  573      6F6E7472 
  573      6F6C6C65 
  573      725F4657 
  573      5F50574D 
  574              	.LASF4:
- 575 00f6 6C6F6E67 		.ascii	"long int\000"
+ 575 011b 6C6F6E67 		.ascii	"long int\000"
  575      20696E74 
  575      00
- 576              	.LASF5:
- 577 00ff 6C6F6E67 		.ascii	"long unsigned int\000"
- 577      20756E73 
- 577      69676E65 
- 577      6420696E 
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 14
+ 576              	.LASF2:
+ 577 0124 73686F72 		.ascii	"short int\000"
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 14
 
 
+ 577      7420696E 
  577      7400
- 578              	.LASF12:
- 579 0111 646F7562 		.ascii	"double\000"
- 579      6C6500
- 580              	.LASF14:
- 581 0118 72656733 		.ascii	"reg32\000"
- 581      3200
- 582              	.LASF24:
- 583 011e 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 583      43313120 
- 583      352E342E 
- 583      31203230 
- 583      31363036 
- 584 0151 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 584      20726576 
- 584      6973696F 
- 584      6E203233 
- 584      37373135 
- 585 0184 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 585      66756E63 
- 585      74696F6E 
- 585      2D736563 
- 585      74696F6E 
- 586              	.LASF3:
- 587 01ac 73686F72 		.ascii	"short unsigned int\000"
- 587      7420756E 
- 587      7369676E 
- 587      65642069 
- 587      6E7400
- 588              	.LASF0:
- 589 01bf 7369676E 		.ascii	"signed char\000"
- 589      65642063 
- 589      68617200 
- 590              	.LASF15:
- 591 01cb 6C6F6E67 		.ascii	"long double\000"
- 591      20646F75 
- 591      626C6500 
- 592              	.LASF25:
- 593 01d7 47656E65 		.ascii	"Generated_Source\\PSoC4\\FanController_FW_PWM2_PM.c"
- 593      72617465 
- 593      645F536F 
- 593      75726365 
- 593      5C50536F 
- 594 0208 00       		.ascii	"\000"
- 595              	.LASF26:
- 596 0209 433A5C55 		.ascii	"C:\\Users\\Elena\\Downloads\\CyberPong-new-app\\Cyb"
- 596      73657273 
- 596      5C456C65 
- 596      6E615C44 
- 596      6F776E6C 
- 597 0237 6572506F 		.ascii	"erPong.cydsn\000"
- 597      6E672E63 
- 597      7964736E 
- 597      00
- 598              	.LASF2:
- 599 0244 73686F72 		.ascii	"short int\000"
- 599      7420696E 
-ARM GAS  C:\Users\Elena\AppData\Local\Temp\ccGeAlek.s 			page 15
+ 578              	.LASF5:
+ 579 012e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 579      20756E73 
+ 579      69676E65 
+ 579      6420696E 
+ 579      7400
+ 580              	.LASF12:
+ 581 0140 646F7562 		.ascii	"double\000"
+ 581      6C6500
+ 582              	.LASF14:
+ 583 0147 72656733 		.ascii	"reg32\000"
+ 583      3200
+ 584              	.LASF24:
+ 585 014d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 585      43313120 
+ 585      352E342E 
+ 585      31203230 
+ 585      31363036 
+ 586 0180 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 586      20726576 
+ 586      6973696F 
+ 586      6E203233 
+ 586      37373135 
+ 587 01b3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 587      66756E63 
+ 587      74696F6E 
+ 587      2D736563 
+ 587      74696F6E 
+ 588              	.LASF3:
+ 589 01db 73686F72 		.ascii	"short unsigned int\000"
+ 589      7420756E 
+ 589      7369676E 
+ 589      65642069 
+ 589      6E7400
+ 590              	.LASF0:
+ 591 01ee 7369676E 		.ascii	"signed char\000"
+ 591      65642063 
+ 591      68617200 
+ 592              	.LASF15:
+ 593 01fa 6C6F6E67 		.ascii	"long double\000"
+ 593      20646F75 
+ 593      626C6500 
+ 594              	.LASF25:
+ 595 0206 47656E65 		.ascii	"Generated_Source\\PSoC4\\FanController_FW_PWM2_PM.c"
+ 595      72617465 
+ 595      645F536F 
+ 595      75726365 
+ 595      5C50536F 
+ 596 0237 00       		.ascii	"\000"
+ 597              	.LASF11:
+ 598 0238 666C6F61 		.ascii	"float\000"
+ 598      7400
+ 599              	.LASF28:
+ 600 023e 46616E43 		.ascii	"FanController_FW_PWM2_backup\000"
+ 600      6F6E7472 
+ARM GAS  C:\Users\David\AppData\Local\Temp\ccEteGYp.s 			page 15
 
 
- 599      7400
- 600              	.LASF28:
- 601 024e 46616E43 		.ascii	"FanController_FW_PWM2_backup\000"
- 601      6F6E7472 
- 601      6F6C6C65 
- 601      725F4657 
- 601      5F50574D 
- 602              	.LASF19:
- 603 026b 46616E43 		.ascii	"FanController_FW_PWM2_RestoreConfig\000"
- 603      6F6E7472 
- 603      6F6C6C65 
- 603      725F4657 
- 603      5F50574D 
- 604              	.LASF16:
- 605 028f 73697A65 		.ascii	"sizetype\000"
- 605      74797065 
- 605      00
- 606              	.LASF17:
- 607 0298 46616E43 		.ascii	"FanController_FW_PWM2_BACKUP_STRUCT\000"
- 607      6F6E7472 
- 607      6F6C6C65 
- 607      725F4657 
- 607      5F50574D 
- 608              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 600      6F6C6C65 
+ 600      725F4657 
+ 600      5F50574D 
+ 601              	.LASF19:
+ 602 025b 46616E43 		.ascii	"FanController_FW_PWM2_RestoreConfig\000"
+ 602      6F6E7472 
+ 602      6F6C6C65 
+ 602      725F4657 
+ 602      5F50574D 
+ 603              	.LASF16:
+ 604 027f 73697A65 		.ascii	"sizetype\000"
+ 604      74797065 
+ 604      00
+ 605              	.LASF17:
+ 606 0288 46616E43 		.ascii	"FanController_FW_PWM2_BACKUP_STRUCT\000"
+ 606      6F6E7472 
+ 606      6F6C6C65 
+ 606      725F4657 
+ 606      5F50574D 
+ 607              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
