@@ -30,7 +30,9 @@ CY_ISR(Pin_Input_BallTrigger_Handler){
     StopBallServe();
     ballCounter++;
     Pin_Output_Serve_Write(0);
+    Pin_Motor_Write(0);
     CyDelay(400);
     Pin_Output_Serve_Write(1);
+    Pin_Motor_Write(1);
     Pin_Input_BallTrigger_ClearInterrupt();
 }

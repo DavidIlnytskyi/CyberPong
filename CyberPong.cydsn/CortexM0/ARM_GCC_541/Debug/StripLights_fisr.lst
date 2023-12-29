@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 1
 
 
    1              		.syntax unified
@@ -30,7 +30,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
   27              		.file 1 "Generated_Source\\PSoC4\\StripLights_fisr.c"
    1:Generated_Source\PSoC4/StripLights_fisr.c **** /*******************************************************************************
    2:Generated_Source\PSoC4/StripLights_fisr.c **** * File Name: StripLights_fisr.c  
-   3:Generated_Source\PSoC4/StripLights_fisr.c **** * Version 1.71
+   3:Generated_Source\PSoC4/StripLights_fisr.c **** * Version 1.70
    4:Generated_Source\PSoC4/StripLights_fisr.c **** *
    5:Generated_Source\PSoC4/StripLights_fisr.c **** *  Description:
    6:Generated_Source\PSoC4/StripLights_fisr.c **** *   API for controlling the state of an interrupt.
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
   28:Generated_Source\PSoC4/StripLights_fisr.c **** ********************************************************************************/
   29:Generated_Source\PSoC4/StripLights_fisr.c **** /* `#START StripLights_fisr_intc` */
   30:Generated_Source\PSoC4/StripLights_fisr.c **** 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 2
 
 
   31:Generated_Source\PSoC4/StripLights_fisr.c **** /* `#END` */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
   85:Generated_Source\PSoC4/StripLights_fisr.c **** *  Function definition example:
   86:Generated_Source\PSoC4/StripLights_fisr.c **** *   CY_ISR(MyISR)
   87:Generated_Source\PSoC4/StripLights_fisr.c **** *   {
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 3
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 3
 
 
   88:Generated_Source\PSoC4/StripLights_fisr.c **** *   }
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  142:Generated_Source\PSoC4/StripLights_fisr.c **** *
  143:Generated_Source\PSoC4/StripLights_fisr.c **** * Summary:
  144:Generated_Source\PSoC4/StripLights_fisr.c **** *   The default Interrupt Service Routine for StripLights_fisr.
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 4
 
 
  145:Generated_Source\PSoC4/StripLights_fisr.c **** *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  180:Generated_Source\PSoC4/StripLights_fisr.c **** * 
  181:Generated_Source\PSoC4/StripLights_fisr.c **** *   When defining ISR functions, the CY_ISR and CY_ISR_PROTO macros should be 
  182:Generated_Source\PSoC4/StripLights_fisr.c **** *   used to provide consistent definition across compilers:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 5
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 5
 
 
  183:Generated_Source\PSoC4/StripLights_fisr.c **** *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  210:Generated_Source\PSoC4/StripLights_fisr.c **** *   Gets the "address" of the current ISR vector for the Interrupt.
  211:Generated_Source\PSoC4/StripLights_fisr.c **** *
  212:Generated_Source\PSoC4/StripLights_fisr.c **** * Parameters:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 6
 
 
  213:Generated_Source\PSoC4/StripLights_fisr.c **** *   None
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  241:Generated_Source\PSoC4/StripLights_fisr.c **** *   priority: Priority of the interrupt, 0 being the highest priority
  242:Generated_Source\PSoC4/StripLights_fisr.c **** *             PSoC 3 and PSoC 5LP: Priority is from 0 to 7.
  243:Generated_Source\PSoC4/StripLights_fisr.c **** *             PSoC 4: Priority is from 0 to 3.
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 7
 
 
  244:Generated_Source\PSoC4/StripLights_fisr.c **** *
@@ -386,7 +386,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  111              		.loc 1 254 0
  112 0004 FFF7FEFF 		bl	CyEnterCriticalSection
  113              	.LVL3:
- 255:Generated_Source\PSoC4/StripLights_fisr.c ****     *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~(uint32)StripLights_fi
+ 255:Generated_Source\PSoC4/StripLights_fisr.c ****     *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~StripLights_fisr__INTC
  114              		.loc 1 255 0
  115 0008 044A     		ldr	r2, .L9
  116 000a 1368     		ldr	r3, [r2]
@@ -395,7 +395,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  256:Generated_Source\PSoC4/StripLights_fisr.c ****                                     ((uint32)priority << priorityOffset);
  119              		.loc 1 256 0
  120 0010 A407     		lsls	r4, r4, #30
- 255:Generated_Source\PSoC4/StripLights_fisr.c ****     *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~(uint32)StripLights_fi
+ 255:Generated_Source\PSoC4/StripLights_fisr.c ****     *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~StripLights_fisr__INTC
  121              		.loc 1 255 0
  122 0012 1C43     		orrs	r4, r3
  123 0014 1460     		str	r4, [r2]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  138              		.align	2
  139              		.global	StripLights_fisr_GetPriority
  140              		.code	16
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 8
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 8
 
 
  141              		.thumb_func
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  168              		.section	.text.StripLights_fisr_Enable,"ax",%progbits
  169              		.align	2
  170              		.global	StripLights_fisr_Enable
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 9
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 9
 
 
  171              		.code	16
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  202              	.LFB11:
  309:Generated_Source\PSoC4/StripLights_fisr.c **** 
  310:Generated_Source\PSoC4/StripLights_fisr.c **** 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 10
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 10
 
 
  311:Generated_Source\PSoC4/StripLights_fisr.c **** /*******************************************************************************
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  332:Generated_Source\PSoC4/StripLights_fisr.c **** /*******************************************************************************
  333:Generated_Source\PSoC4/StripLights_fisr.c **** * Function Name: StripLights_fisr_Disable
  334:Generated_Source\PSoC4/StripLights_fisr.c **** ********************************************************************************
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 11
 
 
  335:Generated_Source\PSoC4/StripLights_fisr.c **** *
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  272 0002 FFF7FEFF 		bl	StripLights_fisr_Disable
  273              	.LVL8:
   62:Generated_Source\PSoC4/StripLights_fisr.c **** 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 12
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 12
 
 
  274              		.loc 1 62 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  321 000e 0320     		movs	r0, #3
  322 0010 FFF7FEFF 		bl	StripLights_fisr_SetPriority
  323              	.LVL15:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 13
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 13
 
 
  111:Generated_Source\PSoC4/StripLights_fisr.c **** }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  372              		.type	StripLights_fisr_SetPending, %function
  373              	StripLights_fisr_SetPending:
  374              	.LFB13:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 14
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 14
 
 
  351:Generated_Source\PSoC4/StripLights_fisr.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  378:Generated_Source\PSoC4/StripLights_fisr.c **** 
  379:Generated_Source\PSoC4/StripLights_fisr.c **** /*******************************************************************************
  380:Generated_Source\PSoC4/StripLights_fisr.c **** * Function Name: StripLights_fisr_ClearPending
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 15
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 15
 
 
  381:Generated_Source\PSoC4/StripLights_fisr.c **** ********************************************************************************
@@ -892,48 +892,48 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  429 0006 00000000 		.4byte	.Ldebug_abbrev0
  430 000a 04       		.byte	0x4
  431 000b 01       		.uleb128 0x1
- 432 000c F3010000 		.4byte	.LASF36
+ 432 000c 33020000 		.4byte	.LASF36
  433 0010 0C       		.byte	0xc
- 434 0011 BF000000 		.4byte	.LASF37
- 435 0015 42030000 		.4byte	.LASF38
+ 434 0011 FF000000 		.4byte	.LASF37
+ 435 0015 13000000 		.4byte	.LASF38
  436 0019 00000000 		.4byte	.Ldebug_ranges0+0
  437 001d 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 16
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 16
 
 
  438 0021 00000000 		.4byte	.Ldebug_line0
  439 0025 02       		.uleb128 0x2
  440 0026 01       		.byte	0x1
  441 0027 06       		.byte	0x6
- 442 0028 36030000 		.4byte	.LASF0
+ 442 0028 76030000 		.4byte	.LASF0
  443 002c 02       		.uleb128 0x2
  444 002d 01       		.byte	0x1
  445 002e 08       		.byte	0x8
- 446 002f 21010000 		.4byte	.LASF1
+ 446 002f 61010000 		.4byte	.LASF1
  447 0033 02       		.uleb128 0x2
  448 0034 02       		.byte	0x2
  449 0035 05       		.byte	0x5
- 450 0036 ED020000 		.4byte	.LASF2
+ 450 0036 2D030000 		.4byte	.LASF2
  451 003a 02       		.uleb128 0x2
  452 003b 02       		.byte	0x2
  453 003c 07       		.byte	0x7
- 454 003d 29000000 		.4byte	.LASF3
+ 454 003d 69000000 		.4byte	.LASF3
  455 0041 02       		.uleb128 0x2
  456 0042 04       		.byte	0x4
  457 0043 05       		.byte	0x5
- 458 0044 06030000 		.4byte	.LASF4
+ 458 0044 46030000 		.4byte	.LASF4
  459 0048 02       		.uleb128 0x2
  460 0049 04       		.byte	0x4
  461 004a 07       		.byte	0x7
- 462 004b 57010000 		.4byte	.LASF5
+ 462 004b 97010000 		.4byte	.LASF5
  463 004f 02       		.uleb128 0x2
  464 0050 08       		.byte	0x8
  465 0051 05       		.byte	0x5
- 466 0052 8A020000 		.4byte	.LASF6
+ 466 0052 CA020000 		.4byte	.LASF6
  467 0056 02       		.uleb128 0x2
  468 0057 08       		.byte	0x8
  469 0058 07       		.byte	0x7
- 470 0059 0A010000 		.4byte	.LASF7
+ 470 0059 4A010000 		.4byte	.LASF7
  471 005d 03       		.uleb128 0x3
  472 005e 04       		.byte	0x4
  473 005f 05       		.byte	0x5
@@ -941,43 +941,43 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  475 0064 02       		.uleb128 0x2
  476 0065 04       		.byte	0x4
  477 0066 07       		.byte	0x7
- 478 0067 BB010000 		.4byte	.LASF8
+ 478 0067 FB010000 		.4byte	.LASF8
  479 006b 04       		.uleb128 0x4
- 480 006c 69010000 		.4byte	.LASF9
+ 480 006c A9010000 		.4byte	.LASF9
  481 0070 02       		.byte	0x2
- 482 0071 FC01     		.2byte	0x1fc
+ 482 0071 FB01     		.2byte	0x1fb
  483 0073 2C000000 		.4byte	0x2c
  484 0077 04       		.uleb128 0x4
- 485 0078 9D010000 		.4byte	.LASF10
+ 485 0078 DD010000 		.4byte	.LASF10
  486 007c 02       		.byte	0x2
- 487 007d FE01     		.2byte	0x1fe
+ 487 007d FD01     		.2byte	0x1fd
  488 007f 48000000 		.4byte	0x48
  489 0083 02       		.uleb128 0x2
  490 0084 04       		.byte	0x4
  491 0085 04       		.byte	0x4
- 492 0086 E9000000 		.4byte	.LASF11
+ 492 0086 29010000 		.4byte	.LASF11
  493 008a 02       		.uleb128 0x2
  494 008b 08       		.byte	0x8
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 17
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 17
 
 
  495 008c 04       		.byte	0x4
- 496 008d 78010000 		.4byte	.LASF12
+ 496 008d B8010000 		.4byte	.LASF12
  497 0091 02       		.uleb128 0x2
  498 0092 01       		.byte	0x1
  499 0093 08       		.byte	0x8
- 500 0094 AF020000 		.4byte	.LASF13
+ 500 0094 EF020000 		.4byte	.LASF13
  501 0098 04       		.uleb128 0x4
  502 0099 00000000 		.4byte	.LASF14
  503 009d 02       		.byte	0x2
- 504 009e A802     		.2byte	0x2a8
+ 504 009e A702     		.2byte	0x2a7
  505 00a0 A4000000 		.4byte	0xa4
  506 00a4 05       		.uleb128 0x5
  507 00a5 77000000 		.4byte	0x77
  508 00a9 04       		.uleb128 0x4
- 509 00aa E6010000 		.4byte	.LASF15
+ 509 00aa 26020000 		.4byte	.LASF15
  510 00ae 02       		.byte	0x2
- 511 00af B802     		.2byte	0x2b8
+ 511 00af B702     		.2byte	0x2b7
  512 00b1 B5000000 		.4byte	0xb5
  513 00b5 06       		.uleb128 0x6
  514 00b6 04       		.byte	0x4
@@ -986,13 +986,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  517 00bc 02       		.uleb128 0x2
  518 00bd 08       		.byte	0x8
  519 00be 04       		.byte	0x4
- 520 00bf 2A030000 		.4byte	.LASF16
+ 520 00bf 6A030000 		.4byte	.LASF16
  521 00c3 02       		.uleb128 0x2
  522 00c4 04       		.byte	0x4
  523 00c5 07       		.byte	0x7
- 524 00c6 81020000 		.4byte	.LASF17
+ 524 00c6 C1020000 		.4byte	.LASF17
  525 00ca 08       		.uleb128 0x8
- 526 00cb EF000000 		.4byte	.LASF24
+ 526 00cb 2F010000 		.4byte	.LASF24
  527 00cf 01       		.byte	0x1
  528 00d0 9F       		.byte	0x9f
  529 00d1 00000000 		.4byte	.LFB5
@@ -1000,7 +1000,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  531 00d9 01       		.uleb128 0x1
  532 00da 9C       		.byte	0x9c
  533 00db 09       		.uleb128 0x9
- 534 00dc 0F030000 		.4byte	.LASF18
+ 534 00dc 4F030000 		.4byte	.LASF18
  535 00e0 01       		.byte	0x1
  536 00e1 C7       		.byte	0xc7
  537 00e2 00000000 		.4byte	.LFB6
@@ -1009,7 +1009,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  540 00eb 9C       		.byte	0x9c
  541 00ec FE000000 		.4byte	0xfe
  542 00f0 0A       		.uleb128 0xa
- 543 00f1 C8010000 		.4byte	.LASF20
+ 543 00f1 08020000 		.4byte	.LASF20
  544 00f5 01       		.byte	0x1
  545 00f6 C7       		.byte	0xc7
  546 00f7 A9000000 		.4byte	0xa9
@@ -1017,8 +1017,8 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  548 00fc 50       		.byte	0x50
  549 00fd 00       		.byte	0
  550 00fe 0B       		.uleb128 0xb
- 551 00ff A4000000 		.4byte	.LASF26
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 18
+ 551 00ff E4000000 		.4byte	.LASF26
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 18
 
 
  552 0103 01       		.byte	0x1
@@ -1029,7 +1029,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  557 0111 01       		.uleb128 0x1
  558 0112 9C       		.byte	0x9c
  559 0113 09       		.uleb128 0x9
- 560 0114 3C000000 		.4byte	.LASF19
+ 560 0114 7C000000 		.4byte	.LASF19
  561 0118 01       		.byte	0x1
  562 0119 F9       		.byte	0xf9
  563 011a 00000000 		.4byte	.LFB8
@@ -1038,19 +1038,19 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  566 0123 9C       		.byte	0x9c
  567 0124 65010000 		.4byte	0x165
  568 0128 0C       		.uleb128 0xc
- 569 0129 6F010000 		.4byte	.LASF21
+ 569 0129 AF010000 		.4byte	.LASF21
  570 012d 01       		.byte	0x1
  571 012e F9       		.byte	0xf9
  572 012f 6B000000 		.4byte	0x6b
  573 0133 00000000 		.4byte	.LLST0
  574 0137 0D       		.uleb128 0xd
- 575 0138 48010000 		.4byte	.LASF22
+ 575 0138 88010000 		.4byte	.LASF22
  576 013c 01       		.byte	0x1
  577 013d FB       		.byte	0xfb
  578 013e 6B000000 		.4byte	0x6b
  579 0142 21000000 		.4byte	.LLST1
  580 0146 0E       		.uleb128 0xe
- 581 0147 F7020000 		.4byte	.LASF23
+ 581 0147 37030000 		.4byte	.LASF23
  582 014b 01       		.byte	0x1
  583 014c FC       		.byte	0xfc
  584 014d 77000000 		.4byte	0x77
@@ -1063,7 +1063,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  591 0160 F9020000 		.4byte	0x2f9
  592 0164 00       		.byte	0
  593 0165 10       		.uleb128 0x10
- 594 0166 B4020000 		.4byte	.LASF39
+ 594 0166 F4020000 		.4byte	.LASF39
  595 016a 01       		.byte	0x1
  596 016b 1501     		.2byte	0x115
  597 016d 6B000000 		.4byte	0x6b
@@ -1073,23 +1073,23 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  601 017a 9C       		.byte	0x9c
  602 017b 9D010000 		.4byte	0x19d
  603 017f 11       		.uleb128 0x11
- 604 0180 6F010000 		.4byte	.LASF21
+ 604 0180 AF010000 		.4byte	.LASF21
  605 0184 01       		.byte	0x1
  606 0185 1701     		.2byte	0x117
  607 0187 77000000 		.4byte	0x77
  608 018b 34000000 		.4byte	.LLST2
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 19
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 19
 
 
  609 018f 12       		.uleb128 0x12
- 610 0190 F7020000 		.4byte	.LASF23
+ 610 0190 37030000 		.4byte	.LASF23
  611 0194 01       		.byte	0x1
  612 0195 1801     		.2byte	0x118
  613 0197 77000000 		.4byte	0x77
  614 019b 1E       		.byte	0x1e
  615 019c 00       		.byte	0
  616 019d 13       		.uleb128 0x13
- 617 019e 8C000000 		.4byte	.LASF25
+ 617 019e CC000000 		.4byte	.LASF25
  618 01a2 01       		.byte	0x1
  619 01a3 3001     		.2byte	0x130
  620 01a5 00000000 		.4byte	.LFB10
@@ -1097,7 +1097,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  622 01ad 01       		.uleb128 0x1
  623 01ae 9C       		.byte	0x9c
  624 01af 14       		.uleb128 0x14
- 625 01b0 72000000 		.4byte	.LASF27
+ 625 01b0 B2000000 		.4byte	.LASF27
  626 01b4 01       		.byte	0x1
  627 01b5 4501     		.2byte	0x145
  628 01b7 6B000000 		.4byte	0x6b
@@ -1106,7 +1106,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  631 01c3 01       		.uleb128 0x1
  632 01c4 9C       		.byte	0x9c
  633 01c5 13       		.uleb128 0x13
- 634 01c6 2F010000 		.4byte	.LASF28
+ 634 01c6 6F010000 		.4byte	.LASF28
  635 01ca 01       		.byte	0x1
  636 01cb 5A01     		.2byte	0x15a
  637 01cd 00000000 		.4byte	.LFB12
@@ -1114,7 +1114,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  639 01d5 01       		.uleb128 0x1
  640 01d6 9C       		.byte	0x9c
  641 01d7 09       		.uleb128 0x9
- 642 01d8 98020000 		.4byte	.LASF29
+ 642 01d8 D8020000 		.4byte	.LASF29
  643 01dc 01       		.byte	0x1
  644 01dd 38       		.byte	0x38
  645 01de 00000000 		.4byte	.LFB2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  663 020b 00       		.byte	0
  664 020c 15       		.uleb128 0x15
  665 020d 12000000 		.4byte	.LVL10
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 20
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 20
 
 
  666 0211 13010000 		.4byte	0x113
@@ -1154,7 +1154,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  676 0224 9D010000 		.4byte	0x19d
  677 0228 00       		.byte	0
  678 0229 09       		.uleb128 0x9
- 679 022a 59000000 		.4byte	.LASF30
+ 679 022a 99000000 		.4byte	.LASF30
  680 022e 01       		.byte	0x1
  681 022f 63       		.byte	0x63
  682 0230 00000000 		.4byte	.LFB3
@@ -1163,7 +1163,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  685 0239 9C       		.byte	0x9c
  686 023a 87020000 		.4byte	0x287
  687 023e 0C       		.uleb128 0xc
- 688 023f C8010000 		.4byte	.LASF20
+ 688 023f 08020000 		.4byte	.LASF20
  689 0243 01       		.byte	0x1
  690 0244 63       		.byte	0x63
  691 0245 A9000000 		.4byte	0xa9
@@ -1197,8 +1197,8 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  719 0282 9D010000 		.4byte	0x19d
  720 0286 00       		.byte	0
  721 0287 09       		.uleb128 0x9
- 722 0288 13000000 		.4byte	.LASF31
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 21
+ 722 0288 53000000 		.4byte	.LASF31
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 21
 
 
  723 028c 01       		.byte	0x1
@@ -1216,7 +1216,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  735 02aa DB000000 		.4byte	0xdb
  736 02ae 00       		.byte	0
  737 02af 13       		.uleb128 0x13
- 738 02b0 D1020000 		.4byte	.LASF32
+ 738 02b0 11030000 		.4byte	.LASF32
  739 02b4 01       		.byte	0x1
  740 02b5 7501     		.2byte	0x175
  741 02b7 00000000 		.4byte	.LFB13
@@ -1224,7 +1224,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  743 02bf 01       		.uleb128 0x1
  744 02c0 9C       		.byte	0x9c
  745 02c1 13       		.uleb128 0x13
- 746 02c2 7F010000 		.4byte	.LASF33
+ 746 02c2 BF010000 		.4byte	.LASF33
  747 02c6 01       		.byte	0x1
  748 02c7 8E01     		.2byte	0x18e
  749 02c9 00000000 		.4byte	.LFB14
@@ -1244,13 +1244,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  763 02e9 21       		.byte	0x21
  764 02ea D3020000 		.4byte	0x2d3
  765 02ee 1A       		.uleb128 0x1a
- 766 02ef A4010000 		.4byte	.LASF34
- 767 02f3 A4010000 		.4byte	.LASF34
+ 766 02ef E4010000 		.4byte	.LASF34
+ 767 02f3 E4010000 		.4byte	.LASF34
  768 02f7 03       		.byte	0x3
  769 02f8 F8       		.byte	0xf8
  770 02f9 1A       		.uleb128 0x1a
- 771 02fa D0010000 		.4byte	.LASF35
- 772 02fe D0010000 		.4byte	.LASF35
+ 771 02fa 10020000 		.4byte	.LASF35
+ 772 02fe 10020000 		.4byte	.LASF35
  773 0302 03       		.byte	0x3
  774 0303 F9       		.byte	0xf9
  775 0304 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  777              	.Ldebug_abbrev0:
  778 0000 01       		.uleb128 0x1
  779 0001 11       		.uleb128 0x11
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 22
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 22
 
 
  780 0002 01       		.byte	0x1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  834 0038 00       		.byte	0
  835 0039 49       		.uleb128 0x49
  836 003a 13       		.uleb128 0x13
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 23
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 23
 
 
  837 003b 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  891 0072 11       		.uleb128 0x11
  892 0073 01       		.uleb128 0x1
  893 0074 12       		.uleb128 0x12
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 24
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 24
 
 
  894 0075 06       		.uleb128 0x6
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  948 00ad 3A       		.uleb128 0x3a
  949 00ae 0B       		.uleb128 0xb
  950 00af 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 25
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 25
 
 
  951 00b0 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1005 00e8 0B       		.uleb128 0xb
  1006 00e9 3B       		.uleb128 0x3b
  1007 00ea 05       		.uleb128 0x5
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 26
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 26
 
 
  1008 00eb 27       		.uleb128 0x27
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1062 0122 0B       		.uleb128 0xb
  1063 0123 3B       		.uleb128 0x3b
  1064 0124 05       		.uleb128 0x5
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 27
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 27
 
 
  1065 0125 27       		.uleb128 0x27
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1119 0162 18       		.uleb128 0x18
  1120 0163 00       		.byte	0
  1121 0164 00       		.byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 28
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 28
 
 
  1122 0165 17       		.uleb128 0x17
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1176              	.Ldebug_loc0:
  1177              	.LLST0:
  1178 0000 00000000 		.4byte	.LVL1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 29
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 29
 
 
  1179 0004 07000000 		.4byte	.LVL3-1
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1233 0004 0200     		.2byte	0x2
  1234 0006 00000000 		.4byte	.Ldebug_info0
  1235 000a 04       		.byte	0x4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 30
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 30
 
 
  1236 000b 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1290 0054 14000000 		.4byte	.LFE4
  1291 0058 00000000 		.4byte	.LFB13
  1292 005c 0C000000 		.4byte	.LFE13
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 31
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 31
 
 
  1293 0060 00000000 		.4byte	.LFB14
@@ -1820,227 +1820,229 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 1
  1303      6D566563 
  1303      746F7273 
  1303      00
- 1304              	.LASF31:
- 1305 0013 53747269 		.ascii	"StripLights_fisr_Stop\000"
- 1305      704C6967 
- 1305      6874735F 
- 1305      66697372 
- 1305      5F53746F 
- 1306              	.LASF3:
- 1307 0029 73686F72 		.ascii	"short unsigned int\000"
- 1307      7420756E 
- 1307      7369676E 
- 1307      65642069 
- 1307      6E7400
- 1308              	.LASF19:
- 1309 003c 53747269 		.ascii	"StripLights_fisr_SetPriority\000"
- 1309      704C6967 
- 1309      6874735F 
- 1309      66697372 
- 1309      5F536574 
- 1310              	.LASF30:
- 1311 0059 53747269 		.ascii	"StripLights_fisr_StartEx\000"
- 1311      704C6967 
- 1311      6874735F 
- 1311      66697372 
- 1311      5F537461 
- 1312              	.LASF27:
- 1313 0072 53747269 		.ascii	"StripLights_fisr_GetState\000"
- 1313      704C6967 
- 1313      6874735F 
- 1313      66697372 
- 1313      5F476574 
- 1314              	.LASF25:
- 1315 008c 53747269 		.ascii	"StripLights_fisr_Enable\000"
- 1315      704C6967 
- 1315      6874735F 
- 1315      66697372 
- 1315      5F456E61 
- 1316              	.LASF26:
- 1317 00a4 53747269 		.ascii	"StripLights_fisr_GetVector\000"
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 32
+ 1304              	.LASF38:
+ 1305 0013 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Project\\CyberPon"
+ 1305      43552053 
+ 1305      65636F6E 
+ 1305      64207965 
+ 1305      61725C54 
+ 1306 0041 675C4379 		.ascii	"g\\CyberPong.cydsn\000"
+ 1306      62657250 
+ 1306      6F6E672E 
+ 1306      63796473 
+ 1306      6E00
+ 1307              	.LASF31:
+ 1308 0053 53747269 		.ascii	"StripLights_fisr_Stop\000"
+ 1308      704C6967 
+ 1308      6874735F 
+ 1308      66697372 
+ 1308      5F53746F 
+ 1309              	.LASF3:
+ 1310 0069 73686F72 		.ascii	"short unsigned int\000"
+ 1310      7420756E 
+ 1310      7369676E 
+ 1310      65642069 
+ 1310      6E7400
+ 1311              	.LASF19:
+ 1312 007c 53747269 		.ascii	"StripLights_fisr_SetPriority\000"
+ 1312      704C6967 
+ 1312      6874735F 
+ 1312      66697372 
+ 1312      5F536574 
+ 1313              	.LASF30:
+ 1314 0099 53747269 		.ascii	"StripLights_fisr_StartEx\000"
+ 1314      704C6967 
+ 1314      6874735F 
+ 1314      66697372 
+ 1314      5F537461 
+ 1315              	.LASF27:
+ 1316 00b2 53747269 		.ascii	"StripLights_fisr_GetState\000"
+ 1316      704C6967 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 32
 
 
- 1317      704C6967 
- 1317      6874735F 
- 1317      66697372 
- 1317      5F476574 
- 1318              	.LASF37:
- 1319 00bf 47656E65 		.ascii	"Generated_Source\\PSoC4\\StripLights_fisr.c\000"
- 1319      72617465 
- 1319      645F536F 
- 1319      75726365 
- 1319      5C50536F 
- 1320              	.LASF11:
- 1321 00e9 666C6F61 		.ascii	"float\000"
- 1321      7400
- 1322              	.LASF24:
- 1323 00ef 53747269 		.ascii	"StripLights_fisr_Interrupt\000"
- 1323      704C6967 
- 1323      6874735F 
- 1323      66697372 
- 1323      5F496E74 
- 1324              	.LASF7:
- 1325 010a 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1325      206C6F6E 
- 1325      6720756E 
- 1325      7369676E 
- 1325      65642069 
- 1326              	.LASF1:
- 1327 0121 756E7369 		.ascii	"unsigned char\000"
- 1327      676E6564 
- 1327      20636861 
- 1327      7200
- 1328              	.LASF28:
- 1329 012f 53747269 		.ascii	"StripLights_fisr_Disable\000"
- 1329      704C6967 
- 1329      6874735F 
- 1329      66697372 
- 1329      5F446973 
- 1330              	.LASF22:
- 1331 0148 696E7465 		.ascii	"interruptState\000"
- 1331      72727570 
- 1331      74537461 
- 1331      746500
- 1332              	.LASF5:
- 1333 0157 6C6F6E67 		.ascii	"long unsigned int\000"
- 1333      20756E73 
- 1333      69676E65 
- 1333      6420696E 
- 1333      7400
- 1334              	.LASF9:
- 1335 0169 75696E74 		.ascii	"uint8\000"
- 1335      3800
- 1336              	.LASF21:
- 1337 016f 7072696F 		.ascii	"priority\000"
- 1337      72697479 
- 1337      00
- 1338              	.LASF12:
- 1339 0178 646F7562 		.ascii	"double\000"
- 1339      6C6500
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 33
+ 1316      6874735F 
+ 1316      66697372 
+ 1316      5F476574 
+ 1317              	.LASF25:
+ 1318 00cc 53747269 		.ascii	"StripLights_fisr_Enable\000"
+ 1318      704C6967 
+ 1318      6874735F 
+ 1318      66697372 
+ 1318      5F456E61 
+ 1319              	.LASF26:
+ 1320 00e4 53747269 		.ascii	"StripLights_fisr_GetVector\000"
+ 1320      704C6967 
+ 1320      6874735F 
+ 1320      66697372 
+ 1320      5F476574 
+ 1321              	.LASF37:
+ 1322 00ff 47656E65 		.ascii	"Generated_Source\\PSoC4\\StripLights_fisr.c\000"
+ 1322      72617465 
+ 1322      645F536F 
+ 1322      75726365 
+ 1322      5C50536F 
+ 1323              	.LASF11:
+ 1324 0129 666C6F61 		.ascii	"float\000"
+ 1324      7400
+ 1325              	.LASF24:
+ 1326 012f 53747269 		.ascii	"StripLights_fisr_Interrupt\000"
+ 1326      704C6967 
+ 1326      6874735F 
+ 1326      66697372 
+ 1326      5F496E74 
+ 1327              	.LASF7:
+ 1328 014a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1328      206C6F6E 
+ 1328      6720756E 
+ 1328      7369676E 
+ 1328      65642069 
+ 1329              	.LASF1:
+ 1330 0161 756E7369 		.ascii	"unsigned char\000"
+ 1330      676E6564 
+ 1330      20636861 
+ 1330      7200
+ 1331              	.LASF28:
+ 1332 016f 53747269 		.ascii	"StripLights_fisr_Disable\000"
+ 1332      704C6967 
+ 1332      6874735F 
+ 1332      66697372 
+ 1332      5F446973 
+ 1333              	.LASF22:
+ 1334 0188 696E7465 		.ascii	"interruptState\000"
+ 1334      72727570 
+ 1334      74537461 
+ 1334      746500
+ 1335              	.LASF5:
+ 1336 0197 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1336      20756E73 
+ 1336      69676E65 
+ 1336      6420696E 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 33
 
 
- 1340              	.LASF33:
- 1341 017f 53747269 		.ascii	"StripLights_fisr_ClearPending\000"
- 1341      704C6967 
- 1341      6874735F 
- 1341      66697372 
- 1341      5F436C65 
- 1342              	.LASF10:
- 1343 019d 75696E74 		.ascii	"uint32\000"
- 1343      333200
- 1344              	.LASF34:
- 1345 01a4 4379456E 		.ascii	"CyEnterCriticalSection\000"
- 1345      74657243 
- 1345      72697469 
- 1345      63616C53 
- 1345      65637469 
- 1346              	.LASF8:
- 1347 01bb 756E7369 		.ascii	"unsigned int\000"
- 1347      676E6564 
- 1347      20696E74 
- 1347      00
- 1348              	.LASF20:
- 1349 01c8 61646472 		.ascii	"address\000"
- 1349      65737300 
- 1350              	.LASF35:
- 1351 01d0 43794578 		.ascii	"CyExitCriticalSection\000"
- 1351      69744372 
- 1351      69746963 
- 1351      616C5365 
- 1351      6374696F 
- 1352              	.LASF15:
- 1353 01e6 63796973 		.ascii	"cyisraddress\000"
- 1353      72616464 
- 1353      72657373 
- 1353      00
- 1354              	.LASF36:
- 1355 01f3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1355      43313120 
- 1355      352E342E 
- 1355      31203230 
- 1355      31363036 
- 1356 0226 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 1356      20726576 
- 1356      6973696F 
- 1356      6E203233 
- 1356      37373135 
- 1357 0259 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1357      66756E63 
- 1357      74696F6E 
- 1357      2D736563 
- 1357      74696F6E 
- 1358              	.LASF17:
- 1359 0281 73697A65 		.ascii	"sizetype\000"
- 1359      74797065 
- 1359      00
- 1360              	.LASF6:
- 1361 028a 6C6F6E67 		.ascii	"long long int\000"
- 1361      206C6F6E 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 34
+ 1336      7400
+ 1337              	.LASF9:
+ 1338 01a9 75696E74 		.ascii	"uint8\000"
+ 1338      3800
+ 1339              	.LASF21:
+ 1340 01af 7072696F 		.ascii	"priority\000"
+ 1340      72697479 
+ 1340      00
+ 1341              	.LASF12:
+ 1342 01b8 646F7562 		.ascii	"double\000"
+ 1342      6C6500
+ 1343              	.LASF33:
+ 1344 01bf 53747269 		.ascii	"StripLights_fisr_ClearPending\000"
+ 1344      704C6967 
+ 1344      6874735F 
+ 1344      66697372 
+ 1344      5F436C65 
+ 1345              	.LASF10:
+ 1346 01dd 75696E74 		.ascii	"uint32\000"
+ 1346      333200
+ 1347              	.LASF34:
+ 1348 01e4 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 1348      74657243 
+ 1348      72697469 
+ 1348      63616C53 
+ 1348      65637469 
+ 1349              	.LASF8:
+ 1350 01fb 756E7369 		.ascii	"unsigned int\000"
+ 1350      676E6564 
+ 1350      20696E74 
+ 1350      00
+ 1351              	.LASF20:
+ 1352 0208 61646472 		.ascii	"address\000"
+ 1352      65737300 
+ 1353              	.LASF35:
+ 1354 0210 43794578 		.ascii	"CyExitCriticalSection\000"
+ 1354      69744372 
+ 1354      69746963 
+ 1354      616C5365 
+ 1354      6374696F 
+ 1355              	.LASF15:
+ 1356 0226 63796973 		.ascii	"cyisraddress\000"
+ 1356      72616464 
+ 1356      72657373 
+ 1356      00
+ 1357              	.LASF36:
+ 1358 0233 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1358      43313120 
+ 1358      352E342E 
+ 1358      31203230 
+ 1358      31363036 
+ 1359 0266 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 1359      20726576 
+ 1359      6973696F 
+ 1359      6E203233 
+ 1359      37373135 
+ 1360 0299 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 34
 
 
- 1361      6720696E 
- 1361      7400
- 1362              	.LASF29:
- 1363 0298 53747269 		.ascii	"StripLights_fisr_Start\000"
- 1363      704C6967 
- 1363      6874735F 
- 1363      66697372 
- 1363      5F537461 
- 1364              	.LASF13:
- 1365 02af 63686172 		.ascii	"char\000"
- 1365      00
- 1366              	.LASF39:
- 1367 02b4 53747269 		.ascii	"StripLights_fisr_GetPriority\000"
- 1367      704C6967 
- 1367      6874735F 
- 1367      66697372 
- 1367      5F476574 
- 1368              	.LASF32:
- 1369 02d1 53747269 		.ascii	"StripLights_fisr_SetPending\000"
- 1369      704C6967 
- 1369      6874735F 
- 1369      66697372 
- 1369      5F536574 
- 1370              	.LASF2:
- 1371 02ed 73686F72 		.ascii	"short int\000"
- 1371      7420696E 
- 1371      7400
- 1372              	.LASF23:
- 1373 02f7 7072696F 		.ascii	"priorityOffset\000"
- 1373      72697479 
- 1373      4F666673 
- 1373      657400
- 1374              	.LASF4:
- 1375 0306 6C6F6E67 		.ascii	"long int\000"
- 1375      20696E74 
- 1375      00
- 1376              	.LASF18:
- 1377 030f 53747269 		.ascii	"StripLights_fisr_SetVector\000"
- 1377      704C6967 
- 1377      6874735F 
- 1377      66697372 
- 1377      5F536574 
- 1378              	.LASF16:
- 1379 032a 6C6F6E67 		.ascii	"long double\000"
- 1379      20646F75 
- 1379      626C6500 
- 1380              	.LASF0:
- 1381 0336 7369676E 		.ascii	"signed char\000"
- 1381      65642063 
- 1381      68617200 
- 1382              	.LASF38:
- 1383 0342 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Cyberpong\\CyberP"
- 1383      43552053 
- 1383      65636F6E 
- 1383      64207965 
- 1383      61725C54 
- 1384 0370 6F6E672E 		.ascii	"ong.cydsn\000"
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccJCgaMX.s 			page 35
+ 1360      66756E63 
+ 1360      74696F6E 
+ 1360      2D736563 
+ 1360      74696F6E 
+ 1361              	.LASF17:
+ 1362 02c1 73697A65 		.ascii	"sizetype\000"
+ 1362      74797065 
+ 1362      00
+ 1363              	.LASF6:
+ 1364 02ca 6C6F6E67 		.ascii	"long long int\000"
+ 1364      206C6F6E 
+ 1364      6720696E 
+ 1364      7400
+ 1365              	.LASF29:
+ 1366 02d8 53747269 		.ascii	"StripLights_fisr_Start\000"
+ 1366      704C6967 
+ 1366      6874735F 
+ 1366      66697372 
+ 1366      5F537461 
+ 1367              	.LASF13:
+ 1368 02ef 63686172 		.ascii	"char\000"
+ 1368      00
+ 1369              	.LASF39:
+ 1370 02f4 53747269 		.ascii	"StripLights_fisr_GetPriority\000"
+ 1370      704C6967 
+ 1370      6874735F 
+ 1370      66697372 
+ 1370      5F476574 
+ 1371              	.LASF32:
+ 1372 0311 53747269 		.ascii	"StripLights_fisr_SetPending\000"
+ 1372      704C6967 
+ 1372      6874735F 
+ 1372      66697372 
+ 1372      5F536574 
+ 1373              	.LASF2:
+ 1374 032d 73686F72 		.ascii	"short int\000"
+ 1374      7420696E 
+ 1374      7400
+ 1375              	.LASF23:
+ 1376 0337 7072696F 		.ascii	"priorityOffset\000"
+ 1376      72697479 
+ 1376      4F666673 
+ 1376      657400
+ 1377              	.LASF4:
+ 1378 0346 6C6F6E67 		.ascii	"long int\000"
+ 1378      20696E74 
+ 1378      00
+ 1379              	.LASF18:
+ 1380 034f 53747269 		.ascii	"StripLights_fisr_SetVector\000"
+ 1380      704C6967 
+ 1380      6874735F 
+ 1380      66697372 
+ 1380      5F536574 
+ 1381              	.LASF16:
+ 1382 036a 6C6F6E67 		.ascii	"long double\000"
+ 1382      20646F75 
+ 1382      626C6500 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccxzDZj1.s 			page 35
 
 
- 1384      63796473 
- 1384      6E00
+ 1383              	.LASF0:
+ 1384 0376 7369676E 		.ascii	"signed char\000"
+ 1384      65642063 
+ 1384      68617200 
  1385              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

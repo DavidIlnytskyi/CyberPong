@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CyberPong-000\CyberPong\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CyberPong-000\CyberPong\Source Files\motorController.c">
 <ExpandedNodeIds>
 <v>CyberPong-000</v>
 <v>CyberPong-000\CyberPong</v>
@@ -41,7 +41,6 @@
 <v>CyberPong-000\CyberPong\Source Files\debug.c</v>
 <v>CyberPong-000\CyberPong\Source Files\main.c</v>
 <v>CyberPong-000\CyberPong\Source Files\motorController.c</v>
-<v>CyberPong-000\CyberPong\Generated_Source</v>
 <v>CyberPong-000\CyberPong\Generated_Source\PSoC4</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -72,15 +71,6 @@
 <v>CyberPong-000\CyberPong\Source Files\main.c</v>
 <v>CyberPong-000\CyberPong\Source Files\motorController.c</v>
 <v>CyberPong-000\CyberPong\Generated_Source</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\ADC</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\ADC_intClock</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\ADC_IRQ</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\Bluetooth</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\Bluetooth_bless_isr</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\Clock</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\Clock_1</v>
-<v>CyberPong-000\CyberPong\Generated_Source\PSoC4\Control_Rotation</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -94,9 +84,12 @@
 <VisibleNodeIds>
 <v>CyberPong-000</v>
 <v>CyberPong-000\CyberPong</v>
+<v>CyberPong-000\CyberPong\B_WS2811_v1_3</v>
+<v>CyberPong-000\CyberPong\StripLights_v2_2</v>
 <v>CyberPong-000\CyberPong\TopDesign</v>
 <v>CyberPong-000\CyberPong\TopDesign\TopDesign.cysch</v>
 <v>CyberPong-000\CyberPong\TopDesign\TopDesign_01.cymacro</v>
+<v>CyberPong-000\CyberPong\WS2812String_v1_0</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -138,6 +131,8 @@
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\debug.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Din.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Din_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ENA_P_16.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ENA_P_16_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\IN1_P_01.lst</v>
@@ -151,8 +146,6 @@
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\P_03_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Input_BallTrigger.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Input_BallTrigger_PM.lst</v>
-<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\pin_motor.lst</v>
-<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\pin_motor_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Output_DOWN.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Output_DOWN_GROUND.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Output_DOWN_GROUND_PM.lst</v>
@@ -175,6 +168,12 @@
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_Down.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_Down_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights_cisr.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights_fisr.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights_fonts.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights_StringSel.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\StripLights_StringSel_PM.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
 <v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
@@ -197,6 +196,39 @@
 <VisibleNodeIds>
 <v>CyberPong-000</v>
 <v>CyberPong-000\CyberPong</v>
+<v>CyberPong-000\CyberPong\CortexM0</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_intClock.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\aios.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\aios_core.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\ballServeController.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_aios.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_bless_isr.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_eventHandler.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_gatt.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_HAL_INT.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Bluetooth_HAL_PVT.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Control_Rotation.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\Control_Rotation_PM.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CyberPong-000\CyberPong\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -214,6 +246,7 @@
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_boot_v6_0</v>
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_dmac_v1_10</v>
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CyberPong-000\CyberPong\Project Datasheet</v>
 <v>CyberPong-000\CyberPong\ADC_SAR_SEQ_P4_v2_50.pdf</v>
 <v>CyberPong-000\CyberPong\and_v1_0</v>
 <v>CyberPong-000\CyberPong\and_v1_0\and_v1_0.pdf</v>
@@ -224,11 +257,14 @@
 <v>CyberPong-000\CyberPong\cy_pins_v2_20</v>
 <v>CyberPong-000\CyberPong\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>CyberPong-000\CyberPong\CyControlReg_v1_80.pdf</v>
-<v>CyberPong-000\CyberPong\Gnd_v1_0.pdf</v>
+<v>CyberPong-000\CyberPong\Gnd_v1_0</v>
+<v>CyberPong-000\CyberPong\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\not_v1_0</v>
 <v>CyberPong-000\CyberPong\not_v1_0\not_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\Potentiometer_v1_0.pdf</v>
+<v>CyberPong-000\CyberPong\Power_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\SCB_P4_v4_0.pdf</v>
+<v>CyberPong-000\CyberPong\StripLights.pdf</v>
 <v>CyberPong-000\CyberPong\TCPWM_P4_v2_10</v>
 <v>CyberPong-000\CyberPong\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
 </ExpandedNodeIds>
@@ -241,6 +277,7 @@
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_boot_v6_0</v>
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_dmac_v1_10</v>
 <v>CyberPong-000\CyberPong\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CyberPong-000\CyberPong\Project Datasheet</v>
 <v>CyberPong-000\CyberPong\ADC_SAR_SEQ_P4_v2_50.pdf</v>
 <v>CyberPong-000\CyberPong\and_v1_0</v>
 <v>CyberPong-000\CyberPong\and_v1_0\and_v1_0.pdf</v>
@@ -251,11 +288,14 @@
 <v>CyberPong-000\CyberPong\cy_pins_v2_20</v>
 <v>CyberPong-000\CyberPong\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>CyberPong-000\CyberPong\CyControlReg_v1_80.pdf</v>
-<v>CyberPong-000\CyberPong\Gnd_v1_0.pdf</v>
+<v>CyberPong-000\CyberPong\Gnd_v1_0</v>
+<v>CyberPong-000\CyberPong\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\not_v1_0</v>
 <v>CyberPong-000\CyberPong\not_v1_0\not_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\Potentiometer_v1_0.pdf</v>
+<v>CyberPong-000\CyberPong\Power_v1_0.pdf</v>
 <v>CyberPong-000\CyberPong\SCB_P4_v4_0.pdf</v>
+<v>CyberPong-000\CyberPong\StripLights.pdf</v>
 <v>CyberPong-000\CyberPong\TCPWM_P4_v2_10</v>
 <v>CyberPong-000\CyberPong\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
 </VisibleNodeIds>
@@ -267,13 +307,12 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\main.c" />
 <name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
 <name v=".\motorController.c" />
-<name v=".\aios.c" />
-<name v=".\Generated_Source\PSoC4\aios_core.c" />
-<name v=".\debug.c" />
 <name v=".\ballServeController.c" />
+<name v=".\debug.c" />
+<name v=".\aios.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -281,7 +320,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="941, 479" SelectedTabbedMdiWindow="096591fe-74c9-453f-87ef-d2b48ffb1256"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="17147f82-3054-4755-bd75-a1f684f39cfc" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\main.c" Guid="be214309-2766-49a8-a576-ce7c864d8a47" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\TopDesign\TopDesign.cysch" Guid="22fcdc5e-2614-439c-9452-717fe788ea85" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\motorController.c" Guid="096591fe-74c9-453f-87ef-d2b48ffb1256" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\aios.c" Guid="7aad8b17-70b3-4914-9ee3-4e10e81f4383" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\Generated_Source\PSoC4\aios_core.c" Guid="9d6edb35-9f91-4b91-a42d-fd4280a4bdc8" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\debug.c" Guid="0335b54a-4b05-4a68-8839-ffaeaaba0b72" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-new-app\CyberPong.cydsn\ballServeController.c" Guid="7184a795-5dab-4384-8a94-f2b46e70013e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="941, 479" SelectedTabbedMdiWindow="158b3ae7-b411-43c4-8d19-87195b04db61"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="17147f82-3054-4755-bd75-a1f684f39cfc" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\TopDesign\TopDesign.cysch" Guid="9b59eaa2-7652-4fb4-bfc6-87ab150cf766" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\main.c" Guid="158b3ae7-b411-43c4-8d19-87195b04db61" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\motorController.c" Guid="4c798f4b-3d79-4397-9269-f186edfef788" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\ballServeController.c" Guid="6c93aa68-42a3-48e4-a22d-d00bb5f055e7" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\debug.c" Guid="eecf0379-d979-4b35-b718-fe25269d7dd8" /><DocumentWindow Key="C:\Users\Elena\Downloads\CyberPong-diff\CyberPong-main\CyberPong.cydsn\aios.c" Guid="b1b4f46d-b726-4932-bada-11be9d5a0554" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

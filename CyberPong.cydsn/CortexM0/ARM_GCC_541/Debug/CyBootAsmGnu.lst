@@ -3,13 +3,13 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
 
    1              	/***************************************************************************//**
    2              	* \file CyBootAsmGnu.s
-   3              	* \version 6.10
+   3              	* \version 6.0
    4              	*
    5              	* \brief Assembly routines for GNU as.
    6              	*
    7              	********************************************************************************
    8              	* \copyright
-   9              	* Copyright 2010-2021, Cypress Semiconductor Corporation.  All rights reserved.
+   9              	* Copyright 2010-2018, Cypress Semiconductor Corporation.  All rights reserved.
   10              	* You may use this file only in accordance with the license, terms, conditions,
   11              	* disclaimers, and limitations in the end user license agreement accompanying
   12              	* the software package with which this file was provided.
@@ -11092,7 +11092,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  133              	.set Din__0__MASK, 0x04
  134              	.set Din__0__OUT_SEL, CYREG_UDB_PA0_CFG10
  135              	.set Din__0__OUT_SEL_SHIFT, 4
- 136              	.set Din__0__OUT_SEL_VAL, 3
+ 136              	.set Din__0__OUT_SEL_VAL, 0
  137              	.set Din__0__PA__CFG0, CYREG_UDB_PA0_CFG0
  138              	.set Din__0__PA__CFG1, CYREG_UDB_PA0_CFG1
  139              	.set Din__0__PA__CFG10, CYREG_UDB_PA0_CFG10
@@ -11147,69 +11147,69 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  185              	.set Din__SHIFT, 2
  186              	
  187              	/* PWM */
- 188              	.set PWM_cy_m0s8_tcpwm_1__CC, CYREG_TCPWM_CNT1_CC
- 189              	.set PWM_cy_m0s8_tcpwm_1__CC_BUFF, CYREG_TCPWM_CNT1_CC_BUFF
- 190              	.set PWM_cy_m0s8_tcpwm_1__COUNTER, CYREG_TCPWM_CNT1_COUNTER
- 191              	.set PWM_cy_m0s8_tcpwm_1__CTRL, CYREG_TCPWM_CNT1_CTRL
- 192              	.set PWM_cy_m0s8_tcpwm_1__INTR, CYREG_TCPWM_CNT1_INTR
- 193              	.set PWM_cy_m0s8_tcpwm_1__INTR_MASK, CYREG_TCPWM_CNT1_INTR_MASK
- 194              	.set PWM_cy_m0s8_tcpwm_1__INTR_MASKED, CYREG_TCPWM_CNT1_INTR_MASKED
- 195              	.set PWM_cy_m0s8_tcpwm_1__INTR_SET, CYREG_TCPWM_CNT1_INTR_SET
- 196              	.set PWM_cy_m0s8_tcpwm_1__PERIOD, CYREG_TCPWM_CNT1_PERIOD
- 197              	.set PWM_cy_m0s8_tcpwm_1__PERIOD_BUFF, CYREG_TCPWM_CNT1_PERIOD_BUFF
- 198              	.set PWM_cy_m0s8_tcpwm_1__STATUS, CYREG_TCPWM_CNT1_STATUS
+ 188              	.set PWM_cy_m0s8_tcpwm_1__CC, CYREG_TCPWM_CNT0_CC
+ 189              	.set PWM_cy_m0s8_tcpwm_1__CC_BUFF, CYREG_TCPWM_CNT0_CC_BUFF
+ 190              	.set PWM_cy_m0s8_tcpwm_1__COUNTER, CYREG_TCPWM_CNT0_COUNTER
+ 191              	.set PWM_cy_m0s8_tcpwm_1__CTRL, CYREG_TCPWM_CNT0_CTRL
+ 192              	.set PWM_cy_m0s8_tcpwm_1__INTR, CYREG_TCPWM_CNT0_INTR
+ 193              	.set PWM_cy_m0s8_tcpwm_1__INTR_MASK, CYREG_TCPWM_CNT0_INTR_MASK
+ 194              	.set PWM_cy_m0s8_tcpwm_1__INTR_MASKED, CYREG_TCPWM_CNT0_INTR_MASKED
+ 195              	.set PWM_cy_m0s8_tcpwm_1__INTR_SET, CYREG_TCPWM_CNT0_INTR_SET
+ 196              	.set PWM_cy_m0s8_tcpwm_1__PERIOD, CYREG_TCPWM_CNT0_PERIOD
+ 197              	.set PWM_cy_m0s8_tcpwm_1__PERIOD_BUFF, CYREG_TCPWM_CNT0_PERIOD_BUFF
+ 198              	.set PWM_cy_m0s8_tcpwm_1__STATUS, CYREG_TCPWM_CNT0_STATUS
 ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 187
 
 
  199              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMD, CYREG_TCPWM_CMD
- 200              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_MASK, 0x02
- 201              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_SHIFT, 1
- 202              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_MASK, 0x200
- 203              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_SHIFT, 9
- 204              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_MASK, 0x2000000
- 205              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_SHIFT, 25
- 206              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_MASK, 0x20000
- 207              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_SHIFT, 17
+ 200              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_MASK, 0x01
+ 201              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_SHIFT, 0
+ 202              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_MASK, 0x100
+ 203              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_SHIFT, 8
+ 204              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_MASK, 0x1000000
+ 205              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_SHIFT, 24
+ 206              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_MASK, 0x10000
+ 207              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_SHIFT, 16
  208              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CTRL, CYREG_TCPWM_CTRL
- 209              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CTRL_MASK, 0x02
- 210              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CTRL_SHIFT, 1
+ 209              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CTRL_MASK, 0x01
+ 210              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_CTRL_SHIFT, 0
  211              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE, CYREG_TCPWM_INTR_CAUSE
- 212              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_MASK, 0x02
- 213              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_SHIFT, 1
- 214              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_NUMBER, 1
- 215              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL0, CYREG_TCPWM_CNT1_TR_CTRL0
- 216              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL1, CYREG_TCPWM_CNT1_TR_CTRL1
- 217              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL2, CYREG_TCPWM_CNT1_TR_CTRL2
- 218              	.set PWM_Down_cy_m0s8_tcpwm_1__CC, CYREG_TCPWM_CNT0_CC
- 219              	.set PWM_Down_cy_m0s8_tcpwm_1__CC_BUFF, CYREG_TCPWM_CNT0_CC_BUFF
- 220              	.set PWM_Down_cy_m0s8_tcpwm_1__COUNTER, CYREG_TCPWM_CNT0_COUNTER
- 221              	.set PWM_Down_cy_m0s8_tcpwm_1__CTRL, CYREG_TCPWM_CNT0_CTRL
- 222              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR, CYREG_TCPWM_CNT0_INTR
- 223              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_MASK, CYREG_TCPWM_CNT0_INTR_MASK
- 224              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_MASKED, CYREG_TCPWM_CNT0_INTR_MASKED
- 225              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_SET, CYREG_TCPWM_CNT0_INTR_SET
- 226              	.set PWM_Down_cy_m0s8_tcpwm_1__PERIOD, CYREG_TCPWM_CNT0_PERIOD
- 227              	.set PWM_Down_cy_m0s8_tcpwm_1__PERIOD_BUFF, CYREG_TCPWM_CNT0_PERIOD_BUFF
- 228              	.set PWM_Down_cy_m0s8_tcpwm_1__STATUS, CYREG_TCPWM_CNT0_STATUS
+ 212              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_MASK, 0x01
+ 213              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_SHIFT, 0
+ 214              	.set PWM_cy_m0s8_tcpwm_1__TCPWM_NUMBER, 0
+ 215              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL0, CYREG_TCPWM_CNT0_TR_CTRL0
+ 216              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL1, CYREG_TCPWM_CNT0_TR_CTRL1
+ 217              	.set PWM_cy_m0s8_tcpwm_1__TR_CTRL2, CYREG_TCPWM_CNT0_TR_CTRL2
+ 218              	.set PWM_Down_cy_m0s8_tcpwm_1__CC, CYREG_TCPWM_CNT3_CC
+ 219              	.set PWM_Down_cy_m0s8_tcpwm_1__CC_BUFF, CYREG_TCPWM_CNT3_CC_BUFF
+ 220              	.set PWM_Down_cy_m0s8_tcpwm_1__COUNTER, CYREG_TCPWM_CNT3_COUNTER
+ 221              	.set PWM_Down_cy_m0s8_tcpwm_1__CTRL, CYREG_TCPWM_CNT3_CTRL
+ 222              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR, CYREG_TCPWM_CNT3_INTR
+ 223              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_MASK, CYREG_TCPWM_CNT3_INTR_MASK
+ 224              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_MASKED, CYREG_TCPWM_CNT3_INTR_MASKED
+ 225              	.set PWM_Down_cy_m0s8_tcpwm_1__INTR_SET, CYREG_TCPWM_CNT3_INTR_SET
+ 226              	.set PWM_Down_cy_m0s8_tcpwm_1__PERIOD, CYREG_TCPWM_CNT3_PERIOD
+ 227              	.set PWM_Down_cy_m0s8_tcpwm_1__PERIOD_BUFF, CYREG_TCPWM_CNT3_PERIOD_BUFF
+ 228              	.set PWM_Down_cy_m0s8_tcpwm_1__STATUS, CYREG_TCPWM_CNT3_STATUS
  229              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMD, CYREG_TCPWM_CMD
- 230              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_MASK, 0x01
- 231              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_SHIFT, 0
- 232              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_MASK, 0x100
- 233              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_SHIFT, 8
- 234              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_MASK, 0x1000000
- 235              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_SHIFT, 24
- 236              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_MASK, 0x10000
- 237              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_SHIFT, 16
+ 230              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_MASK, 0x08
+ 231              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_SHIFT, 3
+ 232              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_MASK, 0x800
+ 233              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_SHIFT, 11
+ 234              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_MASK, 0x8000000
+ 235              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_SHIFT, 27
+ 236              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_MASK, 0x80000
+ 237              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_SHIFT, 19
  238              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CTRL, CYREG_TCPWM_CTRL
- 239              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CTRL_MASK, 0x01
- 240              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CTRL_SHIFT, 0
+ 239              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CTRL_MASK, 0x08
+ 240              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_CTRL_SHIFT, 3
  241              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE, CYREG_TCPWM_INTR_CAUSE
- 242              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_MASK, 0x01
- 243              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_SHIFT, 0
- 244              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_NUMBER, 0
- 245              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL0, CYREG_TCPWM_CNT0_TR_CTRL0
- 246              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL1, CYREG_TCPWM_CNT0_TR_CTRL1
- 247              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL2, CYREG_TCPWM_CNT0_TR_CTRL2
+ 242              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_MASK, 0x08
+ 243              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_SHIFT, 3
+ 244              	.set PWM_Down_cy_m0s8_tcpwm_1__TCPWM_NUMBER, 3
+ 245              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL0, CYREG_TCPWM_CNT3_TR_CTRL0
+ 246              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL1, CYREG_TCPWM_CNT3_TR_CTRL1
+ 247              	.set PWM_Down_cy_m0s8_tcpwm_1__TR_CTRL2, CYREG_TCPWM_CNT3_TR_CTRL2
  248              	
  249              	/* P_03 */
  250              	.set P_03__0__DR, CYREG_GPIO_PRT0_DR
@@ -11229,7 +11229,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  261              	.set P_03__0__MASK, 0x08
  262              	.set P_03__0__OUT_SEL, CYREG_UDB_PA0_CFG10
  263              	.set P_03__0__OUT_SEL_SHIFT, 6
- 264              	.set P_03__0__OUT_SEL_VAL, 0
+ 264              	.set P_03__0__OUT_SEL_VAL, 2
  265              	.set P_03__0__PA__CFG0, CYREG_UDB_PA0_CFG0
  266              	.set P_03__0__PA__CFG1, CYREG_UDB_PA0_CFG1
  267              	.set P_03__0__PA__CFG10, CYREG_UDB_PA0_CFG10
@@ -11524,11 +11524,11 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  541              	.set UART_tx__SHIFT, 5
  542              	
  543              	/* Clock */
- 544              	.set Clock__CTRL_REGISTER, CYREG_PERI_PCLK_CTL8
+ 544              	.set Clock__CTRL_REGISTER, CYREG_PERI_PCLK_CTL7
  545              	.set Clock__DIV_ID, 0x00000040
  546              	.set Clock__DIV_REGISTER, CYREG_PERI_DIV_16_CTL0
  547              	.set Clock__PA_DIV_ID, 0x000000FF
- 548              	.set Clock_1__CTRL_REGISTER, CYREG_PERI_PCLK_CTL7
+ 548              	.set Clock_1__CTRL_REGISTER, CYREG_PERI_PCLK_CTL10
  549              	.set Clock_1__DIV_ID, 0x00000041
  550              	.set Clock_1__DIV_REGISTER, CYREG_PERI_DIV_16_CTL1
  551              	.set Clock_1__PA_DIV_ID, 0x000000FF
@@ -11548,7 +11548,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  565              	.set ENA_P_16__0__MASK, 0x40
  566              	.set ENA_P_16__0__OUT_SEL, CYREG_UDB_PA1_CFG10
  567              	.set ENA_P_16__0__OUT_SEL_SHIFT, 12
- 568              	.set ENA_P_16__0__OUT_SEL_VAL, 0
+ 568              	.set ENA_P_16__0__OUT_SEL_VAL, -1
  569              	.set ENA_P_16__0__PA__CFG0, CYREG_UDB_PA1_CFG0
  570              	.set ENA_P_16__0__PA__CFG1, CYREG_UDB_PA1_CFG1
  571              	.set ENA_P_16__0__PA__CFG10, CYREG_UDB_PA1_CFG10
@@ -12224,7 +12224,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1208              	.set Pin_Output_UP__0__MASK, 0x04
  1209              	.set Pin_Output_UP__0__OUT_SEL, CYREG_UDB_PA2_CFG10
  1210              	.set Pin_Output_UP__0__OUT_SEL_SHIFT, 4
- 1211              	.set Pin_Output_UP__0__OUT_SEL_VAL, 1
+ 1211              	.set Pin_Output_UP__0__OUT_SEL_VAL, 2
  1212              	.set Pin_Output_UP__0__PA__CFG0, CYREG_UDB_PA2_CFG0
  1213              	.set Pin_Output_UP__0__PA__CFG1, CYREG_UDB_PA2_CFG1
  1214              	.set Pin_Output_UP__0__PA__CFG10, CYREG_UDB_PA2_CFG10
@@ -12291,7 +12291,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1272              	.set Pin_Output_UP_GROUND__0__MASK, 0x04
  1273              	.set Pin_Output_UP_GROUND__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  1274              	.set Pin_Output_UP_GROUND__0__OUT_SEL_SHIFT, 4
- 1275              	.set Pin_Output_UP_GROUND__0__OUT_SEL_VAL, 2
+ 1275              	.set Pin_Output_UP_GROUND__0__OUT_SEL_VAL, 1
  1276              	.set Pin_Output_UP_GROUND__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  1277              	.set Pin_Output_UP_GROUND__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  1278              	.set Pin_Output_UP_GROUND__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -12430,7 +12430,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1402              	.set Pin_Output_DOWN_GROUND__0__MASK, 0x08
  1403              	.set Pin_Output_DOWN_GROUND__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  1404              	.set Pin_Output_DOWN_GROUND__0__OUT_SEL_SHIFT, 6
- 1405              	.set Pin_Output_DOWN_GROUND__0__OUT_SEL_VAL, 0
+ 1405              	.set Pin_Output_DOWN_GROUND__0__OUT_SEL_VAL, 2
  1406              	.set Pin_Output_DOWN_GROUND__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  1407              	.set Pin_Output_DOWN_GROUND__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  1408              	.set Pin_Output_DOWN_GROUND__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -12566,7 +12566,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1532              	.set Pin_Output_LEFT_GROUND__0__MASK, 0x01
  1533              	.set Pin_Output_LEFT_GROUND__0__OUT_SEL, CYREG_UDB_PA3_CFG10
  1534              	.set Pin_Output_LEFT_GROUND__0__OUT_SEL_SHIFT, 0
- 1535              	.set Pin_Output_LEFT_GROUND__0__OUT_SEL_VAL, 1
+ 1535              	.set Pin_Output_LEFT_GROUND__0__OUT_SEL_VAL, 0
  1536              	.set Pin_Output_LEFT_GROUND__0__PA__CFG0, CYREG_UDB_PA3_CFG0
  1537              	.set Pin_Output_LEFT_GROUND__0__PA__CFG1, CYREG_UDB_PA3_CFG1
  1538              	.set Pin_Output_LEFT_GROUND__0__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -12681,7 +12681,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1641              	.set Pin_Output_RIGHT__0__MASK, 0x02
  1642              	.set Pin_Output_RIGHT__0__OUT_SEL, CYREG_UDB_PA2_CFG10
  1643              	.set Pin_Output_RIGHT__0__OUT_SEL_SHIFT, 2
- 1644              	.set Pin_Output_RIGHT__0__OUT_SEL_VAL, 2
+ 1644              	.set Pin_Output_RIGHT__0__OUT_SEL_VAL, 1
  1645              	.set Pin_Output_RIGHT__0__PA__CFG0, CYREG_UDB_PA2_CFG0
  1646              	.set Pin_Output_RIGHT__0__PA__CFG1, CYREG_UDB_PA2_CFG1
  1647              	.set Pin_Output_RIGHT__0__PA__CFG10, CYREG_UDB_PA2_CFG10

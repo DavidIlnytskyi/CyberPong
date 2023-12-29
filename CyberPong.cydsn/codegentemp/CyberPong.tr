@@ -18,23 +18,24 @@
 ##################################################################### 
                     1::Clock Frequency Summary
 ===================================================================== 
-Number of clocks: 16
-Clock: ADC_intClock       | N/A                   | Target: 1.60 MHz   | 
-Clock: ADC_intClock(FFB)  | N/A                   | Target: 1.60 MHz   | 
-Clock: Clock              | N/A                   | Target: 9.60 MHz   | 
-Clock: Clock(FFB)         | N/A                   | Target: 9.60 MHz   | 
-Clock: Clock_1            | N/A                   | Target: 9.60 MHz   | 
-Clock: Clock_1(FFB)       | N/A                   | Target: 9.60 MHz   | 
-Clock: CyECO              | N/A                   | Target: 24.00 MHz  | 
-Clock: CyHFClk            | Frequency: 55.64 MHz  | Target: 48.00 MHz  | 
-Clock: CyILO              | N/A                   | Target: 0.03 MHz   | 
-Clock: CyIMO              | N/A                   | Target: 48.00 MHz  | 
-Clock: CyLFClk            | N/A                   | Target: 0.03 MHz   | 
-Clock: CyRouted1          | N/A                   | Target: 48.00 MHz  | 
-Clock: CySysClk           | N/A                   | Target: 48.00 MHz  | 
-Clock: CyWCO              | N/A                   | Target: 0.03 MHz   | 
-Clock: UART_SCBCLK        | N/A                   | Target: 1.37 MHz   | 
-Clock: UART_SCBCLK(FFB)   | N/A                   | Target: 1.37 MHz   | 
+Number of clocks: 17
+Clock: ADC_intClock          | N/A                   | Target: 1.60 MHz    | 
+Clock: ADC_intClock(FFB)     | N/A                   | Target: 1.60 MHz    | 
+Clock: Clock                 | N/A                   | Target: 9.60 MHz    | 
+Clock: Clock(FFB)            | N/A                   | Target: 9.60 MHz    | 
+Clock: ClockBlock/ff_div_10  | N/A                   | Target: 100.00 MHz  | 
+Clock: Clock_1               | N/A                   | Target: 9.60 MHz    | 
+Clock: Clock_1(FFB)          | N/A                   | Target: 9.60 MHz    | 
+Clock: CyECO                 | N/A                   | Target: 24.00 MHz   | 
+Clock: CyHFClk               | Frequency: 55.64 MHz  | Target: 48.00 MHz   | 
+Clock: CyILO                 | N/A                   | Target: 0.03 MHz    | 
+Clock: CyIMO                 | N/A                   | Target: 48.00 MHz   | 
+Clock: CyLFClk               | N/A                   | Target: 0.03 MHz    | 
+Clock: CyRouted1             | N/A                   | Target: 48.00 MHz   | 
+Clock: CySysClk              | N/A                   | Target: 48.00 MHz   | 
+Clock: CyWCO                 | N/A                   | Target: 0.03 MHz    | 
+Clock: UART_SCBCLK           | N/A                   | Target: 1.37 MHz    | 
+Clock: UART_SCBCLK(FFB)      | N/A                   | Target: 1.37 MHz    | 
 
  =====================================================================
                     End of Clock Frequency Summary
@@ -70,26 +71,26 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name                       Clock to Out  Clock Name:Phase  
-------------------------------  ------------  ----------------  
-Din(0)_PAD                      28628         CyHFClk:R         
-ENA_P_16(0)_PAD                 20624         Clock(FFB):R      
-Pin_Output_DOWN(0)_PAD          30325         Clock_1(FFB):R    
-Pin_Output_DOWN(0)_PAD          29824         CyHFClk:R         
-Pin_Output_DOWN_GROUND(0)_PAD   30691         Clock_1(FFB):R    
-Pin_Output_DOWN_GROUND(0)_PAD   30190         CyHFClk:R         
-Pin_Output_LEFT(0)_PAD          29908         Clock_1(FFB):R    
-Pin_Output_LEFT(0)_PAD          28943         CyHFClk:R         
-Pin_Output_LEFT_GROUND(0)_PAD   31058         Clock_1(FFB):R    
-Pin_Output_LEFT_GROUND(0)_PAD   29916         CyHFClk:R         
-Pin_Output_RIGHT(0)_PAD         29939         Clock_1(FFB):R    
-Pin_Output_RIGHT(0)_PAD         29281         CyHFClk:R         
-Pin_Output_RIGHT_GROUND(0)_PAD  31612         Clock_1(FFB):R    
-Pin_Output_RIGHT_GROUND(0)_PAD  30620         CyHFClk:R         
-Pin_Output_UP(0)_PAD            31207         Clock_1(FFB):R    
-Pin_Output_UP(0)_PAD            29737         CyHFClk:R         
-Pin_Output_UP_GROUND(0)_PAD     31326         Clock_1(FFB):R    
-Pin_Output_UP_GROUND(0)_PAD     29857         CyHFClk:R         
+Port Name                       Clock to Out  Clock Name:Phase        
+------------------------------  ------------  ----------------------  
+Din(0)_PAD                      28253         CyHFClk:R               
+ENA_P_16(0)_PAD                 13746         ClockBlock/ff_div_10:R  
+Pin_Output_DOWN(0)_PAD          32822         Clock(FFB):R            
+Pin_Output_DOWN(0)_PAD          29801         CyHFClk:R               
+Pin_Output_DOWN_GROUND(0)_PAD   33184         Clock(FFB):R            
+Pin_Output_DOWN_GROUND(0)_PAD   30194         CyHFClk:R               
+Pin_Output_LEFT(0)_PAD          32499         Clock(FFB):R            
+Pin_Output_LEFT(0)_PAD          29014         CyHFClk:R               
+Pin_Output_LEFT_GROUND(0)_PAD   31413         Clock(FFB):R            
+Pin_Output_LEFT_GROUND(0)_PAD   30272         CyHFClk:R               
+Pin_Output_RIGHT(0)_PAD         32829         Clock(FFB):R            
+Pin_Output_RIGHT(0)_PAD         29651         CyHFClk:R               
+Pin_Output_RIGHT_GROUND(0)_PAD  31133         Clock(FFB):R            
+Pin_Output_RIGHT_GROUND(0)_PAD  30671         CyHFClk:R               
+Pin_Output_UP(0)_PAD            30721         Clock(FFB):R            
+Pin_Output_UP(0)_PAD            29789         CyHFClk:R               
+Pin_Output_UP_GROUND(0)_PAD     30801         Clock(FFB):R            
+Pin_Output_UP_GROUND(0)_PAD     29869         CyHFClk:R               
 
 
                          3.3::Pad to Pad
@@ -414,7 +415,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Path Begin     : \StripLights:B_WS2811:pwm8:u0\/cl0_comb
 Path End       : \StripLights:Net_64\/main_0
 Capture Clock  : \StripLights:Net_64\/clock_0
-Path slack     : 9325p
+Path slack     : 9323p
 
 Capture Clock Arrival Time                         0
 + Clock path delay                                 0
@@ -425,9 +426,9 @@ End-of-path required time (ps)                 17323
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       7999
++ Data path delay                       8000
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           7999
+End-of-path arrival time (ps)           8000
  
 Launch Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -438,8 +439,8 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                 model name     delay     AT  slack  edge  Fanout
 ---------------------------------------  -------------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:pwm8:u0\/cl0_comb  datapathcell2   5680   5680   9325  RISE       1
-\StripLights:Net_64\/main_0              macrocell13     2319   7999   9325  RISE       1
+\StripLights:B_WS2811:pwm8:u0\/cl0_comb  datapathcell2   5680   5680   9323  RISE       1
+\StripLights:Net_64\/main_0              macrocell13     2320   8000   9323  RISE       1
 
 Capture Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1092,49 +1093,9 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 ++++ Path 23 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : \StripLights:B_WS2811:state_0\/q
-Path End       : \StripLights:B_WS2811:pwmCntl\/main_3
-Capture Clock  : \StripLights:B_WS2811:pwmCntl\/clock_0
-Path slack     : 12140p
-
-Capture Clock Arrival Time                         0
-+ Clock path delay                                 0
-+ Cycle adjust (CyHFClk:R#1 vs. CyHFClk:R#2)   20833
-- Setup time                                   -3510
---------------------------------------------   ----- 
-End-of-path required time (ps)                 17323
-
-Launch Clock Arrival Time                      0
-+ Clock path delay                         0
-+ Data path delay                       5183
--------------------------------------   ---- 
-End-of-path arrival time (ps)           5183
- 
-Launch Clock Path
-pin name                                              model name          delay     AT  edge  Fanout
-----------------------------------------------------  ------------------  -----  -----  ----  ------
-ClockBlock/hfclk                                      m0s8clockblockcell      0      0  RISE       1
-\StripLights:B_WS2811:state_0\/clock_0                macrocell17             0      0  RISE       1
-
-Data path
-pin name                               model name   delay     AT  slack  edge  Fanout
--------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12140  RISE       1
-\StripLights:B_WS2811:pwmCntl\/main_3  macrocell22   3933   5183  12140  RISE       1
-
-Capture Clock Path
-pin name                                              model name          delay     AT  edge  Fanout
-----------------------------------------------------  ------------------  -----  -----  ----  ------
-ClockBlock/hfclk                                      m0s8clockblockcell      0      0  RISE       1
-\StripLights:B_WS2811:pwmCntl\/clock_0                macrocell22             0      0  RISE       1
-
-
-
-++++ Path 24 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-
-Path Begin     : \StripLights:B_WS2811:state_0\/q
 Path End       : \StripLights:Net_64\/main_3
 Capture Clock  : \StripLights:Net_64\/clock_0
-Path slack     : 12157p
+Path slack     : 12173p
 
 Capture Clock Arrival Time                         0
 + Clock path delay                                 0
@@ -1145,9 +1106,9 @@ End-of-path required time (ps)                 17323
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       5167
++ Data path delay                       5150
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           5167
+End-of-path arrival time (ps)           5150
  
 Launch Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1158,8 +1119,8 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                          model name   delay     AT  slack  edge  Fanout
 --------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q  macrocell17   1250   1250  12140  RISE       1
-\StripLights:Net_64\/main_3       macrocell13   3917   5167  12157  RISE       1
+\StripLights:B_WS2811:state_0\/q  macrocell17   1250   1250  12173  RISE       1
+\StripLights:Net_64\/main_3       macrocell13   3900   5150  12173  RISE       1
 
 Capture Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1169,12 +1130,12 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 
 
 
-++++ Path 25 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++ Path 24 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : \StripLights:B_WS2811:state_0\/q
 Path End       : \StripLights:B_WS2811:status_6\/main_1
 Capture Clock  : \StripLights:B_WS2811:status_6\/clock_0
-Path slack     : 12157p
+Path slack     : 12173p
 
 Capture Clock Arrival Time                         0
 + Clock path delay                                 0
@@ -1185,9 +1146,9 @@ End-of-path required time (ps)                 17323
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       5167
++ Data path delay                       5150
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           5167
+End-of-path arrival time (ps)           5150
  
 Launch Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1198,8 +1159,8 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                model name   delay     AT  slack  edge  Fanout
 --------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12140  RISE       1
-\StripLights:B_WS2811:status_6\/main_1  macrocell14   3917   5167  12157  RISE       1
+\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12173  RISE       1
+\StripLights:B_WS2811:status_6\/main_1  macrocell14   3900   5150  12173  RISE       1
 
 Capture Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1209,12 +1170,12 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 
 
 
-++++ Path 26 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++ Path 25 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin     : \StripLights:B_WS2811:state_0\/q
 Path End       : \StripLights:B_WS2811:dpAddr_0\/main_1
 Capture Clock  : \StripLights:B_WS2811:dpAddr_0\/clock_0
-Path slack     : 12157p
+Path slack     : 12173p
 
 Capture Clock Arrival Time                         0
 + Clock path delay                                 0
@@ -1225,9 +1186,9 @@ End-of-path required time (ps)                 17323
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       5167
++ Data path delay                       5150
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           5167
+End-of-path arrival time (ps)           5150
  
 Launch Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -1238,14 +1199,54 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                model name   delay     AT  slack  edge  Fanout
 --------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12140  RISE       1
-\StripLights:B_WS2811:dpAddr_0\/main_1  macrocell21   3917   5167  12157  RISE       1
+\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12173  RISE       1
+\StripLights:B_WS2811:dpAddr_0\/main_1  macrocell21   3900   5150  12173  RISE       1
 
 Capture Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
 ----------------------------------------------------  ------------------  -----  -----  ----  ------
 ClockBlock/hfclk                                      m0s8clockblockcell      0      0  RISE       1
 \StripLights:B_WS2811:dpAddr_0\/clock_0               macrocell21             0      0  RISE       1
+
+
+
+++++ Path 26 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \StripLights:B_WS2811:state_0\/q
+Path End       : \StripLights:B_WS2811:pwmCntl\/main_3
+Capture Clock  : \StripLights:B_WS2811:pwmCntl\/clock_0
+Path slack     : 12303p
+
+Capture Clock Arrival Time                         0
++ Clock path delay                                 0
++ Cycle adjust (CyHFClk:R#1 vs. CyHFClk:R#2)   20833
+- Setup time                                   -3510
+--------------------------------------------   ----- 
+End-of-path required time (ps)                 17323
+
+Launch Clock Arrival Time                      0
++ Clock path delay                         0
++ Data path delay                       5020
+-------------------------------------   ---- 
+End-of-path arrival time (ps)           5020
+ 
+Launch Clock Path
+pin name                                              model name          delay     AT  edge  Fanout
+----------------------------------------------------  ------------------  -----  -----  ----  ------
+ClockBlock/hfclk                                      m0s8clockblockcell      0      0  RISE       1
+\StripLights:B_WS2811:state_0\/clock_0                macrocell17             0      0  RISE       1
+
+Data path
+pin name                               model name   delay     AT  slack  edge  Fanout
+-------------------------------------  -----------  -----  -----  -----  ----  ------
+\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12173  RISE       1
+\StripLights:B_WS2811:pwmCntl\/main_3  macrocell22   3770   5020  12303  RISE       1
+
+Capture Clock Path
+pin name                                              model name          delay     AT  edge  Fanout
+----------------------------------------------------  ------------------  -----  -----  ----  ------
+ClockBlock/hfclk                                      m0s8clockblockcell      0      0  RISE       1
+\StripLights:B_WS2811:pwmCntl\/clock_0                macrocell22             0      0  RISE       1
 
 
 
@@ -1798,7 +1799,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                  model name   delay     AT  slack  edge  Fanout
 ----------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:bitCount_0\/main_2  macrocell19   3004   4254  13069  RISE       1
 
 Capture Clock Path
@@ -1838,7 +1839,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                model name   delay     AT  slack  edge  Fanout
 --------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q        macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:dpAddr_1\/main_3  macrocell20   3004   4254  13069  RISE       1
 
 Capture Clock Path
@@ -1878,7 +1879,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                  model name   delay     AT  slack  edge  Fanout
 ----------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:bitCount_1\/main_2  macrocell18   2999   4249  13074  RISE       1
 
 Capture Clock Path
@@ -2094,7 +2095,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Path Begin     : \StripLights:B_WS2811:state_1\/q
 Path End       : \StripLights:B_WS2811:bitCount_1\/main_1
 Capture Clock  : \StripLights:B_WS2811:bitCount_1\/clock_0
-Path slack     : 13211p
+Path slack     : 13208p
 
 Capture Clock Arrival Time                         0
 + Clock path delay                                 0
@@ -2105,9 +2106,9 @@ End-of-path required time (ps)                 17323
 
 Launch Clock Arrival Time                      0
 + Clock path delay                         0
-+ Data path delay                       4112
++ Data path delay                       4115
 -------------------------------------   ---- 
-End-of-path arrival time (ps)           4112
+End-of-path arrival time (ps)           4115
  
 Launch Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -2119,7 +2120,7 @@ Data path
 pin name                                  model name   delay     AT  slack  edge  Fanout
 ----------------------------------------  -----------  -----  -----  -----  ----  ------
 \StripLights:B_WS2811:state_1\/q          macrocell16   1250   1250  12003  RISE       1
-\StripLights:B_WS2811:bitCount_1\/main_1  macrocell18   2862   4112  13211  RISE       1
+\StripLights:B_WS2811:bitCount_1\/main_1  macrocell18   2865   4115  13208  RISE       1
 
 Capture Clock Path
 pin name                                              model name          delay     AT  edge  Fanout
@@ -2158,7 +2159,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                                  model name   delay     AT  slack  edge  Fanout
 ----------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q          macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:bitCount_2\/main_3  macrocell15   2853   4103  13220  RISE       1
 
 Capture Clock Path
@@ -2198,7 +2199,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                               model name   delay     AT  slack  edge  Fanout
 -------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:state_1\/main_6  macrocell16   2853   4103  13220  RISE       1
 
 Capture Clock Path
@@ -2238,7 +2239,7 @@ ClockBlock/hfclk                                      m0s8clockblockcell      0 
 Data path
 pin name                               model name   delay     AT  slack  edge  Fanout
 -------------------------------------  -----------  -----  -----  -----  ----  ------
-\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12140  RISE       1
+\StripLights:B_WS2811:state_0\/q       macrocell17   1250   1250  12173  RISE       1
 \StripLights:B_WS2811:state_0\/main_6  macrocell17   2853   4103  13220  RISE       1
 
 Capture Clock Path

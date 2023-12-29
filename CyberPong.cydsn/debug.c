@@ -19,14 +19,13 @@ void PrintMotorSpeeds() {
     if (counter < 25000) {
         counter++;
         return;
-    }
-    else {
+    } else {
         counter=0;
     }
     
     n++;
     int current_rpm = 0, desired_rpm = 0;
-    for (int i = 1; i < MOTOR_COUNT + 1; i++) {
+    for (int i = 1; i < MOTOR_COUNT; i++) {
         variances[i] += ((current_rpm-desired_rpm)*(current_rpm-desired_rpm));
         sprintf(uart_rpm_buff, "%u  ", variances[i]/n/1000);
         Print(uart_rpm_buff);
@@ -40,11 +39,9 @@ void HandleUARTInput(){
     char ch = UART_UartGetChar();
     if (ch == 'a') {
         disablePrintIfZeroRPM = !disablePrintIfZeroRPM;
-    }
-    else if (ch == 's') {
+    } else if (ch == 's') {
         doServe = true;
-    }
-    else if(ch=='d'){
+    } else if(ch=='d'){
         variances[0] = 0;
         variances[1] = 0;
         variances[2] = 0;

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
   28:Generated_Source\PSoC4/StripLights.c **** uint8   StripLights_ledArray[StripLights_ARRAY_ROWS][StripLights_ARRAY_COLS];
   29:Generated_Source\PSoC4/StripLights.c **** #endif
   30:Generated_Source\PSoC4/StripLights.c **** 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 2
 
 
   31:Generated_Source\PSoC4/StripLights.c **** uint32  StripLights_ledIndex = 0;  
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
   85:Generated_Source\PSoC4/StripLights.c **** 0x0000FF00, 0x0055FF00, 0x00AAFF00, 0x00FFFF00,  // 48, Red, ??, ??, Magenta
   86:Generated_Source\PSoC4/StripLights.c **** 0x0000FF55, 0x0055FF55, 0x00AAFF55, 0x00FFFF55,  // 52,
   87:Generated_Source\PSoC4/StripLights.c **** 0x0000FFAA, 0x0055FFAA, 0x00AAFFAA, 0x00FFFFAA,  // 56,
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 3
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 3
 
 
   88:Generated_Source\PSoC4/StripLights.c **** 0x0000FFFF, 0x0055FFFF, 0x00AAFFFF, 0x00FFFFFF,  // 60, Yellow,??, ??, White
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  142:Generated_Source\PSoC4/StripLights.c **** 
  143:Generated_Source\PSoC4/StripLights.c **** //xxBBRRGG  (64)  [ Index = 24 ]
  144:Generated_Source\PSoC4/StripLights.c **** 0x00000000, 0x00550000, 0x00AA0000, 0x00FF0000,  // 0, Black,  LtBlue, MBlue, Blue
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 4
 
 
  145:Generated_Source\PSoC4/StripLights.c **** 0x00005500, 0x00555500, 0x00AA5500, 0x00FF5500,  // 4, LtGreen
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  199:Generated_Source\PSoC4/StripLights.c **** *  void  
  200:Generated_Source\PSoC4/StripLights.c **** *
  201:Generated_Source\PSoC4/StripLights.c **** * Return: 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 5
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 5
 
 
  202:Generated_Source\PSoC4/StripLights.c **** *  void
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  256:Generated_Source\PSoC4/StripLights.c **** *
  257:Generated_Source\PSoC4/StripLights.c **** * Return: 
  258:Generated_Source\PSoC4/StripLights.c **** *  void
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 6
 
 
  259:Generated_Source\PSoC4/StripLights.c **** *
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  313:Generated_Source\PSoC4/StripLights.c ****     {
  314:Generated_Source\PSoC4/StripLights.c ****          return((uint32)0);
  315:Generated_Source\PSoC4/StripLights.c ****     }
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 7
 
 
  316:Generated_Source\PSoC4/StripLights.c **** }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  370:Generated_Source\PSoC4/StripLights.c **** /*****************************************************************************
  371:Generated_Source\PSoC4/StripLights.c **** * Function Name: StripLights_FISR
  372:Generated_Source\PSoC4/StripLights.c **** ******************************************************************************
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 8
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 8
 
 
  373:Generated_Source\PSoC4/StripLights.c **** *
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
   53 0022 D340     		lsrs	r3, r3, r2
   54 0024 0B4A     		ldr	r2, .L4+12
   55 0026 1268     		ldr	r2, [r2]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 9
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 9
 
 
   56 0028 1340     		ands	r3, r2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
   97              		.code	16
   98              		.thumb_func
   99              		.type	StripLights_CISR, %function
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 10
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 10
 
 
  100              	StripLights_CISR:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  446:Generated_Source\PSoC4/StripLights.c **** 		#if(StripLights_MEMORY_TYPE == StripLights_MEMORY_RGB)
  447:Generated_Source\PSoC4/StripLights.c ****              color = StripLights_ledArray[StripLights_row][0];
  123              		.loc 1 447 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 11
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 11
 
 
  124 0018 114A     		ldr	r2, .L9+4
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  464:Generated_Source\PSoC4/StripLights.c ****     else
  465:Generated_Source\PSoC4/StripLights.c ****     {
  466:Generated_Source\PSoC4/StripLights.c ****         StripLights_refreshComplete = 1u;
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 12
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 12
 
 
  162              		.loc 1 466 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  272:Generated_Source\PSoC4/StripLights.c ****     #else  /* Else use lookup table */
  209              		.loc 1 272 0
  210 000e 0F48     		ldr	r0, .L13
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 13
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 13
 
 
  211              	.LVL1:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  256 0048 1A60     		str	r2, [r3]
  290:Generated_Source\PSoC4/StripLights.c **** 
  257              		.loc 1 290 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 14
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 14
 
 
  258              		@ sp needed
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  307              		.cfi_endproc
  308              	.LFE37:
  309              		.size	StripLights_Ready, .-StripLights_Ready
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 15
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 15
 
 
  310              		.section	.text.StripLights_Stop,"ax",%progbits
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  359 0008 6044     		add	r0, r0, ip
  360              	.LVL10:
  359:Generated_Source\PSoC4/StripLights.c **** 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 16
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 16
 
 
  361              		.loc 1 359 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  493:Generated_Source\PSoC4/StripLights.c **** ********************************************************************************
  494:Generated_Source\PSoC4/StripLights.c **** * Summary:
  495:Generated_Source\PSoC4/StripLights.c **** *   Clear LED memory with given color, but do not update display.
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 17
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 17
 
 
  496:Generated_Source\PSoC4/StripLights.c **** *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  508:Generated_Source\PSoC4/StripLights.c ****     {
  425              		.loc 1 508 0 is_stmt 1 discriminator 2
  426 001e 0134     		adds	r4, r4, #1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 18
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 18
 
 
  427              	.LVL19:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  468              		@ sp needed
  469 000c 10BD     		pop	{r4, pc}
  470              		.cfi_endproc
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 19
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 19
 
 
  471              	.LFE42:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  502              	.LVL26:
  503 0012 1A70     		strb	r2, [r3]
  544:Generated_Source\PSoC4/StripLights.c ****     color = color >> 8;
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 20
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 20
 
 
  504              		.loc 1 544 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  536              		.loc 1 566 0
  537 0000 0028     		cmp	r0, #0
  538 0002 0CDB     		blt	.L37
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 21
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 21
 
 
  539              		.loc 1 566 0 is_stmt 0 discriminator 1
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  583:Generated_Source\PSoC4/StripLights.c **** *  Get Pixel Color  
  584:Generated_Source\PSoC4/StripLights.c **** *
  585:Generated_Source\PSoC4/StripLights.c **** * Parameters:  
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 22
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 22
 
 
  586:Generated_Source\PSoC4/StripLights.c **** *  x,y:    Location to get pixel color
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  613              	.L43:
  614 0024 00000000 		.word	StripLights_ledArray
  615              		.cfi_endproc
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 23
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 23
 
 
  616              	.LFE46:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  649              		.cfi_def_cfa_offset 56
  650 000e 8346     		mov	fp, r0
  651 0010 8846     		mov	r8, r1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 24
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 24
 
 
  652 0012 1400     		movs	r4, r2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  696              	.LVL47:
  628:Generated_Source\PSoC4/StripLights.c **** 	int32 y = radius;
  697              		.loc 1 628 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 25
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 25
 
 
  698 0052 0026     		movs	r6, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  737 0076 4146     		mov	r1, r8
  738 0078 6318     		adds	r3, r4, r1
  739 007a 019A     		ldr	r2, [sp, #4]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 26
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 26
 
 
  740              	.LVL57:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  788              		.loc 1 654 0
  789 00d0 4146     		mov	r1, r8
  790 00d2 8D1B     		subs	r5, r1, r6
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 27
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 27
 
 
  791 00d4 019A     		ldr	r2, [sp, #4]
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  663:Generated_Source\PSoC4/StripLights.c **** *
  664:Generated_Source\PSoC4/StripLights.c **** * Summary:
  665:Generated_Source\PSoC4/StripLights.c **** *  Draw a line on the display.  
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 28
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 28
 
 
  666:Generated_Source\PSoC4/StripLights.c **** *
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  683:Generated_Source\PSoC4/StripLights.c **** 	{
  684:Generated_Source\PSoC4/StripLights.c **** 		dy = -dy;
  872              		.loc 1 684 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 29
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 29
 
 
  873 001e 5B42     		rsbs	r3, r3, #0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  909              	.LVL84:
  910 0040 9846     		mov	r8, r3
  911              	.LVL85:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 30
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 30
 
 
  703:Generated_Source\PSoC4/StripLights.c **** 	dx <<= 1; /* dx is now 2*dx  */
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  718:Generated_Source\PSoC4/StripLights.c **** 			StripLights_Pixel(x0, y0, color);
  951              		.loc 1 718 0
  952 0066 0C9A     		ldr	r2, [sp, #48]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 31
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 31
 
 
  953 0068 2900     		movs	r1, r5
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  733:Generated_Source\PSoC4/StripLights.c **** 			StripLights_Pixel( x0, y0, color);
  992              		.loc 1 733 0
  993 008e 0C9A     		ldr	r2, [sp, #48]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 32
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 32
 
 
  994 0090 2900     		movs	r1, r5
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  749:Generated_Source\PSoC4/StripLights.c **** *  color:   Color for rectangle, border and fill.
  750:Generated_Source\PSoC4/StripLights.c **** *
  751:Generated_Source\PSoC4/StripLights.c **** * Return: 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 33
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 33
 
 
  752:Generated_Source\PSoC4/StripLights.c **** *  None 
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1069              	.LVL116:
  1070              	.L69:
  769:Generated_Source\PSoC4/StripLights.c **** 		}
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 34
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 34
 
 
  770:Generated_Source\PSoC4/StripLights.c **** 	
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1105 0046 2900     		movs	r1, r5
  1106              	.LVL122:
  1107 0048 FFF7FEFF 		bl	StripLights_DrawLine
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 35
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 35
 
 
  1108              	.LVL123:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  800:Generated_Source\PSoC4/StripLights.c **** *  Dim all output by a specific level (0,1,2,3,4)  
  801:Generated_Source\PSoC4/StripLights.c **** *
  802:Generated_Source\PSoC4/StripLights.c **** * Parameters:  
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 36
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 36
 
 
  803:Generated_Source\PSoC4/StripLights.c **** *  dimLevel:  Dim level 1 to 4, 0 => No dimming.
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1185 0028 1A60     		str	r2, [r3]
  823:Generated_Source\PSoC4/StripLights.c ****            StripLights_DimShift = 2;
  1186              		.loc 1 823 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 37
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 37
 
 
  1187 002a 0222     		movs	r2, #2
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  841:Generated_Source\PSoC4/StripLights.c ****     }
  842:Generated_Source\PSoC4/StripLights.c **** }
  1224              		.loc 1 842 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 38
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 38
 
 
  1225              		@ sp needed
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1273 001a 134C     		ldr	r4, .L83+16
  1274 001c 0123     		movs	r3, #1
  1275 001e 2370     		strb	r3, [r4]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 39
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 39
 
 
  217:Generated_Source\PSoC4/StripLights.c ****     StripLights_CONTROL = StripLights_DISABLE;
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1320 005c 41000F40 		.word	1074724929
  1321 0060 21000F40 		.word	1074724897
  1322 0064 31000F40 		.word	1074724913
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 40
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 40
 
 
  1323 0068 72000F40 		.word	1074724978
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  851:Generated_Source\PSoC4/StripLights.c ****     maxY = y  + (int32)bitMap[aindex++];
  1369              		.loc 1 851 0
  1370 0016 7B78     		ldrb	r3, [r7, #1]
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 41
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 41
 
 
  1371 0018 8846     		mov	r8, r1
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1412 0044 5B46     		mov	r3, fp
  1413              	.LVL147:
  1414 0046 002B     		cmp	r3, #0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 42
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 42
 
 
  1415 0048 02D0     		beq	.L85
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1468 0044 33FF0000 		.word	65331
  1469 0048 66FF0000 		.word	65382
  1470 004c 80FF0000 		.word	65408
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 43
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 43
 
 
  1471 0050 99FF0000 		.word	65433
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1525 0128 00FFAA00 		.word	11206400
  1526 012c 00FFFF00 		.word	16776960
  1527 0130 55FF0000 		.word	65365
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 44
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 44
 
 
  1528 0134 55FF5500 		.word	5635925
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1582              		.type	color.8707, %object
  1583              		.size	color.8707, 4
  1584              	color.8707:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 45
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 45
 
 
  1585 0008 00000000 		.space	4
@@ -2669,9 +2669,9 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1610 0006 00000000 		.4byte	.Ldebug_abbrev0
  1611 000a 04       		.byte	0x4
  1612 000b 01       		.uleb128 0x1
- 1613 000c 9C010000 		.4byte	.LASF146
+ 1613 000c A4010000 		.4byte	.LASF146
  1614 0010 0C       		.byte	0xc
- 1615 0011 430A0000 		.4byte	.LASF147
+ 1615 0011 4B0A0000 		.4byte	.LASF147
  1616 0015 4F000000 		.4byte	.LASF148
  1617 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1618 001d 00000000 		.4byte	0
@@ -2679,38 +2679,38 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1620 0025 02       		.uleb128 0x2
  1621 0026 01       		.byte	0x1
  1622 0027 06       		.byte	0x6
- 1623 0028 13030000 		.4byte	.LASF0
+ 1623 0028 1B030000 		.4byte	.LASF0
  1624 002c 02       		.uleb128 0x2
  1625 002d 01       		.byte	0x1
  1626 002e 08       		.byte	0x8
- 1627 002f BA0A0000 		.4byte	.LASF1
+ 1627 002f C20A0000 		.4byte	.LASF1
  1628 0033 02       		.uleb128 0x2
  1629 0034 02       		.byte	0x2
  1630 0035 05       		.byte	0x5
- 1631 0036 EC0A0000 		.4byte	.LASF2
+ 1631 0036 F40A0000 		.4byte	.LASF2
  1632 003a 02       		.uleb128 0x2
  1633 003b 02       		.byte	0x2
  1634 003c 07       		.byte	0x7
- 1635 003d 6B060000 		.4byte	.LASF3
+ 1635 003d 73060000 		.4byte	.LASF3
  1636 0041 02       		.uleb128 0x2
  1637 0042 04       		.byte	0x4
  1638 0043 05       		.byte	0x5
- 1639 0044 93010000 		.4byte	.LASF4
+ 1639 0044 9B010000 		.4byte	.LASF4
  1640 0048 02       		.uleb128 0x2
  1641 0049 04       		.byte	0x4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 46
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 46
 
 
  1642 004a 07       		.byte	0x7
- 1643 004b B5050000 		.4byte	.LASF5
+ 1643 004b BD050000 		.4byte	.LASF5
  1644 004f 02       		.uleb128 0x2
  1645 0050 08       		.byte	0x8
  1646 0051 05       		.byte	0x5
- 1647 0052 05030000 		.4byte	.LASF6
+ 1647 0052 0D030000 		.4byte	.LASF6
  1648 0056 02       		.uleb128 0x2
  1649 0057 08       		.byte	0x8
  1650 0058 07       		.byte	0x7
- 1651 0059 3C020000 		.4byte	.LASF7
+ 1651 0059 44020000 		.4byte	.LASF7
  1652 005d 03       		.uleb128 0x3
  1653 005e 04       		.byte	0x4
  1654 005f 05       		.byte	0x5
@@ -2718,52 +2718,52 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1656 0064 02       		.uleb128 0x2
  1657 0065 04       		.byte	0x4
  1658 0066 07       		.byte	0x7
- 1659 0067 6F050000 		.4byte	.LASF8
+ 1659 0067 77050000 		.4byte	.LASF8
  1660 006b 04       		.uleb128 0x4
- 1661 006c E7030000 		.4byte	.LASF9
+ 1661 006c EF030000 		.4byte	.LASF9
  1662 0070 02       		.byte	0x2
- 1663 0071 FC01     		.2byte	0x1fc
+ 1663 0071 FB01     		.2byte	0x1fb
  1664 0073 2C000000 		.4byte	0x2c
  1665 0077 04       		.uleb128 0x4
- 1666 0078 6A040000 		.4byte	.LASF10
+ 1666 0078 72040000 		.4byte	.LASF10
  1667 007c 02       		.byte	0x2
- 1668 007d FE01     		.2byte	0x1fe
+ 1668 007d FD01     		.2byte	0x1fd
  1669 007f 48000000 		.4byte	0x48
  1670 0083 04       		.uleb128 0x4
- 1671 0084 37040000 		.4byte	.LASF11
+ 1671 0084 3F040000 		.4byte	.LASF11
  1672 0088 02       		.byte	0x2
- 1673 0089 0102     		.2byte	0x201
+ 1673 0089 0002     		.2byte	0x200
  1674 008b 41000000 		.4byte	0x41
  1675 008f 02       		.uleb128 0x2
  1676 0090 04       		.byte	0x4
  1677 0091 04       		.byte	0x4
- 1678 0092 0A0C0000 		.4byte	.LASF12
+ 1678 0092 120C0000 		.4byte	.LASF12
  1679 0096 02       		.uleb128 0x2
  1680 0097 08       		.byte	0x8
  1681 0098 04       		.byte	0x4
- 1682 0099 30040000 		.4byte	.LASF13
+ 1682 0099 38040000 		.4byte	.LASF13
  1683 009d 02       		.uleb128 0x2
  1684 009e 01       		.byte	0x1
  1685 009f 08       		.byte	0x8
- 1686 00a0 2E0C0000 		.4byte	.LASF14
+ 1686 00a0 360C0000 		.4byte	.LASF14
  1687 00a4 04       		.uleb128 0x4
- 1688 00a5 B50A0000 		.4byte	.LASF15
+ 1688 00a5 BD0A0000 		.4byte	.LASF15
  1689 00a9 02       		.byte	0x2
- 1690 00aa A602     		.2byte	0x2a6
+ 1690 00aa A502     		.2byte	0x2a5
  1691 00ac B0000000 		.4byte	0xb0
  1692 00b0 05       		.uleb128 0x5
  1693 00b1 6B000000 		.4byte	0x6b
  1694 00b5 02       		.uleb128 0x2
  1695 00b6 08       		.byte	0x8
  1696 00b7 04       		.byte	0x4
- 1697 00b8 FC080000 		.4byte	.LASF16
+ 1697 00b8 04090000 		.4byte	.LASF16
  1698 00bc 02       		.uleb128 0x2
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 47
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 47
 
 
  1699 00bd 04       		.byte	0x4
  1700 00be 07       		.byte	0x7
- 1701 00bf D2080000 		.4byte	.LASF17
+ 1701 00bf DA080000 		.4byte	.LASF17
  1702 00c3 06       		.uleb128 0x6
  1703 00c4 04       		.byte	0x4
  1704 00c5 6B000000 		.4byte	0x6b
@@ -2774,231 +2774,231 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1709 00d0 3501     		.2byte	0x135
  1710 00d2 87020000 		.4byte	0x287
  1711 00d6 08       		.uleb128 0x8
- 1712 00d7 7E060000 		.4byte	.LASF18
+ 1712 00d7 86060000 		.4byte	.LASF18
  1713 00db 00       		.byte	0
  1714 00dc 08       		.uleb128 0x8
- 1715 00dd 1F030000 		.4byte	.LASF19
+ 1715 00dd 27030000 		.4byte	.LASF19
  1716 00e1 01       		.byte	0x1
  1717 00e2 08       		.uleb128 0x8
- 1718 00e3 81010000 		.4byte	.LASF20
+ 1718 00e3 89010000 		.4byte	.LASF20
  1719 00e7 02       		.byte	0x2
  1720 00e8 08       		.uleb128 0x8
- 1721 00e9 FD0C0000 		.4byte	.LASF21
+ 1721 00e9 050D0000 		.4byte	.LASF21
  1722 00ed 03       		.byte	0x3
  1723 00ee 08       		.uleb128 0x8
- 1724 00ef 53020000 		.4byte	.LASF22
+ 1724 00ef 5B020000 		.4byte	.LASF22
  1725 00f3 04       		.byte	0x4
  1726 00f4 08       		.uleb128 0x8
  1727 00f5 23000000 		.4byte	.LASF23
  1728 00f9 05       		.byte	0x5
  1729 00fa 08       		.uleb128 0x8
- 1730 00fb B3060000 		.4byte	.LASF24
+ 1730 00fb BB060000 		.4byte	.LASF24
  1731 00ff 06       		.byte	0x6
  1732 0100 08       		.uleb128 0x8
- 1733 0101 3A080000 		.4byte	.LASF25
+ 1733 0101 42080000 		.4byte	.LASF25
  1734 0105 20       		.byte	0x20
  1735 0106 08       		.uleb128 0x8
- 1736 0107 51030000 		.4byte	.LASF26
+ 1736 0107 59030000 		.4byte	.LASF26
  1737 010b 21       		.byte	0x21
  1738 010c 08       		.uleb128 0x8
- 1739 010d 23070000 		.4byte	.LASF27
+ 1739 010d 2B070000 		.4byte	.LASF27
  1740 0111 22       		.byte	0x22
  1741 0112 08       		.uleb128 0x8
- 1742 0113 B6070000 		.4byte	.LASF28
+ 1742 0113 BE070000 		.4byte	.LASF28
  1743 0117 23       		.byte	0x23
  1744 0118 08       		.uleb128 0x8
- 1745 0119 93090000 		.4byte	.LASF29
+ 1745 0119 9B090000 		.4byte	.LASF29
  1746 011d 24       		.byte	0x24
  1747 011e 08       		.uleb128 0x8
- 1748 011f 08090000 		.4byte	.LASF30
+ 1748 011f 10090000 		.4byte	.LASF30
  1749 0123 25       		.byte	0x25
  1750 0124 08       		.uleb128 0x8
- 1751 0125 B4030000 		.4byte	.LASF31
+ 1751 0125 BC030000 		.4byte	.LASF31
  1752 0129 26       		.byte	0x26
  1753 012a 08       		.uleb128 0x8
- 1754 012b 47070000 		.4byte	.LASF32
+ 1754 012b 4F070000 		.4byte	.LASF32
  1755 012f 27       		.byte	0x27
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 48
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 48
 
 
  1756 0130 08       		.uleb128 0x8
- 1757 0131 330C0000 		.4byte	.LASF33
+ 1757 0131 3B0C0000 		.4byte	.LASF33
  1758 0135 28       		.byte	0x28
  1759 0136 08       		.uleb128 0x8
- 1760 0137 BF020000 		.4byte	.LASF34
+ 1760 0137 C7020000 		.4byte	.LASF34
  1761 013b 29       		.byte	0x29
  1762 013c 08       		.uleb128 0x8
- 1763 013d DF050000 		.4byte	.LASF35
+ 1763 013d E7050000 		.4byte	.LASF35
  1764 0141 2A       		.byte	0x2a
  1765 0142 08       		.uleb128 0x8
- 1766 0143 32030000 		.4byte	.LASF36
+ 1766 0143 3A030000 		.4byte	.LASF36
  1767 0147 2B       		.byte	0x2b
  1768 0148 08       		.uleb128 0x8
- 1769 0149 B60D0000 		.4byte	.LASF37
+ 1769 0149 BE0D0000 		.4byte	.LASF37
  1770 014d 2C       		.byte	0x2c
  1771 014e 08       		.uleb128 0x8
- 1772 014f DC020000 		.4byte	.LASF38
+ 1772 014f E4020000 		.4byte	.LASF38
  1773 0153 2D       		.byte	0x2d
  1774 0154 08       		.uleb128 0x8
- 1775 0155 C80A0000 		.4byte	.LASF39
+ 1775 0155 D00A0000 		.4byte	.LASF39
  1776 0159 2E       		.byte	0x2e
  1777 015a 08       		.uleb128 0x8
- 1778 015b F4000000 		.4byte	.LASF40
+ 1778 015b FC000000 		.4byte	.LASF40
  1779 015f 2F       		.byte	0x2f
  1780 0160 08       		.uleb128 0x8
- 1781 0161 72090000 		.4byte	.LASF41
+ 1781 0161 7A090000 		.4byte	.LASF41
  1782 0165 30       		.byte	0x30
  1783 0166 08       		.uleb128 0x8
- 1784 0167 3A0E0000 		.4byte	.LASF42
+ 1784 0167 420E0000 		.4byte	.LASF42
  1785 016b 31       		.byte	0x31
  1786 016c 08       		.uleb128 0x8
- 1787 016d 51090000 		.4byte	.LASF43
+ 1787 016d 59090000 		.4byte	.LASF43
  1788 0171 32       		.byte	0x32
  1789 0172 08       		.uleb128 0x8
- 1790 0173 E30B0000 		.4byte	.LASF44
+ 1790 0173 EB0B0000 		.4byte	.LASF44
  1791 0177 33       		.byte	0x33
  1792 0178 08       		.uleb128 0x8
- 1793 0179 C7050000 		.4byte	.LASF45
+ 1793 0179 CF050000 		.4byte	.LASF45
  1794 017d 34       		.byte	0x34
  1795 017e 08       		.uleb128 0x8
- 1796 017f 06050000 		.4byte	.LASF46
+ 1796 017f 0E050000 		.4byte	.LASF46
  1797 0183 35       		.byte	0x35
  1798 0184 08       		.uleb128 0x8
- 1799 0185 80070000 		.4byte	.LASF47
+ 1799 0185 88070000 		.4byte	.LASF47
  1800 0189 36       		.byte	0x36
  1801 018a 08       		.uleb128 0x8
- 1802 018b 5E080000 		.4byte	.LASF48
+ 1802 018b 66080000 		.4byte	.LASF48
  1803 018f 37       		.byte	0x37
  1804 0190 08       		.uleb128 0x8
- 1805 0191 C90B0000 		.4byte	.LASF49
+ 1805 0191 D10B0000 		.4byte	.LASF49
  1806 0195 40       		.byte	0x40
  1807 0196 08       		.uleb128 0x8
- 1808 0197 FC070000 		.4byte	.LASF50
+ 1808 0197 04080000 		.4byte	.LASF50
  1809 019b 41       		.byte	0x41
  1810 019c 08       		.uleb128 0x8
- 1811 019d 6A0E0000 		.4byte	.LASF51
+ 1811 019d 720E0000 		.4byte	.LASF51
  1812 01a1 42       		.byte	0x42
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 49
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 49
 
 
  1813 01a2 08       		.uleb128 0x8
- 1814 01a3 2D0D0000 		.4byte	.LASF52
+ 1814 01a3 350D0000 		.4byte	.LASF52
  1815 01a7 43       		.byte	0x43
  1816 01a8 08       		.uleb128 0x8
- 1817 01a9 08060000 		.4byte	.LASF53
+ 1817 01a9 10060000 		.4byte	.LASF53
  1818 01ad 44       		.byte	0x44
  1819 01ae 08       		.uleb128 0x8
- 1820 01af 7C0A0000 		.4byte	.LASF54
+ 1820 01af 840A0000 		.4byte	.LASF54
  1821 01b3 45       		.byte	0x45
  1822 01b4 08       		.uleb128 0x8
- 1823 01b5 B1080000 		.4byte	.LASF55
+ 1823 01b5 B9080000 		.4byte	.LASF55
  1824 01b9 46       		.byte	0x46
  1825 01ba 08       		.uleb128 0x8
- 1826 01bb 95060000 		.4byte	.LASF56
+ 1826 01bb 9D060000 		.4byte	.LASF56
  1827 01bf 47       		.byte	0x47
  1828 01c0 08       		.uleb128 0x8
- 1829 01c1 8F0D0000 		.4byte	.LASF57
+ 1829 01c1 970D0000 		.4byte	.LASF57
  1830 01c5 48       		.byte	0x48
  1831 01c6 08       		.uleb128 0x8
- 1832 01c7 68030000 		.4byte	.LASF58
+ 1832 01c7 70030000 		.4byte	.LASF58
  1833 01cb 49       		.byte	0x49
  1834 01cc 08       		.uleb128 0x8
- 1835 01cd 670D0000 		.4byte	.LASF59
+ 1835 01cd 6F0D0000 		.4byte	.LASF59
  1836 01d1 4A       		.byte	0x4a
  1837 01d2 08       		.uleb128 0x8
- 1838 01d3 1D010000 		.4byte	.LASF60
+ 1838 01d3 25010000 		.4byte	.LASF60
  1839 01d7 4B       		.byte	0x4b
  1840 01d8 08       		.uleb128 0x8
- 1841 01d9 66070000 		.4byte	.LASF61
+ 1841 01d9 6E070000 		.4byte	.LASF61
  1842 01dd 4C       		.byte	0x4c
  1843 01de 08       		.uleb128 0x8
- 1844 01df 37090000 		.4byte	.LASF62
+ 1844 01df 3F090000 		.4byte	.LASF62
  1845 01e3 4D       		.byte	0x4d
  1846 01e4 08       		.uleb128 0x8
- 1847 01e5 81030000 		.4byte	.LASF63
+ 1847 01e5 89030000 		.4byte	.LASF63
  1848 01e9 4E       		.byte	0x4e
  1849 01ea 08       		.uleb128 0x8
- 1850 01eb 170B0000 		.4byte	.LASF64
+ 1850 01eb 1F0B0000 		.4byte	.LASF64
  1851 01ef 4F       		.byte	0x4f
  1852 01f0 08       		.uleb128 0x8
- 1853 01f1 3C010000 		.4byte	.LASF65
+ 1853 01f1 44010000 		.4byte	.LASF65
  1854 01f5 50       		.byte	0x50
  1855 01f6 08       		.uleb128 0x8
- 1856 01f7 11040000 		.4byte	.LASF66
+ 1856 01f7 19040000 		.4byte	.LASF66
  1857 01fb 51       		.byte	0x51
  1858 01fc 08       		.uleb128 0x8
- 1859 01fd D9090000 		.4byte	.LASF67
+ 1859 01fd E1090000 		.4byte	.LASF67
  1860 0201 52       		.byte	0x52
  1861 0202 08       		.uleb128 0x8
- 1862 0203 F60A0000 		.4byte	.LASF68
+ 1862 0203 FE0A0000 		.4byte	.LASF68
  1863 0207 53       		.byte	0x53
  1864 0208 08       		.uleb128 0x8
- 1865 0209 A80B0000 		.4byte	.LASF69
+ 1865 0209 B00B0000 		.4byte	.LASF69
  1866 020d 54       		.byte	0x54
  1867 020e 08       		.uleb128 0x8
- 1868 020f 26060000 		.4byte	.LASF70
+ 1868 020f 2E060000 		.4byte	.LASF70
  1869 0213 55       		.byte	0x55
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 50
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 50
 
 
  1870 0214 08       		.uleb128 0x8
- 1871 0215 46050000 		.4byte	.LASF71
+ 1871 0215 4E050000 		.4byte	.LASF71
  1872 0219 56       		.byte	0x56
  1873 021a 08       		.uleb128 0x8
- 1874 021b 810C0000 		.4byte	.LASF72
+ 1874 021b 890C0000 		.4byte	.LASF72
  1875 021f 57       		.byte	0x57
  1876 0220 08       		.uleb128 0x8
- 1877 0221 23050000 		.4byte	.LASF73
+ 1877 0221 2B050000 		.4byte	.LASF73
  1878 0225 58       		.byte	0x58
  1879 0226 08       		.uleb128 0x8
- 1880 0227 90040000 		.4byte	.LASF74
+ 1880 0227 98040000 		.4byte	.LASF74
  1881 022b 70       		.byte	0x70
  1882 022c 08       		.uleb128 0x8
- 1883 022d 140E0000 		.4byte	.LASF75
+ 1883 022d 1C0E0000 		.4byte	.LASF75
  1884 0231 71       		.byte	0x71
  1885 0232 08       		.uleb128 0x8
- 1886 0233 17080000 		.4byte	.LASF76
+ 1886 0233 1F080000 		.4byte	.LASF76
  1887 0237 72       		.byte	0x72
  1888 0238 08       		.uleb128 0x8
- 1889 0239 93080000 		.4byte	.LASF77
+ 1889 0239 9B080000 		.4byte	.LASF77
  1890 023d 73       		.byte	0x73
  1891 023e 08       		.uleb128 0x8
- 1892 023f 250A0000 		.4byte	.LASF78
+ 1892 023f 2D0A0000 		.4byte	.LASF78
  1893 0243 74       		.byte	0x74
  1894 0244 08       		.uleb128 0x8
- 1895 0245 DA0D0000 		.4byte	.LASF79
+ 1895 0245 E20D0000 		.4byte	.LASF79
  1896 0249 75       		.byte	0x75
  1897 024a 08       		.uleb128 0x8
- 1898 024b D3000000 		.4byte	.LASF80
+ 1898 024b DB000000 		.4byte	.LASF80
  1899 024f 76       		.byte	0x76
  1900 0250 08       		.uleb128 0x8
- 1901 0251 04070000 		.4byte	.LASF81
+ 1901 0251 0C070000 		.4byte	.LASF81
  1902 0255 77       		.byte	0x77
  1903 0256 08       		.uleb128 0x8
  1904 0257 00000000 		.4byte	.LASF82
  1905 025b 78       		.byte	0x78
  1906 025c 08       		.uleb128 0x8
- 1907 025d D10C0000 		.4byte	.LASF83
+ 1907 025d D90C0000 		.4byte	.LASF83
  1908 0261 79       		.byte	0x79
  1909 0262 08       		.uleb128 0x8
- 1910 0263 B6040000 		.4byte	.LASF84
+ 1910 0263 BE040000 		.4byte	.LASF84
  1911 0267 7A       		.byte	0x7a
  1912 0268 08       		.uleb128 0x8
- 1913 0269 68020000 		.4byte	.LASF85
+ 1913 0269 70020000 		.4byte	.LASF85
  1914 026d FA       		.byte	0xfa
  1915 026e 08       		.uleb128 0x8
- 1916 026f 82050000 		.4byte	.LASF86
+ 1916 026f 8A050000 		.4byte	.LASF86
  1917 0273 FB       		.byte	0xfb
  1918 0274 08       		.uleb128 0x8
- 1919 0275 530B0000 		.4byte	.LASF87
+ 1919 0275 5B0B0000 		.4byte	.LASF87
  1920 0279 FC       		.byte	0xfc
  1921 027a 08       		.uleb128 0x8
- 1922 027b 100C0000 		.4byte	.LASF88
+ 1922 027b 180C0000 		.4byte	.LASF88
  1923 027f FD       		.byte	0xfd
  1924 0280 08       		.uleb128 0x8
- 1925 0281 82040000 		.4byte	.LASF89
+ 1925 0281 8A040000 		.4byte	.LASF89
  1926 0285 FF       		.byte	0xff
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 51
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 51
 
 
  1927 0286 00       		.byte	0
@@ -3009,16 +3009,16 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1932 028e 2B       		.byte	0x2b
  1933 028f AC020000 		.4byte	0x2ac
  1934 0293 08       		.uleb128 0x8
- 1935 0294 C0000000 		.4byte	.LASF90
+ 1935 0294 C8000000 		.4byte	.LASF90
  1936 0298 00       		.byte	0
  1937 0299 08       		.uleb128 0x8
- 1938 029a 650B0000 		.4byte	.LASF91
+ 1938 029a 6D0B0000 		.4byte	.LASF91
  1939 029e 01       		.byte	0x1
  1940 029f 08       		.uleb128 0x8
- 1941 02a0 4A060000 		.4byte	.LASF92
+ 1941 02a0 52060000 		.4byte	.LASF92
  1942 02a4 02       		.byte	0x2
  1943 02a5 08       		.uleb128 0x8
- 1944 02a6 EE060000 		.4byte	.LASF93
+ 1944 02a6 F6060000 		.4byte	.LASF93
  1945 02aa 03       		.byte	0x3
  1946 02ab 00       		.byte	0
  1947 02ac 09       		.uleb128 0x9
@@ -3028,37 +3028,37 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1951 02b3 34       		.byte	0x34
  1952 02b4 EF020000 		.4byte	0x2ef
  1953 02b8 08       		.uleb128 0x8
- 1954 02b9 160D0000 		.4byte	.LASF94
+ 1954 02b9 1E0D0000 		.4byte	.LASF94
  1955 02bd 00       		.byte	0
  1956 02be 08       		.uleb128 0x8
- 1957 02bf ED030000 		.4byte	.LASF95
+ 1957 02bf F5030000 		.4byte	.LASF95
  1958 02c3 01       		.byte	0x1
  1959 02c4 08       		.uleb128 0x8
- 1960 02c5 99000000 		.4byte	.LASF96
+ 1960 02c5 A1000000 		.4byte	.LASF96
  1961 02c9 02       		.byte	0x2
  1962 02ca 08       		.uleb128 0x8
- 1963 02cb 86020000 		.4byte	.LASF97
+ 1963 02cb 8E020000 		.4byte	.LASF97
  1964 02cf 03       		.byte	0x3
  1965 02d0 08       		.uleb128 0x8
- 1966 02d1 CC060000 		.4byte	.LASF98
+ 1966 02d1 D4060000 		.4byte	.LASF98
  1967 02d5 04       		.byte	0x4
  1968 02d6 08       		.uleb128 0x8
- 1969 02d7 B8090000 		.4byte	.LASF99
+ 1969 02d7 C0090000 		.4byte	.LASF99
  1970 02db 05       		.byte	0x5
  1971 02dc 08       		.uleb128 0x8
- 1972 02dd 360B0000 		.4byte	.LASF100
+ 1972 02dd 3E0B0000 		.4byte	.LASF100
  1973 02e1 06       		.byte	0x6
  1974 02e2 08       		.uleb128 0x8
- 1975 02e3 DC070000 		.4byte	.LASF101
+ 1975 02e3 E4070000 		.4byte	.LASF101
  1976 02e7 06       		.byte	0x6
  1977 02e8 08       		.uleb128 0x8
- 1978 02e9 DA040000 		.4byte	.LASF102
+ 1978 02e9 E2040000 		.4byte	.LASF102
  1979 02ed 07       		.byte	0x7
  1980 02ee 00       		.byte	0
  1981 02ef 0A       		.uleb128 0xa
- 1982 02f0 970B0000 		.4byte	.LASF105
+ 1982 02f0 9F0B0000 		.4byte	.LASF105
  1983 02f4 01       		.byte	0x1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 52
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 52
 
 
  1984 02f5 8301     		.2byte	0x183
@@ -3068,17 +3068,17 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  1988 0300 9C       		.byte	0x9c
  1989 0301 30030000 		.4byte	0x330
  1990 0305 0B       		.uleb128 0xb
- 1991 0306 A1050000 		.4byte	.LASF103
+ 1991 0306 A9050000 		.4byte	.LASF103
  1992 030a 01       		.byte	0x1
  1993 030b 8501     		.2byte	0x185
  1994 030d 77000000 		.4byte	0x77
  1995 0311 0B       		.uleb128 0xb
- 1996 0312 A1070000 		.4byte	.LASF104
+ 1996 0312 A9070000 		.4byte	.LASF104
  1997 0316 01       		.byte	0x1
  1998 0317 8601     		.2byte	0x186
  1999 0319 77000000 		.4byte	0x77
  2000 031d 0C       		.uleb128 0xc
- 2001 031e 280C0000 		.4byte	.LASF107
+ 2001 031e 300C0000 		.4byte	.LASF107
  2002 0322 01       		.byte	0x1
  2003 0323 8701     		.2byte	0x187
  2004 0325 77000000 		.4byte	0x77
@@ -3087,7 +3087,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2007 032b 08000000 		.4byte	color.8707
  2008 032f 00       		.byte	0
  2009 0330 0A       		.uleb128 0xa
- 2010 0331 5B010000 		.4byte	.LASF106
+ 2010 0331 63010000 		.4byte	.LASF106
  2011 0335 01       		.byte	0x1
  2012 0336 B101     		.2byte	0x1b1
  2013 0338 00000000 		.4byte	.LFB41
@@ -3096,17 +3096,17 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2016 0341 9C       		.byte	0x9c
  2017 0342 7D030000 		.4byte	0x37d
  2018 0346 0B       		.uleb128 0xb
- 2019 0347 A1050000 		.4byte	.LASF103
+ 2019 0347 A9050000 		.4byte	.LASF103
  2020 034b 01       		.byte	0x1
  2021 034c B301     		.2byte	0x1b3
  2022 034e 77000000 		.4byte	0x77
  2023 0352 0B       		.uleb128 0xb
- 2024 0353 A1070000 		.4byte	.LASF104
+ 2024 0353 A9070000 		.4byte	.LASF104
  2025 0357 01       		.byte	0x1
  2026 0358 B401     		.2byte	0x1b4
  2027 035a 77000000 		.4byte	0x77
  2028 035e 0C       		.uleb128 0xc
- 2029 035f 280C0000 		.4byte	.LASF107
+ 2029 035f 300C0000 		.4byte	.LASF107
  2030 0363 01       		.byte	0x1
  2031 0364 B501     		.2byte	0x1b5
  2032 0366 77000000 		.4byte	0x77
@@ -3114,16 +3114,16 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2034 036b 03       		.byte	0x3
  2035 036c 0C000000 		.4byte	color.8715
  2036 0370 0B       		.uleb128 0xb
- 2037 0371 4B0D0000 		.4byte	.LASF108
+ 2037 0371 530D0000 		.4byte	.LASF108
  2038 0375 01       		.byte	0x1
  2039 0376 B601     		.2byte	0x1b6
  2040 0378 77000000 		.4byte	0x77
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 53
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 53
 
 
  2041 037c 00       		.byte	0
  2042 037d 0A       		.uleb128 0xa
- 2043 037e 680A0000 		.4byte	.LASF109
+ 2043 037e 700A0000 		.4byte	.LASF109
  2044 0382 01       		.byte	0x1
  2045 0383 0501     		.2byte	0x105
  2046 0385 00000000 		.4byte	.LFB36
@@ -3138,14 +3138,14 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2055 039b 77000000 		.4byte	0x77
  2056 039f 00000000 		.4byte	.LLST0
  2057 03a3 0E       		.uleb128 0xe
- 2058 03a4 280C0000 		.4byte	.LASF107
+ 2058 03a4 300C0000 		.4byte	.LASF107
  2059 03a8 01       		.byte	0x1
  2060 03a9 0701     		.2byte	0x107
  2061 03ab 77000000 		.4byte	0x77
  2062 03af 21000000 		.4byte	.LLST1
  2063 03b3 00       		.byte	0
  2064 03b4 0F       		.uleb128 0xf
- 2065 03b5 BF0C0000 		.4byte	.LASF149
+ 2065 03b5 C70C0000 		.4byte	.LASF149
  2066 03b9 01       		.byte	0x1
  2067 03ba 3101     		.2byte	0x131
  2068 03bc 77000000 		.4byte	0x77
@@ -3154,7 +3154,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2071 03c8 01       		.uleb128 0x1
  2072 03c9 9C       		.byte	0x9c
  2073 03ca 10       		.uleb128 0x10
- 2074 03cb 71040000 		.4byte	.LASF150
+ 2074 03cb 79040000 		.4byte	.LASF150
  2075 03cf 01       		.byte	0x1
  2076 03d0 4C01     		.2byte	0x14c
  2077 03d2 00000000 		.4byte	.LFB38
@@ -3162,7 +3162,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2079 03da 01       		.uleb128 0x1
  2080 03db 9C       		.byte	0x9c
  2081 03dc 11       		.uleb128 0x11
- 2082 03dd 22090000 		.4byte	.LASF117
+ 2082 03dd 2A090000 		.4byte	.LASF117
  2083 03e1 01       		.byte	0x1
  2084 03e2 6001     		.2byte	0x160
  2085 03e4 77000000 		.4byte	0x77
@@ -3172,28 +3172,28 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2089 03f1 9C       		.byte	0x9c
  2090 03f2 33040000 		.4byte	0x433
  2091 03f6 12       		.uleb128 0x12
- 2092 03f7 AF090000 		.4byte	.LASF110
+ 2092 03f7 B7090000 		.4byte	.LASF110
  2093 03fb 01       		.byte	0x1
  2094 03fc 6001     		.2byte	0x160
  2095 03fe 77000000 		.4byte	0x77
  2096 0402 85000000 		.4byte	.LLST2
  2097 0406 0C       		.uleb128 0xc
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 54
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 54
 
 
- 2098 0407 280C0000 		.4byte	.LASF107
+ 2098 0407 300C0000 		.4byte	.LASF107
  2099 040b 01       		.byte	0x1
  2100 040c 6201     		.2byte	0x162
  2101 040e 77000000 		.4byte	0x77
  2102 0412 01       		.uleb128 0x1
  2103 0413 50       		.byte	0x50
  2104 0414 0B       		.uleb128 0xb
- 2105 0415 DB080000 		.4byte	.LASF111
+ 2105 0415 E3080000 		.4byte	.LASF111
  2106 0419 01       		.byte	0x1
  2107 041a 6301     		.2byte	0x163
  2108 041c 48040000 		.4byte	0x448
  2109 0420 0C       		.uleb128 0xc
- 2110 0421 DC030000 		.4byte	.LASF112
+ 2110 0421 E4030000 		.4byte	.LASF112
  2111 0425 01       		.byte	0x1
  2112 0426 6401     		.2byte	0x164
  2113 0428 77000000 		.4byte	0x77
@@ -3213,7 +3213,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2127 0448 15       		.uleb128 0x15
  2128 0449 33040000 		.4byte	0x433
  2129 044d 0A       		.uleb128 0xa
- 2130 044e 9F030000 		.4byte	.LASF113
+ 2130 044e A7030000 		.4byte	.LASF113
  2131 0452 01       		.byte	0x1
  2132 0453 F801     		.2byte	0x1f8
  2133 0455 00000000 		.4byte	.LFB43
@@ -3222,7 +3222,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2136 045e 9C       		.byte	0x9c
  2137 045f 92040000 		.4byte	0x492
  2138 0463 16       		.uleb128 0x16
- 2139 0464 280C0000 		.4byte	.LASF107
+ 2139 0464 300C0000 		.4byte	.LASF107
  2140 0468 01       		.byte	0x1
  2141 0469 F801     		.2byte	0x1f8
  2142 046b 77000000 		.4byte	0x77
@@ -3238,14 +3238,14 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2152 0482 636F6C00 		.ascii	"col\000"
  2153 0486 01       		.byte	0x1
  2154 0487 FA01     		.2byte	0x1fa
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 55
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 55
 
 
  2155 0489 77000000 		.4byte	0x77
  2156 048d C5000000 		.4byte	.LLST4
  2157 0491 00       		.byte	0
  2158 0492 0A       		.uleb128 0xa
- 2159 0493 7E0B0000 		.4byte	.LASF114
+ 2159 0493 860B0000 		.4byte	.LASF114
  2160 0497 01       		.byte	0x1
  2161 0498 E501     		.2byte	0x1e5
  2162 049a 00000000 		.4byte	.LFB42
@@ -3254,7 +3254,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2165 04a3 9C       		.byte	0x9c
  2166 04a4 DD040000 		.4byte	0x4dd
  2167 04a8 12       		.uleb128 0x12
- 2168 04a9 280C0000 		.4byte	.LASF107
+ 2168 04a9 300C0000 		.4byte	.LASF107
  2169 04ad 01       		.byte	0x1
  2170 04ae E501     		.2byte	0x1e5
  2171 04b0 77000000 		.4byte	0x77
@@ -3282,7 +3282,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2193 04db 00       		.byte	0
  2194 04dc 00       		.byte	0
  2195 04dd 0A       		.uleb128 0xa
- 2196 04de 6A0C0000 		.4byte	.LASF115
+ 2196 04de 720C0000 		.4byte	.LASF115
  2197 04e2 01       		.byte	0x1
  2198 04e3 1902     		.2byte	0x219
  2199 04e5 00000000 		.4byte	.LFB44
@@ -3291,17 +3291,17 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2202 04ee 9C       		.byte	0x9c
  2203 04ef 04050000 		.4byte	0x504
  2204 04f3 12       		.uleb128 0x12
- 2205 04f4 280C0000 		.4byte	.LASF107
+ 2205 04f4 300C0000 		.4byte	.LASF107
  2206 04f8 01       		.byte	0x1
  2207 04f9 1902     		.2byte	0x219
  2208 04fb 77000000 		.4byte	0x77
  2209 04ff 04010000 		.4byte	.LLST6
  2210 0503 00       		.byte	0
  2211 0504 0A       		.uleb128 0xa
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 56
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 56
 
 
- 2212 0505 87000000 		.4byte	.LASF116
+ 2212 0505 8F000000 		.4byte	.LASF116
  2213 0509 01       		.byte	0x1
  2214 050a 3302     		.2byte	0x233
  2215 050c 00000000 		.4byte	.LFB45
@@ -3322,7 +3322,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2230 052e 83000000 		.4byte	0x83
  2231 0532 6D010000 		.4byte	.LLST8
  2232 0536 16       		.uleb128 0x16
- 2233 0537 280C0000 		.4byte	.LASF107
+ 2233 0537 300C0000 		.4byte	.LASF107
  2234 053b 01       		.byte	0x1
  2235 053c 3302     		.2byte	0x233
  2236 053e 77000000 		.4byte	0x77
@@ -3330,7 +3330,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2238 0543 52       		.byte	0x52
  2239 0544 00       		.byte	0
  2240 0545 1B       		.uleb128 0x1b
- 2241 0546 6C010000 		.4byte	.LASF118
+ 2241 0546 74010000 		.4byte	.LASF118
  2242 054a 01       		.byte	0x1
  2243 054b 4F02     		.2byte	0x24f
  2244 054d 77000000 		.4byte	0x77
@@ -3352,18 +3352,18 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2260 0573 83000000 		.4byte	0x83
  2261 0577 AF010000 		.4byte	.LLST10
  2262 057b 0C       		.uleb128 0xc
- 2263 057c 280C0000 		.4byte	.LASF107
+ 2263 057c 300C0000 		.4byte	.LASF107
  2264 0580 01       		.byte	0x1
  2265 0581 5102     		.2byte	0x251
  2266 0583 77000000 		.4byte	0x77
  2267 0587 01       		.uleb128 0x1
  2268 0588 53       		.byte	0x53
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 57
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 57
 
 
  2269 0589 00       		.byte	0
  2270 058a 0A       		.uleb128 0xa
- 2271 058b FA090000 		.4byte	.LASF119
+ 2271 058b 020A0000 		.4byte	.LASF119
  2272 058f 01       		.byte	0x1
  2273 0590 6F02     		.2byte	0x26f
  2274 0592 00000000 		.4byte	.LFB47
@@ -3384,13 +3384,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2289 05b6 83000000 		.4byte	0x83
  2290 05ba FC010000 		.4byte	.LLST12
  2291 05be 12       		.uleb128 0x12
- 2292 05bf 33080000 		.4byte	.LASF120
+ 2292 05bf 3B080000 		.4byte	.LASF120
  2293 05c3 01       		.byte	0x1
  2294 05c4 6F02     		.2byte	0x26f
  2295 05c6 83000000 		.4byte	0x83
  2296 05ca 28020000 		.4byte	.LLST13
  2297 05ce 12       		.uleb128 0x12
- 2298 05cf 280C0000 		.4byte	.LASF107
+ 2298 05cf 300C0000 		.4byte	.LASF107
  2299 05d3 01       		.byte	0x1
  2300 05d4 6F02     		.2byte	0x26f
  2301 05d6 77000000 		.4byte	0x77
@@ -3402,13 +3402,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2307 05e4 83000000 		.4byte	0x83
  2308 05e8 7E020000 		.4byte	.LLST15
  2309 05ec 0E       		.uleb128 0xe
- 2310 05ed 5F060000 		.4byte	.LASF121
+ 2310 05ed 67060000 		.4byte	.LASF121
  2311 05f1 01       		.byte	0x1
  2312 05f2 7202     		.2byte	0x272
  2313 05f4 83000000 		.4byte	0x83
  2314 05f8 B2020000 		.4byte	.LLST16
  2315 05fc 0E       		.uleb128 0xe
- 2316 05fd 65060000 		.4byte	.LASF122
+ 2316 05fd 6D060000 		.4byte	.LASF122
  2317 0601 01       		.byte	0x1
  2318 0602 7302     		.2byte	0x273
  2319 0604 83000000 		.4byte	0x83
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2323 060f 01       		.byte	0x1
  2324 0610 7402     		.2byte	0x274
  2325 0612 83000000 		.4byte	0x83
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 58
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 58
 
 
  2326 0616 11030000 		.4byte	.LLST18
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2380 0669 52       		.byte	0x52
  2381 066a 02       		.uleb128 0x2
  2382 066b 75       		.byte	0x75
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 59
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 59
 
 
  2383 066c 00       		.sleb128 0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2437 06b4 18       		.uleb128 0x18
  2438 06b5 86000000 		.4byte	.LVL58
  2439 06b9 04050000 		.4byte	0x504
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 60
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 60
 
 
  2440 06bd D6060000 		.4byte	0x6d6
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2494 0708 02       		.uleb128 0x2
  2495 0709 77       		.byte	0x77
  2496 070a 00       		.sleb128 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 61
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 61
 
 
  2497 070b 19       		.uleb128 0x19
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2551 0753 75       		.byte	0x75
  2552 0754 00       		.sleb128 0
  2553 0755 19       		.uleb128 0x19
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 62
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 62
 
 
  2554 0756 01       		.uleb128 0x1
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2608 079e 06       		.byte	0x6
  2609 079f 00       		.byte	0
  2610 07a0 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 63
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 63
 
 
  2611 07a1 E8000000 		.4byte	.LVL65
@@ -3746,7 +3746,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2633 07bd 00       		.byte	0
  2634 07be 00       		.byte	0
  2635 07bf 0A       		.uleb128 0xa
- 2636 07c0 AA020000 		.4byte	.LASF123
+ 2636 07c0 B2020000 		.4byte	.LASF123
  2637 07c4 01       		.byte	0x1
  2638 07c5 A402     		.2byte	0x2a4
  2639 07c7 00000000 		.4byte	.LFB48
@@ -3778,11 +3778,11 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2665 0807 A402     		.2byte	0x2a4
  2666 0809 83000000 		.4byte	0x83
  2667 080d B5030000 		.4byte	.LLST23
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 64
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 64
 
 
  2668 0811 16       		.uleb128 0x16
- 2669 0812 280C0000 		.4byte	.LASF107
+ 2669 0812 300C0000 		.4byte	.LASF107
  2670 0816 01       		.byte	0x1
  2671 0817 A402     		.2byte	0x2a4
  2672 0819 77000000 		.4byte	0x77
@@ -3802,13 +3802,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2686 0836 83000000 		.4byte	0x83
  2687 083a 0A040000 		.4byte	.LLST25
  2688 083e 0E       		.uleb128 0xe
- 2689 083f 5E0E0000 		.4byte	.LASF124
+ 2689 083f 660E0000 		.4byte	.LASF124
  2690 0843 01       		.byte	0x1
  2691 0844 A802     		.2byte	0x2a8
  2692 0846 83000000 		.4byte	0x83
  2693 084a 1D040000 		.4byte	.LLST26
  2694 084e 0E       		.uleb128 0xe
- 2695 084f 640E0000 		.4byte	.LASF125
+ 2695 084f 6C0E0000 		.4byte	.LASF125
  2696 0853 01       		.byte	0x1
  2697 0854 A802     		.2byte	0x2a8
  2698 0856 83000000 		.4byte	0x83
@@ -3818,7 +3818,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2702 0863 26000000 		.4byte	.LBE2-.LBB2
  2703 0867 99080000 		.4byte	0x899
  2704 086b 0E       		.uleb128 0xe
- 2705 086c F40C0000 		.4byte	.LASF126
+ 2705 086c FC0C0000 		.4byte	.LASF126
  2706 0870 01       		.byte	0x1
  2707 0871 C402     		.2byte	0x2c4
  2708 0873 5D000000 		.4byte	0x5d
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2722 088d 02       		.uleb128 0x2
  2723 088e 75       		.byte	0x75
  2724 088f 00       		.sleb128 0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 65
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 65
 
 
  2725 0890 19       		.uleb128 0x19
@@ -3855,7 +3855,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2736 089e 24000000 		.4byte	.LBE3-.LBB3
  2737 08a2 D4080000 		.4byte	0x8d4
  2738 08a6 0E       		.uleb128 0xe
- 2739 08a7 F40C0000 		.4byte	.LASF126
+ 2739 08a7 FC0C0000 		.4byte	.LASF126
  2740 08ab 01       		.byte	0x1
  2741 08ac D302     		.2byte	0x2d3
  2742 08ae 5D000000 		.4byte	0x5d
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2779 08e5 51       		.byte	0x51
  2780 08e6 02       		.uleb128 0x2
  2781 08e7 75       		.byte	0x75
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 66
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 66
 
 
  2782 08e8 00       		.sleb128 0
@@ -3912,7 +3912,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2790 08f0 00       		.byte	0
  2791 08f1 00       		.byte	0
  2792 08f2 0A       		.uleb128 0xa
- 2793 08f3 550C0000 		.4byte	.LASF127
+ 2793 08f3 5D0C0000 		.4byte	.LASF127
  2794 08f7 01       		.byte	0x1
  2795 08f8 F302     		.2byte	0x2f3
  2796 08fa 00000000 		.4byte	.LFB49
@@ -3945,7 +3945,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2823 093c 83000000 		.4byte	0x83
  2824 0940 2F050000 		.4byte	.LLST33
  2825 0944 16       		.uleb128 0x16
- 2826 0945 4E0B0000 		.4byte	.LASF128
+ 2826 0945 560B0000 		.4byte	.LASF128
  2827 0949 01       		.byte	0x1
  2828 094a F302     		.2byte	0x2f3
  2829 094c 83000000 		.4byte	0x83
@@ -3953,18 +3953,18 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2831 0951 91       		.byte	0x91
  2832 0952 00       		.sleb128 0
  2833 0953 16       		.uleb128 0x16
- 2834 0954 280C0000 		.4byte	.LASF107
+ 2834 0954 300C0000 		.4byte	.LASF107
  2835 0958 01       		.byte	0x1
  2836 0959 F302     		.2byte	0x2f3
  2837 095b 77000000 		.4byte	0x77
  2838 095f 02       		.uleb128 0x2
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 67
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 67
 
 
  2839 0960 91       		.byte	0x91
  2840 0961 04       		.sleb128 4
  2841 0962 0E       		.uleb128 0xe
- 2842 0963 7C050000 		.4byte	.LASF129
+ 2842 0963 84050000 		.4byte	.LASF129
  2843 0967 01       		.byte	0x1
  2844 0968 F502     		.2byte	0x2f5
  2845 096a 5D000000 		.4byte	0x5d
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2893 09b2 75       		.byte	0x75
  2894 09b3 00       		.sleb128 0
  2895 09b4 19       		.uleb128 0x19
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 68
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 68
 
 
  2896 09b5 01       		.uleb128 0x1
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  2950 09fa 1F0A0000 		.4byte	0xa1f
  2951 09fe 19       		.uleb128 0x19
  2952 09ff 01       		.uleb128 0x1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 69
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 69
 
 
  2953 0a00 50       		.byte	0x50
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3007 0a3c 53       		.byte	0x53
  3008 0a3d 03       		.uleb128 0x3
  3009 0a3e 91       		.byte	0x91
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 70
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 70
 
 
  3010 0a3f 60       		.sleb128 -32
@@ -4153,7 +4153,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3019 0a48 00       		.byte	0
  3020 0a49 00       		.byte	0
  3021 0a4a 0A       		.uleb128 0xa
- 3022 0a4b EC080000 		.4byte	.LASF130
+ 3022 0a4b F4080000 		.4byte	.LASF130
  3023 0a4f 01       		.byte	0x1
  3024 0a50 2903     		.2byte	0x329
  3025 0a52 00000000 		.4byte	.LFB50
@@ -4162,25 +4162,25 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3028 0a5b 9C       		.byte	0x9c
  3029 0a5c 870A0000 		.4byte	0xa87
  3030 0a60 16       		.uleb128 0x16
- 3031 0a61 450B0000 		.4byte	.LASF131
+ 3031 0a61 4D0B0000 		.4byte	.LASF131
  3032 0a65 01       		.byte	0x1
  3033 0a66 2903     		.2byte	0x329
  3034 0a68 77000000 		.4byte	0x77
  3035 0a6c 01       		.uleb128 0x1
  3036 0a6d 50       		.byte	0x50
  3037 0a6e 0B       		.uleb128 0xb
- 3038 0a6f A1050000 		.4byte	.LASF103
+ 3038 0a6f A9050000 		.4byte	.LASF103
  3039 0a73 01       		.byte	0x1
  3040 0a74 2B03     		.2byte	0x32b
  3041 0a76 77000000 		.4byte	0x77
  3042 0a7a 0B       		.uleb128 0xb
- 3043 0a7b A1070000 		.4byte	.LASF104
+ 3043 0a7b A9070000 		.4byte	.LASF104
  3044 0a7f 01       		.byte	0x1
  3045 0a80 2C03     		.2byte	0x32c
  3046 0a82 77000000 		.4byte	0x77
  3047 0a86 00       		.byte	0
  3048 0a87 1D       		.uleb128 0x1d
- 3049 0a88 A30A0000 		.4byte	.LASF132
+ 3049 0a88 AB0A0000 		.4byte	.LASF132
  3050 0a8c 01       		.byte	0x1
  3051 0a8d CD       		.byte	0xcd
  3052 0a8e 00000000 		.4byte	.LFB35
@@ -4189,16 +4189,16 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3055 0a97 9C       		.byte	0x9c
  3056 0a98 160B0000 		.4byte	0xb16
  3057 0a9c 1E       		.uleb128 0x1e
- 3058 0a9d 56040000 		.4byte	.LASF133
+ 3058 0a9d 5E040000 		.4byte	.LASF133
  3059 0aa1 01       		.byte	0x1
  3060 0aa2 CF       		.byte	0xcf
  3061 0aa3 6B000000 		.4byte	0x6b
  3062 0aa7 1E       		.uleb128 0x1e
- 3063 0aa8 4B0D0000 		.4byte	.LASF108
+ 3063 0aa8 530D0000 		.4byte	.LASF108
  3064 0aac 01       		.byte	0x1
  3065 0aad D0       		.byte	0xd0
  3066 0aae 77000000 		.4byte	0x77
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 71
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 71
 
 
  3067 0ab2 18       		.uleb128 0x18
@@ -4254,11 +4254,11 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3117 0b14 00       		.byte	0
  3118 0b15 00       		.byte	0
  3119 0b16 0A       		.uleb128 0xa
- 3120 0b17 2A020000 		.4byte	.LASF134
+ 3120 0b17 32020000 		.4byte	.LASF134
  3121 0b1b 01       		.byte	0x1
  3122 0b1c 4C03     		.2byte	0x34c
  3123 0b1e 00000000 		.4byte	.LFB51
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 72
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 72
 
 
  3124 0b22 5A000000 		.4byte	.LFE51-.LFB51
@@ -4278,13 +4278,13 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3138 0b40 83000000 		.4byte	0x83
  3139 0b44 8B050000 		.4byte	.LLST36
  3140 0b48 12       		.uleb128 0x12
- 3141 0b49 770B0000 		.4byte	.LASF135
+ 3141 0b49 7F0B0000 		.4byte	.LASF135
  3142 0b4d 01       		.byte	0x1
  3143 0b4e 4C03     		.2byte	0x34c
  3144 0b50 C3000000 		.4byte	0xc3
  3145 0b54 AC050000 		.4byte	.LLST37
  3146 0b58 12       		.uleb128 0x12
- 3147 0b59 260D0000 		.4byte	.LASF136
+ 3147 0b59 2E0D0000 		.4byte	.LASF136
  3148 0b5d 01       		.byte	0x1
  3149 0b5e 4C03     		.2byte	0x34c
  3150 0b60 83000000 		.4byte	0x83
@@ -4302,23 +4302,23 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3162 0b7e 83000000 		.4byte	0x83
  3163 0b82 38060000 		.4byte	.LLST40
  3164 0b86 0E       		.uleb128 0xe
- 3165 0b87 68050000 		.4byte	.LASF137
+ 3165 0b87 70050000 		.4byte	.LASF137
  3166 0b8b 01       		.byte	0x1
  3167 0b8c 4F03     		.2byte	0x34f
  3168 0b8e 83000000 		.4byte	0x83
  3169 0b92 7A060000 		.4byte	.LLST41
  3170 0b96 0E       		.uleb128 0xe
- 3171 0b97 850D0000 		.4byte	.LASF138
+ 3171 0b97 8D0D0000 		.4byte	.LASF138
  3172 0b9b 01       		.byte	0x1
  3173 0b9c 5003     		.2byte	0x350
  3174 0b9e 83000000 		.4byte	0x83
  3175 0ba2 BB060000 		.4byte	.LLST42
  3176 0ba6 0E       		.uleb128 0xe
- 3177 0ba7 8A0D0000 		.4byte	.LASF139
+ 3177 0ba7 920D0000 		.4byte	.LASF139
  3178 0bab 01       		.byte	0x1
  3179 0bac 5003     		.2byte	0x350
  3180 0bae 83000000 		.4byte	0x83
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 73
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 73
 
 
  3181 0bb2 CE060000 		.4byte	.LLST43
@@ -4351,7 +4351,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3208 0bdf 00       		.byte	0
  3209 0be0 00       		.byte	0
  3210 0be1 1F       		.uleb128 0x1f
- 3211 0be2 56040000 		.4byte	.LASF133
+ 3211 0be2 5E040000 		.4byte	.LASF133
  3212 0be6 01       		.byte	0x1
  3213 0be7 17       		.byte	0x17
  3214 0be8 6B000000 		.4byte	0x6b
@@ -4369,7 +4369,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3226 0c06 17       		.byte	0x17
  3227 0c07 00       		.byte	0
  3228 0c08 1F       		.uleb128 0x1f
- 3229 0c09 AA0C0000 		.4byte	.LASF140
+ 3229 0c09 B20C0000 		.4byte	.LASF140
  3230 0c0d 01       		.byte	0x1
  3231 0c0e 1A       		.byte	0x1a
  3232 0c0f F20B0000 		.4byte	0xbf2
@@ -4377,8 +4377,8 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3234 0c14 03       		.byte	0x3
  3235 0c15 00000000 		.4byte	StripLights_ledArray
  3236 0c19 1F       		.uleb128 0x1f
- 3237 0c1a F1040000 		.4byte	.LASF141
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 74
+ 3237 0c1a F9040000 		.4byte	.LASF141
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 74
 
 
  3238 0c1e 01       		.byte	0x1
@@ -4396,7 +4396,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3250 0c36 03       		.byte	0x3
  3251 0c37 00000000 		.4byte	StripLights_row
  3252 0c3b 20       		.uleb128 0x20
- 3253 0c3c 4B0D0000 		.4byte	.LASF108
+ 3253 0c3c 530D0000 		.4byte	.LASF108
  3254 0c40 01       		.byte	0x1
  3255 0c41 B601     		.2byte	0x1b6
  3256 0c43 77000000 		.4byte	0x77
@@ -4404,7 +4404,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3258 0c48 03       		.byte	0x3
  3259 0c49 00000000 		.4byte	StripLights_refreshComplete
  3260 0c4d 20       		.uleb128 0x20
- 3261 0c4e A1050000 		.4byte	.LASF103
+ 3261 0c4e A9050000 		.4byte	.LASF103
  3262 0c52 01       		.byte	0x1
  3263 0c53 2B03     		.2byte	0x32b
  3264 0c55 77000000 		.4byte	0x77
@@ -4412,7 +4412,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3266 0c5a 03       		.byte	0x3
  3267 0c5b 00000000 		.4byte	StripLights_DimMask
  3268 0c5f 20       		.uleb128 0x20
- 3269 0c60 A1070000 		.4byte	.LASF104
+ 3269 0c60 A9070000 		.4byte	.LASF104
  3270 0c64 01       		.byte	0x1
  3271 0c65 2C03     		.2byte	0x32c
  3272 0c67 77000000 		.4byte	0x77
@@ -4420,7 +4420,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3274 0c6c 03       		.byte	0x3
  3275 0c6d 00000000 		.4byte	StripLights_DimShift
  3276 0c71 1F       		.uleb128 0x1f
- 3277 0c72 DB080000 		.4byte	.LASF111
+ 3277 0c72 E3080000 		.4byte	.LASF111
  3278 0c76 01       		.byte	0x1
  3279 0c77 28       		.byte	0x28
  3280 0c78 820C0000 		.4byte	0xc82
@@ -4430,21 +4430,21 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3284 0c82 15       		.uleb128 0x15
  3285 0c83 33040000 		.4byte	0x433
  3286 0c87 21       		.uleb128 0x21
- 3287 0c88 110A0000 		.4byte	.LASF143
- 3288 0c8c 110A0000 		.4byte	.LASF143
+ 3287 0c88 190A0000 		.4byte	.LASF143
+ 3288 0c8c 190A0000 		.4byte	.LASF143
  3289 0c90 05       		.byte	0x5
  3290 0c91 1B       		.byte	0x1b
  3291 0c92 21       		.uleb128 0x21
- 3292 0c93 3D040000 		.4byte	.LASF144
- 3293 0c97 3D040000 		.4byte	.LASF144
+ 3292 0c93 45040000 		.4byte	.LASF144
+ 3293 0c97 45040000 		.4byte	.LASF144
  3294 0c9b 06       		.byte	0x6
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 75
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 75
 
 
  3295 0c9c 18       		.byte	0x18
  3296 0c9d 21       		.uleb128 0x21
- 3297 0c9e FB0D0000 		.4byte	.LASF145
- 3298 0ca2 FB0D0000 		.4byte	.LASF145
+ 3297 0c9e 030E0000 		.4byte	.LASF145
+ 3298 0ca2 030E0000 		.4byte	.LASF145
  3299 0ca6 07       		.byte	0x7
  3300 0ca7 18       		.byte	0x18
  3301 0ca8 00       		.byte	0
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3349 002d 0E       		.uleb128 0xe
  3350 002e 3A       		.uleb128 0x3a
  3351 002f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 76
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 76
 
 
  3352 0030 3B       		.uleb128 0x3b
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3406 0066 0B       		.uleb128 0xb
  3407 0067 3B       		.uleb128 0x3b
  3408 0068 0B       		.uleb128 0xb
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 77
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 77
 
 
  3409 0069 01       		.uleb128 0x1
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3463 00a0 05       		.uleb128 0x5
  3464 00a1 49       		.uleb128 0x49
  3465 00a2 13       		.uleb128 0x13
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 78
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 78
 
 
  3466 00a3 02       		.uleb128 0x2
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3520 00d9 18       		.uleb128 0x18
  3521 00da 9742     		.uleb128 0x2117
  3522 00dc 19       		.uleb128 0x19
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 79
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 79
 
 
  3523 00dd 00       		.byte	0
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3577 0115 00       		.byte	0
  3578 0116 03       		.uleb128 0x3
  3579 0117 0E       		.uleb128 0xe
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 80
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 80
 
 
  3580 0118 3A       		.uleb128 0x3a
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3634 014e 08       		.uleb128 0x8
  3635 014f 3A       		.uleb128 0x3a
  3636 0150 0B       		.uleb128 0xb
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 81
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 81
 
 
  3637 0151 3B       		.uleb128 0x3b
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3691 018e 12       		.uleb128 0x12
  3692 018f 06       		.uleb128 0x6
  3693 0190 40       		.uleb128 0x40
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 82
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 82
 
 
  3694 0191 18       		.uleb128 0x18
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3748 01c9 3F       		.uleb128 0x3f
  3749 01ca 19       		.uleb128 0x19
  3750 01cb 3C       		.uleb128 0x3c
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 83
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 83
 
 
  3751 01cc 19       		.uleb128 0x19
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3805 0202 00       		.byte	0
  3806              		.section	.debug_loc,"",%progbits
  3807              	.Ldebug_loc0:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 84
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 84
 
 
  3808              	.LLST0:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3862 007a 0100     		.2byte	0x1
  3863 007c 53       		.byte	0x53
  3864 007d 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 85
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 85
 
 
  3865 0081 00000000 		.4byte	0
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3919 0108 10000000 		.4byte	.LVL25
  3920 010c 0100     		.2byte	0x1
  3921 010e 50       		.byte	0x50
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 86
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 86
 
 
  3922 010f 10000000 		.4byte	.LVL25
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  3976 018a 00000000 		.4byte	0
  3977              	.LLST9:
  3978 018e 00000000 		.4byte	.LVL32
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 87
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 87
 
 
  3979 0192 18000000 		.4byte	.LVL34
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4033 0216 FC000000 		.4byte	.LFE47
  4034 021a 0400     		.2byte	0x4
  4035 021c F3       		.byte	0xf3
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 88
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 88
 
 
  4036 021d 01       		.uleb128 0x1
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4090 02a7 0100     		.2byte	0x1
  4091 02a9 59       		.byte	0x59
  4092 02aa 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 89
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 89
 
 
  4093 02ae 00000000 		.4byte	0
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4147 033b 00000000 		.4byte	0
  4148 033f 00000000 		.4byte	0
  4149              	.LLST20:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 90
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 90
 
 
  4150 0343 00000000 		.4byte	.LVL73
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4204 03d5 F3       		.byte	0xf3
  4205 03d6 01       		.uleb128 0x1
  4206 03d7 53       		.byte	0x53
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 91
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 91
 
 
  4207 03d8 9F       		.byte	0x9f
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4261 0465 0100     		.2byte	0x1
  4262 0467 56       		.byte	0x56
  4263 0468 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 92
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 92
 
 
  4264 046c 00000000 		.4byte	0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4318 04fc 40000000 		.4byte	.LVL121
  4319 0500 0100     		.2byte	0x1
  4320 0502 56       		.byte	0x56
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 93
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 93
 
 
  4321 0503 40000000 		.4byte	.LVL121
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4375 058f 20000000 		.4byte	.LVL140
  4376 0593 0100     		.2byte	0x1
  4377 0595 51       		.byte	0x51
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 94
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 94
 
 
  4378 0596 20000000 		.4byte	.LVL140
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4432 061a 20000000 		.4byte	.LVL140
  4433 061e 32000000 		.4byte	.LVL144
  4434 0622 0100     		.2byte	0x1
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 95
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 95
 
 
  4435 0624 54       		.byte	0x54
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4489 06b0 0100     		.2byte	0x1
  4490 06b2 53       		.byte	0x53
  4491 06b3 00000000 		.4byte	0
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 96
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 96
 
 
  4492 06b7 00000000 		.4byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4546 008c 7C000000 		.4byte	.LFE35-.LFB35
  4547 0090 00000000 		.4byte	.LFB51
  4548 0094 5A000000 		.4byte	.LFE51-.LFB51
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 97
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 97
 
 
  4549 0098 00000000 		.4byte	0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4595 0023 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
  4595      455F4556 
  4595      545F5354 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 98
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 98
 
 
  4595      41434B5F 
@@ -5829,860 +5829,862 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 1
  4597      6874735F 
  4597      726F7700 
  4598              	.LASF148:
- 4599 004f 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Cyberpong\\CyberP"
+ 4599 004f 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Project\\CyberPon"
  4599      43552053 
  4599      65636F6E 
  4599      64207965 
  4599      61725C54 
- 4600 007d 6F6E672E 		.ascii	"ong.cydsn\000"
+ 4600 007d 675C4379 		.ascii	"g\\CyberPong.cydsn\000"
+ 4600      62657250 
+ 4600      6F6E672E 
  4600      63796473 
  4600      6E00
  4601              	.LASF116:
- 4602 0087 53747269 		.ascii	"StripLights_Pixel\000"
+ 4602 008f 53747269 		.ascii	"StripLights_Pixel\000"
  4602      704C6967 
  4602      6874735F 
  4602      50697865 
  4602      6C00
  4603              	.LASF96:
- 4604 0099 4359424C 		.ascii	"CYBLE_AIOS_CHAR_USER_DESCRIPTION_DESCR\000"
+ 4604 00a1 4359424C 		.ascii	"CYBLE_AIOS_CHAR_USER_DESCRIPTION_DESCR\000"
  4604      455F4149 
  4604      4F535F43 
  4604      4841525F 
  4604      55534552 
  4605              	.LASF90:
- 4606 00c0 4359424C 		.ascii	"CYBLE_AIOS_DIGITAL\000"
+ 4606 00c8 4359424C 		.ascii	"CYBLE_AIOS_DIGITAL\000"
  4606      455F4149 
  4606      4F535F44 
  4606      49474954 
  4606      414C00
  4607              	.LASF80:
- 4608 00d3 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
+ 4608 00db 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
  4608      455F4556 
  4608      545F4C32 
  4608      4341505F 
  4608      43424643 
  4609              	.LASF40:
- 4610 00f4 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
+ 4610 00fc 4359424C 		.ascii	"CYBLE_EVT_GAP_OOB_GENERATED_NOTIFICATION\000"
  4610      455F4556 
  4610      545F4741 
  4610      505F4F4F 
  4610      425F4745 
  4611              	.LASF60:
- 4612 011d 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
+ 4612 0125 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
  4612      455F4556 
  4612      545F4741 
  4612      5454435F 
  4612      52454144 
  4613              	.LASF65:
- 4614 013c 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 4614 0144 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
  4614      455F4556 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 99
+
+
  4614      545F4741 
  4614      5454535F 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 99
-
-
  4614      45584543 
  4615              	.LASF106:
- 4616 015b 53747269 		.ascii	"StripLights_CISR\000"
+ 4616 0163 53747269 		.ascii	"StripLights_CISR\000"
  4616      704C6967 
  4616      6874735F 
  4616      43495352 
  4616      00
  4617              	.LASF118:
- 4618 016c 53747269 		.ascii	"StripLights_GetPixel\000"
+ 4618 0174 53747269 		.ascii	"StripLights_GetPixel\000"
  4618      704C6967 
  4618      6874735F 
  4618      47657450 
  4618      6978656C 
  4619              	.LASF20:
- 4620 0181 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 4620 0189 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
  4620      455F4556 
  4620      545F5449 
  4620      4D454F55 
  4620      5400
  4621              	.LASF4:
- 4622 0193 6C6F6E67 		.ascii	"long int\000"
+ 4622 019b 6C6F6E67 		.ascii	"long int\000"
  4622      20696E74 
  4622      00
  4623              	.LASF146:
- 4624 019c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4624 01a4 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  4624      43313120 
  4624      352E342E 
  4624      31203230 
  4624      31363036 
- 4625 01cf 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 4625 01d7 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
  4625      20726576 
  4625      6973696F 
  4625      6E203233 
  4625      37373135 
- 4626 0202 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 4626 020a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
  4626      66756E63 
  4626      74696F6E 
  4626      2D736563 
  4626      74696F6E 
  4627              	.LASF134:
- 4628 022a 53747269 		.ascii	"StripLights_bplot\000"
+ 4628 0232 53747269 		.ascii	"StripLights_bplot\000"
  4628      704C6967 
  4628      6874735F 
  4628      62706C6F 
  4628      7400
  4629              	.LASF7:
- 4630 023c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 4630 0244 6C6F6E67 		.ascii	"long long unsigned int\000"
  4630      206C6F6E 
  4630      6720756E 
  4630      7369676E 
  4630      65642069 
  4631              	.LASF22:
- 4632 0253 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
+ 4632 025b 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
  4632      455F4556 
  4632      545F4843 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 100
+
+
  4632      495F5354 
  4632      41545553 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 100
-
-
  4633              	.LASF85:
- 4634 0268 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 4634 0270 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
  4634      455F4556 
  4634      545F5045 
  4634      4E44494E 
  4634      475F464C 
  4635              	.LASF97:
- 4636 0286 4359424C 		.ascii	"CYBLE_AIOS_CHAR_EXTENDED_PROPERTIES\000"
+ 4636 028e 4359424C 		.ascii	"CYBLE_AIOS_CHAR_EXTENDED_PROPERTIES\000"
  4636      455F4149 
  4636      4F535F43 
  4636      4841525F 
  4636      45585445 
  4637              	.LASF123:
- 4638 02aa 53747269 		.ascii	"StripLights_DrawLine\000"
+ 4638 02b2 53747269 		.ascii	"StripLights_DrawLine\000"
  4638      704C6967 
  4638      6874735F 
  4638      44726177 
  4638      4C696E65 
  4639              	.LASF34:
- 4640 02bf 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 4640 02c7 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
  4640      455F4556 
  4640      545F4741 
  4640      505F454E 
  4640      43525950 
  4641              	.LASF38:
- 4642 02dc 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
+ 4642 02e4 4359424C 		.ascii	"CYBLE_EVT_GAP_NUMERIC_COMPARISON_REQUEST\000"
  4642      455F4556 
  4642      545F4741 
  4642      505F4E55 
  4642      4D455249 
  4643              	.LASF6:
- 4644 0305 6C6F6E67 		.ascii	"long long int\000"
+ 4644 030d 6C6F6E67 		.ascii	"long long int\000"
  4644      206C6F6E 
  4644      6720696E 
  4644      7400
  4645              	.LASF0:
- 4646 0313 7369676E 		.ascii	"signed char\000"
+ 4646 031b 7369676E 		.ascii	"signed char\000"
  4646      65642063 
  4646      68617200 
  4647              	.LASF19:
- 4648 031f 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
+ 4648 0327 4359424C 		.ascii	"CYBLE_EVT_STACK_ON\000"
  4648      455F4556 
  4648      545F5354 
  4648      41434B5F 
  4648      4F4E00
  4649              	.LASF36:
- 4650 0332 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 4650 033a 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
  4650      455F4556 
  4650      545F4741 
  4650      50435F53 
  4650      43414E5F 
  4651              	.LASF26:
- 4652 0351 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
+ 4652 0359 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ\000"
  4652      455F4556 
  4652      545F4741 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 101
+
+
  4652      505F4155 
  4652      54485F52 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 101
-
-
  4653              	.LASF58:
- 4654 0368 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 4654 0370 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
  4654      455F4556 
  4654      545F4741 
  4654      5454435F 
  4654      52454144 
  4655              	.LASF63:
- 4656 0381 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
+ 4656 0389 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_CMD_REQ\000"
  4656      455F4556 
  4656      545F4741 
  4656      5454535F 
  4656      57524954 
  4657              	.LASF113:
- 4658 039f 53747269 		.ascii	"StripLights_MemClear\000"
+ 4658 03a7 53747269 		.ascii	"StripLights_MemClear\000"
  4658      704C6967 
  4658      6874735F 
  4658      4D656D43 
  4658      6C656172 
  4659              	.LASF31:
- 4660 03b4 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 4660 03bc 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
  4660      455F4556 
  4660      545F4741 
  4660      50505F41 
  4660      44564552 
  4661              	.LASF112:
- 4662 03dc 636F6C6F 		.ascii	"colorIndex\000"
+ 4662 03e4 636F6C6F 		.ascii	"colorIndex\000"
  4662      72496E64 
  4662      657800
  4663              	.LASF9:
- 4664 03e7 75696E74 		.ascii	"uint8\000"
+ 4664 03ef 75696E74 		.ascii	"uint8\000"
  4664      3800
  4665              	.LASF95:
- 4666 03ed 4359424C 		.ascii	"CYBLE_AIOS_CHAR_PRESENTATION_FORMAT\000"
+ 4666 03f5 4359424C 		.ascii	"CYBLE_AIOS_CHAR_PRESENTATION_FORMAT\000"
  4666      455F4149 
  4666      4F535F43 
  4666      4841525F 
  4666      50524553 
  4667              	.LASF66:
- 4668 0411 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 4668 0419 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
  4668      455F4556 
  4668      545F4741 
  4668      5454435F 
  4668      45584543 
  4669              	.LASF13:
- 4670 0430 646F7562 		.ascii	"double\000"
+ 4670 0438 646F7562 		.ascii	"double\000"
  4670      6C6500
  4671              	.LASF11:
- 4672 0437 696E7433 		.ascii	"int32\000"
+ 4672 043f 696E7433 		.ascii	"int32\000"
  4672      3200
  4673              	.LASF144:
- 4674 043d 53747269 		.ascii	"StripLights_cisr_StartEx\000"
+ 4674 0445 53747269 		.ascii	"StripLights_cisr_StartEx\000"
  4674      704C6967 
  4674      6874735F 
  4674      63697372 
  4674      5F537461 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 102
+
+
  4675              	.LASF133:
- 4676 0456 53747269 		.ascii	"StripLights_initvar\000"
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 102
-
-
+ 4676 045e 53747269 		.ascii	"StripLights_initvar\000"
  4676      704C6967 
  4676      6874735F 
  4676      696E6974 
  4676      76617200 
  4677              	.LASF10:
- 4678 046a 75696E74 		.ascii	"uint32\000"
+ 4678 0472 75696E74 		.ascii	"uint32\000"
  4678      333200
  4679              	.LASF150:
- 4680 0471 53747269 		.ascii	"StripLights_Stop\000"
+ 4680 0479 53747269 		.ascii	"StripLights_Stop\000"
  4680      704C6967 
  4680      6874735F 
  4680      53746F70 
  4680      00
  4681              	.LASF89:
- 4682 0482 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 4682 048a 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
  4682      455F4556 
  4682      545F4D41 
  4682      5800
  4683              	.LASF74:
- 4684 0490 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 4684 0498 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
  4684      455F4556 
  4684      545F4C32 
  4684      4341505F 
  4684      434F4E4E 
  4685              	.LASF84:
- 4686 04b6 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 4686 04be 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
  4686      455F4556 
  4686      545F4C32 
  4686      4341505F 
  4686      43424643 
  4687              	.LASF102:
- 4688 04da 4359424C 		.ascii	"CYBLE_AIOS_DESCR_COUNT\000"
+ 4688 04e2 4359424C 		.ascii	"CYBLE_AIOS_DESCR_COUNT\000"
  4688      455F4149 
  4688      4F535F44 
  4688      45534352 
  4688      5F434F55 
  4689              	.LASF141:
- 4690 04f1 53747269 		.ascii	"StripLights_ledIndex\000"
+ 4690 04f9 53747269 		.ascii	"StripLights_ledIndex\000"
  4690      704C6967 
  4690      6874735F 
  4690      6C656449 
  4690      6E646578 
  4691              	.LASF46:
- 4692 0506 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
+ 4692 050e 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
  4692      455F4556 
  4692      545F4741 
  4692      505F5343 
  4692      414E5F52 
  4693              	.LASF73:
- 4694 0523 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
+ 4694 052b 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
  4694      455F4556 
  4694      545F4741 
  4694      5454435F 
  4694      4C4F4E47 
  4695              	.LASF71:
- 4696 0546 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 103
+
+
+ 4696 054e 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
  4696      455F4556 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 103
-
-
  4696      545F4741 
  4696      5454435F 
  4696      53544F50 
  4697              	.LASF137:
- 4698 0568 61696E64 		.ascii	"aindex\000"
+ 4698 0570 61696E64 		.ascii	"aindex\000"
  4698      657800
  4699              	.LASF8:
- 4700 056f 756E7369 		.ascii	"unsigned int\000"
+ 4700 0577 756E7369 		.ascii	"unsigned int\000"
  4700      676E6564 
  4700      20696E74 
  4700      00
  4701              	.LASF129:
- 4702 057c 78446966 		.ascii	"xDiff\000"
+ 4702 0584 78446966 		.ascii	"xDiff\000"
  4702      6600
  4703              	.LASF86:
- 4704 0582 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
+ 4704 058a 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
  4704      455F4556 
  4704      545F4C45 
  4704      5F50494E 
  4704      475F4155 
  4705              	.LASF103:
- 4706 05a1 53747269 		.ascii	"StripLights_DimMask\000"
+ 4706 05a9 53747269 		.ascii	"StripLights_DimMask\000"
  4706      704C6967 
  4706      6874735F 
  4706      44696D4D 
  4706      61736B00 
  4707              	.LASF5:
- 4708 05b5 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4708 05bd 6C6F6E67 		.ascii	"long unsigned int\000"
  4708      20756E73 
  4708      69676E65 
  4708      6420696E 
  4708      7400
  4709              	.LASF45:
- 4710 05c7 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
+ 4710 05cf 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
  4710      455F4556 
  4710      545F4741 
  4710      505F434F 
  4710      4E4E5F45 
  4711              	.LASF35:
- 4712 05df 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 4712 05e7 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
  4712      455F4556 
  4712      545F4741 
  4712      505F434F 
  4712      4E4E4543 
  4713              	.LASF53:
- 4714 0608 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 4714 0610 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
  4714      455F4556 
  4714      545F4741 
  4714      5454435F 
  4714      5843484E 
  4715              	.LASF70:
- 4716 0626 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 4716 062e 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
  4716      455F4556 
  4716      545F4741 
  4716      5454535F 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 104
+
+
  4716      44415441 
  4717              	.LASF92:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 104
-
-
- 4718 064a 4359424C 		.ascii	"CYBLE_AIOS_AGGREGATE\000"
+ 4718 0652 4359424C 		.ascii	"CYBLE_AIOS_AGGREGATE\000"
  4718      455F4149 
  4718      4F535F41 
  4718      47475245 
  4718      47415445 
  4719              	.LASF121:
- 4720 065f 6464465F 		.ascii	"ddF_x\000"
+ 4720 0667 6464465F 		.ascii	"ddF_x\000"
  4720      7800
  4721              	.LASF122:
- 4722 0665 6464465F 		.ascii	"ddF_y\000"
+ 4722 066d 6464465F 		.ascii	"ddF_y\000"
  4722      7900
  4723              	.LASF3:
- 4724 066b 73686F72 		.ascii	"short unsigned int\000"
+ 4724 0673 73686F72 		.ascii	"short unsigned int\000"
  4724      7420756E 
  4724      7369676E 
  4724      65642069 
  4724      6E7400
  4725              	.LASF18:
- 4726 067e 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
+ 4726 0686 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
  4726      455F4556 
  4726      545F484F 
  4726      53545F49 
  4726      4E56414C 
  4727              	.LASF56:
- 4728 0695 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 4728 069d 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
  4728      455F4556 
  4728      545F4741 
  4728      5454435F 
  4728      46494E44 
  4729              	.LASF24:
- 4730 06b3 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
+ 4730 06bb 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
  4730      455F4556 
  4730      545F4D45 
  4730      4D4F5259 
  4730      5F524551 
  4731              	.LASF98:
- 4732 06cc 4359424C 		.ascii	"CYBLE_AIOS_VALUE_TRIGGER_SETTINGS\000"
+ 4732 06d4 4359424C 		.ascii	"CYBLE_AIOS_VALUE_TRIGGER_SETTINGS\000"
  4732      455F4149 
  4732      4F535F56 
  4732      414C5545 
  4732      5F545249 
  4733              	.LASF93:
- 4734 06ee 4359424C 		.ascii	"CYBLE_AIOS_CHAR_COUNT\000"
+ 4734 06f6 4359424C 		.ascii	"CYBLE_AIOS_CHAR_COUNT\000"
  4734      455F4149 
  4734      4F535F43 
  4734      4841525F 
  4734      434F554E 
  4735              	.LASF81:
- 4736 0704 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 4736 070c 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
  4736      455F4556 
  4736      545F4C32 
  4736      4341505F 
  4736      43424643 
  4737              	.LASF27:
- 4738 0723 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ 4738 072b 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 105
+
+
  4738      455F4556 
  4738      545F4741 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 105
-
-
  4738      505F5041 
  4738      53534B45 
  4739              	.LASF32:
- 4740 0747 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
+ 4740 074f 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_CONNECTED\000"
  4740      455F4556 
  4740      545F4741 
  4740      505F4445 
  4740      56494345 
  4741              	.LASF61:
- 4742 0766 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ 4742 076e 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
  4742      455F4556 
  4742      545F4741 
  4742      5454535F 
  4742      57524954 
  4743              	.LASF47:
- 4744 0780 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ_REPLY_ERR\000"
+ 4744 0788 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_REQ_REPLY_ERR\000"
  4744      455F4556 
  4744      545F4741 
  4744      505F4155 
  4744      54485F52 
  4745              	.LASF104:
- 4746 07a1 53747269 		.ascii	"StripLights_DimShift\000"
+ 4746 07a9 53747269 		.ascii	"StripLights_DimShift\000"
  4746      704C6967 
  4746      6874735F 
  4746      44696D53 
  4746      68696674 
  4747              	.LASF28:
- 4748 07b6 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 4748 07be 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
  4748      455F4556 
  4748      545F4741 
  4748      505F5041 
  4748      53534B45 
  4749              	.LASF101:
- 4750 07dc 4359424C 		.ascii	"CYBLE_AIOS_NUM_OF_DIGITAL_DESCR\000"
+ 4750 07e4 4359424C 		.ascii	"CYBLE_AIOS_NUM_OF_DIGITAL_DESCR\000"
  4750      455F4149 
  4750      4F535F4E 
  4750      554D5F4F 
  4750      465F4449 
  4751              	.LASF50:
- 4752 07fc 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
+ 4752 0804 4359424C 		.ascii	"CYBLE_EVT_GATT_CONNECT_IND\000"
  4752      455F4556 
  4752      545F4741 
  4752      54545F43 
  4752      4F4E4E45 
  4753              	.LASF76:
- 4754 0817 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
+ 4754 081f 4359424C 		.ascii	"CYBLE_EVT_L2CAP_COMMAND_REJ\000"
  4754      455F4556 
  4754      545F4C32 
  4754      4341505F 
  4754      434F4D4D 
  4755              	.LASF120:
- 4756 0833 72616469 		.ascii	"radius\000"
+ 4756 083b 72616469 		.ascii	"radius\000"
  4756      757300
  4757              	.LASF25:
- 4758 083a 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 4758 0842 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 106
+
+
  4758      455F4556 
  4758      545F4741 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 106
-
-
  4758      50435F53 
  4758      43414E5F 
  4759              	.LASF48:
- 4760 085e 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
+ 4760 0866 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
  4760      455F4556 
  4760      545F4741 
  4760      505F534D 
  4760      505F4C4F 
- 4761 0891 4500     		.ascii	"E\000"
+ 4761 0899 4500     		.ascii	"E\000"
  4762              	.LASF77:
- 4763 0893 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ 4763 089b 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
  4763      455F4556 
  4763      545F4C32 
  4763      4341505F 
  4763      43424643 
  4764              	.LASF55:
- 4765 08b1 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 4765 08b9 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
  4765      455F4556 
  4765      545F4741 
  4765      5454435F 
  4765      52454144 
  4766              	.LASF17:
- 4767 08d2 73697A65 		.ascii	"sizetype\000"
+ 4767 08da 73697A65 		.ascii	"sizetype\000"
  4767      74797065 
  4767      00
  4768              	.LASF111:
- 4769 08db 53747269 		.ascii	"StripLights_CLUT\000"
+ 4769 08e3 53747269 		.ascii	"StripLights_CLUT\000"
  4769      704C6967 
  4769      6874735F 
  4769      434C5554 
  4769      00
  4770              	.LASF130:
- 4771 08ec 53747269 		.ascii	"StripLights_Dim\000"
+ 4771 08f4 53747269 		.ascii	"StripLights_Dim\000"
  4771      704C6967 
  4771      6874735F 
  4771      44696D00 
  4772              	.LASF16:
- 4773 08fc 6C6F6E67 		.ascii	"long double\000"
+ 4773 0904 6C6F6E67 		.ascii	"long double\000"
  4773      20646F75 
  4773      626C6500 
  4774              	.LASF30:
- 4775 0908 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 4775 0910 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
  4775      455F4556 
  4775      545F4741 
  4775      505F4155 
  4775      54485F46 
  4776              	.LASF117:
- 4777 0922 53747269 		.ascii	"StripLights_ColorInc\000"
+ 4777 092a 53747269 		.ascii	"StripLights_ColorInc\000"
  4777      704C6967 
  4777      6874735F 
  4777      436F6C6F 
  4777      72496E63 
  4778              	.LASF62:
- 4779 0937 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 4779 093f 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
  4779      455F4556 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 107
+
+
  4779      545F4741 
  4779      5454435F 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 107
-
-
  4779      57524954 
  4780              	.LASF43:
- 4781 0951 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 4781 0959 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
  4781      455F4556 
  4781      545F4741 
  4781      50435F44 
  4781      49524543 
  4782              	.LASF41:
- 4783 0972 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
+ 4783 097a 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
  4783      455F4556 
  4783      545F4741 
  4783      505F4441 
  4783      54415F4C 
  4784              	.LASF29:
- 4785 0993 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 4785 099b 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
  4785      455F4556 
  4785      545F4741 
  4785      505F4155 
  4785      54485F43 
  4786              	.LASF110:
- 4787 09af 696E6356 		.ascii	"incValue\000"
+ 4787 09b7 696E6356 		.ascii	"incValue\000"
  4787      616C7565 
  4787      00
  4788              	.LASF99:
- 4789 09b8 4359424C 		.ascii	"CYBLE_AIOS_TIME_TRIGGER_SETTINGS\000"
+ 4789 09c0 4359424C 		.ascii	"CYBLE_AIOS_TIME_TRIGGER_SETTINGS\000"
  4789      455F4149 
  4789      4F535F54 
  4789      494D455F 
  4789      54524947 
  4790              	.LASF67:
- 4791 09d9 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
+ 4791 09e1 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_NTF\000"
  4791      455F4556 
  4791      545F4741 
  4791      5454435F 
  4791      48414E44 
  4792              	.LASF119:
- 4793 09fa 53747269 		.ascii	"StripLights_DrawCircle\000"
+ 4793 0a02 53747269 		.ascii	"StripLights_DrawCircle\000"
  4793      704C6967 
  4793      6874735F 
  4793      44726177 
  4793      43697263 
  4794              	.LASF143:
- 4795 0a11 53747269 		.ascii	"StripLights_SetFont\000"
+ 4795 0a19 53747269 		.ascii	"StripLights_SetFont\000"
  4795      704C6967 
  4795      6874735F 
  4795      53657446 
  4795      6F6E7400 
  4796              	.LASF78:
- 4797 0a25 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ 4797 0a2d 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
  4797      455F4556 
  4797      545F4C32 
  4797      4341505F 
  4797      43424643 
  4798              	.LASF147:
- 4799 0a43 47656E65 		.ascii	"Generated_Source\\PSoC4\\StripLights.c\000"
+ 4799 0a4b 47656E65 		.ascii	"Generated_Source\\PSoC4\\StripLights.c\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 108
+
+
  4799      72617465 
  4799      645F536F 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 108
-
-
  4799      75726365 
  4799      5C50536F 
  4800              	.LASF109:
- 4801 0a68 53747269 		.ascii	"StripLights_Trigger\000"
+ 4801 0a70 53747269 		.ascii	"StripLights_Trigger\000"
  4801      704C6967 
  4801      6874735F 
  4801      54726967 
  4801      67657200 
  4802              	.LASF54:
- 4803 0a7c 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 4803 0a84 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
  4803      455F4556 
  4803      545F4741 
  4803      5454435F 
  4803      52454144 
  4804              	.LASF132:
- 4805 0aa3 53747269 		.ascii	"StripLights_Start\000"
+ 4805 0aab 53747269 		.ascii	"StripLights_Start\000"
  4805      704C6967 
  4805      6874735F 
  4805      53746172 
  4805      7400
  4806              	.LASF15:
- 4807 0ab5 72656738 		.ascii	"reg8\000"
+ 4807 0abd 72656738 		.ascii	"reg8\000"
  4807      00
  4808              	.LASF1:
- 4809 0aba 756E7369 		.ascii	"unsigned char\000"
+ 4809 0ac2 756E7369 		.ascii	"unsigned char\000"
  4809      676E6564 
  4809      20636861 
  4809      7200
  4810              	.LASF39:
- 4811 0ac8 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
+ 4811 0ad0 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
  4811      455F4556 
  4811      545F4741 
  4811      505F4B45 
  4811      59505245 
  4812              	.LASF2:
- 4813 0aec 73686F72 		.ascii	"short int\000"
+ 4813 0af4 73686F72 		.ascii	"short int\000"
  4813      7420696E 
  4813      7400
  4814              	.LASF68:
- 4815 0af6 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 4815 0afe 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
  4815      455F4556 
  4815      545F4741 
  4815      5454435F 
  4815      48414E44 
  4816              	.LASF64:
- 4817 0b17 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 4817 0b1f 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
  4817      455F4556 
  4817      545F4741 
  4817      5454535F 
  4817      50524550 
  4818              	.LASF100:
- 4819 0b36 4359424C 		.ascii	"CYBLE_AIOS_VRD\000"
+ 4819 0b3e 4359424C 		.ascii	"CYBLE_AIOS_VRD\000"
  4819      455F4149 
  4819      4F535F56 
  4819      524400
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 109
+
+
  4820              	.LASF131:
- 4821 0b45 64696D4C 		.ascii	"dimLevel\000"
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 109
-
-
+ 4821 0b4d 64696D4C 		.ascii	"dimLevel\000"
  4821      6576656C 
  4821      00
  4822              	.LASF128:
- 4823 0b4e 66696C6C 		.ascii	"fill\000"
+ 4823 0b56 66696C6C 		.ascii	"fill\000"
  4823      00
  4824              	.LASF87:
- 4825 0b53 4359424C 		.ascii	"CYBLE_EVT_HCI_PKT\000"
+ 4825 0b5b 4359424C 		.ascii	"CYBLE_EVT_HCI_PKT\000"
  4825      455F4556 
  4825      545F4843 
  4825      495F504B 
  4825      5400
  4826              	.LASF91:
- 4827 0b65 4359424C 		.ascii	"CYBLE_AIOS_ANALOG\000"
+ 4827 0b6d 4359424C 		.ascii	"CYBLE_AIOS_ANALOG\000"
  4827      455F4149 
  4827      4F535F41 
  4827      4E414C4F 
  4827      4700
  4828              	.LASF135:
- 4829 0b77 6269744D 		.ascii	"bitMap\000"
+ 4829 0b7f 6269744D 		.ascii	"bitMap\000"
  4829      617000
  4830              	.LASF114:
- 4831 0b7e 53747269 		.ascii	"StripLights_DisplayClear\000"
+ 4831 0b86 53747269 		.ascii	"StripLights_DisplayClear\000"
  4831      704C6967 
  4831      6874735F 
  4831      44697370 
  4831      6C617943 
  4832              	.LASF105:
- 4833 0b97 53747269 		.ascii	"StripLights_FISR\000"
+ 4833 0b9f 53747269 		.ascii	"StripLights_FISR\000"
  4833      704C6967 
  4833      6874735F 
  4833      46495352 
  4833      00
  4834              	.LASF69:
- 4835 0ba8 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 4835 0bb0 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
  4835      455F4556 
  4835      545F4741 
  4835      5454535F 
  4835      48414E44 
  4836              	.LASF49:
- 4837 0bc9 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
+ 4837 0bd1 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
  4837      455F4556 
  4837      545F4741 
  4837      5454435F 
  4837      4552524F 
  4838              	.LASF44:
- 4839 0be3 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
+ 4839 0beb 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
  4839      455F4556 
  4839      545F4741 
  4839      505F534D 
  4839      505F4E45 
  4840              	.LASF12:
- 4841 0c0a 666C6F61 		.ascii	"float\000"
+ 4841 0c12 666C6F61 		.ascii	"float\000"
  4841      7400
  4842              	.LASF88:
- 4843 0c10 4359424C 		.ascii	"CYBLE_EVT_FLASH_CORRUPT\000"
+ 4843 0c18 4359424C 		.ascii	"CYBLE_EVT_FLASH_CORRUPT\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 110
+
+
  4843      455F4556 
  4843      545F464C 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 110
-
-
  4843      4153485F 
  4843      434F5252 
  4844              	.LASF107:
- 4845 0c28 636F6C6F 		.ascii	"color\000"
+ 4845 0c30 636F6C6F 		.ascii	"color\000"
  4845      7200
  4846              	.LASF14:
- 4847 0c2e 63686172 		.ascii	"char\000"
+ 4847 0c36 63686172 		.ascii	"char\000"
  4847      00
  4848              	.LASF33:
- 4849 0c33 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 4849 0c3b 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
  4849      455F4556 
  4849      545F4741 
  4849      505F4445 
  4849      56494345 
  4850              	.LASF127:
- 4851 0c55 53747269 		.ascii	"StripLights_DrawRect\000"
+ 4851 0c5d 53747269 		.ascii	"StripLights_DrawRect\000"
  4851      704C6967 
  4851      6874735F 
  4851      44726177 
  4851      52656374 
  4852              	.LASF115:
- 4853 0c6a 53747269 		.ascii	"StripLights_WriteColor\000"
+ 4853 0c72 53747269 		.ascii	"StripLights_WriteColor\000"
  4853      704C6967 
  4853      6874735F 
  4853      57726974 
  4853      65436F6C 
  4854              	.LASF72:
- 4855 0c81 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 4855 0c89 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
  4855      455F4556 
  4855      545F4741 
  4855      5454535F 
  4855      52454144 
  4856              	.LASF140:
- 4857 0caa 53747269 		.ascii	"StripLights_ledArray\000"
+ 4857 0cb2 53747269 		.ascii	"StripLights_ledArray\000"
  4857      704C6967 
  4857      6874735F 
  4857      6C656441 
  4857      72726179 
  4858              	.LASF149:
- 4859 0cbf 53747269 		.ascii	"StripLights_Ready\000"
+ 4859 0cc7 53747269 		.ascii	"StripLights_Ready\000"
  4859      704C6967 
  4859      6874735F 
  4859      52656164 
  4859      7900
  4860              	.LASF83:
- 4861 0cd1 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
+ 4861 0cd9 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_TX_CREDIT_IND\000"
  4861      455F4556 
  4861      545F4C32 
  4861      4341505F 
  4861      43424643 
  4862              	.LASF126:
- 4863 0cf4 66726163 		.ascii	"fraction\000"
+ 4863 0cfc 66726163 		.ascii	"fraction\000"
  4863      74696F6E 
  4863      00
  4864              	.LASF21:
- 4865 0cfd 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 111
+
+
+ 4865 0d05 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
  4865      455F4556 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 111
-
-
  4865      545F4841 
  4865      52445741 
  4865      52455F45 
  4866              	.LASF94:
- 4867 0d16 4359424C 		.ascii	"CYBLE_AIOS_CCCD\000"
+ 4867 0d1e 4359424C 		.ascii	"CYBLE_AIOS_CCCD\000"
  4867      455F4149 
  4867      4F535F43 
  4867      43434400 
  4868              	.LASF136:
- 4869 0d26 75706461 		.ascii	"update\000"
+ 4869 0d2e 75706461 		.ascii	"update\000"
  4869      746500
  4870              	.LASF52:
- 4871 0d2d 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
+ 4871 0d35 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
  4871      455F4556 
  4871      545F4741 
  4871      5454535F 
  4871      58434E48 
  4872              	.LASF108:
- 4873 0d4b 53747269 		.ascii	"StripLights_refreshComplete\000"
+ 4873 0d53 53747269 		.ascii	"StripLights_refreshComplete\000"
  4873      704C6967 
  4873      6874735F 
  4873      72656672 
  4873      65736843 
  4874              	.LASF59:
- 4875 0d67 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 4875 0d6f 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
  4875      455F4556 
  4875      545F4741 
  4875      5454435F 
  4875      52454144 
  4876              	.LASF138:
- 4877 0d85 6D617858 		.ascii	"maxX\000"
+ 4877 0d8d 6D617858 		.ascii	"maxX\000"
  4877      00
  4878              	.LASF139:
- 4879 0d8a 6D617859 		.ascii	"maxY\000"
+ 4879 0d92 6D617859 		.ascii	"maxY\000"
  4879      00
  4880              	.LASF57:
- 4881 0d8f 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 4881 0d97 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
  4881      455F4556 
  4881      545F4741 
  4881      5454435F 
  4881      46494E44 
  4882              	.LASF37:
- 4883 0db6 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 4883 0dbe 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
  4883      455F4556 
  4883      545F4741 
  4883      505F4B45 
  4883      59494E46 
  4884              	.LASF79:
- 4885 0dda 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 4885 0de2 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
  4885      455F4556 
  4885      545F4C32 
  4885      4341505F 
  4885      43424643 
  4886              	.LASF145:
- 4887 0dfb 53747269 		.ascii	"StripLights_fisr_StartEx\000"
+ 4887 0e03 53747269 		.ascii	"StripLights_fisr_StartEx\000"
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccVh5koj.s 			page 112
+
+
  4887      704C6967 
  4887      6874735F 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc64HAN8.s 			page 112
-
-
  4887      66697372 
  4887      5F537461 
  4888              	.LASF75:
- 4889 0e14 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 4889 0e1c 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
  4889      455F4556 
  4889      545F4C32 
  4889      4341505F 
  4889      434F4E4E 
  4890              	.LASF42:
- 4891 0e3a 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 4891 0e42 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
  4891      455F4556 
  4891      545F4741 
  4891      505F454E 
  4891      48414E43 
  4892              	.LASF124:
- 4893 0e5e 73746570 		.ascii	"stepx\000"
+ 4893 0e66 73746570 		.ascii	"stepx\000"
  4893      7800
  4894              	.LASF125:
- 4895 0e64 73746570 		.ascii	"stepy\000"
+ 4895 0e6c 73746570 		.ascii	"stepy\000"
  4895      7900
  4896              	.LASF51:
- 4897 0e6a 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 4897 0e72 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
  4897      455F4556 
  4897      545F4741 
  4897      54545F44 

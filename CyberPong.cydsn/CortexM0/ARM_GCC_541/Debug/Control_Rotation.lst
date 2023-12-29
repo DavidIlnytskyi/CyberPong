@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
   28:Generated_Source\PSoC4/Control_Rotation.c **** *  Write a byte to the Control Register.
   29:Generated_Source\PSoC4/Control_Rotation.c **** *
   30:Generated_Source\PSoC4/Control_Rotation.c **** * Parameters:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 2
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 2
 
 
   31:Generated_Source\PSoC4/Control_Rotation.c **** *  control:  The value to be assigned to the Control Register.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
   58:Generated_Source\PSoC4/Control_Rotation.c **** {
   55              		.loc 1 58 0
   56              		.cfi_startproc
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 3
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 3
 
 
   57              		@ args = 0, pretend = 0, frame = 0
@@ -150,48 +150,48 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
   81 0006 00000000 		.4byte	.Ldebug_abbrev0
   82 000a 04       		.byte	0x4
   83 000b 01       		.uleb128 0x1
-  84 000c BA000000 		.4byte	.LASF14
+  84 000c F1000000 		.4byte	.LASF14
   85 0010 0C       		.byte	0xc
-  86 0011 09000000 		.4byte	.LASF15
-  87 0015 82010000 		.4byte	.LASF16
+  86 0011 40000000 		.4byte	.LASF15
+  87 0015 00000000 		.4byte	.LASF16
   88 0019 00000000 		.4byte	.Ldebug_ranges0+0
   89 001d 00000000 		.4byte	0
   90 0021 00000000 		.4byte	.Ldebug_line0
   91 0025 02       		.uleb128 0x2
   92 0026 01       		.byte	0x1
   93 0027 06       		.byte	0x6
-  94 0028 BA010000 		.4byte	.LASF0
+  94 0028 C2010000 		.4byte	.LASF0
   95 002c 02       		.uleb128 0x2
   96 002d 01       		.byte	0x1
   97 002e 08       		.byte	0x8
-  98 002f 39000000 		.4byte	.LASF1
+  98 002f 70000000 		.4byte	.LASF1
   99 0033 02       		.uleb128 0x2
  100 0034 02       		.byte	0x2
  101 0035 05       		.byte	0x5
- 102 0036 72010000 		.4byte	.LASF2
+ 102 0036 A9010000 		.4byte	.LASF2
  103 003a 02       		.uleb128 0x2
  104 003b 02       		.byte	0x2
  105 003c 07       		.byte	0x7
- 106 003d 5E000000 		.4byte	.LASF3
+ 106 003d 95000000 		.4byte	.LASF3
  107 0041 02       		.uleb128 0x2
  108 0042 04       		.byte	0x4
  109 0043 05       		.byte	0x5
- 110 0044 00000000 		.4byte	.LASF4
+ 110 0044 B9010000 		.4byte	.LASF4
  111 0048 02       		.uleb128 0x2
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 4
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 4
 
 
  112 0049 04       		.byte	0x4
  113 004a 07       		.byte	0x7
- 114 004b 4C000000 		.4byte	.LASF5
+ 114 004b 83000000 		.4byte	.LASF5
  115 004f 02       		.uleb128 0x2
  116 0050 08       		.byte	0x8
  117 0051 05       		.byte	0x5
- 118 0052 5F010000 		.4byte	.LASF6
+ 118 0052 96010000 		.4byte	.LASF6
  119 0056 02       		.uleb128 0x2
  120 0057 08       		.byte	0x8
  121 0058 07       		.byte	0x7
- 122 0059 8D000000 		.4byte	.LASF7
+ 122 0059 C4000000 		.4byte	.LASF7
  123 005d 03       		.uleb128 0x3
  124 005e 04       		.byte	0x4
  125 005f 05       		.byte	0x5
@@ -199,33 +199,33 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
  127 0064 02       		.uleb128 0x2
  128 0065 04       		.byte	0x4
  129 0066 07       		.byte	0x7
- 130 0067 80000000 		.4byte	.LASF8
+ 130 0067 B7000000 		.4byte	.LASF8
  131 006b 04       		.uleb128 0x4
- 132 006c 7C010000 		.4byte	.LASF12
+ 132 006c B3010000 		.4byte	.LASF12
  133 0070 02       		.byte	0x2
- 134 0071 FC01     		.2byte	0x1fc
+ 134 0071 FB01     		.2byte	0x1fb
  135 0073 2C000000 		.4byte	0x2c
  136 0077 02       		.uleb128 0x2
  137 0078 04       		.byte	0x4
  138 0079 04       		.byte	0x4
- 139 007a 33000000 		.4byte	.LASF9
+ 139 007a 6A000000 		.4byte	.LASF9
  140 007e 02       		.uleb128 0x2
  141 007f 08       		.byte	0x8
  142 0080 04       		.byte	0x4
- 143 0081 79000000 		.4byte	.LASF10
+ 143 0081 B0000000 		.4byte	.LASF10
  144 0085 02       		.uleb128 0x2
  145 0086 01       		.byte	0x1
  146 0087 08       		.byte	0x8
- 147 0088 6D010000 		.4byte	.LASF11
+ 147 0088 A4010000 		.4byte	.LASF11
  148 008c 04       		.uleb128 0x4
- 149 008d 47000000 		.4byte	.LASF13
+ 149 008d 7E000000 		.4byte	.LASF13
  150 0091 02       		.byte	0x2
- 151 0092 A602     		.2byte	0x2a6
+ 151 0092 A502     		.2byte	0x2a5
  152 0094 98000000 		.4byte	0x98
  153 0098 05       		.uleb128 0x5
  154 0099 6B000000 		.4byte	0x6b
  155 009d 06       		.uleb128 0x6
- 156 009e 48010000 		.4byte	.LASF17
+ 156 009e 7F010000 		.4byte	.LASF17
  157 00a2 01       		.byte	0x1
  158 00a3 25       		.byte	0x25
  159 00a4 00000000 		.4byte	.LFB0
@@ -234,18 +234,18 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
  162 00ad 9C       		.byte	0x9c
  163 00ae C0000000 		.4byte	0xc0
  164 00b2 07       		.uleb128 0x7
- 165 00b3 71000000 		.4byte	.LASF18
+ 165 00b3 A8000000 		.4byte	.LASF18
  166 00b7 01       		.byte	0x1
  167 00b8 25       		.byte	0x25
  168 00b9 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 5
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 5
 
 
  169 00bd 01       		.uleb128 0x1
  170 00be 50       		.byte	0x50
  171 00bf 00       		.byte	0
  172 00c0 08       		.uleb128 0x8
- 173 00c1 A4000000 		.4byte	.LASF19
+ 173 00c1 DB000000 		.4byte	.LASF19
  174 00c5 01       		.byte	0x1
  175 00c6 39       		.byte	0x39
  176 00c7 6B000000 		.4byte	0x6b
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
  223 0027 00       		.byte	0
  224 0028 00       		.byte	0
  225 0029 04       		.uleb128 0x4
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 6
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 6
 
 
  226 002a 16       		.uleb128 0x16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
  280 0061 13       		.uleb128 0x13
  281 0062 02       		.uleb128 0x2
  282 0063 18       		.uleb128 0x18
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 7
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 7
 
 
  283 0064 00       		.byte	0
@@ -418,116 +418,118 @@ ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 1
  335      00000201 
  335      FB0E0D00 
  335      01010101 
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 8
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 8
 
 
- 336              	.LASF4:
- 337 0000 6C6F6E67 		.ascii	"long int\000"
- 337      20696E74 
- 337      00
- 338              	.LASF15:
- 339 0009 47656E65 		.ascii	"Generated_Source\\PSoC4\\Control_Rotation.c\000"
- 339      72617465 
- 339      645F536F 
- 339      75726365 
- 339      5C50536F 
- 340              	.LASF9:
- 341 0033 666C6F61 		.ascii	"float\000"
- 341      7400
- 342              	.LASF1:
- 343 0039 756E7369 		.ascii	"unsigned char\000"
- 343      676E6564 
- 343      20636861 
- 343      7200
- 344              	.LASF13:
- 345 0047 72656738 		.ascii	"reg8\000"
- 345      00
- 346              	.LASF5:
- 347 004c 6C6F6E67 		.ascii	"long unsigned int\000"
- 347      20756E73 
- 347      69676E65 
- 347      6420696E 
- 347      7400
- 348              	.LASF3:
- 349 005e 73686F72 		.ascii	"short unsigned int\000"
- 349      7420756E 
- 349      7369676E 
- 349      65642069 
- 349      6E7400
- 350              	.LASF18:
- 351 0071 636F6E74 		.ascii	"control\000"
- 351      726F6C00 
- 352              	.LASF10:
- 353 0079 646F7562 		.ascii	"double\000"
- 353      6C6500
- 354              	.LASF8:
- 355 0080 756E7369 		.ascii	"unsigned int\000"
- 355      676E6564 
- 355      20696E74 
- 355      00
- 356              	.LASF7:
- 357 008d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 357      206C6F6E 
- 357      6720756E 
- 357      7369676E 
- 357      65642069 
- 358              	.LASF19:
- 359 00a4 436F6E74 		.ascii	"Control_Rotation_Read\000"
- 359      726F6C5F 
- 359      526F7461 
- 359      74696F6E 
- 359      5F526561 
- 360              	.LASF14:
-ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\ccIGHOSS.s 			page 9
+ 336              	.LASF16:
+ 337 0000 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Project\\CyberPon"
+ 337      43552053 
+ 337      65636F6E 
+ 337      64207965 
+ 337      61725C54 
+ 338 002e 675C4379 		.ascii	"g\\CyberPong.cydsn\000"
+ 338      62657250 
+ 338      6F6E672E 
+ 338      63796473 
+ 338      6E00
+ 339              	.LASF15:
+ 340 0040 47656E65 		.ascii	"Generated_Source\\PSoC4\\Control_Rotation.c\000"
+ 340      72617465 
+ 340      645F536F 
+ 340      75726365 
+ 340      5C50536F 
+ 341              	.LASF9:
+ 342 006a 666C6F61 		.ascii	"float\000"
+ 342      7400
+ 343              	.LASF1:
+ 344 0070 756E7369 		.ascii	"unsigned char\000"
+ 344      676E6564 
+ 344      20636861 
+ 344      7200
+ 345              	.LASF13:
+ 346 007e 72656738 		.ascii	"reg8\000"
+ 346      00
+ 347              	.LASF5:
+ 348 0083 6C6F6E67 		.ascii	"long unsigned int\000"
+ 348      20756E73 
+ 348      69676E65 
+ 348      6420696E 
+ 348      7400
+ 349              	.LASF3:
+ 350 0095 73686F72 		.ascii	"short unsigned int\000"
+ 350      7420756E 
+ 350      7369676E 
+ 350      65642069 
+ 350      6E7400
+ 351              	.LASF18:
+ 352 00a8 636F6E74 		.ascii	"control\000"
+ 352      726F6C00 
+ 353              	.LASF10:
+ 354 00b0 646F7562 		.ascii	"double\000"
+ 354      6C6500
+ 355              	.LASF8:
+ 356 00b7 756E7369 		.ascii	"unsigned int\000"
+ 356      676E6564 
+ 356      20696E74 
+ 356      00
+ 357              	.LASF7:
+ 358 00c4 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 358      206C6F6E 
+ 358      6720756E 
+ 358      7369676E 
+ 358      65642069 
+ARM GAS  C:\Users\ARTEM\AppData\Local\Temp\cc7E1iy6.s 			page 9
 
 
- 361 00ba 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 361      43313120 
- 361      352E342E 
- 361      31203230 
- 361      31363036 
- 362 00ed 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 362      20726576 
- 362      6973696F 
- 362      6E203233 
- 362      37373135 
- 363 0120 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 363      66756E63 
- 363      74696F6E 
- 363      2D736563 
- 363      74696F6E 
- 364              	.LASF17:
- 365 0148 436F6E74 		.ascii	"Control_Rotation_Write\000"
- 365      726F6C5F 
- 365      526F7461 
- 365      74696F6E 
- 365      5F577269 
- 366              	.LASF6:
- 367 015f 6C6F6E67 		.ascii	"long long int\000"
- 367      206C6F6E 
- 367      6720696E 
- 367      7400
- 368              	.LASF11:
- 369 016d 63686172 		.ascii	"char\000"
- 369      00
- 370              	.LASF2:
- 371 0172 73686F72 		.ascii	"short int\000"
- 371      7420696E 
- 371      7400
- 372              	.LASF12:
- 373 017c 75696E74 		.ascii	"uint8\000"
- 373      3800
- 374              	.LASF16:
- 375 0182 423A5C55 		.ascii	"B:\\UCU Second year\\Term 1\\POC\\Cyberpong\\CyberP"
- 375      43552053 
- 375      65636F6E 
- 375      64207965 
- 375      61725C54 
- 376 01b0 6F6E672E 		.ascii	"ong.cydsn\000"
- 376      63796473 
- 376      6E00
+ 359              	.LASF19:
+ 360 00db 436F6E74 		.ascii	"Control_Rotation_Read\000"
+ 360      726F6C5F 
+ 360      526F7461 
+ 360      74696F6E 
+ 360      5F526561 
+ 361              	.LASF14:
+ 362 00f1 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 362      43313120 
+ 362      352E342E 
+ 362      31203230 
+ 362      31363036 
+ 363 0124 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 363      20726576 
+ 363      6973696F 
+ 363      6E203233 
+ 363      37373135 
+ 364 0157 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 364      66756E63 
+ 364      74696F6E 
+ 364      2D736563 
+ 364      74696F6E 
+ 365              	.LASF17:
+ 366 017f 436F6E74 		.ascii	"Control_Rotation_Write\000"
+ 366      726F6C5F 
+ 366      526F7461 
+ 366      74696F6E 
+ 366      5F577269 
+ 367              	.LASF6:
+ 368 0196 6C6F6E67 		.ascii	"long long int\000"
+ 368      206C6F6E 
+ 368      6720696E 
+ 368      7400
+ 369              	.LASF11:
+ 370 01a4 63686172 		.ascii	"char\000"
+ 370      00
+ 371              	.LASF2:
+ 372 01a9 73686F72 		.ascii	"short int\000"
+ 372      7420696E 
+ 372      7400
+ 373              	.LASF12:
+ 374 01b3 75696E74 		.ascii	"uint8\000"
+ 374      3800
+ 375              	.LASF4:
+ 376 01b9 6C6F6E67 		.ascii	"long int\000"
+ 376      20696E74 
+ 376      00
  377              	.LASF0:
- 378 01ba 7369676E 		.ascii	"signed char\000"
+ 378 01c2 7369676E 		.ascii	"signed char\000"
  378      65642063 
  378      68617200 
  379              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,6 +1,6 @@
 /*******************************************************************************
 * File Name: StripLights_fisr.c  
-* Version 1.71
+* Version 1.70
 *
 *  Description:
 *   API for controlling the state of an interrupt.
@@ -252,7 +252,7 @@ void StripLights_fisr_SetPriority(uint8 priority)
     uint32 priorityOffset = ((StripLights_fisr__INTC_NUMBER % 4u) * 8u) + 6u;
     
 	interruptState = CyEnterCriticalSection();
-    *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~(uint32)StripLights_fisr__INTC_PRIOR_MASK)) |
+    *StripLights_fisr_INTC_PRIOR = (*StripLights_fisr_INTC_PRIOR & (uint32)(~StripLights_fisr__INTC_PRIOR_MASK)) |
                                     ((uint32)priority << priorityOffset);
 	CyExitCriticalSection(interruptState);
 }
