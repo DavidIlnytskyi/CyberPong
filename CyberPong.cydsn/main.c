@@ -9,8 +9,7 @@
 extern const uint32 StripLights_CLUT[ ];
 
 int main(void){
-    CyGlobalIntEnable;
-    
+CyGlobalIntEnable;
     // Set everything up
     UART_Start();
     ISR_Ball_Trigger_StartEx(Pin_Input_BallTrigger_Handler);
@@ -27,23 +26,36 @@ int main(void){
     //LED 
     StripLights_Start();
     StripLights_Dim(2); 
-	
+ 
     StripLights_DisplayClear(StripLights_BLACK);
-	StripLights_MemClear(StripLights_BLACK);
+    StripLights_MemClear(StripLights_BLACK);
  
     StripLights_Pixel(0, 0, StripLights_BLACK);
 
     SetMotorsEnabled(false);
     Pin_Output_Serve_Write(1);
     Pin_Motor_Write(1);
+    UART_UartPutString("ready");
+    ADC_Start();
+    PWM_Down_Start();
+    PWM_Down_WriteCompare(0);
+    setDesiredVoltage(1900);
+    CyDelay(1000);
+    
     for(;;){
         CyBle_ProcessEvents();
         PrintMotorSpeeds();
+        SetMotorsEnabled(false);
+        Pin_Output_Serve_Write(1);
+        //CyDelay(10000);
         HandleUARTInput();
         CheckForBallServeRequest();
         UpdateServing();
+        
+        setDifficulty();
+        
     }
-}
 
+}
 
 /* [] END OF FILE */
