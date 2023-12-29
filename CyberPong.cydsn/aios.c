@@ -1,6 +1,7 @@
 #include "aios.h"
 #include "ballServeController.h"
 #include "motorController.h"
+#include "main_data.h"
 
 void AIOS_Handler(uint32 eventCode, void *eventParams)
 {
@@ -19,6 +20,7 @@ void AIOS_Callback(uint32 eventCode, void *eventParam){
             char str[100];
             int motorSpeeds[4] = {5000};
             
+            
             motorSpeeds[0] = CyBle_AiosGet16ByPtr(locCharValue->value->val);
             motorSpeeds[1] = CyBle_AiosGet16ByPtr(locCharValue->value->val+2);
             motorSpeeds[2] = CyBle_AiosGet16ByPtr(locCharValue->value->val+4);
@@ -35,12 +37,9 @@ void AIOS_Callback(uint32 eventCode, void *eventParam){
             CyBle_AiossSetCharacteristicValue(CYBLE_AIOS_ANALOG, 4, 2, &ZERO);
             
             bool enabled = CyBle_AiosGet16ByPtr(locCharValue->value->val+10);
-            SetMotorsEnabled(enabled);
+            SetMotorsEnabled(true);
             
-            int diff = CyBle_AiosGet16ByPtr(locCharValue->value->val+12);
-            sprintf(str, "difficulty: %d", diff);
-            
-            UART_UartPutString(str);
+            newDiffuculty = CyBle_AiosGet16ByPtr(locCharValue->value->val+12);
             break;
          }
     }
