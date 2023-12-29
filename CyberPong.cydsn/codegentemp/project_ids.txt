@@ -1,8 +1,6 @@
-B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\CyberPong.cyprj|f1bfb381-0bdc-4946-a105-af1c75439f9d
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fc6e1306-8536-4d4a-bb7f-e3313d2eea3c
-C:\Users\ARTEM\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|92fecba7-cb1a-42dd-8658-844dec3b39b6
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|cd73959d-d27f-495b-8974-5a6cd7844f74
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|8ece47e0-de2d-4962-baaf-2bbfa1bbd92e
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|b31e6a25-5c68-47bc-a93d-2444fbc6b335
-B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\StripLightLib.cylib\StripLightLib.cyprj|3f454c97-c344-40f4-a055-38b1b615b830
-B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|a52009f4-0344-4ec9-b91e-53441a743758
+B:\UCU Second year\Term 1\POC\Project\CyberPong\CyberPong.cydsn\CyberPong.cyprj|ff3bd466-7776-4c32-88a2-85033636b9ea
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|178a068e-b5eb-4c10-a347-d48a7e146164
+C:\Users\ARTEM\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|e542430a-8bbf-4ea0-aecd-0d41f0042e24
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ad45020b-1d3d-433e-96b9-38b34797a491
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4a5829bc-b8cb-4071-a485-acf318e83e77
+B:\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1a05db96-fa57-458e-8020-6b56178af3c1

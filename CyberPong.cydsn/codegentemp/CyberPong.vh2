@@ -2,7 +2,7 @@
 --	Conversion of CyberPong.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Dec 28 14:33:12 2023
+--	Fri Dec 29 12:48:56 2023
 --
 
 USE cypress.cypress.all;
@@ -197,7 +197,7 @@ SIGNAL \PWM_Down:Net_82\ : bit;
 SIGNAL \PWM_Down:Net_72\ : bit;
 SIGNAL Net_2523 : bit;
 SIGNAL Net_2519 : bit;
-SIGNAL Net_2517 : bit;
+SIGNAL Net_2707 : bit;
 SIGNAL Net_2518 : bit;
 SIGNAL Net_2516 : bit;
 SIGNAL \ADC:Net_3125\ : bit;
@@ -686,7 +686,7 @@ Clock:cy_clock_v1_0
 		id=>"1c29f912-6907-44c1-a7be-4e77a04cd313",
 		source_clock_id=>"",
 		divisor=>0,
-		period=>"100000000",
+		period=>"105263157.894737",
 		is_direct=>'0',
 		is_digital=>'0')
 	PORT MAP(clock_out=>Net_2919,
@@ -1893,7 +1893,7 @@ Clock_1:cy_clock_v1_0
 		id=>"fc985850-b798-4d8d-8cdf-609b5a5c179b",
 		source_clock_id=>"",
 		divisor=>0,
-		period=>"100000000",
+		period=>"105263157.894737",
 		is_direct=>'0',
 		is_digital=>'0')
 	PORT MAP(clock_out=>Net_2904,
@@ -1908,8 +1908,8 @@ Clock_1:cy_clock_v1_0
 		start=>zero,
 		underflow=>Net_2523,
 		overflow=>Net_2519,
-		compare_match=>Net_2907,
-		line_out=>Net_2517,
+		compare_match=>Net_2707,
+		line_out=>Net_2907,
 		line_out_compl=>Net_2518,
 		interrupt=>Net_2516);
 \ADC:IRQ\:cy_isr_v1_0

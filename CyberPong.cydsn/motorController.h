@@ -11,8 +11,12 @@ void turnDown(void);
 void turnUp(void);
 void stopMoving(void);
 void setSpin(int motors[]);
-
-void SetMotorsEnabled(bool enabled) ;
+void easyMode(void);
+void mediumMode(void);
+void hardMode(void);
+void setDesiredVoltage(uint16 desired_voltage);
+void SetMotorsEnabled(bool enabled);
+void setDifficulty();
 
 #endif
 /* [] END OF FILE */

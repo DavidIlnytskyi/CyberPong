@@ -11,9 +11,13 @@
 
 char uart_rpm_buff[4];
 char str[16];
+
+int ballCounter;
+int oldDifficulty;
+int newDiffuculty;
+
 int motor_speeds[4];
 bool motorsEnabled;
-
 
 enum MotorDirection{
     Left=0,
@@ -21,7 +25,6 @@ enum MotorDirection{
     Top=2,
     Bottom=3
 };
-
 
 #endif
 /* [] END OF FILE */

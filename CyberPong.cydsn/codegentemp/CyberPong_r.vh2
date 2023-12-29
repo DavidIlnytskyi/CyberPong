@@ -1,5 +1,5 @@
 -- Project:   CyberPong
--- Generated: 12/28/2023 14:33:14
+-- Generated: 12/29/2023 12:48:58
 -- PSoC Creator  4.4
 
 ENTITY CyberPong IS
@@ -58,7 +58,6 @@ ARCHITECTURE __DEFAULT__ OF CyberPong IS
     ATTRIBUTE placement_force OF Net_2 : SIGNAL IS "U(1,1,A)0";
     SIGNAL Net_205 : bit;
     SIGNAL Net_2516 : bit;
-    SIGNAL Net_2517 : bit;
     SIGNAL Net_2518 : bit;
     SIGNAL Net_2519 : bit;
     SIGNAL Net_2523 : bit;
@@ -88,6 +87,7 @@ ARCHITECTURE __DEFAULT__ OF CyberPong IS
     SIGNAL Net_2688 : bit;
     SIGNAL Net_2691 : bit;
     ATTRIBUTE placement_force OF Net_2691 : SIGNAL IS "U(1,1,B)2";
+    SIGNAL Net_2707 : bit;
     SIGNAL Net_2904_ff8 : bit;
     ATTRIBUTE global_signal OF Net_2904_ff8 : SIGNAL IS true;
     SIGNAL Net_2907 : bit;
@@ -264,13 +264,13 @@ ARCHITECTURE __DEFAULT__ OF CyberPong IS
     ATTRIBUTE lib_model OF Net_2691 : LABEL IS "macrocell12";
     ATTRIBUTE Location OF Net_2691 : LABEL IS "U(1,1)";
     ATTRIBUTE Location OF \UART:SCB\ : LABEL IS "F(SCB,0)";
-    ATTRIBUTE Location OF \PWM:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,1)";
+    ATTRIBUTE Location OF \PWM:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,0)";
     ATTRIBUTE Location OF ISR_Ball_Trigger : LABEL IS "[IntrContainer=(0)][IntrId=(1)]";
     ATTRIBUTE lib_model OF \Control_Rotation:Sync:ctrl_reg\ : LABEL IS "controlcell1";
     ATTRIBUTE Location OF \Control_Rotation:Sync:ctrl_reg\ : LABEL IS "U(0,1)";
     ATTRIBUTE Location OF \Bluetooth:cy_m0s8_ble\ : LABEL IS "F(BLE,0)";
     ATTRIBUTE Location OF \Bluetooth:bless_isr\ : LABEL IS "[IntrContainer=(0)][IntrId=(12)]";
-    ATTRIBUTE Location OF \PWM_Down:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,0)";
+    ATTRIBUTE Location OF \PWM_Down:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,3)";
     ATTRIBUTE Location OF \ADC:IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(15)]";
     ATTRIBUTE Location OF \ADC:cy_psoc4_sar\ : LABEL IS "F(SARADC,0)";
     ATTRIBUTE Location OF \StripLights:cisr\ : LABEL IS "[IntrContainer=(0)][IntrId=(2)]";
@@ -754,10 +754,11 @@ BEGIN
             lfclk => ClockBlock_LFClk,
             wco => ClockBlock_WCO,
             dsi_in_0 => ClockBlock_Routed1,
-            ff_div_7 => Net_2904_ff8,
-            ff_div_8 => Net_2919_ff7,
+            ff_div_7 => Net_2919_ff7,
+            ff_div_8 => open,
             ff_div_6 => \ADC:Net_1845_ff6\,
-            ff_div_1 => \UART:Net_847_ff1\);
+            ff_div_1 => \UART:Net_847_ff1\,
+            ff_div_10 => Net_2904_ff8);
 
     Pin_Output_UP:logicalport
         GENERIC MAP(
@@ -1937,7 +1938,7 @@ BEGIN
             oe_sync_mode => 0,
             logicalport => "ENA_P_16",
             logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
         PORT MAP(
             pa_out => ENA_P_16(0)__PA,
             oe => open,
@@ -2614,8 +2615,8 @@ BEGIN
             start => '0',
             tr_underflow => Net_2523,
             tr_overflow => Net_2519,
-            tr_compare_match => Net_2907,
-            line => Net_2517,
+            tr_compare_match => Net_2707,
+            line => Net_2907,
             line_compl => Net_2518,
             interrupt => Net_2516);
 

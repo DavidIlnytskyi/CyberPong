@@ -539,7 +539,7 @@ function getElementsByClass(rootNode, elemName, className)
 <tr> <td class="prop"> Project :</td>
 <td class="proptext"> CyberPong</td></tr>
 <tr> <td class="prop"> Build Time :</td>
-<td class="proptext"> 12/28/23 14:33:15</td></tr>
+<td class="proptext"> 12/29/23 12:49:00</td></tr>
 <tr> <td class="prop"> Device :</td>
 <td class="proptext"> CY8C4248LQI-BL583</td></tr>
 <tr> <td class="prop"> Temperature :</td>
@@ -643,14 +643,6 @@ Clock Summary Section</span>
  <td class = "text_info"></td>
 </tr>
 <tr> 
- <td class = "text_info">Clock_1</td>
- <td class = "text_info">CyHFClk</td>
- <td class = "number">9.600&nbsp;MHz</td>
- <td class = "number">9.600&nbsp;MHz</td>
- <td class = "number"> N/A </td>
- <td class = "text_info"> </td>
-</tr>
-<tr> 
  <td class = "text_info">Clock</td>
  <td class = "text_info">CyHFClk</td>
  <td class = "number">9.600&nbsp;MHz</td>
@@ -671,6 +663,14 @@ Clock Summary Section</span>
  <td class = "text_info">CyHFClk</td>
  <td class = "number">1.371&nbsp;MHz</td>
  <td class = "number">1.371&nbsp;MHz</td>
+ <td class = "number"> N/A </td>
+ <td class = "text_info"> </td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock_1</td>
+ <td class = "text_info">CyHFClk</td>
+ <td class = "number">9.600&nbsp;MHz</td>
+ <td class = "number">9.600&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
@@ -1089,9 +1089,9 @@ Destination Clock : CyHFClk : Positive edge(Required Frequency 48&nbsp;MHz)</spa
 <tr> 
  <td class = "text_info">\StripLights:B_WS2811:pwm8:u0\/cl0_comb</td>
  <td class = "text_info">\StripLights:Net_64\/main_0</td>
- <td class = "number">86.896&nbsp;MHz</td>
- <td class = "number">11.508</td>
- <td class = "number">9.325</td>
+ <td class = "number">86.881&nbsp;MHz</td>
+ <td class = "number">11.510</td>
+ <td class = "number">9.323</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1125,7 +1125,7 @@ Destination Clock : CyHFClk : Positive edge(Required Frequency 48&nbsp;MHz)</spa
  <td class = "text_info">\StripLights:B_WS2811:zeroCmp\</td>
  <td class = "text_info">\StripLights:B_WS2811:pwm8:u0\/cl0_comb</td>
  <td class = "text_info">\StripLights:Net_64\/main_0</td>
- <td class = "number">2.318</td>
+ <td class = "number">2.320</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell13</td>
@@ -2080,8 +2080,8 @@ Clock(FFB)</span>
 <tbody>
 <tr> 
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_RIGHT_GROUND(0)_PAD</td>
- <td class = "number">30.909</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "number">32.474</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -2100,7 +2100,442 @@ Clock(FFB)</span>
 <tbody>
 <tr> 
  <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
+ <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_1948</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Net_2640/main_0</td>
+ <td class = "number">8.355</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell8</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2640</td>
+ <td class = "text_info">Net_2640/main_0</td>
+ <td class = "text_info">Net_2640/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2640</td>
+ <td class = "text_info">Net_2640/q</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
+ <td class = "number">5.851</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell11</td>
+ <td class = "text_info">P3[3]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
+ <td class = "number">14.918</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
+ <td class = "number">32.118</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">m0s8tcpwmcell</td>
+ <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_1948</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Net_2636/main_0</td>
+ <td class = "number">8.372</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell5</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2636</td>
+ <td class = "text_info">Net_2636/main_0</td>
+ <td class = "text_info">Net_2636/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2636</td>
+ <td class = "text_info">Net_2636/q</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)/pin_input</td>
+ <td class = "number">5.892</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell5</td>
+ <td class = "text_info">P2[1]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)/pad_out</td>
+ <td class = "number">14.504</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
+ <td class = "number">32.113</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">m0s8tcpwmcell</td>
+ <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_1948</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Net_2639/main_0</td>
+ <td class = "number">8.372</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell9</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2639</td>
+ <td class = "text_info">Net_2639/main_0</td>
+ <td class = "text_info">Net_2639/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2639</td>
+ <td class = "text_info">Net_2639/q</td>
+ <td class = "text_info">Pin_Output_DOWN(0)/pin_input</td>
+ <td class = "number">5.531</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell12</td>
+ <td class = "text_info">P2[3]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN(0)</td>
+ <td class = "text_info">Pin_Output_DOWN(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_DOWN(0)/pad_out</td>
+ <td class = "number">14.860</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
+ <td class = "text_info">Pin_Output_DOWN(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
+ <td class = "number">31.791</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">m0s8tcpwmcell</td>
+ <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_1948</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Net_2635/main_1</td>
+ <td class = "number">8.372</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell4</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2635</td>
+ <td class = "text_info">Net_2635/main_1</td>
+ <td class = "text_info">Net_2635/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2635</td>
+ <td class = "text_info">Net_2635/q</td>
+ <td class = "text_info">Pin_Output_LEFT(0)/pin_input</td>
+ <td class = "number">5.566</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell8</td>
+ <td class = "text_info">P2[0]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_LEFT(0)</td>
+ <td class = "text_info">Pin_Output_LEFT(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_LEFT(0)/pad_out</td>
+ <td class = "number">14.503</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
+ <td class = "text_info">Pin_Output_LEFT(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
+ <td class = "number">30.693</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">m0s8tcpwmcell</td>
+ <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_1948</td>
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Net_2647/main_1</td>
+ <td class = "number">6.915</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell2</td>
+ <td class = "text_info">U(0,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2647</td>
+ <td class = "text_info">Net_2647/main_1</td>
+ <td class = "text_info">Net_2647/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2647</td>
+ <td class = "text_info">Net_2647/q</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pin_input</td>
+ <td class = "number">5.799</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell9</td>
+ <td class = "text_info">P3[0]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pad_out</td>
+ <td class = "number">14.629</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
+ <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
+ <td class = "text_info">Pin_Output_RIGHT_GROUND(0)_PAD</td>
+ <td class = "number">30.416</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">m0s8tcpwmcell</td>
+ <td class = "text_info">F(TCPWM,0)</td>
  <td class = "number">1</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
@@ -2114,7 +2549,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_1948</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">Net_2648/main_0</td>
- <td class = "number">6.938</td>
+ <td class = "number">6.401</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell3</td>
@@ -2132,7 +2567,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_2648</td>
  <td class = "text_info">Net_2648/q</td>
  <td class = "text_info">Pin_Output_RIGHT_GROUND(0)/pin_input</td>
- <td class = "number">5.776</td>
+ <td class = "number">5.820</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell7</td>
@@ -2168,7 +2603,7 @@ Clock(FFB)</span>
 <tr> 
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">Pin_Output_UP_GROUND(0)_PAD</td>
- <td class = "number">30.623</td>
+ <td class = "number">30.091</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -2187,7 +2622,7 @@ Clock(FFB)</span>
 <tbody>
 <tr> 
  <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
+ <td class = "text_info">F(TCPWM,0)</td>
  <td class = "number">1</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
@@ -2201,7 +2636,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_1948</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">Net_2638/main_0</td>
- <td class = "number">6.938</td>
+ <td class = "number">6.401</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell6</td>
@@ -2219,7 +2654,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_2638</td>
  <td class = "text_info">Net_2638/q</td>
  <td class = "text_info">Pin_Output_UP_GROUND(0)/pin_input</td>
- <td class = "number">5.778</td>
+ <td class = "number">5.783</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell4</td>
@@ -2255,7 +2690,7 @@ Clock(FFB)</span>
 <tr> 
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">Pin_Output_UP(0)_PAD</td>
- <td class = "number">30.502</td>
+ <td class = "number">30.007</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -2274,7 +2709,7 @@ Clock(FFB)</span>
 <tbody>
 <tr> 
  <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
+ <td class = "text_info">F(TCPWM,0)</td>
  <td class = "number">1</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
@@ -2288,7 +2723,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_1948</td>
  <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">Net_2637/main_0</td>
- <td class = "number">6.938</td>
+ <td class = "number">6.401</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell7</td>
@@ -2306,7 +2741,7 @@ Clock(FFB)</span>
  <td class = "text_info">Net_2637</td>
  <td class = "text_info">Net_2637/q</td>
  <td class = "text_info">Pin_Output_UP(0)/pin_input</td>
- <td class = "number">5.684</td>
+ <td class = "number">5.726</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell1</td>
@@ -2324,441 +2759,6 @@ Clock(FFB)</span>
  <td class = "text_info">Pin_Output_UP(0)_PAD</td>
  <td class = "text_info">Pin_Output_UP(0)/pad_out</td>
  <td class = "text_info">Pin_Output_UP(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
- <td class = "number">30.355</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_1948</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Net_2647/main_1</td>
- <td class = "number">6.926</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell2</td>
- <td class = "text_info">U(0,0)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2647</td>
- <td class = "text_info">Net_2647/main_1</td>
- <td class = "text_info">Net_2647/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2647</td>
- <td class = "text_info">Net_2647/q</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pin_input</td>
- <td class = "number">5.450</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell9</td>
- <td class = "text_info">P3[0]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pin_input</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pad_out</td>
- <td class = "number">14.629</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pad_out</td>
- <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "number">29.991</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_1948</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Net_2640/main_0</td>
- <td class = "number">5.878</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell8</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2640</td>
- <td class = "text_info">Net_2640/main_0</td>
- <td class = "text_info">Net_2640/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2640</td>
- <td class = "text_info">Net_2640/q</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
- <td class = "number">5.845</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell11</td>
- <td class = "text_info">P3[3]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
- <td class = "number">14.918</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
- <td class = "number">29.630</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_1948</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Net_2639/main_0</td>
- <td class = "number">5.866</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell9</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2639</td>
- <td class = "text_info">Net_2639/main_0</td>
- <td class = "text_info">Net_2639/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2639</td>
- <td class = "text_info">Net_2639/q</td>
- <td class = "text_info">Pin_Output_DOWN(0)/pin_input</td>
- <td class = "number">5.554</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell12</td>
- <td class = "text_info">P2[3]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN(0)</td>
- <td class = "text_info">Pin_Output_DOWN(0)/pin_input</td>
- <td class = "text_info">Pin_Output_DOWN(0)/pad_out</td>
- <td class = "number">14.860</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
- <td class = "text_info">Pin_Output_DOWN(0)/pad_out</td>
- <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
- <td class = "number">29.242</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_1948</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Net_2636/main_0</td>
- <td class = "number">5.866</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell5</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2636</td>
- <td class = "text_info">Net_2636/main_0</td>
- <td class = "text_info">Net_2636/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2636</td>
- <td class = "text_info">Net_2636/q</td>
- <td class = "text_info">Pin_Output_RIGHT(0)/pin_input</td>
- <td class = "number">5.522</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell5</td>
- <td class = "text_info">P2[1]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_RIGHT(0)</td>
- <td class = "text_info">Pin_Output_RIGHT(0)/pin_input</td>
- <td class = "text_info">Pin_Output_RIGHT(0)/pad_out</td>
- <td class = "number">14.504</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
- <td class = "text_info">Pin_Output_RIGHT(0)/pad_out</td>
- <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
- <td class = "number">29.211</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_1948</td>
- <td class = "text_info">\PWM:cy_m0s8_tcpwm_1\/line</td>
- <td class = "text_info">Net_2635/main_1</td>
- <td class = "number">5.866</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell4</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2635</td>
- <td class = "text_info">Net_2635/main_1</td>
- <td class = "text_info">Net_2635/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2635</td>
- <td class = "text_info">Net_2635/q</td>
- <td class = "text_info">Pin_Output_LEFT(0)/pin_input</td>
- <td class = "number">5.492</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell8</td>
- <td class = "text_info">P2[0]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_LEFT(0)</td>
- <td class = "text_info">Pin_Output_LEFT(0)/pin_input</td>
- <td class = "text_info">Pin_Output_LEFT(0)/pad_out</td>
- <td class = "number">14.503</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
- <td class = "text_info">Pin_Output_LEFT(0)/pad_out</td>
- <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
  <td class = "number">0.000</td>
 </tr>
 <tr> 
@@ -2794,9 +2794,9 @@ Clock_1(FFB)</span>
 </thead> 
 <tbody>
 <tr> 
- <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/tr_compare_match</td>
+ <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">ENA_P_16(0)_PAD</td>
- <td class = "number">19.915</td>
+ <td class = "number">14.746</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -2815,11 +2815,11 @@ Clock_1(FFB)</span>
 <tbody>
 <tr> 
  <td class = "text_info">m0s8tcpwmcell</td>
- <td class = "text_info">F(TCPWM,0)</td>
+ <td class = "text_info">F(TCPWM,3)</td>
  <td class = "number">1</td>
  <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\</td>
  <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/clock</td>
- <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/tr_compare_match</td>
+ <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/line</td>
  <td class = "number">0.000</td>
 </tr>
 <tr> 
@@ -2827,9 +2827,9 @@ Clock_1(FFB)</span>
  <td class = "text_info"></td>
  <td class = "number">1</td>
  <td class = "text_info">Net_2907</td>
- <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/tr_compare_match</td>
+ <td class = "text_info">\PWM_Down:cy_m0s8_tcpwm_1\/line</td>
  <td class = "text_info">ENA_P_16(0)/pin_input</td>
- <td class = "number">6.169</td>
+ <td class = "number">1.000</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell13</td>
@@ -2884,7 +2884,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_1</td>
  <td class = "text_info">Pin_Output_RIGHT_GROUND(0)_PAD</td>
- <td class = "number">29.921</td>
+ <td class = "number">29.965</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -2935,7 +2935,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2648</td>
  <td class = "text_info">Net_2648/q</td>
  <td class = "text_info">Pin_Output_RIGHT_GROUND(0)/pin_input</td>
- <td class = "number">5.776</td>
+ <td class = "number">5.820</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell7</td>
@@ -2969,96 +2969,9 @@ CyHFClk</span>
 </td>
 </tr>
 <tr> 
- <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "number">29.495</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\</td>
- <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
- <td class = "number">2.580</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_4270</td>
- <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
- <td class = "text_info">Net_2640/main_1</td>
- <td class = "number">2.802</td>
-</tr>
-<tr> 
- <td class = "text_info">macrocell8</td>
- <td class = "text_info">U(0,1)</td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2640</td>
- <td class = "text_info">Net_2640/main_1</td>
- <td class = "text_info">Net_2640/q</td>
- <td class = "number">3.350</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_2640</td>
- <td class = "text_info">Net_2640/q</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
- <td class = "number">5.845</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell11</td>
- <td class = "text_info">P3[3]</td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
- <td class = "number">14.918</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
- <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_0</td>
  <td class = "text_info">Pin_Output_LEFT_GROUND(0)_PAD</td>
- <td class = "number">29.216</td>
+ <td class = "number">29.565</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3109,7 +3022,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2647</td>
  <td class = "text_info">Net_2647/q</td>
  <td class = "text_info">Pin_Output_LEFT_GROUND(0)/pin_input</td>
- <td class = "number">5.450</td>
+ <td class = "number">5.799</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell9</td>
@@ -3143,9 +3056,96 @@ CyHFClk</span>
 </td>
 </tr>
 <tr> 
+ <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "number">29.501</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">controlcell1</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\</td>
+ <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/busclk</td>
+ <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
+ <td class = "number">2.580</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_4270</td>
+ <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
+ <td class = "text_info">Net_2640/main_1</td>
+ <td class = "number">2.802</td>
+</tr>
+<tr> 
+ <td class = "text_info">macrocell8</td>
+ <td class = "text_info">U(0,1)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2640</td>
+ <td class = "text_info">Net_2640/main_1</td>
+ <td class = "text_info">Net_2640/q</td>
+ <td class = "number">3.350</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_2640</td>
+ <td class = "text_info">Net_2640/q</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
+ <td class = "number">5.851</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell11</td>
+ <td class = "text_info">P3[3]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pin_input</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
+ <td class = "number">14.918</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)/pad_out</td>
+ <td class = "text_info">Pin_Output_DOWN_GROUND(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
+<tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_2</td>
  <td class = "text_info">Pin_Output_UP_GROUND(0)_PAD</td>
- <td class = "number">29.158</td>
+ <td class = "number">29.169</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3178,7 +3178,7 @@ CyHFClk</span>
  <td class = "text_info">Net_1378</td>
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_2</td>
  <td class = "text_info">Net_2638/main_1</td>
- <td class = "number">2.893</td>
+ <td class = "number">2.899</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell6</td>
@@ -3196,7 +3196,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2638</td>
  <td class = "text_info">Net_2638/q</td>
  <td class = "text_info">Pin_Output_UP_GROUND(0)/pin_input</td>
- <td class = "number">5.778</td>
+ <td class = "number">5.783</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell4</td>
@@ -3232,7 +3232,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_3</td>
  <td class = "text_info">Pin_Output_DOWN(0)_PAD</td>
- <td class = "number">29.133</td>
+ <td class = "number">29.110</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3283,7 +3283,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2639</td>
  <td class = "text_info">Net_2639/q</td>
  <td class = "text_info">Pin_Output_DOWN(0)/pin_input</td>
- <td class = "number">5.554</td>
+ <td class = "number">5.531</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell12</td>
@@ -3319,7 +3319,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_2</td>
  <td class = "text_info">Pin_Output_UP(0)_PAD</td>
- <td class = "number">29.037</td>
+ <td class = "number">29.085</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3352,7 +3352,7 @@ CyHFClk</span>
  <td class = "text_info">Net_1378</td>
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_2</td>
  <td class = "text_info">Net_2637/main_1</td>
- <td class = "number">2.893</td>
+ <td class = "number">2.899</td>
 </tr>
 <tr> 
  <td class = "text_info">macrocell7</td>
@@ -3370,7 +3370,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2637</td>
  <td class = "text_info">Net_2637/q</td>
  <td class = "text_info">Pin_Output_UP(0)/pin_input</td>
- <td class = "number">5.684</td>
+ <td class = "number">5.726</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell1</td>
@@ -3406,7 +3406,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_1</td>
  <td class = "text_info">Pin_Output_RIGHT(0)_PAD</td>
- <td class = "number">28.587</td>
+ <td class = "number">28.957</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3457,7 +3457,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2636</td>
  <td class = "text_info">Net_2636/q</td>
  <td class = "text_info">Pin_Output_RIGHT(0)/pin_input</td>
- <td class = "number">5.522</td>
+ <td class = "number">5.892</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell5</td>
@@ -3493,7 +3493,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\Control_Rotation:Sync:ctrl_reg\/control_0</td>
  <td class = "text_info">Pin_Output_LEFT(0)_PAD</td>
- <td class = "number">28.249</td>
+ <td class = "number">28.323</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3544,7 +3544,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2635</td>
  <td class = "text_info">Net_2635/q</td>
  <td class = "text_info">Pin_Output_LEFT(0)/pin_input</td>
- <td class = "number">5.492</td>
+ <td class = "number">5.566</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell8</td>
@@ -3580,7 +3580,7 @@ CyHFClk</span>
 <tr> 
  <td class = "text_info">\StripLights:StringSel:Sync:ctrl_reg\/control_0</td>
  <td class = "text_info">Din(0)_PAD</td>
- <td class = "number">27.928</td>
+ <td class = "number">27.554</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -3631,7 +3631,7 @@ CyHFClk</span>
  <td class = "text_info">Net_2</td>
  <td class = "text_info">Net_2/q</td>
  <td class = "text_info">Din(0)/pin_input</td>
- <td class = "number">5.908</td>
+ <td class = "number">5.534</td>
 </tr>
 <tr> 
  <td class = "text_info">iocell18</td>

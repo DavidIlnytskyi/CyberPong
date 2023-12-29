@@ -1,6 +1,6 @@
 // ======================================================================
 // CyberPong.v generated from TopDesign.cysch
-// 12/28/2023 at 14:33
+// 12/29/2023 at 12:48
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1321,11 +1321,11 @@ endmodule
 `endif
 
 `ifdef WARP
-`define CY_BLK_DIR "B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\B_WS2811_v1_3"
-`include "B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\B_WS2811_v1_3\B_WS2811_v1_3.v"
+`define CY_BLK_DIR "B:\UCU Second year\Term 1\POC\Project\CyberPong\CyberPong.cydsn\B_WS2811_v1_3"
+`include "B:\UCU Second year\Term 1\POC\Project\CyberPong\CyberPong.cydsn\B_WS2811_v1_3\B_WS2811_v1_3.v"
 `else
-`define CY_BLK_DIR "B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\B_WS2811_v1_3"
-`include "B:\UCU Second year\Term 1\POC\Cyberpong\CyberPong.cydsn\B_WS2811_v1_3\B_WS2811_v1_3.v"
+`define CY_BLK_DIR "B:\UCU Second year\Term 1\POC\Project\CyberPong\CyberPong.cydsn\B_WS2811_v1_3"
+`include "B:\UCU Second year\Term 1\POC\Project\CyberPong\CyberPong.cydsn\B_WS2811_v1_3\B_WS2811_v1_3.v"
 `endif
 
 // StripLights_v2_2(Channels=1, ClockSpeedKhz=800, Display_Memory=0, LEDs_per_Strip=24, Speed=1, Transfer_Method=1, WS281x_Type=2, CY_API_CALLBACK_HEADER_INCLUDE=, CY_COMMENT=, CY_COMPONENT_NAME=StripLights_v2_2, CY_CONFIG_TITLE=StripLights, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=StripLights, CY_INSTANCE_SHORT_NAME=StripLights, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=2, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=StripLights, )
@@ -1823,9 +1823,9 @@ module top ;
           wire  Net_2520;
           wire  Net_2519;
           wire  Net_2518;
-          wire  Net_2517;
           wire  Net_2516;
           wire  Net_2515;
+          wire  Net_2707;
           wire  Net_2512;
           wire  Net_2524;
           wire  Net_1577;
@@ -1878,6 +1878,7 @@ module top ;
           wire  Net_185;
           wire  Net_2637;
           wire  Net_2660;
+          wire  Net_2907;
           wire  Net_2;
     electrical  Net_18;
     electrical  Net_19;
@@ -1896,14 +1897,13 @@ module top ;
     electrical  Net_433;
     electrical  Net_422;
           wire  Net_2904;
-          wire  Net_2907;
 
 
 	cy_clock_v1_0
 		#(.id("1c29f912-6907-44c1-a7be-4e77a04cd313"),
 		  .source_clock_id(""),
 		  .divisor(0),
-		  .period("100000000"),
+		  .period("105263157.894737"),
 		  .is_direct(0),
 		  .is_digital(0))
 		Clock
@@ -3073,7 +3073,7 @@ module top ;
 		#(.id("fc985850-b798-4d8d-8cdf-609b5a5c179b"),
 		  .source_clock_id(""),
 		  .divisor(0),
-		  .period("100000000"),
+		  .period("105263157.894737"),
 		  .is_direct(0),
 		  .is_digital(0))
 		Clock_1
@@ -3082,11 +3082,11 @@ module top ;
 
     TCPWM_P4_v2_10_3 PWM_Down (
         .capture(1'b0),
-        .cc(Net_2907),
+        .cc(Net_2707),
         .clock(Net_2904),
         .count(1'b1),
         .interrupt(Net_2516),
-        .line(Net_2517),
+        .line(Net_2907),
         .line_n(Net_2518),
         .ov(Net_2519),
         .reload(1'b0),

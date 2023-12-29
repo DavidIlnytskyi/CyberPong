@@ -1,5 +1,5 @@
 -- Project:   CyberPong
--- Generated: 12/28/2023 14:33:13
+-- Generated: 12/29/2023 12:48:57
 -- PSoC Creator  4.4
 
 ENTITY CyberPong IS
@@ -57,7 +57,6 @@ ARCHITECTURE __DEFAULT__ OF CyberPong IS
     SIGNAL Net_2 : bit;
     SIGNAL Net_205 : bit;
     SIGNAL Net_2516 : bit;
-    SIGNAL Net_2517 : bit;
     SIGNAL Net_2518 : bit;
     SIGNAL Net_2519 : bit;
     SIGNAL Net_2523 : bit;
@@ -78,6 +77,7 @@ ARCHITECTURE __DEFAULT__ OF CyberPong IS
     SIGNAL Net_2687 : bit;
     SIGNAL Net_2688 : bit;
     SIGNAL Net_2691 : bit;
+    SIGNAL Net_2707 : bit;
     SIGNAL Net_2904_ff8 : bit;
     ATTRIBUTE global_signal OF Net_2904_ff8 : SIGNAL IS true;
     SIGNAL Net_2907 : bit;
@@ -1896,7 +1896,7 @@ BEGIN
             oe_sync_mode => 0,
             logicalport => "ENA_P_16",
             logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
         PORT MAP(
             pa_out => ENA_P_16(0)__PA,
             oe => open,
@@ -2573,8 +2573,8 @@ BEGIN
             start => '0',
             tr_underflow => Net_2523,
             tr_overflow => Net_2519,
-            tr_compare_match => Net_2907,
-            line => Net_2517,
+            tr_compare_match => Net_2707,
+            line => Net_2907,
             line_compl => Net_2518,
             interrupt => Net_2516);
 
